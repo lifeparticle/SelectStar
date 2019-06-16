@@ -25,9 +25,13 @@ python repo_report.py
 
 ## Further readings
 https://api.github.com/rate_limit
+
 https://pythex.org/
+
 https://developer.github.com/v3/auth/#basic-authentication
+
 https://datatables.net/manual/installation
+
 
 ## Bug Reports and Feature Requests
 Please create an issue with as much information you can. Thank you.
