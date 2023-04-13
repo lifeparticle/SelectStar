@@ -1,40 +1,39 @@
 #!/usr/bin/env python
 
-from bs4 import BeautifulSoup
-from datetime import datetime
 import requests
-import urllib2
 import json
-import sys
 import re
+from datetime import datetime
+from bs4 import BeautifulSoup
+import sys
 
-def getRepoMetaData(url, headers):	
+def getRepoMetaData(url, headers):
 	return requests.get(url, headers=headers)
 
 def getRepoLinks(url):
-	reusult = []
-	# add link which is not a repo
+	result = []
+	# add links that are not repos
 	excluded_links = ["https://github.com/sindresorhus/awesome", "https://github.com/site/terms", "https://github.com/site/privacy"]
-	html_page = urllib2.urlopen(url)
-	soup = BeautifulSoup(html_page, 'html.parser')
+	html_page = requests.get(url)
+	soup = BeautifulSoup(html_page.content, 'html.parser')
 	# repo link regex
 	# https://github.com/..../.... or https://github.com/..../..../
 	project_links = soup.findAll('a', attrs={'href': re.compile("^https://github.com/[^\/]+/[^\/]+/*$")})
 	for link in project_links:
 		href = link['href']
 		if href not in excluded_links:
-			reusult.append(href.replace("https://github.com/", "https://api.github.com/repos/").rstrip('//'))
-	return reusult
+			result.append(href.replace("https://github.com/", "https://api.github.com/repos/").rstrip('//'))
+	return result
 
 def createFile(data):
-	data_file = open("repo_report("+datetime.today().strftime('%Y-%m-%d, %H:%M:%S')+").txt","w")
+	data_file = open("repo_report.txt","w")
 	data_file.write(data)
 	data_file.close()
 
 def main():
 	try:
 		# replace with your access_token
-		access_token = '****************************************'
+		access_token = os.environ['ACCESS_TOKEN']
 		headers = {
 			'Accept': 'application/vnd.github.v3+json',
 			'Authorization': 'token '+access_token
@@ -50,13 +49,13 @@ def main():
 				json_data = json.loads(response.text)
 				line += '\n'
 				line += "%s %s %s %s %s" % (json_data["html_url"], json_data["stargazers_count"], json_data["created_at"], json_data["updated_at"], json_data["pushed_at"])
-				print "%s, %i of %i" % (link, i, len(link_list))
+				print("%s, %i of %i" % (link, i, len(link_list)))
 			elif response.status_code == 404:
-				print('Not Found: ') + link
+				print('Not Found: ' + link)
 			i += 1
 		createFile(line)
-	except Exception, err:
-		print 'Something BAD happend: ', err
+	except Exception as err:
+		print('Something BAD happened: ' + str(err))
 
-if  __name__ == '__main__':
+if __name__ == '__main__':
 	main()
