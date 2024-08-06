@@ -43,7 +43,9 @@ https://datatables.net/manual/installation
 Please create an issue with as much information you can. Thank you.
 
 ## Author
+
 Mahbub Zaman (https://mahbub.ninja)
 
 ## License
+
 MIT License
