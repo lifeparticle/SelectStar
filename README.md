@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/85d320bc-6ba7-473a-a155-5c9f7fb73a1f/deploy-status)](https://app.netlify.com/sites/charting/deploys)
+
 # SelectStar
 
 This script will help you to create an html repo report based on stars and other parameters.
