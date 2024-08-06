@@ -23,6 +23,10 @@ def getRepoLinks(url):
 		href = link['href']
 		if href not in excluded_links:
 			result.append(href.replace("https://github.com/", "https://api.github.com/repos/").rstrip('//'))
+	result.extend([
+        "https://api.github.com/repos/apache/echarts",
+        "https://api.github.com/repos/tremorlabs/tremor"
+    ])
 	return result
 
 def createFile(data):
