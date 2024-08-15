@@ -19,7 +19,7 @@ The report
 
 ## Prerequisite
 
-```
+```shell
 easy_install pip
 sudo pip install requests
 sudo pip install beautifulsoup4
@@ -27,21 +27,20 @@ sudo pip install beautifulsoup4
 
 ## Run
 
-```
+```shell
 python repo_report.py
 ```
 
 ## Further readings
-https://api.github.com/rate_limit
 
-https://pythex.org/
-
-https://developer.github.com/v3/auth/#basic-authentication
-
-https://datatables.net/manual/installation
+- [GitHub API Rate Limit](https://api.github.com/rate_limit)
+- [Pythex - Python Regular Expression Tester](https://pythex.org/)
+- [GitHub Developer - Basic Authentication](https://developer.github.com/v3/auth/#basic-authentication)
+- [DataTables Installation Guide](https://datatables.net/manual/installation)
 
 
 ## Bug Reports and Feature Requests
+
 Please create an issue with as much information you can. Thank you.
 
 ## Author
