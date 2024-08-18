@@ -3,6 +3,11 @@
 import requests
 import os
 import csv
+from dotenv import load_dotenv
+
+# Load environment variables from .env only in development
+if os.getenv('ENV') != 'production':
+    load_dotenv()
 
 class GitHubRepoAnalyzer:
     def __init__(self, access_token, input_file, output_file):
@@ -54,6 +59,9 @@ class GitHubRepoAnalyzer:
             repo_data = self.get_repo_meta_data(link)
             if repo_data:
                 data.append([
+                    repo_data.get("name", ""),
+                    repo_data.get("description", ""),
+                    repo_data["owner"].get("avatar_url", ""),
                     repo_data.get("html_url", ""),
                     repo_data.get("stargazers_count", 0),
                     repo_data.get("created_at", ""),
