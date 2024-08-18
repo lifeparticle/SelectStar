@@ -12,10 +12,18 @@ import { useAsyncList } from "@react-stately/data";
 import { Spinner } from "@nextui-org/spinner";
 import Papa from "papaparse";
 
+interface RepoData {
+	html_url: string;
+	created_at: string;
+	pushed_at: string;
+	stargazers_count: string;
+	updated_at: string;
+}
+
 export default function ReposTable() {
 	const [isLoading, setIsLoading] = React.useState(true);
 
-	let list = useAsyncList({
+	let list = useAsyncList<RepoData>({
 		async load({ signal }) {
 			let res = await fetch(
 				"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/repo_report.csv",
@@ -24,9 +32,9 @@ export default function ReposTable() {
 				}
 			);
 			const csvText = await res.text();
-			const parsedData = Papa.parse(csvText, { header: true });
+			const parsedData = Papa.parse<RepoData>(csvText, { header: true });
 
-			const items = parsedData.data.map((item: any) => ({
+			const items = parsedData.data.map((item) => ({
 				html_url: item.html_url,
 				created_at: item.created_at,
 				pushed_at: item.pushed_at,
@@ -36,19 +44,20 @@ export default function ReposTable() {
 
 			setIsLoading(false);
 
-			console.log(parsedData.data);
-
 			return {
 				items: items,
 			};
 		},
 		async sort({ items, sortDescriptor }) {
 			return {
-				items: items.sort((a: any, b: any) => {
-					let first = a[sortDescriptor.column];
-					let second = b[sortDescriptor.column];
+				items: items.sort((a, b) => {
+					let first = a[sortDescriptor.column as keyof RepoData];
+					let second = b[sortDescriptor.column as keyof RepoData];
 					let cmp =
-						(parseInt(first) || first) < (parseInt(second) || second) ? -1 : 1;
+						(parseInt(first as string) || first) <
+						(parseInt(second as string) || second)
+							? -1
+							: 1;
 
 					if (sortDescriptor.direction === "descending") {
 						cmp *= -1;
@@ -91,10 +100,12 @@ export default function ReposTable() {
 				isLoading={isLoading}
 				loadingContent={<Spinner label="Loading..." />}
 			>
-				{(item: any) => (
+				{(item) => (
 					<TableRow key={item.html_url}>
 						{(columnKey) => (
-							<TableCell>{getKeyValue(item, columnKey)}</TableCell>
+							<TableCell>
+								{getKeyValue(item, columnKey as keyof RepoData)}
+							</TableCell>
 						)}
 					</TableRow>
 				)}

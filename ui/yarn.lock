@@ -2267,6 +2267,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:*":
+  version: 22.4.0
+  resolution: "@types/node@npm:22.4.0"
+  dependencies:
+    undici-types: ~6.19.2
+  checksum: 680303e9b2801f3e19453957df93f59e7ad95e2277a363ba3719e9a3e0c8949ed9bed2265a2a3444254c5e550170177c088bc2b2303eb79740fb8ee96b097ad3
+  languageName: node
+  linkType: hard
+
+"@types/papaparse@npm:^5.3.14":
+  version: 5.3.14
+  resolution: "@types/papaparse@npm:5.3.14"
+  dependencies:
+    "@types/node": "*"
+  checksum: fbf942ed92179eeb824d4e544cc701468157a4ce3f6f668f8b17692d9886fea92ccff5e56965615ff64f049efa01ff95ddb7d30c67e0186bc802a6cc8ef26e63
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.12
   resolution: "@types/prop-types@npm:15.7.12"
@@ -6527,6 +6545,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:~6.19.2":
+  version: 6.19.6
+  resolution: "undici-types@npm:6.19.6"
+  checksum: e66df2447b6d93a48b0605a54269d8c3f228edcd1e9563229f6de37e48ed53b3e49b4bc965733643ed9717e0e0fa1ee664c929db91d787c9f488fb3f9e17c533
+  languageName: node
+  linkType: hard
+
 "unique-filename@npm:^3.0.0":
   version: 3.0.0
   resolution: "unique-filename@npm:3.0.0"
@@ -6659,6 +6684,7 @@ __metadata:
     "@nextui-org/theme": 2.2.9
     "@react-aria/visually-hidden": 3.8.12
     "@react-stately/data": ^3.11.6
+    "@types/papaparse": ^5.3.14
     "@types/react": 18.3.3
     "@types/react-dom": 18.3.0
     "@typescript-eslint/eslint-plugin": ^7.8.0
