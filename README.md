@@ -14,4 +14,3 @@
 - [GitHub API Rate Limit](https://api.github.com/rate_limit)
 - [Pythex - Python Regular Expression Tester](https://pythex.org/)
 - [GitHub Developer - Basic Authentication](https://developer.github.com/v3/auth/#basic-authentication)
-- [DataTables Installation Guide](https://datatables.net/manual/installation)
