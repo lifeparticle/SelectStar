@@ -2,7 +2,7 @@
 
 # SelectStar
 
-⭐️ Compare GitHub Repositories Based on the Number of Stars and Other Relevant Parameters
+⭐️ Compare GitHub repositories based on the number of stars and other relevant parameters.
 
 ## Further readings
 
