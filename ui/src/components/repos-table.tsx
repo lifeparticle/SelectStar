@@ -26,7 +26,7 @@ export default function ReposTable() {
 			const csvText = await res.text();
 			const parsedData = Papa.parse(csvText, { header: true });
 
-			const items = parsedData.data.map((item) => ({
+			const items = parsedData.data.map((item: any) => ({
 				html_url: item.html_url,
 				created_at: item.created_at,
 				pushed_at: item.pushed_at,
@@ -44,7 +44,7 @@ export default function ReposTable() {
 		},
 		async sort({ items, sortDescriptor }) {
 			return {
-				items: items.sort((a, b) => {
+				items: items.sort((a: any, b: any) => {
 					let first = a[sortDescriptor.column];
 					let second = b[sortDescriptor.column];
 					let cmp =
@@ -91,7 +91,7 @@ export default function ReposTable() {
 				isLoading={isLoading}
 				loadingContent={<Spinner label="Loading..." />}
 			>
-				{(item) => (
+				{(item: any) => (
 					<TableRow key={item.html_url}>
 						{(columnKey) => (
 							<TableCell>{getKeyValue(item, columnKey)}</TableCell>
