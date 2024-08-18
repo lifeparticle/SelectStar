@@ -1,65 +1,83 @@
 #!/usr/bin/env python
 
 import requests
-import json
-import re
-from datetime import datetime
-from bs4 import BeautifulSoup
-import sys
+import os
+import csv
 
-def getRepoMetaData(url, headers):
-	return requests.get(url, headers=headers)
+class GitHubRepoAnalyzer:
+    def __init__(self, access_token, input_file, output_file):
+        self.headers = {
+            'Accept': 'application/vnd.github.v3+json',
+            'Authorization': f'token {access_token}'
+        }
+        self.input_file = input_file
+        self.output_file = output_file
 
-def getRepoLinks(url):
-	result = []
-	# add links that are not repos
-	excluded_links = ["https://github.com/sindresorhus/awesome", "https://github.com/site/terms", "https://github.com/site/privacy"]
-	html_page = requests.get(url)
-	soup = BeautifulSoup(html_page.content, 'html.parser')
-	# repo link regex
-	# https://github.com/..../.... or https://github.com/..../..../
-	project_links = soup.findAll('a', attrs={'href': re.compile("^https://github.com/[^\/]+/[^\/]+/*$")})
-	for link in project_links:
-		href = link['href']
-		if href not in excluded_links:
-			result.append(href.replace("https://github.com/", "https://api.github.com/repos/").rstrip('//'))
-	result.extend([
-        "https://api.github.com/repos/apache/echarts",
-        "https://api.github.com/repos/tremorlabs/tremor"
-    ])
-	return result
+    def get_repo_meta_data(self, url):
+        try:
+            response = requests.get(url, headers=self.headers)
+            response.raise_for_status()  # Will raise an HTTPError for bad responses
+            return response.json()
+        except requests.RequestException as e:
+            print(f"Error fetching data from {url}: {e}")
+            return None
 
-def createFile(data):
-	data_file = open("repo_report.txt","w")
-	data_file.write(data)
-	data_file.close()
+    def get_repo_links_from_file(self):
+        try:
+            with open(self.input_file, 'r') as file:
+                return [
+                    line.strip().replace("https://github.com/", "https://api.github.com/repos/").rstrip('/')
+                    for line in file if line.strip()
+                ]
+        except FileNotFoundError:
+            print(f'File not found: {self.input_file}')
+            return []
+
+    def create_csv_file(self, data):
+        try:
+            with open(self.output_file, mode="w", newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow(["html_url", "stargazers_count", "created_at", "updated_at", "pushed_at"])
+                writer.writerows(data)
+            print(f"CSV report successfully created: {self.output_file}")
+        except IOError as e:
+            print(f"Error writing to file {self.output_file}: {e}")
+
+    def process_repos(self):
+        repo_links = self.get_repo_links_from_file()
+        if not repo_links:
+            print("No repository links found or file could not be read.")
+            return
+
+        data = []
+        for i, link in enumerate(repo_links, 1):
+            repo_data = self.get_repo_meta_data(link)
+            if repo_data:
+                data.append([
+                    repo_data.get("html_url", ""),
+                    repo_data.get("stargazers_count", 0),
+                    repo_data.get("created_at", ""),
+                    repo_data.get("updated_at", ""),
+                    repo_data.get("pushed_at", "")
+                ])
+                print(f"Processed {i} of {len(repo_links)}: {link}")
+            else:
+                print(f"Skipping {link} due to previous errors.")
+
+        if data:
+            self.create_csv_file(data)
 
 def main():
-	try:
-		# replace with your access_token
-		access_token = os.environ['ACCESS_TOKEN']
-		headers = {
-			'Accept': 'application/vnd.github.v3+json',
-			'Authorization': 'token '+access_token
-		}
-		# replace with your source of github links you want to compare
-		link_list = getRepoLinks("https://github.com/wbkd/awesome-d3")
+    access_token =  os.environ['ACCESS_TOKEN']
+    if not access_token:
+        print("ACCESS_TOKEN environment variable not found.")
+        return
 
-		line = "%s %s %s %s %s" % ("html_url", "stargazers_count", "created_at", "updated_at", "pushed_at")
-		i = 1
-		for link in link_list:
-			response = getRepoMetaData (link, headers)
-			if response.status_code == 200:
-				json_data = json.loads(response.text)
-				line += '\n'
-				line += "%s %s %s %s %s" % (json_data["html_url"], json_data["stargazers_count"], json_data["created_at"], json_data["updated_at"], json_data["pushed_at"])
-				print("%s, %i of %i" % (link, i, len(link_list)))
-			elif response.status_code == 404:
-				print('Not Found: ' + link)
-			i += 1
-		createFile(line)
-	except Exception as err:
-		print('Something BAD happened: ' + str(err))
+    input_file = "chart_urls.txt"
+    output_file = "repo_report.csv"
+
+    analyzer = GitHubRepoAnalyzer(access_token, input_file, output_file)
+    analyzer.process_repos()
 
 if __name__ == '__main__':
-	main()
+    main()
