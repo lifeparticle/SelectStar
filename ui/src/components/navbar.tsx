@@ -5,7 +5,6 @@ import {
 	NavbarBrand,
 	NavbarContent,
 	NavbarItem,
-	NavbarMenuToggle,
 } from "@nextui-org/navbar";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -57,7 +56,6 @@ export const Navbar = () => {
 					<GithubIcon className="text-default-500" />
 				</Link>
 				<ThemeSwitch />
-				<NavbarMenuToggle />
 			</NavbarContent>
 		</NextUINavbar>
 	);
