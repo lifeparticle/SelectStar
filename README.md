@@ -4,12 +4,12 @@
 
 ⭐️ Compare GitHub repositories based on the number of stars and other relevant parameters.
 
-# Available categories
+## Available categories
 
 - Charts
 - Component libraries (Coming soon)
 
-# Further readings
+## Further readings
 
 - [GitHub API Rate Limit](https://api.github.com/rate_limit)
 - [Pythex - Python Regular Expression Tester](https://pythex.org/)
