@@ -42,7 +42,7 @@ class GitHubRepoAnalyzer:
         try:
             with open(self.output_file, mode="w", newline='') as file:
                 writer = csv.writer(file)
-                writer.writerow(["html_url", "stargazers_count", "created_at", "updated_at", "pushed_at"])
+                writer.writerow(["name", "description", "owner_avatar_url", "html_url", "stargazers_count", "created_at", "updated_at", "pushed_at"])
                 writer.writerows(data)
             print(f"CSV report successfully created: {self.output_file}")
         except IOError as e:
