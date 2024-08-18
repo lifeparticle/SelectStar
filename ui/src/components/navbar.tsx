@@ -6,8 +6,6 @@ import {
 	NavbarContent,
 	NavbarItem,
 	NavbarMenuToggle,
-	NavbarMenu,
-	NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
