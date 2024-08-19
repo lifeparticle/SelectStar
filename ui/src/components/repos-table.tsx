@@ -13,7 +13,14 @@ import {
 } from "@nextui-org/react";
 import { useAsyncList } from "@react-stately/data";
 import Papa from "papaparse";
-import { ChangeEvent, Key, useCallback, useMemo, useState } from "react";
+import {
+	ChangeEvent,
+	Key,
+	useCallback,
+	useEffect,
+	useMemo,
+	useState,
+} from "react";
 
 export function formatDate(dateString: string): string {
 	const dateObject = new Date(dateString);
@@ -95,6 +102,10 @@ export default function ReposTable({ url }: ReposTableProps) {
 			};
 		},
 	});
+
+	useEffect(() => {
+		list.reload();
+	}, [url]);
 
 	const filteredItems = useMemo(() => {
 		return list.items.filter((repo) =>
