@@ -2,11 +2,15 @@
 
 # SelectStar
 
-⭐️ Compare GitHub Repositories Based on the Number of Stars and Other Relevant Parameters
+⭐️ Compare GitHub repositories based on the number of stars and other relevant parameters.
+
+## Available categories
+
+- Charts
+- Component libraries (Coming soon)
 
 ## Further readings
 
 - [GitHub API Rate Limit](https://api.github.com/rate_limit)
 - [Pythex - Python Regular Expression Tester](https://pythex.org/)
 - [GitHub Developer - Basic Authentication](https://developer.github.com/v3/auth/#basic-authentication)
-- [DataTables Installation Guide](https://datatables.net/manual/installation)
