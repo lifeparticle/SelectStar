@@ -79,6 +79,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 			const res = await fetch(url);
 			return res.json();
 		},
+		staleTime: 10 * 60 * 1000,
 	});
 
 	const filteredItems = useMemo(() => {
