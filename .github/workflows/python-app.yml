@@ -1,4 +1,4 @@
-name: Build README
+name: Build Repo Report
 
 on:
   push:
