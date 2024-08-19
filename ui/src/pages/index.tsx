@@ -10,7 +10,7 @@ const reports = {
 	components:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/comp_report.csv",
 	default:
-		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/repo_report.csv",
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/chart_report.csv",
 };
 
 export default function IndexPage() {
