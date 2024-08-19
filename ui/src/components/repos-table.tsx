@@ -237,6 +237,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 			classNames={{
 				wrapper: "max-h-[500px]",
 			}}
+			selectionMode="single"
 			sortDescriptor={sortDescriptor}
 			topContent={topContent}
 			topContentPlacement="outside"
@@ -246,6 +247,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 					direction: descriptor.direction as "ascending" | "descending",
 				})
 			}
+			onRowAction={(key) => window.open(key as string, "_blank")}
 		>
 			<TableHeader columns={columns}>
 				{(column) => (
