@@ -1,0 +1,8 @@
+https://github.com/facebook/react
+https://github.com/vuejs/vue
+https://github.com/angular/angular
+https://github.com/sveltejs/svelte
+https://github.com/solidjs/solid
+https://github.com/emberjs/ember.js
+https://github.com/preactjs/preact
+https://github.com/MithrilJS/mithril.js

@@ -1,0 +1,87 @@
+{
+    "data": [
+        {
+            "name": "react",
+            "description": "The library for web and native user interfaces.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+            "html_url": "https://github.com/facebook/react",
+            "stargazers_count": 226418,
+            "created_at": "2013-05-24T16:15:54Z",
+            "updated_at": "2024-08-19T13:02:16Z",
+            "pushed_at": "2024-08-19T09:56:15Z"
+        },
+        {
+            "name": "vue",
+            "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6128107?v=4",
+            "html_url": "https://github.com/vuejs/vue",
+            "stargazers_count": 207579,
+            "created_at": "2013-07-29T03:24:51Z",
+            "updated_at": "2024-08-19T12:27:18Z",
+            "pushed_at": "2024-08-13T08:21:58Z"
+        },
+        {
+            "name": "angular",
+            "description": "Deliver web apps with confidence \ud83d\ude80",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/139426?v=4",
+            "html_url": "https://github.com/angular/angular",
+            "stargazers_count": 95525,
+            "created_at": "2014-09-18T16:12:01Z",
+            "updated_at": "2024-08-19T13:26:59Z",
+            "pushed_at": "2024-08-19T13:27:12Z"
+        },
+        {
+            "name": "svelte",
+            "description": "Cybernetically enhanced web apps",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/23617963?v=4",
+            "html_url": "https://github.com/sveltejs/svelte",
+            "stargazers_count": 77961,
+            "created_at": "2016-11-20T18:13:05Z",
+            "updated_at": "2024-08-19T12:51:49Z",
+            "pushed_at": "2024-08-19T13:07:40Z"
+        },
+        {
+            "name": "solid",
+            "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/79226042?v=4",
+            "html_url": "https://github.com/solidjs/solid",
+            "stargazers_count": 31911,
+            "created_at": "2018-04-24T16:36:27Z",
+            "updated_at": "2024-08-19T12:44:53Z",
+            "pushed_at": "2024-08-16T15:10:47Z"
+        },
+        {
+            "name": "ember.js",
+            "description": "Ember.js - A JavaScript framework for creating ambitious web applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1253363?v=4",
+            "html_url": "https://github.com/emberjs/ember.js",
+            "stargazers_count": 22456,
+            "created_at": "2011-05-25T23:39:40Z",
+            "updated_at": "2024-08-19T12:37:15Z",
+            "pushed_at": "2024-08-19T07:14:39Z"
+        },
+        {
+            "name": "preact",
+            "description": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26872990?v=4",
+            "html_url": "https://github.com/preactjs/preact",
+            "stargazers_count": 36473,
+            "created_at": "2015-09-11T02:40:18Z",
+            "updated_at": "2024-08-19T12:56:31Z",
+            "pushed_at": "2024-08-12T17:17:15Z"
+        },
+        {
+            "name": "mithril.js",
+            "description": "A JavaScript Framework for Building Brilliant Applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19475707?v=4",
+            "html_url": "https://github.com/MithrilJS/mithril.js",
+            "stargazers_count": 13969,
+            "created_at": "2014-03-17T01:59:39Z",
+            "updated_at": "2024-08-19T11:31:14Z",
+            "pushed_at": "2024-07-29T15:35:27Z"
+        }
+    ],
+    "meta": {
+        "last_updated": "2024-08-19T13:36:13.657614Z"
+    }
+}

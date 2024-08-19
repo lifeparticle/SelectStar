@@ -1,0 +1,9 @@
+https://github.com/reduxjs/redux
+https://github.com/mobxjs/mobx
+https://github.com/facebookexperimental/Recoil
+https://github.com/pmndrs/zustand
+https://github.com/pmndrs/jotai
+https://github.com/statelyai/xstate
+https://github.com/salesforce/akita
+https://github.com/cerebral/overmind
+https://github.com/avkonst/hookstate

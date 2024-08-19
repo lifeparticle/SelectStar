@@ -9,6 +9,12 @@ const reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report.json",
 	components:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/comp_report.json",
+	testing:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/test_report.json",
+	state_management:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/state_management_report.json",
+	ui_frameworks:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ui_frameworks_report.json",
 	default:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report.json",
 };
@@ -31,6 +37,15 @@ export default function IndexPage() {
 					<Button onClick={() => setUrl(reports.charts)}>Charts</Button>
 					<Button onClick={() => setUrl(reports.components)}>
 						Component libraries
+					</Button>
+					<Button onClick={() => setUrl(reports.testing)}>
+						Testing libraries
+					</Button>
+					<Button onClick={() => setUrl(reports.state_management)}>
+						State management libraries
+					</Button>
+					<Button onClick={() => setUrl(reports.ui_frameworks)}>
+						UI frameworks
 					</Button>
 				</div>
 
