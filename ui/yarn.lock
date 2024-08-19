@@ -3993,6 +3993,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.51.24":
+  version: 5.51.24
+  resolution: "@tanstack/query-core@npm:5.51.24"
+  checksum: 5404604bf60a7d9880d33296da5316cd4087ff64f0d4afcd77facdbe1d5ca7a3770a1309a1f2202d3896ad6b0b807b4e0d17411d678bc4febe0577038102d40d
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.51.24":
+  version: 5.51.24
+  resolution: "@tanstack/react-query@npm:5.51.24"
+  dependencies:
+    "@tanstack/query-core": 5.51.24
+  peerDependencies:
+    react: ^18.0.0
+  checksum: 2aeb27d7f4965ca62baa30237948728bfc34689a78df912c367f322457715d2feca6e634b0b9b63851f96df8c0abce97b93803bcee67d6fdf56744d7292bd2f2
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.20.5":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -7152,13 +7170,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"papaparse@npm:^5.4.1":
-  version: 5.4.1
-  resolution: "papaparse@npm:5.4.1"
-  checksum: fc9e52f7158dca3517c229e3309065b1ab5da6c7194572fba4f31ff138bc43e3c91182cc40365cc828f97fe10d0aca416068fd731661058bea0f69ddb84a411a
-  languageName: node
-  linkType: hard
-
 "parent-module@npm:^1.0.0":
   version: 1.0.1
   resolution: "parent-module@npm:1.0.1"
@@ -8493,6 +8504,7 @@ __metadata:
     "@nextui-org/react": ^2.4.6
     "@react-aria/visually-hidden": 3.8.12
     "@react-stately/data": ^3.11.6
+    "@tanstack/react-query": ^5.51.24
     "@types/papaparse": ^5.3.14
     "@types/react": 18.3.3
     "@types/react-dom": 18.3.0
@@ -8511,7 +8523,6 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-unused-imports: ^3.2.0
     framer-motion: ~11.1.1
-    papaparse: ^5.4.1
     postcss: ^8.4.38
     react: 18.3.1
     react-dom: 18.3.1

@@ -6,11 +6,11 @@ import { useState } from "react";
 
 const reports = {
 	charts:
-		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report.csv",
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report.json",
 	components:
-		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/comp_report.csv",
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/comp_report.json",
 	default:
-		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report.csv",
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report.json",
 };
 
 export default function IndexPage() {

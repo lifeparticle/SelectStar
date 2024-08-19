@@ -1,0 +1,187 @@
+{
+    "data": [
+        {
+            "name": "ant-design",
+            "description": "An enterprise-class UI design language and React UI library",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12101536?v=4",
+            "html_url": "https://github.com/ant-design/ant-design",
+            "stargazers_count": 91607,
+            "created_at": "2015-04-24T15:37:24Z",
+            "updated_at": "2024-08-19T10:45:08Z",
+            "pushed_at": "2024-08-19T11:47:18Z"
+        },
+        {
+            "name": "material-ui",
+            "description": "Material\u00a0UI: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/33663932?v=4",
+            "html_url": "https://github.com/mui/material-ui",
+            "stargazers_count": 92984,
+            "created_at": "2014-08-18T19:11:54Z",
+            "updated_at": "2024-08-19T11:48:02Z",
+            "pushed_at": "2024-08-19T11:49:24Z"
+        },
+        {
+            "name": "Semantic-UI",
+            "description": "Semantic is a UI component framework based around useful principles from natural language.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
+            "html_url": "https://github.com/Semantic-Org/Semantic-UI",
+            "stargazers_count": 51091,
+            "created_at": "2013-04-08T23:32:04Z",
+            "updated_at": "2024-08-19T10:12:12Z",
+            "pushed_at": "2024-06-17T09:33:29Z"
+        },
+        {
+            "name": "blueprint",
+            "description": "A React-based UI toolkit for the web",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/303157?v=4",
+            "html_url": "https://github.com/palantir/blueprint",
+            "stargazers_count": 20597,
+            "created_at": "2016-10-25T21:17:50Z",
+            "updated_at": "2024-08-19T09:09:54Z",
+            "pushed_at": "2024-08-19T05:07:03Z"
+        },
+        {
+            "name": "evergreen",
+            "description": "\ud83c\udf32 Evergreen React UI Framework by Segment",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/819518?v=4",
+            "html_url": "https://github.com/segmentio/evergreen",
+            "stargazers_count": 12376,
+            "created_at": "2017-07-30T10:03:14Z",
+            "updated_at": "2024-08-19T02:04:14Z",
+            "pushed_at": "2024-07-09T04:30:28Z"
+        },
+        {
+            "name": "chakra-ui",
+            "description": "\u26a1\ufe0f Simple, Modular & Accessible UI Components for your React Applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54212428?v=4",
+            "html_url": "https://github.com/chakra-ui/chakra-ui",
+            "stargazers_count": 37323,
+            "created_at": "2019-08-17T14:27:54Z",
+            "updated_at": "2024-08-19T10:12:03Z",
+            "pushed_at": "2024-08-19T09:03:05Z"
+        },
+        {
+            "name": "fluentui",
+            "description": "Fluent UI web represents a collection of utilities, React components, and web components for building web applications.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+            "html_url": "https://github.com/microsoft/fluentui",
+            "stargazers_count": 18230,
+            "created_at": "2016-06-06T15:03:44Z",
+            "updated_at": "2024-08-19T08:17:59Z",
+            "pushed_at": "2024-08-19T11:18:10Z"
+        },
+        {
+            "name": "react-bootstrap",
+            "description": "Bootstrap components built with React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6853419?v=4",
+            "html_url": "https://github.com/react-bootstrap/react-bootstrap",
+            "stargazers_count": 22345,
+            "created_at": "2013-12-27T19:06:07Z",
+            "updated_at": "2024-08-19T10:45:05Z",
+            "pushed_at": "2024-08-11T04:21:06Z"
+        },
+        {
+            "name": "grommet",
+            "description": "a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14203820?v=4",
+            "html_url": "https://github.com/grommet/grommet",
+            "stargazers_count": 8313,
+            "created_at": "2015-03-24T08:54:10Z",
+            "updated_at": "2024-08-17T13:57:07Z",
+            "pushed_at": "2024-08-15T16:38:01Z"
+        },
+        {
+            "name": "carbon",
+            "description": "A design system built by IBM",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25179978?v=4",
+            "html_url": "https://github.com/carbon-design-system/carbon",
+            "stargazers_count": 7682,
+            "created_at": "2017-03-13T14:23:59Z",
+            "updated_at": "2024-08-19T11:00:06Z",
+            "pushed_at": "2024-08-19T10:13:59Z"
+        },
+        {
+            "name": "element",
+            "description": "A Vue.js 2.0 UI Toolkit for Web",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12810740?v=4",
+            "html_url": "https://github.com/ElemeFE/element",
+            "stargazers_count": 54074,
+            "created_at": "2016-09-03T06:19:26Z",
+            "updated_at": "2024-08-19T11:00:02Z",
+            "pushed_at": "2024-08-09T09:14:26Z"
+        },
+        {
+            "name": "vuetify",
+            "description": "\ud83d\udc09 Vue Component Framework",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/22138497?v=4",
+            "html_url": "https://github.com/vuetifyjs/vuetify",
+            "stargazers_count": 39551,
+            "created_at": "2016-09-12T00:39:35Z",
+            "updated_at": "2024-08-19T07:35:25Z",
+            "pushed_at": "2024-08-19T08:06:57Z"
+        },
+        {
+            "name": "nextui",
+            "description": "\ud83d\ude80   Beautiful, fast and modern React UI library.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/86160567?v=4",
+            "html_url": "https://github.com/nextui-org/nextui",
+            "stargazers_count": 21115,
+            "created_at": "2021-04-22T13:06:23Z",
+            "updated_at": "2024-08-19T11:57:01Z",
+            "pushed_at": "2024-08-19T06:03:37Z"
+        },
+        {
+            "name": "bulma",
+            "description": "Modern CSS framework based on Flexbox",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1254808?v=4",
+            "html_url": "https://github.com/jgthms/bulma",
+            "stargazers_count": 49060,
+            "created_at": "2016-01-23T23:48:34Z",
+            "updated_at": "2024-08-19T10:12:08Z",
+            "pushed_at": "2024-08-16T17:28:40Z"
+        },
+        {
+            "name": "mantine",
+            "description": "A fully featured React components library",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/79146003?v=4",
+            "html_url": "https://github.com/mantinedev/mantine",
+            "stargazers_count": 25823,
+            "created_at": "2021-01-07T14:02:19Z",
+            "updated_at": "2024-08-19T12:02:30Z",
+            "pushed_at": "2024-08-16T14:44:01Z"
+        },
+        {
+            "name": "themes",
+            "description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
+            "html_url": "https://github.com/radix-ui/themes",
+            "stargazers_count": 5032,
+            "created_at": "2023-06-15T12:21:08Z",
+            "updated_at": "2024-08-19T10:12:24Z",
+            "pushed_at": "2024-08-18T22:12:35Z"
+        },
+        {
+            "name": "magicui",
+            "description": "UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Source.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/166878038?v=4",
+            "html_url": "https://github.com/magicuidesign/magicui",
+            "stargazers_count": 7044,
+            "created_at": "2023-06-26T19:17:10Z",
+            "updated_at": "2024-08-19T11:39:35Z",
+            "pushed_at": "2024-08-19T02:07:40Z"
+        },
+        {
+            "name": "ui",
+            "description": "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/139895814?v=4",
+            "html_url": "https://github.com/shadcn-ui/ui",
+            "stargazers_count": 66627,
+            "created_at": "2023-01-04T12:43:27Z",
+            "updated_at": "2024-08-19T11:44:18Z",
+            "pushed_at": "2024-08-19T08:23:55Z"
+        }
+    ],
+    "meta": {
+        "last_updated": "2024-08-19T12:02:42.723379Z"
+    }
+}

@@ -2,7 +2,8 @@
 
 import requests
 import os
-import csv
+import json
+from datetime import datetime
 from dotenv import load_dotenv
 
 # Load environment variables from .env only in development
@@ -15,8 +16,8 @@ class GitHubRepoAnalyzer:
             'Accept': 'application/vnd.github.v3+json',
             'Authorization': f'token {access_token}'
         }
-        self.input_file = input_file
-        self.output_file = output_file
+        self.input_file = os.path.join("data", input_file)
+        self.output_file = os.path.join("data", output_file)
 
     def get_repo_meta_data(self, url):
         try:
@@ -38,13 +39,17 @@ class GitHubRepoAnalyzer:
             print(f'File not found: {self.input_file}')
             return []
 
-    def create_csv_file(self, data):
+    def create_json_file(self, data):
         try:
-            with open(self.output_file, mode="w", newline='') as file:
-                writer = csv.writer(file)
-                writer.writerow(["name", "description", "owner_avatar_url", "html_url", "stargazers_count", "created_at", "updated_at", "pushed_at"])
-                writer.writerows(data)
-            print(f"CSV report successfully created: {self.output_file}")
+            output_data = {
+                "data": data,
+                "meta": {
+                    "last_updated": datetime.utcnow().isoformat() + "Z"
+                }
+            }
+            with open(self.output_file, mode="w") as file:
+                json.dump(output_data, file, indent=4)
+            print(f"JSON report successfully created: {self.output_file}")
         except IOError as e:
             print(f"Error writing to file {self.output_file}: {e}")
 
@@ -58,22 +63,22 @@ class GitHubRepoAnalyzer:
         for i, link in enumerate(repo_links, 1):
             repo_data = self.get_repo_meta_data(link)
             if repo_data:
-                data.append([
-                    repo_data.get("name", ""),
-                    repo_data.get("description", ""),
-                    repo_data["owner"].get("avatar_url", ""),
-                    repo_data.get("html_url", ""),
-                    repo_data.get("stargazers_count", 0),
-                    repo_data.get("created_at", ""),
-                    repo_data.get("updated_at", ""),
-                    repo_data.get("pushed_at", "")
-                ])
+                data.append({
+                    "name": repo_data.get("name", ""),
+                    "description": repo_data.get("description", ""),
+                    "owner_avatar_url": repo_data["owner"].get("avatar_url", ""),
+                    "html_url": repo_data.get("html_url", ""),
+                    "stargazers_count": repo_data.get("stargazers_count", 0),
+                    "created_at": repo_data.get("created_at", ""),
+                    "updated_at": repo_data.get("updated_at", ""),
+                    "pushed_at": repo_data.get("pushed_at", "")
+                })
                 print(f"Processed {i} of {len(repo_links)}: {link}")
             else:
                 print(f"Skipping {link} due to previous errors.")
 
         if data:
-            self.create_csv_file(data)
+            self.create_json_file(data)
 
 def main():
     access_token =  os.environ['ACCESS_TOKEN']
@@ -82,7 +87,7 @@ def main():
         return
 
     input_file = "chart_urls.txt"
-    output_file = "chart_report.csv"
+    output_file = "chart_report.json"
 
     analyzer = GitHubRepoAnalyzer(access_token, input_file, output_file)
     analyzer.process_repos()

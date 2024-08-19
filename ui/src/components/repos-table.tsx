@@ -11,16 +11,8 @@ import {
 	Spinner,
 	Button,
 } from "@nextui-org/react";
-import { useAsyncList } from "@react-stately/data";
-import Papa from "papaparse";
-import {
-	ChangeEvent,
-	Key,
-	useCallback,
-	useEffect,
-	useMemo,
-	useState,
-} from "react";
+import { ChangeEvent, Key, useCallback, useMemo, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 
 export function formatDate(dateString: string): string {
 	const dateObject = new Date(dateString);
@@ -45,8 +37,17 @@ interface RepoData {
 	html_url: string;
 	created_at: string;
 	pushed_at: string;
-	stargazers_count: string;
+	stargazers_count: number;
 	updated_at: string;
+}
+
+interface RepoMeta {
+	last_updated: string;
+}
+
+interface RepoResponse {
+	data: RepoData[];
+	meta: RepoMeta;
 }
 
 const columns = [
@@ -71,47 +72,22 @@ export default function ReposTable({ url }: ReposTableProps) {
 	});
 
 	const [page, setPage] = useState(1);
-	const [isLoading, setIsLoading] = useState(true);
 
-	const list = useAsyncList<RepoData>({
-		async load({ signal }) {
-			let res = await fetch(url, {
-				signal,
-			});
-			const csvText = await res.text();
-			const parsedData = Papa.parse<RepoData>(csvText, {
-				header: true,
-				skipEmptyLines: true,
-			});
-
-			const items = parsedData.data.map((item) => ({
-				html_url: item.html_url,
-				name: item.name,
-				description: item.description,
-				owner_avatar_url: item.owner_avatar_url,
-				created_at: item.created_at,
-				pushed_at: item.pushed_at,
-				stargazers_count: item.stargazers_count,
-				updated_at: item.updated_at,
-			}));
-
-			setIsLoading(false);
-
-			return {
-				items: items,
-			};
+	const { data, isLoading } = useQuery<RepoResponse>({
+		queryKey: ["repos", url],
+		queryFn: async () => {
+			const res = await fetch(url);
+			return res.json();
 		},
 	});
 
-	useEffect(() => {
-		list.reload();
-	}, [url]);
-
 	const filteredItems = useMemo(() => {
-		return list.items.filter((repo) =>
-			repo.name.toLowerCase().includes(filterValue.toLowerCase())
+		return (
+			data?.data.filter((repo) =>
+				repo.name.toLowerCase().includes(filterValue.toLowerCase())
+			) || []
 		);
-	}, [list.items, filterValue]);
+	}, [data, filterValue]);
 
 	const sortedItems = useMemo(() => {
 		return [...filteredItems].sort((a, b) => {
@@ -143,7 +119,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 			case "created_at":
 			case "pushed_at":
 			case "updated_at":
-				return formatDate(cellValue);
+				return formatDate(cellValue as string);
 			default:
 				return cellValue;
 		}
