@@ -14,7 +14,11 @@ import {
 import { ChangeEvent, Key, useCallback, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 
-export function formatDate(dateString: string): string {
+export function formatDate(dateString: string | undefined): string {
+	if (!dateString) {
+		return "";
+	}
+
 	const dateObject = new Date(dateString);
 
 	const formatDate = new Intl.DateTimeFormat("en-GB", {
@@ -146,7 +150,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 			<div className="flex flex-col gap-4">
 				<div className="flex justify-between gap-3 items-end">
 					<Input
-						className="w-full sm:max-w-[44%]"
+						className="w-full sm:max-w-[30%]"
 						isClearable
 						placeholder="Search by name..."
 						size="md"
@@ -197,7 +201,12 @@ export default function ReposTable({ url }: ReposTableProps) {
 					total={pages}
 					onChange={setPage}
 				/>
-				<div className="hidden sm:flex w-[30%] justify-end gap-2">
+				<p className="text-sm text-gray-600">
+					{!isLoading &&
+						data?.meta?.last_updated &&
+						`Last updated: ${formatDate(data.meta.last_updated)}`}
+				</p>
+				<div className="hidden sm:flex justify-end gap-2">
 					<Button
 						isDisabled={pages === 1}
 						size="sm"

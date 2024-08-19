@@ -14,7 +14,7 @@ const reports = {
 	state_management:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/state_management_report.json",
 	ui_frameworks:
-		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ui_frameworks_report.json",
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ui_framework_report.json",
 	default:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report.json",
 };
@@ -33,7 +33,7 @@ export default function IndexPage() {
 					</h1>
 				</div>
 
-				<div className="flex gap-6">
+				<div className="flex flex-wrap justify-center gap-2 md:gap-4">
 					<Button onClick={() => setUrl(reports.charts)}>Charts</Button>
 					<Button onClick={() => setUrl(reports.components)}>
 						Component libraries
