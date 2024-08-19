@@ -82,7 +82,7 @@ def main():
         return
 
     input_file = "chart_urls.txt"
-    output_file = "repo_report.csv"
+    output_file = "chart_report.csv"
 
     analyzer = GitHubRepoAnalyzer(access_token, input_file, output_file)
     analyzer.process_repos()

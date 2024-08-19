@@ -2,8 +2,20 @@ import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 import ReposTable from "@/components/repos-table";
 import { Button } from "@nextui-org/react";
+import { useState } from "react";
+
+const reports = {
+	charts:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/chart_report.csv",
+	components:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/comp_report.csv",
+	default:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/repo_report.csv",
+};
 
 export default function IndexPage() {
+	const [url, setUrl] = useState(reports.default);
+
 	return (
 		<DefaultLayout>
 			<section className="flex flex-col items-center justify-center gap-6 md:py-8">
@@ -16,11 +28,13 @@ export default function IndexPage() {
 				</div>
 
 				<div className="flex gap-6">
-					<Button>Charts</Button>
-					<Button disabled>Component libraries</Button>
+					<Button onClick={() => setUrl(reports.charts)}>Charts</Button>
+					<Button onClick={() => setUrl(reports.components)}>
+						Component libraries
+					</Button>
 				</div>
 
-				<ReposTable />
+				<ReposTable url={url} />
 			</section>
 		</DefaultLayout>
 	);

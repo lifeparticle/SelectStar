@@ -51,7 +51,11 @@ const columns = [
 	{ name: "Updated at", uid: "updated_at", sortable: true },
 ];
 
-export default function ReposTable() {
+interface ReposTableProps {
+	url: string;
+}
+
+export default function ReposTable({ url }: ReposTableProps) {
 	const [filterValue, setFilterValue] = useState("");
 	const [rowsPerPage, setRowsPerPage] = useState(50);
 	const [sortDescriptor, setSortDescriptor] = useState<CustomSortDescriptor>({
@@ -64,12 +68,9 @@ export default function ReposTable() {
 
 	const list = useAsyncList<RepoData>({
 		async load({ signal }) {
-			let res = await fetch(
-				"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/repo_report.csv",
-				{
-					signal,
-				}
-			);
+			let res = await fetch(url, {
+				signal,
+			});
 			const csvText = await res.text();
 			const parsedData = Papa.parse<RepoData>(csvText, {
 				header: true,

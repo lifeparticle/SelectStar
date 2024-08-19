@@ -1,9 +1,6 @@
 name: Build Repo Report
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: "0 0 1 1 *"
 
