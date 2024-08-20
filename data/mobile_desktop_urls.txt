@@ -1,0 +1,10 @@
+https://github.com/electron/electron
+https://github.com/facebook/react-native
+https://github.com/apache/cordova
+https://github.com/ionic-team/ionic-framework
+https://github.com/ionic-team/capacitor
+https://github.com/nwjs/nw.js
+https://github.com/expo/expo
+https://github.com/quasarframework/quasar
+https://github.com/tauri-apps/tauri
+https://github.com/NativeScript/NativeScript

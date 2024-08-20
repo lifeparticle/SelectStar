@@ -19,6 +19,10 @@ const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/state_management_report.json",
 	ui_frameworks:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ui_framework_report.json",
+	backend_frameworks:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/backend_framework_report.json",
+	mobile_desktop:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/mobile_desktop_report.json",
 };
 
 const tabs = [
@@ -27,6 +31,8 @@ const tabs = [
 	{ key: "testing", label: "Testing libraries" },
 	{ key: "state_management", label: "State management libraries" },
 	{ key: "ui_frameworks", label: "UI frameworks" },
+	{ key: "backend_frameworks", label: "Backend frameworks" },
+	{ key: "mobile_desktop", label: "Mobile and desktop frameworks" },
 ];
 
 export default function IndexPage() {
