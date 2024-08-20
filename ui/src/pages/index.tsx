@@ -28,14 +28,14 @@ const reports: reports = {
 };
 
 const tabs = [
-	{ key: "charts", label: "Charts" },
-	{ key: "components", label: "Component libraries" },
-	{ key: "testing", label: "Testing libraries" },
-	{ key: "state_management", label: "State management libraries" },
 	{ key: "ui_frameworks", label: "UI frameworks" },
+	{ key: "state_management", label: "State management libraries" },
+	{ key: "components", label: "Component libraries" },
+	{ key: "charts", label: "Charts" },
 	{ key: "backend_frameworks", label: "Backend frameworks" },
 	{ key: "mobile_desktop", label: "Mobile and desktop frameworks" },
 	{ key: "database", label: "Database" },
+	{ key: "testing", label: "Testing libraries" },
 ];
 
 export default function IndexPage() {
