@@ -30,6 +30,23 @@ export function formatDate(dateString: string | undefined): string {
 	return formatDate;
 }
 
+function formatDaysAgo(dateString: string): string {
+	const lastUpdated = new Date(dateString);
+	const today = new Date();
+
+	lastUpdated.setHours(0, 0, 0, 0);
+	today.setHours(0, 0, 0, 0);
+
+	const timeDifference = Math.abs(today.getTime() - lastUpdated.getTime());
+	const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+	if (daysDifference === 0) {
+		return "Today";
+	}
+
+	return `${daysDifference} day${daysDifference !== 1 ? "s" : ""} ago`;
+}
+
 type CustomSortDescriptor = {
 	column: string | undefined;
 	direction: "ascending" | "descending";
@@ -160,16 +177,19 @@ export default function ReposTable() {
 	}, [filterValue, onSearchChange]);
 
 	const bottomContent = useMemo(() => {
+		const lastUpdatedDate = data?.meta?.last_updated;
 		return (
 			<div className="py-2 px-2 flex justify-center">
 				<p className="text-sm text-gray-600">
 					{!isLoading &&
-						data?.meta?.last_updated &&
-						`Last updated: ${formatDate(data.meta.last_updated)}`}
+						lastUpdatedDate &&
+						`Last updated: ${formatDate(lastUpdatedDate)} (${formatDaysAgo(
+							lastUpdatedDate
+						)})`}
 				</p>
 			</div>
 		);
-	}, [sortedItems.length]);
+	}, [sortedItems.length, data?.meta?.last_updated, isLoading]);
 
 	return (
 		<Table
