@@ -9,6 +9,8 @@
 - Testing libraries
 - State management libraries
 - UI frameworks
+- Backend frameworks
+- Mobile and desktop frameworks
 
 ## Status
 
