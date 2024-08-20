@@ -1,5 +1,5 @@
 https://github.com/facebook/react
-https://github.com/vuejs/vue
+https://github.com/vuejs/core
 https://github.com/angular/angular
 https://github.com/sveltejs/svelte
 https://github.com/solidjs/solid

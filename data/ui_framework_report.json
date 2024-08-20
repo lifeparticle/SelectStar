@@ -5,29 +5,29 @@
             "description": "The library for web and native user interfaces.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
             "html_url": "https://github.com/facebook/react",
-            "stargazers_count": 226443,
+            "stargazers_count": 226450,
             "created_at": "2013-05-24T16:15:54Z",
-            "updated_at": "2024-08-20T06:46:34Z",
+            "updated_at": "2024-08-20T10:20:00Z",
             "pushed_at": "2024-08-20T03:03:27Z"
         },
         {
-            "name": "vue",
-            "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+            "name": "core",
+            "description": "\ud83d\udd96 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/6128107?v=4",
-            "html_url": "https://github.com/vuejs/vue",
-            "stargazers_count": 207578,
-            "created_at": "2013-07-29T03:24:51Z",
-            "updated_at": "2024-08-20T06:48:27Z",
-            "pushed_at": "2024-08-13T08:21:58Z"
+            "html_url": "https://github.com/vuejs/core",
+            "stargazers_count": 46274,
+            "created_at": "2018-06-12T13:49:36Z",
+            "updated_at": "2024-08-20T10:25:16Z",
+            "pushed_at": "2024-08-20T09:48:39Z"
         },
         {
             "name": "angular",
             "description": "Deliver web apps with confidence \ud83d\ude80",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/139426?v=4",
             "html_url": "https://github.com/angular/angular",
-            "stargazers_count": 95532,
+            "stargazers_count": 95534,
             "created_at": "2014-09-18T16:12:01Z",
-            "updated_at": "2024-08-20T05:46:52Z",
+            "updated_at": "2024-08-20T10:01:19Z",
             "pushed_at": "2024-08-20T06:04:12Z"
         },
         {
@@ -35,9 +35,9 @@
             "description": "Cybernetically enhanced web apps",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/23617963?v=4",
             "html_url": "https://github.com/sveltejs/svelte",
-            "stargazers_count": 77967,
+            "stargazers_count": 77969,
             "created_at": "2016-11-20T18:13:05Z",
-            "updated_at": "2024-08-20T06:46:02Z",
+            "updated_at": "2024-08-20T09:23:39Z",
             "pushed_at": "2024-08-20T01:58:36Z"
         },
         {
@@ -45,9 +45,9 @@
             "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/79226042?v=4",
             "html_url": "https://github.com/solidjs/solid",
-            "stargazers_count": 31911,
+            "stargazers_count": 31913,
             "created_at": "2018-04-24T16:36:27Z",
-            "updated_at": "2024-08-20T01:13:37Z",
+            "updated_at": "2024-08-20T08:59:10Z",
             "pushed_at": "2024-08-16T15:10:47Z"
         },
         {
@@ -58,16 +58,16 @@
             "stargazers_count": 22456,
             "created_at": "2011-05-25T23:39:40Z",
             "updated_at": "2024-08-20T05:53:34Z",
-            "pushed_at": "2024-08-20T07:04:43Z"
+            "pushed_at": "2024-08-20T07:15:29Z"
         },
         {
             "name": "preact",
             "description": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/26872990?v=4",
             "html_url": "https://github.com/preactjs/preact",
-            "stargazers_count": 36474,
+            "stargazers_count": 36477,
             "created_at": "2015-09-11T02:40:18Z",
-            "updated_at": "2024-08-20T02:42:03Z",
+            "updated_at": "2024-08-20T08:54:52Z",
             "pushed_at": "2024-08-12T17:17:15Z"
         },
         {
@@ -75,9 +75,9 @@
             "description": "A JavaScript Framework for Building Brilliant Applications",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/19475707?v=4",
             "html_url": "https://github.com/MithrilJS/mithril.js",
-            "stargazers_count": 13969,
+            "stargazers_count": 13970,
             "created_at": "2014-03-17T01:59:39Z",
-            "updated_at": "2024-08-19T11:31:14Z",
+            "updated_at": "2024-08-20T08:55:18Z",
             "pushed_at": "2024-07-29T15:35:27Z"
         },
         {
@@ -85,9 +85,9 @@
             "description": "A rugged, minimal framework for composing JavaScript behavior in your markup. ",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/59030169?v=4",
             "html_url": "https://github.com/alpinejs/alpine",
-            "stargazers_count": 27738,
+            "stargazers_count": 27739,
             "created_at": "2019-11-28T13:51:55Z",
-            "updated_at": "2024-08-20T07:02:45Z",
+            "updated_at": "2024-08-20T07:39:56Z",
             "pushed_at": "2024-08-13T13:20:34Z"
         },
         {
@@ -95,9 +95,9 @@
             "description": "Lit is a simple library for building fast, lightweight web components.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/18489846?v=4",
             "html_url": "https://github.com/lit/lit",
-            "stargazers_count": 18347,
+            "stargazers_count": 18350,
             "created_at": "2017-06-29T16:27:16Z",
-            "updated_at": "2024-08-19T19:41:08Z",
+            "updated_at": "2024-08-20T09:58:04Z",
             "pushed_at": "2024-08-19T22:57:27Z"
         },
         {
@@ -105,9 +105,9 @@
             "description": "Instant-loading web apps, without effort",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/138123704?v=4",
             "html_url": "https://github.com/QwikDev/qwik",
-            "stargazers_count": 20587,
+            "stargazers_count": 20588,
             "created_at": "2021-05-19T15:33:32Z",
-            "updated_at": "2024-08-20T06:45:41Z",
+            "updated_at": "2024-08-20T07:44:03Z",
             "pushed_at": "2024-08-20T00:12:31Z"
         },
         {
@@ -125,13 +125,13 @@
             "description": "</> htmx - high power tools for HTML",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
             "html_url": "https://github.com/bigskysoftware/htmx",
-            "stargazers_count": 36664,
+            "stargazers_count": 36666,
             "created_at": "2020-04-13T16:17:51Z",
-            "updated_at": "2024-08-20T05:48:36Z",
+            "updated_at": "2024-08-20T10:27:36Z",
             "pushed_at": "2024-08-19T20:29:06Z"
         }
     ],
     "meta": {
-        "last_updated": "2024-08-20T07:15:12.491520Z"
+        "last_updated": "2024-08-20T10:33:32.607025Z"
     }
 }
