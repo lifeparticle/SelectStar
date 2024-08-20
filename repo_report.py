@@ -86,8 +86,8 @@ def main():
         print("ACCESS_TOKEN environment variable not found.")
         return
 
-    input_file = "ui_frameworks_urls.txt"
-    output_file = "ui_frameworks_report.json"
+    input_file = "test_urls.txt"
+    output_file = "test_report.json"
 
     analyzer = GitHubRepoAnalyzer(access_token, input_file, output_file)
     analyzer.process_repos()

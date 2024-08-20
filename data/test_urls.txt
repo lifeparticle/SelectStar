@@ -7,3 +7,8 @@ https://github.com/chaijs/chai
 https://github.com/avajs/ava
 https://github.com/microsoft/playwright
 https://github.com/vitest-dev/vitest
+https://github.com/storybookjs/storybook
+https://github.com/puppeteer/puppeteer
+https://github.com/SeleniumHQ/selenium
+https://github.com/DevExpress/testcafe
+https://github.com/mswjs/msw

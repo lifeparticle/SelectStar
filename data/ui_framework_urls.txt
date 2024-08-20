@@ -6,3 +6,8 @@ https://github.com/solidjs/solid
 https://github.com/emberjs/ember.js
 https://github.com/preactjs/preact
 https://github.com/MithrilJS/mithril.js
+https://github.com/alpinejs/alpine
+https://github.com/lit/lit
+https://github.com/QwikDev/qwik
+https://github.com/ionic-team/stencil
+https://github.com/bigskysoftware/htmx
