@@ -1,3 +1,10 @@
+@import url("satoshi.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+	font-family: Satoshi-Light, sans-serif;
+}

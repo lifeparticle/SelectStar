@@ -1,7 +1,7 @@
 import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 import ReposTable from "@/components/repos-table";
-import { Button, ButtonGroup } from "@nextui-org/react";
+import { Tab, Tabs } from "@nextui-org/react";
 import { useState } from "react";
 
 type reports = {
@@ -21,7 +21,7 @@ const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ui_framework_report.json",
 };
 
-const buttons = [
+const tabs = [
 	{ key: "charts", label: "Charts" },
 	{ key: "components", label: "Component libraries" },
 	{ key: "testing", label: "Testing libraries" },
@@ -42,17 +42,17 @@ export default function IndexPage() {
 					</h1>
 				</div>
 
-				<ButtonGroup variant="bordered" className="flex flex-wrap">
-					{buttons.map(({ key, label }) => (
-						<Button
-							key={key}
-							onClick={() => setSelected(key)}
-							color={selected === key ? "success" : "default"}
-						>
-							{label}
-						</Button>
-					))}
-				</ButtonGroup>
+				<div className="flex w-full flex-col">
+					<Tabs
+						variant="bordered"
+						color="success"
+						aria-label="Dynamic tabs"
+						items={tabs}
+						onSelectionChange={(key) => setSelected(key as string)}
+					>
+						{(tab) => <Tab key={tab.key} title={tab.label} />}
+					</Tabs>
+				</div>
 
 				<ReposTable url={reports[selected]} />
 			</section>

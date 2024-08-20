@@ -191,7 +191,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 
 	const bottomContent = useMemo(() => {
 		return (
-			<div className="py-2 px-2 flex justify-between items-center">
+			<div className="py-2 px-2 flex flex-col sm:flex-row justify-between items-center">
 				<Pagination
 					isCompact
 					showControls
@@ -201,12 +201,14 @@ export default function ReposTable({ url }: ReposTableProps) {
 					total={pages}
 					onChange={setPage}
 				/>
-				<p className="text-sm text-gray-600">
-					{!isLoading &&
-						data?.meta?.last_updated &&
-						`Last updated: ${formatDate(data.meta.last_updated)}`}
-				</p>
-				<div className="hidden sm:flex justify-end gap-2">
+				<div className="mt-2 sm:mt-0 sm:ml-4 flex justify-center sm:flex-1">
+					<p className="text-sm text-gray-600">
+						{!isLoading &&
+							data?.meta?.last_updated &&
+							`Last updated: ${formatDate(data.meta.last_updated)}`}
+					</p>
+				</div>
+				<div className="mt-2 sm:mt-0 sm:ml-auto flex justify-end gap-2">
 					<Button
 						isDisabled={pages === 1}
 						size="sm"
