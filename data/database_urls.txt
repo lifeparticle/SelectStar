@@ -1,0 +1,17 @@
+https://github.com/postgres/postgres
+https://github.com/mysql/mysql-server
+https://github.com/MariaDB/server
+https://github.com/sqlite/sqlite
+https://github.com/apache/cassandra
+https://github.com/mongodb/mongo
+https://github.com/redis/redis
+https://github.com/apache/couchdb
+https://github.com/rethinkdb/rethinkdb
+https://github.com/arangodb/arangodb
+https://github.com/neo4j/neo4j
+https://github.com/influxdata/influxdb
+https://github.com/timescale/timescaledb
+https://github.com/cockroachdb/cockroach
+https://github.com/dgraph-io/dgraph
+https://github.com/fauna/fauna-js
+https://github.com/surrealdb/surrealdb
