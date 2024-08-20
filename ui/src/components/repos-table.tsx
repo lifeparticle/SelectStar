@@ -143,7 +143,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 		[]
 	);
 
-	const pages = Math.ceil(filteredItems.length / rowsPerPage);
+	const pages = Math.ceil(filteredItems?.length / rowsPerPage);
 
 	const topContent = useMemo(() => {
 		return (
@@ -163,6 +163,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 							<select
 								className="bg-transparent outline-none text-default-400 text-small ml-1"
 								onChange={onRowsPerPageChange}
+								value={rowsPerPage}
 							>
 								<option value="5">5</option>
 								<option value="20">20</option>
@@ -189,16 +190,19 @@ export default function ReposTable({ url }: ReposTableProps) {
 		}
 	}, [page]);
 
+	console.log("pages", pages);
+
 	const bottomContent = useMemo(() => {
 		return (
 			<div className="py-2 px-2 flex flex-col sm:flex-row justify-between items-center">
 				<Pagination
 					isCompact
+					initialPage={1}
 					showControls
 					showShadow
-					color="primary"
+					color="success"
 					page={page}
-					total={pages}
+					total={pages || 1}
 					onChange={setPage}
 				/>
 				<div className="mt-2 sm:mt-0 sm:ml-4 flex justify-center sm:flex-1">
