@@ -35,7 +35,7 @@ const tabs = [
 	{ key: "ui_frameworks", label: "UI frameworks" },
 	{ key: "backend_frameworks", label: "Backend frameworks" },
 	{ key: "mobile_desktop", label: "Mobile and desktop frameworks" },
-	{ key: "database", label: "Database libraries" },
+	{ key: "database", label: "Database" },
 ];
 
 export default function IndexPage() {
