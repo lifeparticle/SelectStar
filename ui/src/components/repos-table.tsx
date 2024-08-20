@@ -7,11 +7,9 @@ import {
 	TableCell,
 	Input,
 	User,
-	Pagination,
 	Spinner,
-	Button,
 } from "@nextui-org/react";
-import { ChangeEvent, Key, useCallback, useMemo, useState } from "react";
+import { Key, useCallback, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 
 export function formatDate(dateString: string | undefined): string {
@@ -69,13 +67,10 @@ interface ReposTableProps {
 
 export default function ReposTable({ url }: ReposTableProps) {
 	const [filterValue, setFilterValue] = useState("");
-	const [rowsPerPage, setRowsPerPage] = useState(50);
 	const [sortDescriptor, setSortDescriptor] = useState<CustomSortDescriptor>({
 		column: "stargazers_count",
 		direction: "descending",
 	});
-
-	const [page, setPage] = useState(1);
 
 	const { data, isLoading } = useQuery<RepoResponse>({
 		queryKey: ["repos", url],
@@ -132,18 +127,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 
 	const onSearchChange = useCallback((value: string) => {
 		setFilterValue(value);
-		setPage(1);
 	}, []);
-
-	const onRowsPerPageChange = useCallback(
-		(e: ChangeEvent<HTMLSelectElement>) => {
-			setRowsPerPage(Number(e.target.value));
-			setPage(1);
-		},
-		[]
-	);
-
-	const pages = Math.ceil(filteredItems?.length / rowsPerPage);
 
 	const topContent = useMemo(() => {
 		return (
@@ -157,84 +141,22 @@ export default function ReposTable({ url }: ReposTableProps) {
 						value={filterValue}
 						onValueChange={onSearchChange}
 					/>
-					<div className="flex gap-3">
-						<label className="flex items-center text-default-400 text-small">
-							Rows per page:
-							<select
-								className="bg-transparent outline-none text-default-400 text-small ml-1"
-								onChange={onRowsPerPageChange}
-								value={rowsPerPage}
-							>
-								<option value="5">5</option>
-								<option value="20">20</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-								<option value="200">300</option>
-							</select>
-						</label>
-					</div>
 				</div>
 			</div>
 		);
-	}, [filterValue, onRowsPerPageChange, onSearchChange]);
-
-	const onNextPage = useCallback(() => {
-		if (page < pages) {
-			setPage(page + 1);
-		}
-	}, [page, pages]);
-
-	const onPreviousPage = useCallback(() => {
-		if (page > 1) {
-			setPage(page - 1);
-		}
-	}, [page]);
+	}, [filterValue, onSearchChange]);
 
 	const bottomContent = useMemo(() => {
 		return (
-			<div className="py-2 px-2 flex flex-col sm:flex-row justify-between items-center">
-				{!isLoading && (
-					<Pagination
-						isCompact
-						initialPage={1}
-						showControls
-						showShadow
-						color="success"
-						page={page}
-						total={pages}
-						onChange={setPage}
-					/>
-				)}
-				<div className="mt-2 sm:mt-0 sm:ml-4 flex justify-center sm:flex-1">
-					<p className="text-sm text-gray-600">
-						{!isLoading &&
-							data?.meta?.last_updated &&
-							`Last updated: ${formatDate(data.meta.last_updated)}`}
-					</p>
-				</div>
-				{!isLoading && (
-					<div className="mt-2 sm:mt-0 sm:ml-auto flex justify-end gap-2">
-						<Button
-							isDisabled={pages === 1}
-							size="sm"
-							variant="flat"
-							onPress={onPreviousPage}
-						>
-							Previous
-						</Button>
-						<Button
-							isDisabled={pages === 1}
-							size="sm"
-							variant="flat"
-							onPress={onNextPage}
-						>
-							Next
-						</Button>
-					</div>
-				)}
+			<div className="py-2 px-2 flex justify-center">
+				<p className="text-sm text-gray-600">
+					{!isLoading &&
+						data?.meta?.last_updated &&
+						`Last updated: ${formatDate(data.meta.last_updated)}`}
+				</p>
 			</div>
 		);
-	}, [sortedItems.length, page, pages]);
+	}, [sortedItems.length]);
 
 	return (
 		<Table
