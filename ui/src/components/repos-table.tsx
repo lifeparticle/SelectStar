@@ -8,9 +8,12 @@ import {
 	Input,
 	User,
 	Spinner,
+	Autocomplete,
+	AutocompleteItem,
 } from "@nextui-org/react";
 import { Key, useCallback, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
+import { reports, tabs } from "@/pages";
 
 export function formatDate(dateString: string | undefined): string {
 	if (!dateString) {
@@ -61,21 +64,20 @@ const columns = [
 	{ name: "Updated at", uid: "updated_at", sortable: true },
 ];
 
-interface ReposTableProps {
-	url: string;
-}
-
-export default function ReposTable({ url }: ReposTableProps) {
+export default function ReposTable() {
 	const [filterValue, setFilterValue] = useState("");
 	const [sortDescriptor, setSortDescriptor] = useState<CustomSortDescriptor>({
 		column: "stargazers_count",
 		direction: "descending",
 	});
+	const [selected, setSelected] = useState("ui_frameworks");
+
+	console.log("selected", selected);
 
 	const { data, isLoading } = useQuery<RepoResponse>({
-		queryKey: ["repos", url],
+		queryKey: ["repos", selected],
 		queryFn: async () => {
-			const res = await fetch(url);
+			const res = await fetch(reports[selected]);
 			return res.json();
 		},
 		staleTime: 10 * 60 * 1000,
@@ -132,7 +134,18 @@ export default function ReposTable({ url }: ReposTableProps) {
 	const topContent = useMemo(() => {
 		return (
 			<div className="flex flex-col gap-4">
-				<div className="flex justify-between gap-3 items-end">
+				<div className="flex flex-col sm:flex-row justify-between gap-3 items-end">
+					<Autocomplete
+						placeholder="Search a category..."
+						className="w-full sm:max-w-[30%]"
+						defaultItems={tabs}
+						defaultSelectedKey={selected}
+						onSelectionChange={(key) => setSelected(key as string)}
+					>
+						{(item) => (
+							<AutocompleteItem key={item.value}>{item.label}</AutocompleteItem>
+						)}
+					</Autocomplete>
 					<Input
 						className="w-full sm:max-w-[30%]"
 						isClearable
@@ -165,7 +178,7 @@ export default function ReposTable({ url }: ReposTableProps) {
 			bottomContent={bottomContent}
 			bottomContentPlacement="outside"
 			classNames={{
-				wrapper: "max-h-[500px]",
+				wrapper: "max-h-[65dvh]",
 			}}
 			selectionMode="single"
 			sortDescriptor={sortDescriptor}

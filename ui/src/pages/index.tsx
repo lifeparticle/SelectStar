@@ -1,14 +1,12 @@
 import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 import ReposTable from "@/components/repos-table";
-import { Tab, Tabs } from "@nextui-org/react";
-import { useState } from "react";
 
 type reports = {
 	[key: string]: string;
 };
 
-const reports: reports = {
+export const reports: reports = {
 	charts:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report.json",
 	components:
@@ -27,20 +25,18 @@ const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/db_report.json",
 };
 
-const tabs = [
-	{ key: "ui_frameworks", label: "UI frameworks" },
-	{ key: "state_management", label: "State management libraries" },
-	{ key: "components", label: "Component libraries" },
-	{ key: "charts", label: "Charts" },
-	{ key: "backend_frameworks", label: "Backend frameworks" },
-	{ key: "mobile_desktop", label: "Mobile and desktop frameworks" },
-	{ key: "database", label: "Database" },
-	{ key: "testing", label: "Testing libraries" },
+export const tabs = [
+	{ value: "ui_frameworks", label: "UI frameworks" },
+	{ value: "state_management", label: "State management libraries" },
+	{ value: "components", label: "Component libraries" },
+	{ value: "charts", label: "Charts" },
+	{ value: "backend_frameworks", label: "Backend frameworks" },
+	{ value: "mobile_desktop", label: "Mobile and desktop frameworks" },
+	{ value: "database", label: "Database" },
+	{ value: "testing", label: "Testing libraries" },
 ];
 
 export default function IndexPage() {
-	const [selected, setSelected] = useState("charts");
-
 	return (
 		<DefaultLayout>
 			<section className="flex flex-col items-center justify-center gap-6 md:py-8">
@@ -51,19 +47,7 @@ export default function IndexPage() {
 					</h1>
 				</div>
 
-				<div className="flex w-full flex-col">
-					<Tabs
-						variant="bordered"
-						color="success"
-						aria-label="Dynamic tabs"
-						items={tabs}
-						onSelectionChange={(key) => setSelected(key as string)}
-					>
-						{(tab) => <Tab key={tab.key} title={tab.label} />}
-					</Tabs>
-				</div>
-
-				<ReposTable url={reports[selected]} />
+				<ReposTable />
 			</section>
 		</DefaultLayout>
 	);
