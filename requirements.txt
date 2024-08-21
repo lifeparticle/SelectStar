@@ -1,2 +1,10 @@
-requests
-python-dotenv
+certifi==2024.7.4
+charset-normalizer==3.3.2
+flake8==7.1.1
+idna==3.7
+mccabe==0.7.0
+pycodestyle==2.12.1
+pyflakes==3.2.0
+python-dotenv==1.0.1
+requests==2.32.3
+urllib3==2.2.2

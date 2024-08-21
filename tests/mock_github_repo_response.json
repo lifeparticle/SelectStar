@@ -1,0 +1,12 @@
+{
+    "name": "mock.js",
+    "description": "mock_description",
+    "owner": {
+        "avatar_url": "http://avatar_url"
+    },
+    "html_url": "https://github.com/mock.js",
+    "stargazers_count": 0,
+    "created_at": "2017-06-08T02:54:44Z",
+    "updated_at": "2024-08-17T07:49:28Z",
+    "pushed_at": "2024-08-15T00:47:11Z"
+}
