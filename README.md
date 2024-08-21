@@ -4,14 +4,14 @@
 
 ## Available categories
 
-- Charts
-- Component libraries
-- Testing libraries
-- State management libraries
-- UI frameworks
-- Backend frameworks
-- Mobile and desktop frameworks
-- Database
+- Charts 📊
+- Component Libraries 🛠️
+- Testing Libraries 🧪
+- State Management Libraries 🌐
+- UI Frameworks 🖼️
+- Backend Frameworks 💻
+- Mobile and Desktop Frameworks 📱💻
+- Database 📂
 
 ## Status
 
