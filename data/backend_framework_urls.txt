@@ -12,7 +12,6 @@ https://github.com/micronaut-projects/micronaut-core
 https://github.com/laravel/laravel
 https://github.com/symfony/symfony
 https://github.com/meteor/meteor
-https://github.com/strapi/strapi
 https://github.com/gin-gonic/gin
 https://github.com/labstack/echo
 https://github.com/javalin/javalin

@@ -55,9 +55,9 @@
             "description": "The Python micro framework for building web applications.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/16748505?v=4",
             "html_url": "https://github.com/pallets/flask",
-            "stargazers_count": 67341,
+            "stargazers_count": 67342,
             "created_at": "2010-04-06T11:11:59Z",
-            "updated_at": "2024-08-21T09:40:23Z",
+            "updated_at": "2024-08-21T15:23:54Z",
             "pushed_at": "2024-08-20T11:40:42Z"
         },
         {
@@ -95,9 +95,9 @@
             "description": "Micronaut Application Framework",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/36880643?v=4",
             "html_url": "https://github.com/micronaut-projects/micronaut-core",
-            "stargazers_count": 6021,
+            "stargazers_count": 6022,
             "created_at": "2018-03-07T12:05:08Z",
-            "updated_at": "2024-08-21T00:33:30Z",
+            "updated_at": "2024-08-21T15:21:46Z",
             "pushed_at": "2024-08-21T05:16:10Z"
         },
         {
@@ -129,16 +129,6 @@
             "created_at": "2012-01-19T01:58:17Z",
             "updated_at": "2024-08-21T10:14:45Z",
             "pushed_at": "2024-08-20T17:29:13Z"
-        },
-        {
-            "name": "strapi",
-            "description": "\ud83d\ude80 Strapi is the leading open-source headless CMS. It\u2019s 100% JavaScript/TypeScript, fully customizable and developer-first.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19872173?v=4",
-            "html_url": "https://github.com/strapi/strapi",
-            "stargazers_count": 62399,
-            "created_at": "2015-09-30T15:34:48Z",
-            "updated_at": "2024-08-21T15:12:49Z",
-            "pushed_at": "2024-08-21T15:02:57Z"
         },
         {
             "name": "gin",
@@ -315,10 +305,10 @@
             "description": "The React Framework",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/14985020?v=4",
             "html_url": "https://github.com/vercel/next.js",
-            "stargazers_count": 124188,
+            "stargazers_count": 124189,
             "created_at": "2016-10-05T23:32:51Z",
-            "updated_at": "2024-08-21T14:47:11Z",
-            "pushed_at": "2024-08-21T15:09:29Z"
+            "updated_at": "2024-08-21T15:21:13Z",
+            "pushed_at": "2024-08-21T15:23:38Z"
         },
         {
             "name": "payload",
@@ -332,6 +322,6 @@
         }
     ],
     "meta": {
-        "last_updated": "2024-08-21T15:20:44.547820Z"
+        "last_updated": "2024-08-21T15:24:42.108100Z"
     }
 }
