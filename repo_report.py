@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import requests
 import os
 import json
@@ -9,6 +8,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env only in development
 if os.getenv('ENV') != 'production':
     load_dotenv()
+
 
 class GitHubRepoAnalyzer:
     def __init__(self, access_token, input_file, output_file):
@@ -22,7 +22,8 @@ class GitHubRepoAnalyzer:
     def get_repo_meta_data(self, url):
         try:
             response = requests.get(url, headers=self.headers)
-            response.raise_for_status()  # Will raise an HTTPError for bad responses
+            # Will raise an HTTPError for bad responses
+            response.raise_for_status()
             return response.json()
         except requests.RequestException as e:
             print(f"Error fetching data from {url}: {e}")
@@ -80,8 +81,9 @@ class GitHubRepoAnalyzer:
         if data:
             self.create_json_file(data)
 
+
 def main():
-    access_token =  os.environ['ACCESS_TOKEN']
+    access_token = os.environ['ACCESS_TOKEN']
     if not access_token:
         print("ACCESS_TOKEN environment variable not found.")
         return
@@ -91,6 +93,7 @@ def main():
 
     analyzer = GitHubRepoAnalyzer(access_token, input_file, output_file)
     analyzer.process_repos()
+
 
 if __name__ == '__main__':
     main()
