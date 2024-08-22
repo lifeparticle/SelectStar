@@ -13,6 +13,12 @@
 - Mobile and Desktop Frameworks 📱💻
 - Database 📂
 
+## Developer Guide
+- To run the Python Flake8 locally:
+```shell
+flake8 file.py or directory
+```
+
 ## Status
 
 | Name              | Status                                                                                                                                                                                     |
