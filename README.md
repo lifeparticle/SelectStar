@@ -1,5 +1,3 @@
-![Player One](https://github.com/user-attachments/assets/6c91beed-42d1-4b1e-a7e8-7e38ae99aebe)
-
 ⭐️ Compare GitHub repositories based on the number of stars and other relevant parameters.
 
 ## Available categories
