@@ -1,3 +1,5 @@
+# SelectStar
+
 ⭐️ Compare GitHub repositories based on the number of stars and other relevant parameters.
 
 ## Available categories
