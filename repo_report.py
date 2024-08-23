@@ -32,10 +32,11 @@ class GitHubRepoAnalyzer:
     def get_repo_links_from_file(self):
         try:
             with open(self.input_file, 'r') as file:
-                return [
+                unique_urls = set(
                     line.strip().replace("https://github.com/", "https://api.github.com/repos/").rstrip('/')
                     for line in file if line.strip()
-                ]
+                )
+                return list(unique_urls)
         except FileNotFoundError:
             print(f'File not found: {self.input_file}')
             return []
@@ -88,8 +89,8 @@ def main():
         print("ACCESS_TOKEN environment variable not found.")
         return
 
-    input_file = "backend_framework_urls.txt"
-    output_file = "backend_framework_report.json"
+    input_file = "ui_framework_urls.txt"
+    output_file = "ui_framework_report.json"
 
     analyzer = GitHubRepoAnalyzer(access_token, input_file, output_file)
     analyzer.process_repos()
