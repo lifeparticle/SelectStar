@@ -31,5 +31,3 @@ https://github.com/unjs/h3
 https://github.com/trpc/trpc
 https://github.com/vercel/next.js
 https://github.com/payloadcms/payload
-
-'
