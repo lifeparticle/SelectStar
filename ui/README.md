@@ -17,5 +17,6 @@ Clone the repository and install the required dependencies:
 ```shell
 git clone https://github.com/lifeparticle/SelectStar.git
 cd SelectStar/ui
-npm install
+yarn install
+yarn dev
 ```
