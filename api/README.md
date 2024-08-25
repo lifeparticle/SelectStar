@@ -1,5 +1,13 @@
 # Developer Guide
-- To run the Python Flake8 locally:
+
+- Run report locally:
+
 ```shell
-flake8 file.py or directory
+python repo_report.py
+```
+
+- Run the Python Flake8 locally:
+
+```shell
+flake8 repo_report.py
 ```
