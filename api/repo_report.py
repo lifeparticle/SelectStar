@@ -16,8 +16,8 @@ class GitHubRepoAnalyzer:
             'Accept': 'application/vnd.github.v3+json',
             'Authorization': f'token {access_token}'
         }
-        self.input_file = os.path.join("data", input_file)
-        self.output_file = os.path.join("data", output_file)
+        self.input_file = os.path.join("../data", input_file)
+        self.output_file = os.path.join("../data", output_file)
 
     def get_repo_meta_data(self, url):
         try:
@@ -89,8 +89,8 @@ def main():
         print("ACCESS_TOKEN environment variable not found.")
         return
 
-    input_file = "ui_framework_urls.txt"
-    output_file = "ui_framework_report.json"
+    input_file = "monitoring_urls.txt"
+    output_file = "monitoring_report.json"
 
     analyzer = GitHubRepoAnalyzer(access_token, input_file, output_file)
     analyzer.process_repos()

@@ -23,6 +23,8 @@ export const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/mobile_desktop_report.json",
 	database:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/db_report.json",
+	monitoring:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/monitoring_report.json",
 };
 
 export const tabs = [
@@ -34,6 +36,7 @@ export const tabs = [
 	{ value: "mobile_desktop", label: "Mobile and desktop frameworks" },
 	{ value: "database", label: "Database" },
 	{ value: "testing", label: "Testing libraries" },
+	{ value: "monitoring", label: "Monitoring tools" },
 ];
 
 export default function IndexPage() {
