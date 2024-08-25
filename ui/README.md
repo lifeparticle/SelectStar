@@ -1,22 +1,22 @@
-# Vite Template
+# Project Setup
 
-This project is a template for building web applications using Vite, TypeScript, and React.
-
-## Project Setup
-
-### Prerequisites
+## Prerequisites
 
 Before you start, make sure you have the following installed:
 
 - **Node.js**: v20.0.0 or higher
 
-### Installation
+## Installation
 
-Clone the repository and install the required dependencies:
+Install the required dependencies:
 
 ```shell
-git clone https://github.com/lifeparticle/SelectStar.git
-cd SelectStar/ui
+cd ui
 yarn install
+```
+
+## Run the project
+
+```shell
 yarn dev
 ```
