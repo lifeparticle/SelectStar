@@ -11,16 +11,6 @@
             "pushed_at": "2024-07-08T09:57:31Z"
         },
         {
-            "name": "uptime-kuma",
-            "description": "A fancy self-hosted monitoring tool",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1336778?v=4",
-            "html_url": "https://github.com/louislam/uptime-kuma",
-            "stargazers_count": 54897,
-            "created_at": "2021-07-03T01:02:42Z",
-            "updated_at": "2024-08-26T03:20:21Z",
-            "pushed_at": "2024-08-26T02:57:56Z"
-        },
-        {
             "name": "netdata",
             "description": "The open-source observability platfrom everyone needs!",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/43390781?v=4",
@@ -28,10 +18,20 @@
             "stargazers_count": 70219,
             "created_at": "2013-06-17T18:39:10Z",
             "updated_at": "2024-08-26T02:13:55Z",
-            "pushed_at": "2024-08-26T00:18:17Z"
+            "pushed_at": "2024-08-26T04:15:16Z"
+        },
+        {
+            "name": "uptime-kuma",
+            "description": "A fancy self-hosted monitoring tool",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1336778?v=4",
+            "html_url": "https://github.com/louislam/uptime-kuma",
+            "stargazers_count": 54901,
+            "created_at": "2021-07-03T01:02:42Z",
+            "updated_at": "2024-08-26T04:25:11Z",
+            "pushed_at": "2024-08-26T02:57:56Z"
         }
     ],
     "meta": {
-        "last_updated": "2024-08-26T03:51:53.960826Z"
+        "last_updated": "2024-08-26T04:50:21.346366Z"
     }
 }
