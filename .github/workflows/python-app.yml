@@ -16,48 +16,27 @@ jobs:
           - {
               input_file: "backend_framework_urls.txt",
               output_file: "backend_framework_report.json",
-              delay: 0,
             }
-          - {
-              input_file: "comp_urls.txt",
-              output_file: "comp_report.json",
-              delay: 120,
-            }
+          - { input_file: "comp_urls.txt", output_file: "comp_report.json" }
           - {
               input_file: "mobile_desktop_urls.txt",
               output_file: "mobile_desktop_report.json",
-              delay: 240,
             }
           - {
               input_file: "state_management_urls.txt",
               output_file: "state_management_report.json",
-              delay: 360,
             }
           - {
               input_file: "ui_framework_urls.txt",
               output_file: "ui_framework_report.json",
-              delay: 480,
             }
-          - {
-              input_file: "chart_urls.txt",
-              output_file: "chart_report.json",
-              delay: 600,
-            }
-          - {
-              input_file: "db_urls.txt",
-              output_file: "db_report.json",
-              delay: 720,
-            }
+          - { input_file: "chart_urls.txt", output_file: "chart_report.json" }
+          - { input_file: "db_urls.txt", output_file: "db_report.json" }
           - {
               input_file: "monitoring_urls.txt",
               output_file: "monitoring_report.json",
-              delay: 840,
             }
-          - {
-              input_file: "test_urls.txt",
-              output_file: "test_report.json",
-              delay: 960,
-            }
+          - { input_file: "test_urls.txt", output_file: "test_report.json" }
 
     steps:
       - uses: actions/checkout@v2
@@ -71,10 +50,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-      - name: Delay job execution
-        run: |
-          sleep ${{ matrix.repo_data.delay }}
+        working-directory: api
 
       - name: Update Report
         run: |-
