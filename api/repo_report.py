@@ -2,6 +2,7 @@
 import requests
 import os
 import json
+import sys
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -84,13 +85,17 @@ class GitHubRepoAnalyzer:
 
 
 def main():
-    access_token = os.environ['ACCESS_TOKEN']
+    if len(sys.argv) != 3:
+        print("Usage: repo_report.py <input_file> <output_file>")
+        return
+
+    access_token = os.environ.get('ACCESS_TOKEN')
     if not access_token:
         print("ACCESS_TOKEN environment variable not found.")
         return
 
-    input_file = "monitoring_urls.txt"
-    output_file = "monitoring_report.json"
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
 
     analyzer = GitHubRepoAnalyzer(access_token, input_file, output_file)
     analyzer.process_repos()
