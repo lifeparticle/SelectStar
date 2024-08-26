@@ -5,7 +5,7 @@ import json
 import sys
 from datetime import datetime
 from dotenv import load_dotenv
-
+import time
 # Load environment variables from .env only in development
 if os.getenv('ENV') != 'production':
     load_dotenv()
@@ -86,6 +86,9 @@ class GitHubRepoAnalyzer:
                 print(f"Processed {i} of {len(repo_links)}: {link}")
             else:
                 print(f"Skipping {link} due to previous errors.")
+
+            # Add delay between requests
+            time.sleep(2)
 
         if data:
             self.create_json_file(data)

@@ -66,4 +66,5 @@ jobs:
           git config --global user.name "README-bot"
           git add -A
           git commit -m "Updated ${{ matrix.repo_data.output_file }}" || exit 0
+          git pull --rebase origin main
           git push
