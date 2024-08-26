@@ -26,6 +26,13 @@ class GitHubRepoAnalyzer:
             # Will raise an HTTPError for bad responses
             response.raise_for_status()
             return response.json()
+        except requests.exceptions.HTTPError as e:
+            if response.status_code == 401:
+                print(f"Unauthorized access - 401 Client Error for URL: {url}. Exiting the program.")
+                sys.exit(1)  # Exit the program with a non-zero exit code to indicate an error
+            else:
+                print(f"Error fetching data from {url}: {e}")
+                return None
         except requests.RequestException as e:
             print(f"Error fetching data from {url}: {e}")
             return None
