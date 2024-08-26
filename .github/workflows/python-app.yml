@@ -79,6 +79,7 @@ jobs:
       - name: Update Report
         run: |-
           python repo_report.py "${{ matrix.repo_data.input_file }}" "${{ matrix.repo_data.output_file }}"
+        working-directory: api
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
