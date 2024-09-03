@@ -15,3 +15,5 @@ https://github.com/cockroachdb/cockroach
 https://github.com/dgraph-io/dgraph
 https://github.com/fauna/fauna-js
 https://github.com/surrealdb/surrealdb
+https://github.com/tursodatabase/libsql
+https://github.com/neondatabase/neon

@@ -1,3 +1,4 @@
 https://github.com/louislam/uptime-kuma
 https://github.com/netdata/netdata
 https://github.com/mikaku/Monitorix
+https://github.com/getsentry/sentry

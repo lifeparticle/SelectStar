@@ -1,0 +1,13 @@
+https://github.com/nocodb/nocodb
+https://github.com/AppFlowy-IO/AppFlowy
+https://github.com/frappe/erpnext
+https://github.com/mattermost/mattermost
+https://github.com/makeplane/plane
+https://github.com/get-convex/convex-backend
+https://github.com/supabase/supabase
+https://github.com/appwrite/appwrite
+https://github.com/pocketbase/pocketbase
+https://github.com/instantdb/instant
+https://github.com/coollabsio/coolify
+https://github.com/PipedreamHQ/pipedream
+https://github.com/resend/react-email

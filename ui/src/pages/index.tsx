@@ -25,6 +25,10 @@ export const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/db_report.json",
 	monitoring:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/monitoring_report.json",
+	analytics:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/analytics_report.json",
+	others:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/others_report.json",
 };
 
 export const tabs = [
@@ -37,6 +41,8 @@ export const tabs = [
 	{ value: "database", label: "Database" },
 	{ value: "testing", label: "Testing libraries" },
 	{ value: "monitoring", label: "Monitoring tools" },
+	{ value: "analytics", label: "Analytics tools" },
+	{ value: "others", label: "Others" },
 ];
 
 export default function IndexPage() {

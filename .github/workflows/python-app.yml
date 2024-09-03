@@ -37,6 +37,11 @@ jobs:
               output_file: "monitoring_report.json",
             }
           - { input_file: "test_urls.txt", output_file: "test_report.json" }
+          - {
+              input_file: "analytics_urls.txt",
+              output_file: "analytics_report.json",
+            }
+          - { input_file: "others_urls.txt", output_file: "others_report.json" }
 
     steps:
       - uses: actions/checkout@v2
