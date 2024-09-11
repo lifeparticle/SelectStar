@@ -14,6 +14,7 @@
 - Testing Libraries 🧪
 - Monitoring Tools 📈
 - Analytics Tools 📊
+- Icons 🎨
 - Others 🔧
 
 ## Status
