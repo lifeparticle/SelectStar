@@ -41,6 +41,7 @@ jobs:
               input_file: "analytics_urls.txt",
               output_file: "analytics_report.json",
             }
+          - { input_file: "icons_urls.txt", output_file: "icons_report.json" }
           - { input_file: "others_urls.txt", output_file: "others_report.json" }
 
     steps:

@@ -1,0 +1,15 @@
+https://github.com/FortAwesome/Font-Awesome
+https://github.com/google/material-design-icons
+https://github.com/feathericons/feather
+https://github.com/ionic-team/ionicons
+https://github.com/primer/octicons
+https://github.com/tailwindlabs/heroicons
+https://github.com/twbs/icons
+https://github.com/Remix-Design/RemixIcon
+https://github.com/tabler/tabler-icons
+https://github.com/phosphor-icons/phosphor-icons
+https://github.com/lucide-icons/lucide
+https://github.com/simple-icons/simple-icons
+https://github.com/radix-ui/icons
+https://github.com/devicons/devicon
+https://github.com/lusaxweb/iconsax

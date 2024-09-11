@@ -29,6 +29,8 @@ export const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/analytics_report.json",
 	others:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/others_report.json",
+	icons:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/icons_report.json",
 };
 
 export const tabs = [
@@ -42,6 +44,7 @@ export const tabs = [
 	{ value: "testing", label: "Testing libraries" },
 	{ value: "monitoring", label: "Monitoring tools" },
 	{ value: "analytics", label: "Analytics tools" },
+	{ value: "icons", label: "Icons" },
 	{ value: "others", label: "Others" },
 ];
 
