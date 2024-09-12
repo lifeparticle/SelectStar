@@ -9,6 +9,7 @@
 - Component Libraries 🛠️
 - Charts 📊
 - Backend Frameworks 💻
+- Full Stack Frameworks 💻🌐
 - Mobile and Desktop Frameworks 📱💻
 - Database 📂
 - Testing Libraries 🧪
