@@ -19,6 +19,8 @@ export const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ui_framework_report.json",
 	backend_frameworks:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/backend_framework_report.json",
+	full_stack_frameworks:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/full_stack_framework_report.json",
 	mobile_desktop:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/mobile_desktop_report.json",
 	database:
@@ -39,6 +41,7 @@ export const tabs = [
 	{ value: "components", label: "Component libraries" },
 	{ value: "charts", label: "Charts" },
 	{ value: "backend_frameworks", label: "Backend frameworks" },
+	{ value: "full_stack_frameworks", label: "Full stack frameworks" },
 	{ value: "mobile_desktop", label: "Mobile and desktop frameworks" },
 	{ value: "database", label: "Database" },
 	{ value: "testing", label: "Testing libraries" },

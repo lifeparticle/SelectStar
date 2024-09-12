@@ -43,7 +43,10 @@ jobs:
             }
           - { input_file: "icons_urls.txt", output_file: "icons_report.json" }
           - { input_file: "others_urls.txt", output_file: "others_report.json" }
-
+          - {
+              input_file: "full_stack_framework_urls.txt",
+              output_file: "full_stack_framework_report.json",
+            }
     steps:
       - uses: actions/checkout@v2
 

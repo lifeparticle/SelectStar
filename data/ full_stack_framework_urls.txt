@@ -1,0 +1,9 @@
+https://github.com/rails/rails
+https://github.com/vercel/next.js
+https://github.com/redwoodjs/redwood
+https://github.com/django/django
+https://github.com/laravel/laravel
+https://github.com/symfony/symfony
+https://github.com/keystonejs/keystone
+https://github.com/blitz-js/blitz
+https://github.com/meteor/meteor
