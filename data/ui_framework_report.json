@@ -5,143 +5,253 @@
             "description": "Deliver web apps with confidence \ud83d\ude80",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/139426?v=4",
             "html_url": "https://github.com/angular/angular",
-            "stargazers_count": 95630,
+            "stargazers_count": 95701,
             "created_at": "2014-09-18T16:12:01Z",
-            "updated_at": "2024-08-31T23:52:41Z",
-            "pushed_at": "2024-08-30T18:12:28Z"
+            "updated_at": "2024-09-18T00:04:14Z",
+            "pushed_at": "2024-09-17T15:20:33Z"
         },
         {
-            "name": "lit",
-            "description": "Lit is a simple library for building fast, lightweight web components.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/18489846?v=4",
-            "html_url": "https://github.com/lit/lit",
-            "stargazers_count": 18414,
-            "created_at": "2017-06-29T16:27:16Z",
-            "updated_at": "2024-08-31T23:13:05Z",
-            "pushed_at": "2024-08-31T15:35:31Z"
+            "name": "daisyui",
+            "description": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7342023?v=4",
+            "html_url": "https://github.com/saadeghi/daisyui",
+            "stargazers_count": 33202,
+            "created_at": "2020-11-28T22:57:27Z",
+            "updated_at": "2024-09-18T00:23:20Z",
+            "pushed_at": "2024-09-17T15:47:42Z"
+        },
+        {
+            "name": "headlessui",
+            "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/67109815?v=4",
+            "html_url": "https://github.com/tailwindlabs/headlessui",
+            "stargazers_count": 25703,
+            "created_at": "2020-09-16T09:53:09Z",
+            "updated_at": "2024-09-17T23:31:18Z",
+            "pushed_at": "2024-09-12T10:35:34Z"
         },
         {
             "name": "preact",
             "description": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/26872990?v=4",
             "html_url": "https://github.com/preactjs/preact",
-            "stargazers_count": 36503,
+            "stargazers_count": 36565,
             "created_at": "2015-09-11T02:40:18Z",
-            "updated_at": "2024-08-31T22:00:46Z",
-            "pushed_at": "2024-08-30T07:50:14Z"
+            "updated_at": "2024-09-17T22:01:47Z",
+            "pushed_at": "2024-09-14T10:09:38Z"
         },
         {
-            "name": "htmx",
-            "description": "</> htmx - high power tools for HTML",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
-            "html_url": "https://github.com/bigskysoftware/htmx",
-            "stargazers_count": 36976,
-            "created_at": "2020-04-13T16:17:51Z",
-            "updated_at": "2024-08-31T23:40:40Z",
-            "pushed_at": "2024-08-29T18:52:13Z"
+            "name": "lit",
+            "description": "Lit is a simple library for building fast, lightweight web components.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/18489846?v=4",
+            "html_url": "https://github.com/lit/lit",
+            "stargazers_count": 18529,
+            "created_at": "2017-06-29T16:27:16Z",
+            "updated_at": "2024-09-17T09:51:43Z",
+            "pushed_at": "2024-09-17T23:30:27Z"
         },
         {
-            "name": "qwik",
-            "description": "Instant-loading web apps, without effort",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/138123704?v=4",
-            "html_url": "https://github.com/QwikDev/qwik",
-            "stargazers_count": 20615,
-            "created_at": "2021-05-19T15:33:32Z",
-            "updated_at": "2024-08-31T17:52:08Z",
-            "pushed_at": "2024-08-31T17:04:18Z"
+            "name": "react-bootstrap",
+            "description": "Bootstrap components built with React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6853419?v=4",
+            "html_url": "https://github.com/react-bootstrap/react-bootstrap",
+            "stargazers_count": 22350,
+            "created_at": "2013-12-27T19:06:07Z",
+            "updated_at": "2024-09-16T15:42:08Z",
+            "pushed_at": "2024-09-06T21:41:29Z"
         },
         {
-            "name": "gatsby",
-            "description": "The best React-based framework with performance, scalability and security built in.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12551863?v=4",
-            "html_url": "https://github.com/gatsbyjs/gatsby",
-            "stargazers_count": 55192,
-            "created_at": "2015-05-21T22:43:05Z",
-            "updated_at": "2024-08-31T20:35:24Z",
-            "pushed_at": "2024-08-27T10:56:59Z"
+            "name": "react-spectrum",
+            "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/476009?v=4",
+            "html_url": "https://github.com/adobe/react-spectrum",
+            "stargazers_count": 12604,
+            "created_at": "2019-09-13T23:32:51Z",
+            "updated_at": "2024-09-17T20:51:52Z",
+            "pushed_at": "2024-09-18T00:16:09Z"
         },
         {
-            "name": "alpine",
-            "description": "A rugged, minimal framework for composing JavaScript behavior in your markup. ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/59030169?v=4",
-            "html_url": "https://github.com/alpinejs/alpine",
-            "stargazers_count": 27826,
-            "created_at": "2019-11-28T13:51:55Z",
-            "updated_at": "2024-08-31T22:48:05Z",
-            "pushed_at": "2024-08-13T13:20:34Z"
+            "name": "Semantic-UI-React",
+            "description": "The official Semantic-UI-React integration",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
+            "html_url": "https://github.com/Semantic-Org/Semantic-UI-React",
+            "stargazers_count": 13210,
+            "created_at": "2015-06-19T16:47:19Z",
+            "updated_at": "2024-09-16T10:21:15Z",
+            "pushed_at": "2024-07-01T18:19:32Z"
         },
         {
-            "name": "ember.js",
-            "description": "Ember.js - A JavaScript framework for creating ambitious web applications",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1253363?v=4",
-            "html_url": "https://github.com/emberjs/ember.js",
-            "stargazers_count": 22452,
-            "created_at": "2011-05-25T23:39:40Z",
-            "updated_at": "2024-08-31T13:57:00Z",
-            "pushed_at": "2024-08-31T07:14:14Z"
-        },
-        {
-            "name": "mithril.js",
-            "description": "A JavaScript Framework for Building Brilliant Applications",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19475707?v=4",
-            "html_url": "https://github.com/MithrilJS/mithril.js",
-            "stargazers_count": 13975,
-            "created_at": "2014-03-17T01:59:39Z",
-            "updated_at": "2024-08-30T13:55:42Z",
-            "pushed_at": "2024-08-25T21:58:34Z"
-        },
-        {
-            "name": "solid",
-            "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/79226042?v=4",
-            "html_url": "https://github.com/solidjs/solid",
-            "stargazers_count": 31998,
-            "created_at": "2018-04-24T16:36:27Z",
-            "updated_at": "2024-08-31T23:22:27Z",
-            "pushed_at": "2024-08-27T21:22:21Z"
+            "name": "themes",
+            "description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
+            "html_url": "https://github.com/radix-ui/themes",
+            "stargazers_count": 5237,
+            "created_at": "2023-06-15T12:21:08Z",
+            "updated_at": "2024-09-18T00:45:09Z",
+            "pushed_at": "2024-08-18T22:12:35Z"
         },
         {
             "name": "svelte",
             "description": "Cybernetically enhanced web apps",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/23617963?v=4",
             "html_url": "https://github.com/sveltejs/svelte",
-            "stargazers_count": 78099,
+            "stargazers_count": 78395,
             "created_at": "2016-11-20T18:13:05Z",
-            "updated_at": "2024-08-31T23:24:59Z",
-            "pushed_at": "2024-08-31T20:20:50Z"
+            "updated_at": "2024-09-18T00:16:30Z",
+            "pushed_at": "2024-09-18T00:41:58Z"
+        },
+        {
+            "name": "park-ui",
+            "description": "Beautifully designed components built with Ark UI and Panda CSS that work with a variety of JS frameworks.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1846056?v=4",
+            "html_url": "https://github.com/cschroeter/park-ui",
+            "stargazers_count": 1596,
+            "created_at": "2023-08-02T13:10:00Z",
+            "updated_at": "2024-09-17T15:31:29Z",
+            "pushed_at": "2024-09-14T20:39:33Z"
+        },
+        {
+            "name": "ember.js",
+            "description": "Ember.js - A JavaScript framework for creating ambitious web applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1253363?v=4",
+            "html_url": "https://github.com/emberjs/ember.js",
+            "stargazers_count": 22453,
+            "created_at": "2011-05-25T23:39:40Z",
+            "updated_at": "2024-09-17T15:04:02Z",
+            "pushed_at": "2024-09-17T22:23:35Z"
         },
         {
             "name": "react",
             "description": "The library for web and native user interfaces.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
             "html_url": "https://github.com/facebook/react",
-            "stargazers_count": 226870,
+            "stargazers_count": 227503,
             "created_at": "2013-05-24T16:15:54Z",
-            "updated_at": "2024-08-31T23:20:16Z",
-            "pushed_at": "2024-08-31T07:29:59Z"
+            "updated_at": "2024-09-18T00:40:24Z",
+            "pushed_at": "2024-09-17T20:43:36Z"
         },
         {
-            "name": "stencil",
-            "description": "A toolchain for building scalable, enterprise-ready component systems on top of TypeScript and Web Component standards. Stencil components can be distributed natively to React, Angular, Vue, and traditional web developers from a single, framework-agnostic codebase.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
-            "html_url": "https://github.com/ionic-team/stencil",
-            "stargazers_count": 12475,
-            "created_at": "2017-02-15T18:57:07Z",
-            "updated_at": "2024-08-31T23:16:36Z",
-            "pushed_at": "2024-08-30T16:14:11Z"
+            "name": "reactstrap",
+            "description": "Simple React Bootstrap 5 components",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/17580417?v=4",
+            "html_url": "https://github.com/reactstrap/reactstrap",
+            "stargazers_count": 10587,
+            "created_at": "2016-02-19T08:01:36Z",
+            "updated_at": "2024-09-16T19:57:46Z",
+            "pushed_at": "2024-08-15T14:33:13Z"
         },
         {
             "name": "core",
             "description": "\ud83d\udd96 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/6128107?v=4",
             "html_url": "https://github.com/vuejs/core",
-            "stargazers_count": 46426,
+            "stargazers_count": 46735,
             "created_at": "2018-06-12T13:49:36Z",
-            "updated_at": "2024-08-31T22:11:23Z",
-            "pushed_at": "2024-08-29T11:15:04Z"
+            "updated_at": "2024-09-17T22:39:15Z",
+            "pushed_at": "2024-09-16T08:11:53Z"
+        },
+        {
+            "name": "solid",
+            "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/79226042?v=4",
+            "html_url": "https://github.com/solidjs/solid",
+            "stargazers_count": 32094,
+            "created_at": "2018-04-24T16:36:27Z",
+            "updated_at": "2024-09-17T17:21:40Z",
+            "pushed_at": "2024-09-03T23:03:17Z"
+        },
+        {
+            "name": "qwik",
+            "description": "Instant-loading web apps, without effort",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/138123704?v=4",
+            "html_url": "https://github.com/QwikDev/qwik",
+            "stargazers_count": 20673,
+            "created_at": "2021-05-19T15:33:32Z",
+            "updated_at": "2024-09-17T21:27:12Z",
+            "pushed_at": "2024-09-17T20:04:49Z"
+        },
+        {
+            "name": "primitives",
+            "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
+            "html_url": "https://github.com/radix-ui/primitives",
+            "stargazers_count": 15410,
+            "created_at": "2020-06-19T13:23:22Z",
+            "updated_at": "2024-09-17T20:52:52Z",
+            "pushed_at": "2024-08-21T22:46:18Z"
+        },
+        {
+            "name": "stencil",
+            "description": "A toolchain for building scalable, enterprise-ready component systems on top of TypeScript and Web Component standards. Stencil components can be distributed natively to React, Angular, Vue, and traditional web developers from a single, framework-agnostic codebase.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
+            "html_url": "https://github.com/ionic-team/stencil",
+            "stargazers_count": 12502,
+            "created_at": "2017-02-15T18:57:07Z",
+            "updated_at": "2024-09-16T22:21:23Z",
+            "pushed_at": "2024-09-17T19:51:39Z"
+        },
+        {
+            "name": "alpine",
+            "description": "A rugged, minimal framework for composing JavaScript behavior in your markup. ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/59030169?v=4",
+            "html_url": "https://github.com/alpinejs/alpine",
+            "stargazers_count": 27959,
+            "created_at": "2019-11-28T13:51:55Z",
+            "updated_at": "2024-09-17T23:52:38Z",
+            "pushed_at": "2024-08-13T13:20:34Z"
+        },
+        {
+            "name": "htmx",
+            "description": "</> htmx - high power tools for HTML",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+            "html_url": "https://github.com/bigskysoftware/htmx",
+            "stargazers_count": 37340,
+            "created_at": "2020-04-13T16:17:51Z",
+            "updated_at": "2024-09-17T22:49:47Z",
+            "pushed_at": "2024-09-16T08:09:38Z"
+        },
+        {
+            "name": "chakra-ui",
+            "description": "\u26a1\ufe0f Simple, Modular & Accessible UI Components for your React Applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54212428?v=4",
+            "html_url": "https://github.com/chakra-ui/chakra-ui",
+            "stargazers_count": 37483,
+            "created_at": "2019-08-17T14:27:54Z",
+            "updated_at": "2024-09-18T00:22:21Z",
+            "pushed_at": "2024-09-18T00:28:55Z"
+        },
+        {
+            "name": "mithril.js",
+            "description": "A JavaScript Framework for Building Brilliant Applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19475707?v=4",
+            "html_url": "https://github.com/MithrilJS/mithril.js",
+            "stargazers_count": 13982,
+            "created_at": "2014-03-17T01:59:39Z",
+            "updated_at": "2024-09-17T05:44:22Z",
+            "pushed_at": "2024-09-17T05:44:19Z"
+        },
+        {
+            "name": "ark",
+            "description": "A headless library for building reusable, scalable design systems that works for a wide range of JS frameworks.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54212428?v=4",
+            "html_url": "https://github.com/chakra-ui/ark",
+            "stargazers_count": 3568,
+            "created_at": "2022-10-26T08:49:36Z",
+            "updated_at": "2024-09-17T21:22:57Z",
+            "pushed_at": "2024-09-17T21:22:54Z"
+        },
+        {
+            "name": "gatsby",
+            "description": "The best React-based framework with performance, scalability and security built in.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12551863?v=4",
+            "html_url": "https://github.com/gatsbyjs/gatsby",
+            "stargazers_count": 55203,
+            "created_at": "2015-05-21T22:43:05Z",
+            "updated_at": "2024-09-18T00:36:29Z",
+            "pushed_at": "2024-09-16T01:01:50Z"
         }
     ],
     "meta": {
-        "last_updated": "2024-09-01T00:14:56.189202Z"
+        "last_updated": "2024-09-18T00:45:53.977135Z"
     }
 }
