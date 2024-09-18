@@ -12,14 +12,3 @@ https://github.com/QwikDev/qwik
 https://github.com/ionic-team/stencil
 https://github.com/bigskysoftware/htmx
 https://github.com/gatsbyjs/gatsby
-https://github.com/chakra-ui/ark
-https://github.com/cschroeter/park-ui
-https://github.com/reactstrap/reactstrap
-https://github.com/react-bootstrap/react-bootstrap
-https://github.com/Semantic-Org/Semantic-UI-React
-https://github.com/tailwindlabs/headlessui
-https://github.com/saadeghi/daisyui
-https://github.com/adobe/react-spectrum
-https://github.com/chakra-ui/chakra-ui
-https://github.com/radix-ui/themes
-https://github.com/radix-ui/primitives

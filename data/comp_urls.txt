@@ -17,3 +17,11 @@ https://github.com/mantinedev/mantine
 https://github.com/radix-ui/themes
 https://github.com/magicuidesign/magicui
 https://github.com/shadcn-ui/ui
+https://github.com/chakra-ui/ark
+https://github.com/cschroeter/park-ui
+https://github.com/reactstrap/reactstrap
+https://github.com/Semantic-Org/Semantic-UI-React
+https://github.com/tailwindlabs/headlessui
+https://github.com/saadeghi/daisyui
+https://github.com/adobe/react-spectrum
+https://github.com/radix-ui/primitives
