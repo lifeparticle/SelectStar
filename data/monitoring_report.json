@@ -1,47 +1,47 @@
 {
     "data": [
         {
-            "name": "sentry",
-            "description": "Developer-first error tracking and performance monitoring",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
-            "html_url": "https://github.com/getsentry/sentry",
-            "stargazers_count": 38446,
-            "created_at": "2010-08-30T22:06:41Z",
-            "updated_at": "2024-09-03T11:19:17Z",
-            "pushed_at": "2024-09-03T10:54:27Z"
-        },
-        {
-            "name": "netdata",
-            "description": "Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/43390781?v=4",
-            "html_url": "https://github.com/netdata/netdata",
-            "stargazers_count": 70293,
-            "created_at": "2013-06-17T18:39:10Z",
-            "updated_at": "2024-09-03T11:31:00Z",
-            "pushed_at": "2024-09-03T11:30:56Z"
-        },
-        {
             "name": "Monitorix",
             "description": "Monitorix is a free, open source, lightweight system monitoring tool.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/829885?v=4",
             "html_url": "https://github.com/mikaku/Monitorix",
-            "stargazers_count": 1105,
+            "stargazers_count": 1111,
             "created_at": "2012-10-22T13:41:51Z",
-            "updated_at": "2024-09-02T23:27:33Z",
+            "updated_at": "2024-09-29T14:40:47Z",
             "pushed_at": "2024-07-08T09:57:31Z"
+        },
+        {
+            "name": "sentry",
+            "description": "Developer-first error tracking and performance monitoring",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+            "html_url": "https://github.com/getsentry/sentry",
+            "stargazers_count": 38678,
+            "created_at": "2010-08-30T22:06:41Z",
+            "updated_at": "2024-09-30T23:59:37Z",
+            "pushed_at": "2024-10-01T00:20:04Z"
         },
         {
             "name": "uptime-kuma",
             "description": "A fancy self-hosted monitoring tool",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "html_url": "https://github.com/louislam/uptime-kuma",
-            "stargazers_count": 55244,
+            "stargazers_count": 56556,
             "created_at": "2021-07-03T01:02:42Z",
-            "updated_at": "2024-09-03T11:04:49Z",
-            "pushed_at": "2024-09-02T02:26:21Z"
+            "updated_at": "2024-10-01T00:01:53Z",
+            "pushed_at": "2024-09-30T02:25:14Z"
+        },
+        {
+            "name": "netdata",
+            "description": "Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/43390781?v=4",
+            "html_url": "https://github.com/netdata/netdata",
+            "stargazers_count": 70908,
+            "created_at": "2013-06-17T18:39:10Z",
+            "updated_at": "2024-09-30T23:07:31Z",
+            "pushed_at": "2024-09-30T15:18:42Z"
         }
     ],
     "meta": {
-        "last_updated": "2024-09-03T11:43:58.179266Z"
+        "last_updated": "2024-10-01T00:21:09.840693Z"
     }
 }
