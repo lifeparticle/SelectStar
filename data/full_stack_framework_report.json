@@ -1,97 +1,97 @@
 {
     "data": [
         {
-            "name": "next.js",
-            "description": "The React Framework",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14985020?v=4",
-            "html_url": "https://github.com/vercel/next.js",
-            "stargazers_count": 126688,
-            "created_at": "2016-10-05T23:32:51Z",
-            "updated_at": "2024-11-01T00:03:45Z",
-            "pushed_at": "2024-10-31T23:25:10Z"
-        },
-        {
-            "name": "blitz",
-            "description": "\u26a1\ufe0f The Missing Fullstack Toolkit for Next.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/61243378?v=4",
-            "html_url": "https://github.com/blitz-js/blitz",
-            "stargazers_count": 13678,
-            "created_at": "2020-02-17T21:54:15Z",
-            "updated_at": "2024-10-31T21:04:20Z",
-            "pushed_at": "2024-10-26T14:19:26Z"
+            "name": "symfony",
+            "description": "The Symfony PHP framework",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/143937?v=4",
+            "html_url": "https://github.com/symfony/symfony",
+            "stargazers_count": 29834,
+            "created_at": "2010-01-04T14:21:21Z",
+            "updated_at": "2024-11-30T16:33:22Z",
+            "pushed_at": "2024-11-29T08:46:00Z"
         },
         {
             "name": "laravel",
             "description": "Laravel is a web application framework with expressive, elegant syntax. We\u2019ve already laid the foundation for your next big idea \u2014 freeing you to create without sweating the small things.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/958072?v=4",
             "html_url": "https://github.com/laravel/laravel",
-            "stargazers_count": 78679,
+            "stargazers_count": 78938,
             "created_at": "2011-06-08T03:06:08Z",
-            "updated_at": "2024-10-31T23:25:49Z",
-            "pushed_at": "2024-10-23T13:02:59Z"
+            "updated_at": "2024-11-30T22:33:06Z",
+            "pushed_at": "2024-11-27T00:20:33Z"
         },
         {
             "name": "rails",
             "description": "Ruby on Rails",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/4223?v=4",
             "html_url": "https://github.com/rails/rails",
-            "stargazers_count": 55978,
+            "stargazers_count": 56142,
             "created_at": "2008-04-11T02:19:47Z",
-            "updated_at": "2024-10-31T22:02:05Z",
-            "pushed_at": "2024-10-31T18:09:37Z"
+            "updated_at": "2024-11-30T22:05:35Z",
+            "pushed_at": "2024-11-30T15:36:38Z"
+        },
+        {
+            "name": "blitz",
+            "description": "\u26a1\ufe0f The Missing Fullstack Toolkit for Next.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/61243378?v=4",
+            "html_url": "https://github.com/blitz-js/blitz",
+            "stargazers_count": 13716,
+            "created_at": "2020-02-17T21:54:15Z",
+            "updated_at": "2024-11-30T16:52:40Z",
+            "pushed_at": "2024-10-26T14:19:26Z"
         },
         {
             "name": "meteor",
             "description": "Meteor, the JavaScript App Platform",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/789528?v=4",
             "html_url": "https://github.com/meteor/meteor",
-            "stargazers_count": 44398,
+            "stargazers_count": 44442,
             "created_at": "2012-01-19T01:58:17Z",
-            "updated_at": "2024-10-31T23:31:24Z",
-            "pushed_at": "2024-10-31T17:51:49Z"
+            "updated_at": "2024-11-30T08:16:07Z",
+            "pushed_at": "2024-11-29T13:47:25Z"
         },
         {
-            "name": "symfony",
-            "description": "The Symfony PHP framework",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/143937?v=4",
-            "html_url": "https://github.com/symfony/symfony",
-            "stargazers_count": 29777,
-            "created_at": "2010-01-04T14:21:21Z",
-            "updated_at": "2024-10-31T23:26:59Z",
-            "pushed_at": "2024-10-31T10:59:54Z"
+            "name": "next.js",
+            "description": "The React Framework",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14985020?v=4",
+            "html_url": "https://github.com/vercel/next.js",
+            "stargazers_count": 127439,
+            "created_at": "2016-10-05T23:32:51Z",
+            "updated_at": "2024-11-30T23:42:03Z",
+            "pushed_at": "2024-11-30T23:24:19Z"
         },
         {
             "name": "redwood",
             "description": "The App Framework for Startups",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/45050444?v=4",
             "html_url": "https://github.com/redwoodjs/redwood",
-            "stargazers_count": 17301,
+            "stargazers_count": 17348,
             "created_at": "2019-06-09T20:17:57Z",
-            "updated_at": "2024-10-31T18:25:51Z",
-            "pushed_at": "2024-10-31T16:22:55Z"
-        },
-        {
-            "name": "django",
-            "description": "The Web framework for perfectionists with deadlines.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/27804?v=4",
-            "html_url": "https://github.com/django/django",
-            "stargazers_count": 79884,
-            "created_at": "2012-04-28T02:47:18Z",
-            "updated_at": "2024-11-01T00:03:11Z",
-            "pushed_at": "2024-10-31T10:57:25Z"
+            "updated_at": "2024-11-29T13:53:45Z",
+            "pushed_at": "2024-11-25T12:10:53Z"
         },
         {
             "name": "keystone",
             "description": "The superpowered headless CMS for Node.js \u2014 built with GraphQL and React",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/6118534?v=4",
             "html_url": "https://github.com/keystonejs/keystone",
-            "stargazers_count": 9239,
+            "stargazers_count": 9298,
             "created_at": "2018-04-05T10:48:37Z",
-            "updated_at": "2024-10-31T12:41:29Z",
-            "pushed_at": "2024-10-29T21:14:33Z"
+            "updated_at": "2024-11-30T19:07:07Z",
+            "pushed_at": "2024-11-27T05:42:34Z"
+        },
+        {
+            "name": "django",
+            "description": "The Web framework for perfectionists with deadlines.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/27804?v=4",
+            "html_url": "https://github.com/django/django",
+            "stargazers_count": 81237,
+            "created_at": "2012-04-28T02:47:18Z",
+            "updated_at": "2024-11-30T22:20:50Z",
+            "pushed_at": "2024-11-29T16:12:18Z"
         }
     ],
     "meta": {
-        "last_updated": "2024-11-01T00:24:17.310623Z"
+        "last_updated": "2024-12-01T00:25:56.760359Z"
     }
 }
