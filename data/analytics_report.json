@@ -5,23 +5,23 @@
             "description": "\ud83e\udd94 PostHog provides open-source web & product analytics, session recording, feature flagging and A/B testing that you can self-host. Get started - free.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/60330232?v=4",
             "html_url": "https://github.com/PostHog/posthog",
-            "stargazers_count": 22324,
+            "stargazers_count": 22919,
             "created_at": "2020-01-23T22:46:58Z",
-            "updated_at": "2024-11-30T22:06:19Z",
-            "pushed_at": "2024-11-30T22:12:25Z"
+            "updated_at": "2024-12-31T21:09:34Z",
+            "pushed_at": "2024-12-31T18:26:46Z"
         },
         {
             "name": "analytics",
             "description": "Simple, open source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/54802774?v=4",
             "html_url": "https://github.com/plausible/analytics",
-            "stargazers_count": 20675,
+            "stargazers_count": 21008,
             "created_at": "2018-12-04T22:33:36Z",
-            "updated_at": "2024-11-30T22:06:21Z",
-            "pushed_at": "2024-11-29T14:48:16Z"
+            "updated_at": "2024-12-31T19:07:39Z",
+            "pushed_at": "2024-12-31T12:53:37Z"
         }
     ],
     "meta": {
-        "last_updated": "2024-12-01T00:23:37.749292Z"
+        "last_updated": "2025-01-01T00:22:13.597731Z"
     }
 }
