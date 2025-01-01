@@ -1,177 +1,177 @@
 {
     "data": [
         {
-            "name": "nocodb",
-            "description": "\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 Open Source Airtable Alternative",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/50206778?v=4",
-            "html_url": "https://github.com/nocodb/nocodb",
-            "stargazers_count": 49997,
-            "created_at": "2017-10-29T18:51:48Z",
-            "updated_at": "2024-11-30T21:50:30Z",
-            "pushed_at": "2024-11-30T15:41:07Z"
-        },
-        {
-            "name": "supabase",
-            "description": "The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54469796?v=4",
-            "html_url": "https://github.com/supabase/supabase",
-            "stargazers_count": 74419,
-            "created_at": "2019-10-12T05:56:49Z",
-            "updated_at": "2024-12-01T00:17:32Z",
-            "pushed_at": "2024-12-01T00:14:44Z"
-        },
-        {
-            "name": "plane",
-            "description": "\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/115727700?v=4",
-            "html_url": "https://github.com/makeplane/plane",
-            "stargazers_count": 30944,
-            "created_at": "2022-11-19T12:55:01Z",
-            "updated_at": "2024-11-30T21:26:37Z",
-            "pushed_at": "2024-11-30T10:01:15Z"
-        },
-        {
-            "name": "mattermost",
-            "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/9828093?v=4",
-            "html_url": "https://github.com/mattermost/mattermost",
-            "stargazers_count": 30826,
-            "created_at": "2015-06-15T06:50:02Z",
-            "updated_at": "2024-11-30T18:40:50Z",
-            "pushed_at": "2024-11-29T20:20:13Z"
-        },
-        {
-            "name": "appwrite",
-            "description": "Your backend, minus the hassle.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25003669?v=4",
-            "html_url": "https://github.com/appwrite/appwrite",
-            "stargazers_count": 45650,
-            "created_at": "2019-04-08T16:36:25Z",
-            "updated_at": "2024-12-01T00:05:42Z",
-            "pushed_at": "2024-11-29T13:27:19Z"
-        },
-        {
-            "name": "AppFlowy",
-            "description": "Bring projects, wikis, and teams together with AI. AppFlowy is an AI collaborative workspace where you achieve more without losing control of your data. The best open source alternative to Notion.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/86002201?v=4",
-            "html_url": "https://github.com/AppFlowy-IO/AppFlowy",
-            "stargazers_count": 58373,
-            "created_at": "2021-06-16T12:56:48Z",
-            "updated_at": "2024-11-30T23:33:06Z",
-            "pushed_at": "2024-11-30T13:17:30Z"
-        },
-        {
-            "name": "erpnext",
-            "description": "Free and Open Source Enterprise Resource Planning (ERP)",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/836974?v=4",
-            "html_url": "https://github.com/frappe/erpnext",
-            "stargazers_count": 22049,
-            "created_at": "2011-06-08T08:20:56Z",
-            "updated_at": "2024-11-30T19:31:00Z",
-            "pushed_at": "2024-11-30T16:30:17Z"
-        },
-        {
-            "name": "pipedream",
-            "description": "Connect APIs, remarkably fast.  Free for developers.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/43791938?v=4",
-            "html_url": "https://github.com/PipedreamHQ/pipedream",
-            "stargazers_count": 9015,
-            "created_at": "2020-01-22T00:28:31Z",
-            "updated_at": "2024-11-30T20:55:34Z",
-            "pushed_at": "2024-11-30T03:26:12Z"
-        },
-        {
             "name": "medusa",
             "description": "The world's most flexible commerce platform.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/62591822?v=4",
             "html_url": "https://github.com/medusajs/medusa",
-            "stargazers_count": 26211,
+            "stargazers_count": 26892,
             "created_at": "2020-01-18T13:39:04Z",
-            "updated_at": "2024-11-30T23:42:05Z",
-            "pushed_at": "2024-11-29T21:59:55Z"
-        },
-        {
-            "name": "budibase",
-            "description": "Low code platform for building business apps and workflows in minutes. Supports PostgreSQL, MySQL, MariaDB, MSSQL, MongoDB, Rest API, Docker, K8s, and more \ud83d\ude80  ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45009727?v=4",
-            "html_url": "https://github.com/Budibase/budibase",
-            "stargazers_count": 22832,
-            "created_at": "2019-06-07T11:03:41Z",
-            "updated_at": "2024-11-30T23:42:14Z",
-            "pushed_at": "2024-11-29T17:59:12Z"
-        },
-        {
-            "name": "instant",
-            "description": "Instant is a modern Firebase. We make you productive by giving your frontend a real-time database.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/110921262?v=4",
-            "html_url": "https://github.com/instantdb/instant",
-            "stargazers_count": 6693,
-            "created_at": "2024-08-19T21:53:42Z",
-            "updated_at": "2024-11-30T22:39:49Z",
-            "pushed_at": "2024-11-30T05:43:37Z"
-        },
-        {
-            "name": "react-email",
-            "description": "\ud83d\udc8c Build and send emails using React",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/109384852?v=4",
-            "html_url": "https://github.com/resend/react-email",
-            "stargazers_count": 14569,
-            "created_at": "2022-09-19T19:24:54Z",
-            "updated_at": "2024-11-30T23:34:46Z",
-            "pushed_at": "2024-11-27T14:45:02Z"
-        },
-        {
-            "name": "pocketbase",
-            "description": "Open Source realtime backend in 1 file",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/101000011?v=4",
-            "html_url": "https://github.com/pocketbase/pocketbase",
-            "stargazers_count": 41128,
-            "created_at": "2022-07-05T06:06:21Z",
-            "updated_at": "2024-12-01T00:08:26Z",
-            "pushed_at": "2024-11-29T10:11:14Z"
-        },
-        {
-            "name": "convex-backend",
-            "description": "The Convex open-source backend",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/81530787?v=4",
-            "html_url": "https://github.com/get-convex/convex-backend",
-            "stargazers_count": 2088,
-            "created_at": "2024-03-08T07:23:15Z",
-            "updated_at": "2024-11-30T22:35:16Z",
-            "pushed_at": "2024-11-29T00:50:48Z"
-        },
-        {
-            "name": "drizzle-orm",
-            "description": "Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too \ud83d\ude05",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/108468352?v=4",
-            "html_url": "https://github.com/drizzle-team/drizzle-orm",
-            "stargazers_count": 24788,
-            "created_at": "2021-06-24T09:03:05Z",
-            "updated_at": "2024-11-30T22:29:12Z",
-            "pushed_at": "2024-11-30T10:57:45Z"
+            "updated_at": "2024-12-31T20:25:16Z",
+            "pushed_at": "2024-12-31T14:14:12Z"
         },
         {
             "name": "coolify",
             "description": "An open-source & self-hostable Heroku / Netlify / Vercel alternative.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/60715044?v=4",
             "html_url": "https://github.com/coollabsio/coolify",
-            "stargazers_count": 34891,
+            "stargazers_count": 35884,
             "created_at": "2021-01-25T20:54:01Z",
-            "updated_at": "2024-12-01T00:00:28Z",
-            "pushed_at": "2024-11-30T19:44:22Z"
+            "updated_at": "2024-12-31T23:48:03Z",
+            "pushed_at": "2024-12-28T13:37:50Z"
+        },
+        {
+            "name": "instant",
+            "description": "Instant is a modern Firebase. We make you productive by giving your frontend a real-time database.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/110921262?v=4",
+            "html_url": "https://github.com/instantdb/instant",
+            "stargazers_count": 6811,
+            "created_at": "2024-08-19T21:53:42Z",
+            "updated_at": "2025-01-01T00:13:58Z",
+            "pushed_at": "2024-12-31T17:00:31Z"
+        },
+        {
+            "name": "pipedream",
+            "description": "Connect APIs, remarkably fast.  Free for developers.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/43791938?v=4",
+            "html_url": "https://github.com/PipedreamHQ/pipedream",
+            "stargazers_count": 9109,
+            "created_at": "2020-01-22T00:28:31Z",
+            "updated_at": "2024-12-31T20:26:46Z",
+            "pushed_at": "2024-12-31T20:35:09Z"
         },
         {
             "name": "cal.com",
             "description": "Scheduling infrastructure for absolutely everyone.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/79145102?v=4",
             "html_url": "https://github.com/calcom/cal.com",
-            "stargazers_count": 32636,
+            "stargazers_count": 33187,
             "created_at": "2021-03-22T13:47:42Z",
-            "updated_at": "2024-11-30T23:42:22Z",
-            "pushed_at": "2024-11-30T22:06:54Z"
+            "updated_at": "2024-12-31T22:15:26Z",
+            "pushed_at": "2024-12-31T20:33:08Z"
+        },
+        {
+            "name": "budibase",
+            "description": "Create business apps and automate workflows in minutes. Supports PostgreSQL, MySQL, MariaDB, MSSQL, MongoDB, Rest API, Docker, K8s, and more \ud83d\ude80 No code / Low code platform..",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45009727?v=4",
+            "html_url": "https://github.com/Budibase/budibase",
+            "stargazers_count": 23041,
+            "created_at": "2019-06-07T11:03:41Z",
+            "updated_at": "2024-12-31T21:11:16Z",
+            "pushed_at": "2024-12-31T14:42:47Z"
+        },
+        {
+            "name": "AppFlowy",
+            "description": "Bring projects, wikis, and teams together with AI. AppFlowy is an AI collaborative workspace where you achieve more without losing control of your data. The best open source alternative to Notion.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/86002201?v=4",
+            "html_url": "https://github.com/AppFlowy-IO/AppFlowy",
+            "stargazers_count": 59060,
+            "created_at": "2021-06-16T12:56:48Z",
+            "updated_at": "2024-12-31T23:51:07Z",
+            "pushed_at": "2024-12-31T08:01:46Z"
+        },
+        {
+            "name": "nocodb",
+            "description": "\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 Open Source Airtable Alternative",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/50206778?v=4",
+            "html_url": "https://github.com/nocodb/nocodb",
+            "stargazers_count": 50600,
+            "created_at": "2017-10-29T18:51:48Z",
+            "updated_at": "2025-01-01T00:01:27Z",
+            "pushed_at": "2024-12-31T22:19:59Z"
+        },
+        {
+            "name": "mattermost",
+            "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/9828093?v=4",
+            "html_url": "https://github.com/mattermost/mattermost",
+            "stargazers_count": 31118,
+            "created_at": "2015-06-15T06:50:02Z",
+            "updated_at": "2024-12-31T19:20:21Z",
+            "pushed_at": "2024-12-31T18:37:10Z"
+        },
+        {
+            "name": "erpnext",
+            "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/836974?v=4",
+            "html_url": "https://github.com/frappe/erpnext",
+            "stargazers_count": 22463,
+            "created_at": "2011-06-08T08:20:56Z",
+            "updated_at": "2024-12-31T22:41:42Z",
+            "pushed_at": "2024-12-31T15:03:10Z"
+        },
+        {
+            "name": "drizzle-orm",
+            "description": "Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too \ud83d\ude05",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/108468352?v=4",
+            "html_url": "https://github.com/drizzle-team/drizzle-orm",
+            "stargazers_count": 25410,
+            "created_at": "2021-06-24T09:03:05Z",
+            "updated_at": "2024-12-31T23:53:53Z",
+            "pushed_at": "2024-12-31T17:28:54Z"
+        },
+        {
+            "name": "appwrite",
+            "description": "Your backend, minus the hassle.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25003669?v=4",
+            "html_url": "https://github.com/appwrite/appwrite",
+            "stargazers_count": 46190,
+            "created_at": "2019-04-08T16:36:25Z",
+            "updated_at": "2024-12-31T23:51:43Z",
+            "pushed_at": "2024-12-31T23:11:04Z"
+        },
+        {
+            "name": "react-email",
+            "description": "\ud83d\udc8c Build and send emails using React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/109384852?v=4",
+            "html_url": "https://github.com/resend/react-email",
+            "stargazers_count": 14853,
+            "created_at": "2022-09-19T19:24:54Z",
+            "updated_at": "2024-12-31T12:23:36Z",
+            "pushed_at": "2024-12-27T20:47:58Z"
+        },
+        {
+            "name": "pocketbase",
+            "description": "Open Source realtime backend in 1 file",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/101000011?v=4",
+            "html_url": "https://github.com/pocketbase/pocketbase",
+            "stargazers_count": 42578,
+            "created_at": "2022-07-05T06:06:21Z",
+            "updated_at": "2025-01-01T00:07:37Z",
+            "pushed_at": "2024-12-30T19:58:35Z"
+        },
+        {
+            "name": "convex-backend",
+            "description": "The Convex open-source backend",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/81530787?v=4",
+            "html_url": "https://github.com/get-convex/convex-backend",
+            "stargazers_count": 2236,
+            "created_at": "2024-03-08T07:23:15Z",
+            "updated_at": "2024-12-31T17:51:09Z",
+            "pushed_at": "2024-12-31T00:52:31Z"
+        },
+        {
+            "name": "supabase",
+            "description": "The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54469796?v=4",
+            "html_url": "https://github.com/supabase/supabase",
+            "stargazers_count": 75599,
+            "created_at": "2019-10-12T05:56:49Z",
+            "updated_at": "2024-12-31T23:59:39Z",
+            "pushed_at": "2024-12-31T15:00:20Z"
+        },
+        {
+            "name": "plane",
+            "description": "\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/115727700?v=4",
+            "html_url": "https://github.com/makeplane/plane",
+            "stargazers_count": 31531,
+            "created_at": "2022-11-19T12:55:01Z",
+            "updated_at": "2024-12-31T23:56:05Z",
+            "pushed_at": "2024-12-31T12:39:54Z"
         }
     ],
     "meta": {
-        "last_updated": "2024-12-01T00:25:21.156360Z"
+        "last_updated": "2025-01-01T00:24:00.879836Z"
     }
 }
