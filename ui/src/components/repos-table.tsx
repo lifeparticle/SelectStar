@@ -11,9 +11,10 @@ import {
 	Autocomplete,
 	AutocompleteItem,
 } from "@nextui-org/react";
-import { Key, useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { reports, tabs } from "@/pages";
+import { Key as ReactKey } from "@react-types/shared";
 
 export function formatDate(dateString: string | undefined): string {
 	if (!dateString) {
@@ -48,7 +49,7 @@ function formatDaysAgo(dateString: string): string {
 }
 
 type CustomSortDescriptor = {
-	column: string | undefined;
+	column: ReactKey | undefined;
 	direction: "ascending" | "descending";
 };
 
@@ -84,7 +85,7 @@ const columns = [
 export default function ReposTable() {
 	const [filterValue, setFilterValue] = useState("");
 	const [sortDescriptor, setSortDescriptor] = useState<CustomSortDescriptor>({
-		column: "stargazers_count",
+		column: "stargazers_count" as ReactKey,
 		direction: "descending",
 	});
 	const [selected, setSelected] = useState("ui_frameworks");
@@ -122,7 +123,7 @@ export default function ReposTable() {
 		});
 	}, [filteredItems, sortDescriptor]);
 
-	const renderCell = useCallback((repo: RepoData, columnKey: Key) => {
+	const renderCell = useCallback((repo: RepoData, columnKey: ReactKey) => {
 		const cellValue = repo[columnKey as keyof RepoData];
 
 		switch (columnKey) {
@@ -206,7 +207,7 @@ export default function ReposTable() {
 			topContentPlacement="outside"
 			onSortChange={(descriptor) =>
 				setSortDescriptor({
-					column: descriptor.column?.toString(),
+					column: descriptor.column?.toString() as ReactKey,
 					direction: descriptor.direction as "ascending" | "descending",
 				})
 			}
