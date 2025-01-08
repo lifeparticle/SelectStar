@@ -49,7 +49,7 @@ function formatDaysAgo(dateString: string): string {
 }
 
 type CustomSortDescriptor = {
-	column: ReactKey | undefined;
+	column: ReactKey;
 	direction: "ascending" | "descending";
 };
 
@@ -85,7 +85,7 @@ const columns = [
 export default function ReposTable() {
 	const [filterValue, setFilterValue] = useState("");
 	const [sortDescriptor, setSortDescriptor] = useState<CustomSortDescriptor>({
-		column: "stargazers_count" as ReactKey,
+		column: "stargazers_count",
 		direction: "descending",
 	});
 	const [selected, setSelected] = useState("ui_frameworks");
