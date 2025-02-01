@@ -1,147 +1,147 @@
 {
     "data": [
         {
-            "name": "alpine",
-            "description": "A rugged, minimal framework for composing JavaScript behavior in your markup. ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/59030169?v=4",
-            "html_url": "https://github.com/alpinejs/alpine",
-            "stargazers_count": 28637,
-            "created_at": "2019-11-28T13:51:55Z",
-            "updated_at": "2024-12-31T20:05:58Z",
-            "pushed_at": "2024-12-23T19:56:33Z"
-        },
-        {
-            "name": "solid",
-            "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/79226042?v=4",
-            "html_url": "https://github.com/solidjs/solid",
-            "stargazers_count": 32693,
-            "created_at": "2018-04-24T16:36:27Z",
-            "updated_at": "2024-12-31T22:44:06Z",
-            "pushed_at": "2024-12-17T00:31:02Z"
-        },
-        {
-            "name": "qwik",
-            "description": "Instant-loading web apps, without effort",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/138123704?v=4",
-            "html_url": "https://github.com/QwikDev/qwik",
-            "stargazers_count": 20994,
-            "created_at": "2021-05-19T15:33:32Z",
-            "updated_at": "2024-12-31T12:42:32Z",
-            "pushed_at": "2024-12-31T12:52:43Z"
-        },
-        {
-            "name": "preact",
-            "description": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26872990?v=4",
-            "html_url": "https://github.com/preactjs/preact",
-            "stargazers_count": 36996,
-            "created_at": "2015-09-11T02:40:18Z",
-            "updated_at": "2024-12-31T22:11:12Z",
-            "pushed_at": "2024-12-31T19:31:31Z"
-        },
-        {
-            "name": "gatsby",
-            "description": "The best React-based framework with performance, scalability and security built in.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12551863?v=4",
-            "html_url": "https://github.com/gatsbyjs/gatsby",
-            "stargazers_count": 55337,
-            "created_at": "2015-05-21T22:43:05Z",
-            "updated_at": "2025-01-01T00:10:49Z",
-            "pushed_at": "2025-01-01T00:09:32Z"
-        },
-        {
-            "name": "lit",
-            "description": "Lit is a simple library for building fast, lightweight web components.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/18489846?v=4",
-            "html_url": "https://github.com/lit/lit",
-            "stargazers_count": 18996,
-            "created_at": "2017-06-29T16:27:16Z",
-            "updated_at": "2024-12-31T22:13:50Z",
-            "pushed_at": "2024-12-21T17:32:52Z"
-        },
-        {
-            "name": "htmx",
-            "description": "</> htmx - high power tools for HTML",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
-            "html_url": "https://github.com/bigskysoftware/htmx",
-            "stargazers_count": 42521,
-            "created_at": "2020-04-13T16:17:51Z",
-            "updated_at": "2025-01-01T00:01:40Z",
-            "pushed_at": "2024-12-29T20:51:00Z"
-        },
-        {
-            "name": "mithril.js",
-            "description": "A JavaScript Framework for Building Brilliant Applications",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19475707?v=4",
-            "html_url": "https://github.com/MithrilJS/mithril.js",
-            "stargazers_count": 14042,
-            "created_at": "2014-03-17T01:59:39Z",
-            "updated_at": "2024-12-31T13:44:50Z",
-            "pushed_at": "2024-12-28T18:43:44Z"
-        },
-        {
             "name": "react",
             "description": "The library for web and native user interfaces.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
             "html_url": "https://github.com/facebook/react",
-            "stargazers_count": 230914,
+            "stargazers_count": 231866,
             "created_at": "2013-05-24T16:15:54Z",
-            "updated_at": "2024-12-31T23:16:56Z",
-            "pushed_at": "2024-12-31T18:13:43Z"
-        },
-        {
-            "name": "svelte",
-            "description": "web development for the rest of us",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/23617963?v=4",
-            "html_url": "https://github.com/sveltejs/svelte",
-            "stargazers_count": 80699,
-            "created_at": "2016-11-20T18:13:05Z",
-            "updated_at": "2024-12-31T22:18:49Z",
-            "pushed_at": "2024-12-29T09:39:55Z"
-        },
-        {
-            "name": "ember.js",
-            "description": "Ember.js - A JavaScript framework for creating ambitious web applications",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1253363?v=4",
-            "html_url": "https://github.com/emberjs/ember.js",
-            "stargazers_count": 22501,
-            "created_at": "2011-05-25T23:39:40Z",
-            "updated_at": "2024-12-31T15:10:43Z",
-            "pushed_at": "2024-12-31T07:15:33Z"
+            "updated_at": "2025-01-31T23:57:43Z",
+            "pushed_at": "2025-02-01T00:03:12Z"
         },
         {
             "name": "angular",
             "description": "Deliver web apps with confidence \ud83d\ude80",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/139426?v=4",
             "html_url": "https://github.com/angular/angular",
-            "stargazers_count": 96555,
+            "stargazers_count": 96792,
             "created_at": "2014-09-18T16:12:01Z",
-            "updated_at": "2024-12-31T19:54:59Z",
-            "pushed_at": "2024-12-27T14:56:33Z"
+            "updated_at": "2025-01-31T22:05:41Z",
+            "pushed_at": "2025-01-29T23:17:57Z"
         },
         {
-            "name": "stencil",
-            "description": "A toolchain for building scalable, enterprise-ready component systems on top of TypeScript and Web Component standards. Stencil components can be distributed natively to React, Angular, Vue, and traditional web developers from a single, framework-agnostic codebase.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
-            "html_url": "https://github.com/ionic-team/stencil",
-            "stargazers_count": 12641,
-            "created_at": "2017-02-15T18:57:07Z",
-            "updated_at": "2024-12-31T12:49:36Z",
-            "pushed_at": "2024-12-31T07:05:07Z"
+            "name": "gatsby",
+            "description": "The best React-based framework with performance, scalability and security built in.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12551863?v=4",
+            "html_url": "https://github.com/gatsbyjs/gatsby",
+            "stargazers_count": 55651,
+            "created_at": "2015-05-21T22:43:05Z",
+            "updated_at": "2025-01-31T19:06:20Z",
+            "pushed_at": "2025-01-30T21:43:02Z"
+        },
+        {
+            "name": "alpine",
+            "description": "A rugged, minimal framework for composing JavaScript behavior in your markup. ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/59030169?v=4",
+            "html_url": "https://github.com/alpinejs/alpine",
+            "stargazers_count": 28860,
+            "created_at": "2019-11-28T13:51:55Z",
+            "updated_at": "2025-01-31T18:46:16Z",
+            "pushed_at": "2025-01-03T23:38:54Z"
+        },
+        {
+            "name": "htmx",
+            "description": "</> htmx - high power tools for HTML",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+            "html_url": "https://github.com/bigskysoftware/htmx",
+            "stargazers_count": 43311,
+            "created_at": "2020-04-13T16:17:51Z",
+            "updated_at": "2025-02-01T00:07:17Z",
+            "pushed_at": "2025-01-31T14:16:27Z"
+        },
+        {
+            "name": "ember.js",
+            "description": "Ember.js - A JavaScript framework for creating ambitious web applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1253363?v=4",
+            "html_url": "https://github.com/emberjs/ember.js",
+            "stargazers_count": 22516,
+            "created_at": "2011-05-25T23:39:40Z",
+            "updated_at": "2025-01-31T23:40:00Z",
+            "pushed_at": "2025-01-31T07:15:09Z"
+        },
+        {
+            "name": "mithril.js",
+            "description": "A JavaScript Framework for Building Brilliant Applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19475707?v=4",
+            "html_url": "https://github.com/MithrilJS/mithril.js",
+            "stargazers_count": 14046,
+            "created_at": "2014-03-17T01:59:39Z",
+            "updated_at": "2025-01-31T12:59:28Z",
+            "pushed_at": "2025-01-29T11:46:12Z"
         },
         {
             "name": "core",
             "description": "\ud83d\udd96 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/6128107?v=4",
             "html_url": "https://github.com/vuejs/core",
-            "stargazers_count": 48261,
+            "stargazers_count": 48604,
             "created_at": "2018-06-12T13:49:36Z",
-            "updated_at": "2024-12-31T18:51:11Z",
-            "pushed_at": "2024-12-31T08:20:28Z"
+            "updated_at": "2025-01-31T19:19:11Z",
+            "pushed_at": "2025-01-31T14:39:32Z"
+        },
+        {
+            "name": "preact",
+            "description": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26872990?v=4",
+            "html_url": "https://github.com/preactjs/preact",
+            "stargazers_count": 37091,
+            "created_at": "2015-09-11T02:40:18Z",
+            "updated_at": "2025-01-31T14:36:30Z",
+            "pushed_at": "2025-01-30T07:13:48Z"
+        },
+        {
+            "name": "qwik",
+            "description": "Instant-loading web apps, without effort",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/138123704?v=4",
+            "html_url": "https://github.com/QwikDev/qwik",
+            "stargazers_count": 21083,
+            "created_at": "2021-05-19T15:33:32Z",
+            "updated_at": "2025-01-31T22:32:43Z",
+            "pushed_at": "2025-01-31T17:12:16Z"
+        },
+        {
+            "name": "stencil",
+            "description": "A toolchain for building scalable, enterprise-ready component systems on top of TypeScript and Web Component standards. Stencil components can be distributed natively to React, Angular, Vue, and traditional web developers from a single, framework-agnostic codebase.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
+            "html_url": "https://github.com/ionic-team/stencil",
+            "stargazers_count": 12673,
+            "created_at": "2017-02-15T18:57:07Z",
+            "updated_at": "2025-01-31T13:15:32Z",
+            "pushed_at": "2025-01-30T01:27:26Z"
+        },
+        {
+            "name": "svelte",
+            "description": "web development for the rest of us",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/23617963?v=4",
+            "html_url": "https://github.com/sveltejs/svelte",
+            "stargazers_count": 81134,
+            "created_at": "2016-11-20T18:13:05Z",
+            "updated_at": "2025-01-31T21:06:37Z",
+            "pushed_at": "2025-01-31T23:26:43Z"
+        },
+        {
+            "name": "solid",
+            "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/79226042?v=4",
+            "html_url": "https://github.com/solidjs/solid",
+            "stargazers_count": 32882,
+            "created_at": "2018-04-24T16:36:27Z",
+            "updated_at": "2025-01-31T19:39:05Z",
+            "pushed_at": "2025-01-31T17:59:03Z"
+        },
+        {
+            "name": "lit",
+            "description": "Lit is a simple library for building fast, lightweight web components.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/18489846?v=4",
+            "html_url": "https://github.com/lit/lit",
+            "stargazers_count": 19161,
+            "created_at": "2017-06-29T16:27:16Z",
+            "updated_at": "2025-01-31T15:01:37Z",
+            "pushed_at": "2025-01-28T17:12:27Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-01-01T00:14:51.155695Z"
+        "last_updated": "2025-02-01T00:14:46.159672Z"
     }
 }
