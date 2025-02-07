@@ -11,7 +11,7 @@ https://github.com/grommet/grommet
 https://github.com/carbon-design-system/carbon
 https://github.com/ElemeFE/element
 https://github.com/vuetifyjs/vuetify
-https://github.com/nextui-org/nextui
+https://github.com/heroui-inc/heroui
 https://github.com/jgthms/bulma
 https://github.com/mantinedev/mantine
 https://github.com/radix-ui/themes
