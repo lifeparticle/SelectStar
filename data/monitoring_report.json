@@ -1,47 +1,47 @@
 {
     "data": [
         {
+            "name": "Monitorix",
+            "description": "Monitorix is a free, open source, lightweight system monitoring tool.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/829885?v=4",
+            "html_url": "https://github.com/mikaku/Monitorix",
+            "stargazers_count": 1141,
+            "created_at": "2012-10-22T13:41:51Z",
+            "updated_at": "2025-02-13T19:35:55Z",
+            "pushed_at": "2024-11-27T10:19:57Z"
+        },
+        {
             "name": "sentry",
             "description": "Developer-first error tracking and performance monitoring",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
             "html_url": "https://github.com/getsentry/sentry",
-            "stargazers_count": 39758,
+            "stargazers_count": 40139,
             "created_at": "2010-08-30T22:06:41Z",
-            "updated_at": "2025-02-01T00:08:44Z",
-            "pushed_at": "2025-02-01T00:08:40Z"
-        },
-        {
-            "name": "netdata",
-            "description": "Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/43390781?v=4",
-            "html_url": "https://github.com/netdata/netdata",
-            "stargazers_count": 73096,
-            "created_at": "2013-06-17T18:39:10Z",
-            "updated_at": "2025-02-01T00:20:39Z",
-            "pushed_at": "2025-01-31T18:20:24Z"
+            "updated_at": "2025-03-01T00:19:17Z",
+            "pushed_at": "2025-03-01T00:19:15Z"
         },
         {
             "name": "uptime-kuma",
             "description": "A fancy self-hosted monitoring tool",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "html_url": "https://github.com/louislam/uptime-kuma",
-            "stargazers_count": 63461,
+            "stargazers_count": 65203,
             "created_at": "2021-07-03T01:02:42Z",
-            "updated_at": "2025-02-01T00:20:48Z",
-            "pushed_at": "2025-01-31T23:12:09Z"
+            "updated_at": "2025-02-28T23:09:27Z",
+            "pushed_at": "2025-02-27T17:32:23Z"
         },
         {
-            "name": "Monitorix",
-            "description": "Monitorix is a free, open source, lightweight system monitoring tool.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/829885?v=4",
-            "html_url": "https://github.com/mikaku/Monitorix",
-            "stargazers_count": 1137,
-            "created_at": "2012-10-22T13:41:51Z",
-            "updated_at": "2025-01-28T22:18:53Z",
-            "pushed_at": "2024-11-27T10:19:57Z"
+            "name": "netdata",
+            "description": "X-Ray Vision for your infrastructure!",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/43390781?v=4",
+            "html_url": "https://github.com/netdata/netdata",
+            "stargazers_count": 73645,
+            "created_at": "2013-06-17T18:39:10Z",
+            "updated_at": "2025-03-01T00:18:00Z",
+            "pushed_at": "2025-02-28T13:56:11Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-02-01T00:21:05.794339Z"
+        "last_updated": "2025-03-01T00:22:25.329370Z"
     }
 }
