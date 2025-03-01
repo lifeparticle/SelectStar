@@ -1,237 +1,237 @@
 {
     "data": [
         {
-            "name": "nitro",
-            "description": "Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/183071544?v=4",
-            "html_url": "https://github.com/nitrojs/nitro",
-            "stargazers_count": 6567,
-            "created_at": "2022-01-26T12:37:12Z",
-            "updated_at": "2025-01-31T20:40:24Z",
-            "pushed_at": "2025-01-31T18:34:09Z"
-        },
-        {
-            "name": "elysia",
-            "description": "Ergonomic Framework for Humans",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/119793569?v=4",
-            "html_url": "https://github.com/elysiajs/elysia",
-            "stargazers_count": 11256,
-            "created_at": "2022-12-04T12:53:30Z",
-            "updated_at": "2025-01-31T22:34:59Z",
-            "pushed_at": "2025-01-09T14:03:03Z"
-        },
-        {
-            "name": "javalin",
-            "description": "A simple and modern Java and Kotlin web framework",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/28701086?v=4",
-            "html_url": "https://github.com/javalin/javalin",
-            "stargazers_count": 7719,
-            "created_at": "2017-04-02T20:01:28Z",
-            "updated_at": "2025-01-31T15:03:34Z",
-            "pushed_at": "2025-01-27T07:59:13Z"
-        },
-        {
-            "name": "h3",
-            "description": "\u26a1\ufe0f Minimal H(TTP) framework built for high performance and portability ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/80154025?v=4",
-            "html_url": "https://github.com/unjs/h3",
-            "stargazers_count": 3855,
-            "created_at": "2020-11-17T14:15:44Z",
-            "updated_at": "2025-01-31T08:18:33Z",
-            "pushed_at": "2025-01-31T22:01:27Z"
-        },
-        {
-            "name": "directus",
-            "description": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/15967950?v=4",
-            "html_url": "https://github.com/directus/directus",
-            "stargazers_count": 28891,
-            "created_at": "2012-12-12T01:35:36Z",
-            "updated_at": "2025-01-31T22:08:56Z",
-            "pushed_at": "2025-01-31T17:57:20Z"
-        },
-        {
-            "name": "fastify",
-            "description": "Fast and low overhead web framework, for Node.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/24939410?v=4",
-            "html_url": "https://github.com/fastify/fastify",
-            "stargazers_count": 32900,
-            "created_at": "2016-09-28T19:10:14Z",
-            "updated_at": "2025-01-31T11:07:11Z",
-            "pushed_at": "2025-01-31T17:37:18Z"
-        },
-        {
-            "name": "nest",
-            "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript \ud83d\ude80",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/28507035?v=4",
-            "html_url": "https://github.com/nestjs/nest",
-            "stargazers_count": 69201,
-            "created_at": "2017-02-04T20:12:52Z",
-            "updated_at": "2025-01-31T23:26:32Z",
-            "pushed_at": "2025-01-31T20:25:58Z"
-        },
-        {
-            "name": "trpc",
-            "description": "\ud83e\uddd9\u200d\u2640\ufe0f  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/78011399?v=4",
-            "html_url": "https://github.com/trpc/trpc",
-            "stargazers_count": 35735,
-            "created_at": "2020-07-18T01:17:11Z",
-            "updated_at": "2025-01-31T21:46:19Z",
-            "pushed_at": "2025-01-31T16:47:02Z"
-        },
-        {
-            "name": "spring-boot",
-            "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/317776?v=4",
-            "html_url": "https://github.com/spring-projects/spring-boot",
-            "stargazers_count": 76008,
-            "created_at": "2012-10-19T15:02:57Z",
-            "updated_at": "2025-01-31T23:30:22Z",
-            "pushed_at": "2025-01-31T19:30:13Z"
-        },
-        {
-            "name": "fastapi",
-            "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/156354296?v=4",
-            "html_url": "https://github.com/fastapi/fastapi",
-            "stargazers_count": 80398,
-            "created_at": "2018-12-08T08:21:47Z",
-            "updated_at": "2025-01-31T23:19:06Z",
-            "pushed_at": "2025-01-31T17:02:12Z"
-        },
-        {
-            "name": "sails",
-            "description": "Realtime MVC Framework for Node.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1445252?v=4",
-            "html_url": "https://github.com/balderdashy/sails",
-            "stargazers_count": 22874,
-            "created_at": "2012-03-18T19:46:15Z",
-            "updated_at": "2025-01-30T03:58:17Z",
-            "pushed_at": "2024-12-06T23:47:38Z"
-        },
-        {
-            "name": "gin",
-            "description": "Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7894478?v=4",
-            "html_url": "https://github.com/gin-gonic/gin",
-            "stargazers_count": 80079,
-            "created_at": "2014-06-16T23:57:25Z",
-            "updated_at": "2025-01-31T22:36:59Z",
-            "pushed_at": "2024-12-30T03:40:37Z"
-        },
-        {
-            "name": "koa",
-            "description": "Expressive middleware for node.js using ES2017 async functions",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5055057?v=4",
-            "html_url": "https://github.com/koajs/koa",
-            "stargazers_count": 35310,
-            "created_at": "2013-07-20T18:53:45Z",
-            "updated_at": "2025-01-31T23:00:30Z",
-            "pushed_at": "2024-12-06T15:21:51Z"
-        },
-        {
             "name": "micronaut-core",
             "description": "Micronaut Application Framework",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/36880643?v=4",
             "html_url": "https://github.com/micronaut-projects/micronaut-core",
-            "stargazers_count": 6148,
+            "stargazers_count": 6168,
             "created_at": "2018-03-07T12:05:08Z",
-            "updated_at": "2025-01-31T15:20:35Z",
-            "pushed_at": "2025-01-31T21:53:56Z"
-        },
-        {
-            "name": "strapi",
-            "description": "\ud83d\ude80 Strapi is the leading open-source headless CMS. It\u2019s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19872173?v=4",
-            "html_url": "https://github.com/strapi/strapi",
-            "stargazers_count": 64852,
-            "created_at": "2015-09-30T15:34:48Z",
-            "updated_at": "2025-01-31T23:44:45Z",
-            "pushed_at": "2025-01-31T19:57:45Z"
-        },
-        {
-            "name": "flask",
-            "description": "The Python micro framework for building web applications.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/16748505?v=4",
-            "html_url": "https://github.com/pallets/flask",
-            "stargazers_count": 68672,
-            "created_at": "2010-04-06T11:11:59Z",
-            "updated_at": "2025-01-31T21:09:36Z",
-            "pushed_at": "2025-01-05T17:10:05Z"
-        },
-        {
-            "name": "echo",
-            "description": "High performance, minimalist Go web framework",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2624634?v=4",
-            "html_url": "https://github.com/labstack/echo",
-            "stargazers_count": 30378,
-            "created_at": "2015-03-01T17:43:01Z",
-            "updated_at": "2025-01-31T23:28:21Z",
-            "pushed_at": "2025-01-12T07:28:38Z"
+            "updated_at": "2025-02-27T14:46:09Z",
+            "pushed_at": "2025-02-28T21:02:16Z"
         },
         {
             "name": "express",
             "description": "Fast, unopinionated, minimalist web framework for node.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/5658226?v=4",
             "html_url": "https://github.com/expressjs/express",
-            "stargazers_count": 66172,
+            "stargazers_count": 66387,
             "created_at": "2009-06-26T18:56:01Z",
-            "updated_at": "2025-01-31T21:09:41Z",
-            "pushed_at": "2025-01-26T10:54:07Z"
+            "updated_at": "2025-02-28T20:05:38Z",
+            "pushed_at": "2025-02-27T21:47:17Z"
         },
         {
-            "name": "hono",
-            "description": "Web framework built on Web Standards",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/98495527?v=4",
-            "html_url": "https://github.com/honojs/hono",
-            "stargazers_count": 21861,
-            "created_at": "2021-12-14T20:05:30Z",
-            "updated_at": "2025-01-31T23:54:04Z",
-            "pushed_at": "2025-01-31T06:29:25Z"
+            "name": "fastify",
+            "description": "Fast and low overhead web framework, for Node.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/24939410?v=4",
+            "html_url": "https://github.com/fastify/fastify",
+            "stargazers_count": 33117,
+            "created_at": "2016-09-28T19:10:14Z",
+            "updated_at": "2025-02-28T23:14:24Z",
+            "pushed_at": "2025-02-28T19:48:52Z"
+        },
+        {
+            "name": "nitro",
+            "description": "Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/183071544?v=4",
+            "html_url": "https://github.com/nitrojs/nitro",
+            "stargazers_count": 6710,
+            "created_at": "2022-01-26T12:37:12Z",
+            "updated_at": "2025-02-28T23:31:00Z",
+            "pushed_at": "2025-02-28T23:30:58Z"
         },
         {
             "name": "core",
             "description": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/13810373?v=4",
             "html_url": "https://github.com/adonisjs/core",
-            "stargazers_count": 17334,
+            "stargazers_count": 17497,
             "created_at": "2015-08-15T17:03:54Z",
-            "updated_at": "2025-01-31T23:35:08Z",
-            "pushed_at": "2025-01-12T17:33:34Z"
+            "updated_at": "2025-02-28T17:08:19Z",
+            "pushed_at": "2025-02-13T07:44:08Z"
+        },
+        {
+            "name": "fastapi",
+            "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/156354296?v=4",
+            "html_url": "https://github.com/fastapi/fastapi",
+            "stargazers_count": 81485,
+            "created_at": "2018-12-08T08:21:47Z",
+            "updated_at": "2025-02-28T23:42:38Z",
+            "pushed_at": "2025-02-28T17:10:11Z"
+        },
+        {
+            "name": "sails",
+            "description": "Realtime MVC Framework for Node.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1445252?v=4",
+            "html_url": "https://github.com/balderdashy/sails",
+            "stargazers_count": 22886,
+            "created_at": "2012-03-18T19:46:15Z",
+            "updated_at": "2025-02-28T18:14:08Z",
+            "pushed_at": "2024-12-06T23:47:38Z"
+        },
+        {
+            "name": "echo",
+            "description": "High performance, minimalist Go web framework",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2624634?v=4",
+            "html_url": "https://github.com/labstack/echo",
+            "stargazers_count": 30530,
+            "created_at": "2015-03-01T17:43:01Z",
+            "updated_at": "2025-02-28T21:04:42Z",
+            "pushed_at": "2025-02-12T17:17:34Z"
+        },
+        {
+            "name": "strapi",
+            "description": "\ud83d\ude80 Strapi is the leading open-source headless CMS. It\u2019s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19872173?v=4",
+            "html_url": "https://github.com/strapi/strapi",
+            "stargazers_count": 65233,
+            "created_at": "2015-09-30T15:34:48Z",
+            "updated_at": "2025-02-28T20:55:37Z",
+            "pushed_at": "2025-02-28T16:08:28Z"
+        },
+        {
+            "name": "flask",
+            "description": "The Python micro framework for building web applications.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/16748505?v=4",
+            "html_url": "https://github.com/pallets/flask",
+            "stargazers_count": 68942,
+            "created_at": "2010-04-06T11:11:59Z",
+            "updated_at": "2025-02-28T20:24:49Z",
+            "pushed_at": "2025-01-05T17:10:05Z"
         },
         {
             "name": "hapi",
             "description": "The Simple, Secure Framework Developers Trust",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/3774533?v=4",
             "html_url": "https://github.com/hapijs/hapi",
-            "stargazers_count": 14660,
+            "stargazers_count": 14669,
             "created_at": "2011-08-06T00:35:39Z",
-            "updated_at": "2025-01-31T19:05:39Z",
-            "pushed_at": "2025-01-17T20:10:33Z"
+            "updated_at": "2025-02-27T03:41:57Z",
+            "pushed_at": "2025-03-01T00:10:32Z"
         },
         {
-            "name": "payload",
-            "description": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/62968818?v=4",
-            "html_url": "https://github.com/payloadcms/payload",
-            "stargazers_count": 31764,
-            "created_at": "2021-01-05T18:49:45Z",
-            "updated_at": "2025-01-31T23:13:03Z",
-            "pushed_at": "2025-01-31T23:17:05Z"
+            "name": "trpc",
+            "description": "\ud83e\uddd9\u200d\u2640\ufe0f  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/78011399?v=4",
+            "html_url": "https://github.com/trpc/trpc",
+            "stargazers_count": 36212,
+            "created_at": "2020-07-18T01:17:11Z",
+            "updated_at": "2025-02-28T23:42:40Z",
+            "pushed_at": "2025-02-28T23:41:25Z"
+        },
+        {
+            "name": "h3",
+            "description": "\u26a1\ufe0f Minimal H(TTP) framework built for high performance and portability ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/80154025?v=4",
+            "html_url": "https://github.com/unjs/h3",
+            "stargazers_count": 3921,
+            "created_at": "2020-11-17T14:15:44Z",
+            "updated_at": "2025-02-28T20:24:59Z",
+            "pushed_at": "2025-02-27T21:04:29Z"
         },
         {
             "name": "amplication",
             "description": "Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, simplify onboarding, and accelerate standardized delivery across teams.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/65107786?v=4",
             "html_url": "https://github.com/amplication/amplication",
-            "stargazers_count": 15504,
+            "stargazers_count": 15535,
             "created_at": "2020-05-10T19:41:49Z",
-            "updated_at": "2025-01-31T19:45:42Z",
-            "pushed_at": "2025-01-29T18:56:14Z"
+            "updated_at": "2025-02-28T23:50:11Z",
+            "pushed_at": "2025-02-28T07:59:09Z"
+        },
+        {
+            "name": "hono",
+            "description": "Web framework built on Web Standards",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/98495527?v=4",
+            "html_url": "https://github.com/honojs/hono",
+            "stargazers_count": 22639,
+            "created_at": "2021-12-14T20:05:30Z",
+            "updated_at": "2025-02-28T23:24:55Z",
+            "pushed_at": "2025-02-28T06:19:48Z"
+        },
+        {
+            "name": "payload",
+            "description": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/62968818?v=4",
+            "html_url": "https://github.com/payloadcms/payload",
+            "stargazers_count": 32860,
+            "created_at": "2021-01-05T18:49:45Z",
+            "updated_at": "2025-02-28T22:35:41Z",
+            "pushed_at": "2025-02-28T23:37:22Z"
+        },
+        {
+            "name": "koa",
+            "description": "Expressive middleware for node.js using ES2017 async functions",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5055057?v=4",
+            "html_url": "https://github.com/koajs/koa",
+            "stargazers_count": 35362,
+            "created_at": "2013-07-20T18:53:45Z",
+            "updated_at": "2025-02-28T05:10:04Z",
+            "pushed_at": "2025-02-27T05:56:02Z"
+        },
+        {
+            "name": "gin",
+            "description": "Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7894478?v=4",
+            "html_url": "https://github.com/gin-gonic/gin",
+            "stargazers_count": 80549,
+            "created_at": "2014-06-16T23:57:25Z",
+            "updated_at": "2025-02-28T23:59:02Z",
+            "pushed_at": "2025-02-24T23:34:18Z"
+        },
+        {
+            "name": "nest",
+            "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript \ud83d\ude80",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/28507035?v=4",
+            "html_url": "https://github.com/nestjs/nest",
+            "stargazers_count": 69627,
+            "created_at": "2017-02-04T20:12:52Z",
+            "updated_at": "2025-02-28T20:45:31Z",
+            "pushed_at": "2025-02-28T18:05:38Z"
+        },
+        {
+            "name": "directus",
+            "description": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/15967950?v=4",
+            "html_url": "https://github.com/directus/directus",
+            "stargazers_count": 29378,
+            "created_at": "2012-12-12T01:35:36Z",
+            "updated_at": "2025-02-28T22:22:51Z",
+            "pushed_at": "2025-02-28T22:37:47Z"
+        },
+        {
+            "name": "spring-boot",
+            "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/317776?v=4",
+            "html_url": "https://github.com/spring-projects/spring-boot",
+            "stargazers_count": 76290,
+            "created_at": "2012-10-19T15:02:57Z",
+            "updated_at": "2025-02-28T22:39:04Z",
+            "pushed_at": "2025-02-28T17:14:35Z"
+        },
+        {
+            "name": "javalin",
+            "description": "A simple and modern Java and Kotlin web framework",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/28701086?v=4",
+            "html_url": "https://github.com/javalin/javalin",
+            "stargazers_count": 7763,
+            "created_at": "2017-04-02T20:01:28Z",
+            "updated_at": "2025-02-28T15:24:06Z",
+            "pushed_at": "2025-02-01T04:55:17Z"
+        },
+        {
+            "name": "elysia",
+            "description": "Ergonomic Framework for Humans",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/119793569?v=4",
+            "html_url": "https://github.com/elysiajs/elysia",
+            "stargazers_count": 11583,
+            "created_at": "2022-12-04T12:53:30Z",
+            "updated_at": "2025-02-28T23:19:50Z",
+            "pushed_at": "2025-02-28T09:51:48Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-02-01T00:11:22.412429Z"
+        "last_updated": "2025-03-01T00:12:02.178950Z"
     }
 }
