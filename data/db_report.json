@@ -1,154 +1,54 @@
 {
     "data": [
         {
-            "name": "influxdb",
-            "description": "Scalable datastore for metrics, events, and real-time analytics",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5713248?v=4",
-            "html_url": "https://github.com/influxdata/influxdb",
-            "stargazers_count": 30100,
-            "created_at": "2013-09-26T14:31:10Z",
-            "updated_at": "2025-05-31T22:50:22Z",
-            "pushed_at": "2025-05-31T01:52:46Z"
-        },
-        {
-            "name": "server",
-            "description": "MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with outside developers to deliver the most featureful, stable, and sanely licensed open SQL server in the industry.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4739304?v=4",
-            "html_url": "https://github.com/MariaDB/server",
-            "stargazers_count": 6064,
-            "created_at": "2014-05-15T10:58:50Z",
-            "updated_at": "2025-05-31T18:39:19Z",
-            "pushed_at": "2025-05-31T22:00:34Z"
-        },
-        {
-            "name": "mongo",
-            "description": "The MongoDB Database",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45120?v=4",
-            "html_url": "https://github.com/mongodb/mongo",
-            "stargazers_count": 27171,
-            "created_at": "2009-01-15T16:15:18Z",
-            "updated_at": "2025-05-31T17:58:24Z",
-            "pushed_at": "2025-05-31T01:08:32Z"
-        },
-        {
-            "name": "rethinkdb",
-            "description": "The open-source database for the realtime web.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1229647?v=4",
-            "html_url": "https://github.com/rethinkdb/rethinkdb",
-            "stargazers_count": 26883,
-            "created_at": "2012-10-30T05:37:47Z",
-            "updated_at": "2025-05-31T15:55:46Z",
-            "pushed_at": "2025-05-23T08:57:06Z"
-        },
-        {
-            "name": "libsql",
-            "description": "libSQL is a fork of SQLite that is both Open Source, and Open Contributions.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/139391156?v=4",
-            "html_url": "https://github.com/tursodatabase/libsql",
-            "stargazers_count": 14760,
-            "created_at": "2022-09-29T18:56:16Z",
-            "updated_at": "2025-06-01T00:09:52Z",
-            "pushed_at": "2025-05-30T07:33:12Z"
-        },
-        {
-            "name": "cassandra",
-            "description": "Apache Cassandra\u00ae",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/47359?v=4",
-            "html_url": "https://github.com/apache/cassandra",
-            "stargazers_count": 9221,
-            "created_at": "2009-05-21T02:10:09Z",
-            "updated_at": "2025-05-31T23:33:07Z",
-            "pushed_at": "2025-05-30T17:38:59Z"
-        },
-        {
-            "name": "cockroach",
-            "description": "CockroachDB \u2014 the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6748139?v=4",
-            "html_url": "https://github.com/cockroachdb/cockroach",
-            "stargazers_count": 30950,
-            "created_at": "2014-02-06T00:18:47Z",
-            "updated_at": "2025-05-31T23:32:11Z",
-            "pushed_at": "2025-05-31T21:53:15Z"
-        },
-        {
-            "name": "timescaledb",
-            "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/8986001?v=4",
-            "html_url": "https://github.com/timescale/timescaledb",
-            "stargazers_count": 19202,
-            "created_at": "2017-03-07T20:03:41Z",
-            "updated_at": "2025-05-31T11:24:06Z",
-            "pushed_at": "2025-05-30T15:21:46Z"
-        },
-        {
-            "name": "neo4j",
-            "description": "Graphs for Everyone",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/201120?v=4",
-            "html_url": "https://github.com/neo4j/neo4j",
-            "stargazers_count": 14400,
-            "created_at": "2012-11-12T08:46:15Z",
-            "updated_at": "2025-05-31T16:43:13Z",
-            "pushed_at": "2025-05-27T17:52:19Z"
+            "name": "neon",
+            "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/77690634?v=4",
+            "html_url": "https://github.com/neondatabase/neon",
+            "stargazers_count": 18827,
+            "created_at": "2021-03-26T14:20:47Z",
+            "updated_at": "2025-06-21T09:06:34Z",
+            "pushed_at": "2025-06-20T23:32:26Z"
         },
         {
             "name": "mysql-server",
             "description": "MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/2452804?v=4",
             "html_url": "https://github.com/mysql/mysql-server",
-            "stargazers_count": 11437,
+            "stargazers_count": 11476,
             "created_at": "2014-09-26T09:31:03Z",
-            "updated_at": "2025-05-31T19:59:03Z",
+            "updated_at": "2025-06-21T04:55:13Z",
             "pushed_at": "2025-04-16T07:02:56Z"
+        },
+        {
+            "name": "postgres",
+            "description": "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/177543?v=4",
+            "html_url": "https://github.com/postgres/postgres",
+            "stargazers_count": 17852,
+            "created_at": "2010-09-21T11:35:45Z",
+            "updated_at": "2025-06-21T06:30:08Z",
+            "pushed_at": "2025-06-21T03:53:45Z"
         },
         {
             "name": "redis",
             "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/1529926?v=4",
             "html_url": "https://github.com/redis/redis",
-            "stargazers_count": 69438,
+            "stargazers_count": 69740,
             "created_at": "2009-03-21T22:32:25Z",
-            "updated_at": "2025-05-31T20:25:13Z",
-            "pushed_at": "2025-05-28T09:43:59Z"
+            "updated_at": "2025-06-21T07:05:35Z",
+            "pushed_at": "2025-06-21T02:28:51Z"
         },
         {
-            "name": "sqlite",
-            "description": "Official Git mirror of the SQLite source tree",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/48680494?v=4",
-            "html_url": "https://github.com/sqlite/sqlite",
-            "stargazers_count": 7865,
-            "created_at": "2019-03-18T12:21:01Z",
-            "updated_at": "2025-05-31T20:54:12Z",
-            "pushed_at": "2025-05-31T20:54:08Z"
-        },
-        {
-            "name": "neon",
-            "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/77690634?v=4",
-            "html_url": "https://github.com/neondatabase/neon",
-            "stargazers_count": 18339,
-            "created_at": "2021-03-26T14:20:47Z",
-            "updated_at": "2025-05-31T22:46:09Z",
-            "pushed_at": "2025-05-31T20:20:35Z"
-        },
-        {
-            "name": "surrealdb",
-            "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/10982346?v=4",
-            "html_url": "https://github.com/surrealdb/surrealdb",
-            "stargazers_count": 29329,
-            "created_at": "2021-12-09T15:03:29Z",
-            "updated_at": "2025-05-31T21:23:27Z",
-            "pushed_at": "2025-05-31T00:57:53Z"
-        },
-        {
-            "name": "arangodb",
-            "description": "\ud83e\udd51 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5547849?v=4",
-            "html_url": "https://github.com/arangodb/arangodb",
-            "stargazers_count": 13816,
-            "created_at": "2011-10-26T06:42:00Z",
-            "updated_at": "2025-05-31T12:28:52Z",
-            "pushed_at": "2025-05-30T15:19:31Z"
+            "name": "influxdb",
+            "description": "Scalable datastore for metrics, events, and real-time analytics",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5713248?v=4",
+            "html_url": "https://github.com/influxdata/influxdb",
+            "stargazers_count": 30200,
+            "created_at": "2013-09-26T14:31:10Z",
+            "updated_at": "2025-06-21T05:18:36Z",
+            "pushed_at": "2025-06-20T21:08:20Z"
         },
         {
             "name": "fauna-js",
@@ -161,37 +61,137 @@
             "pushed_at": "2025-02-10T22:49:48Z"
         },
         {
-            "name": "postgres",
-            "description": "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/177543?v=4",
-            "html_url": "https://github.com/postgres/postgres",
-            "stargazers_count": 17676,
-            "created_at": "2010-09-21T11:35:45Z",
-            "updated_at": "2025-05-31T21:29:48Z",
-            "pushed_at": "2025-05-31T11:24:45Z"
+            "name": "rethinkdb",
+            "description": "The open-source database for the realtime web.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1229647?v=4",
+            "html_url": "https://github.com/rethinkdb/rethinkdb",
+            "stargazers_count": 26901,
+            "created_at": "2012-10-30T05:37:47Z",
+            "updated_at": "2025-06-21T09:23:16Z",
+            "pushed_at": "2025-06-21T06:23:26Z"
         },
         {
-            "name": "dgraph",
-            "description": "high-performance graph database for real-time use cases",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/145411033?v=4",
-            "html_url": "https://github.com/hypermodeinc/dgraph",
-            "stargazers_count": 20895,
-            "created_at": "2015-08-25T07:15:56Z",
-            "updated_at": "2025-05-31T13:08:24Z",
-            "pushed_at": "2025-05-31T01:43:50Z"
+            "name": "timescaledb",
+            "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/8986001?v=4",
+            "html_url": "https://github.com/timescale/timescaledb",
+            "stargazers_count": 19330,
+            "created_at": "2017-03-07T20:03:41Z",
+            "updated_at": "2025-06-21T04:41:23Z",
+            "pushed_at": "2025-06-20T13:54:06Z"
+        },
+        {
+            "name": "libsql",
+            "description": "libSQL is a fork of SQLite that is both Open Source, and Open Contributions.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/139391156?v=4",
+            "html_url": "https://github.com/tursodatabase/libsql",
+            "stargazers_count": 14906,
+            "created_at": "2022-09-29T18:56:16Z",
+            "updated_at": "2025-06-21T04:41:56Z",
+            "pushed_at": "2025-06-21T08:44:48Z"
+        },
+        {
+            "name": "mongo",
+            "description": "The MongoDB Database",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45120?v=4",
+            "html_url": "https://github.com/mongodb/mongo",
+            "stargazers_count": 27235,
+            "created_at": "2009-01-15T16:15:18Z",
+            "updated_at": "2025-06-21T07:21:59Z",
+            "pushed_at": "2025-06-20T23:50:21Z"
+        },
+        {
+            "name": "cockroach",
+            "description": "CockroachDB \u2014 the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6748139?v=4",
+            "html_url": "https://github.com/cockroachdb/cockroach",
+            "stargazers_count": 31011,
+            "created_at": "2014-02-06T00:18:47Z",
+            "updated_at": "2025-06-21T04:54:49Z",
+            "pushed_at": "2025-06-21T06:39:45Z"
+        },
+        {
+            "name": "neo4j",
+            "description": "Graphs for Everyone",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/201120?v=4",
+            "html_url": "https://github.com/neo4j/neo4j",
+            "stargazers_count": 14526,
+            "created_at": "2012-11-12T08:46:15Z",
+            "updated_at": "2025-06-21T08:18:09Z",
+            "pushed_at": "2025-06-19T16:40:43Z"
+        },
+        {
+            "name": "arangodb",
+            "description": "\ud83e\udd51 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5547849?v=4",
+            "html_url": "https://github.com/arangodb/arangodb",
+            "stargazers_count": 13845,
+            "created_at": "2011-10-26T06:42:00Z",
+            "updated_at": "2025-06-21T04:42:09Z",
+            "pushed_at": "2025-06-21T01:50:27Z"
+        },
+        {
+            "name": "sqlite",
+            "description": "Official Git mirror of the SQLite source tree",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/48680494?v=4",
+            "html_url": "https://github.com/sqlite/sqlite",
+            "stargazers_count": 7957,
+            "created_at": "2019-03-18T12:21:01Z",
+            "updated_at": "2025-06-21T06:18:14Z",
+            "pushed_at": "2025-06-21T06:18:09Z"
+        },
+        {
+            "name": "cassandra",
+            "description": "Apache Cassandra\u00ae",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/47359?v=4",
+            "html_url": "https://github.com/apache/cassandra",
+            "stargazers_count": 9234,
+            "created_at": "2009-05-21T02:10:09Z",
+            "updated_at": "2025-06-20T17:54:15Z",
+            "pushed_at": "2025-06-19T11:40:55Z"
         },
         {
             "name": "couchdb",
             "description": "Seamless multi-primary syncing database with an intuitive HTTP/JSON API, designed for reliability",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/47359?v=4",
             "html_url": "https://github.com/apache/couchdb",
-            "stargazers_count": 6542,
+            "stargazers_count": 6561,
             "created_at": "2009-05-21T02:03:38Z",
-            "updated_at": "2025-05-31T23:32:33Z",
-            "pushed_at": "2025-05-31T02:47:34Z"
+            "updated_at": "2025-06-21T06:10:03Z",
+            "pushed_at": "2025-06-21T05:58:33Z"
+        },
+        {
+            "name": "surrealdb",
+            "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/10982346?v=4",
+            "html_url": "https://github.com/surrealdb/surrealdb",
+            "stargazers_count": 29439,
+            "created_at": "2021-12-09T15:03:29Z",
+            "updated_at": "2025-06-21T04:10:48Z",
+            "pushed_at": "2025-06-21T00:56:22Z"
+        },
+        {
+            "name": "server",
+            "description": "MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with outside developers to deliver the most featureful, stable, and sanely licensed open SQL server in the industry.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4739304?v=4",
+            "html_url": "https://github.com/MariaDB/server",
+            "stargazers_count": 6130,
+            "created_at": "2014-05-15T10:58:50Z",
+            "updated_at": "2025-06-21T08:21:53Z",
+            "pushed_at": "2025-06-21T06:55:44Z"
+        },
+        {
+            "name": "dgraph",
+            "description": "high-performance graph database for real-time use cases",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/145411033?v=4",
+            "html_url": "https://github.com/hypermodeinc/dgraph",
+            "stargazers_count": 20951,
+            "created_at": "2015-08-25T07:15:56Z",
+            "updated_at": "2025-06-21T04:11:16Z",
+            "pushed_at": "2025-06-20T20:43:22Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-06-01T00:24:33.951863Z"
+        "last_updated": "2025-06-21T09:24:18.897971Z"
     }
 }
