@@ -1,1044 +1,14 @@
 {
     "data": [
         {
-            "name": "d3-context-menu",
-            "description": "A plugin for d3.js that allows you to easy use context-menus in your visualizations.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/521224?v=4",
-            "html_url": "https://github.com/patorjk/d3-context-menu",
-            "stargazers_count": 140,
-            "created_at": "2014-08-18T04:46:47Z",
-            "updated_at": "2024-06-30T01:41:45Z",
-            "pushed_at": "2021-01-09T19:56:47Z"
-        },
-        {
-            "name": "oecd-simple-charts",
-            "description": "A lightweight charting tool",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/30502708?v=4",
-            "html_url": "https://github.com/oecd-cyc/oecd-simple-charts",
-            "stargazers_count": 18,
-            "created_at": "2018-02-18T14:55:24Z",
-            "updated_at": "2024-10-13T20:57:40Z",
-            "pushed_at": "2022-12-09T04:52:50Z"
-        },
-        {
-            "name": "netvis",
-            "description": "d3.js-based tool to visualize network communication for arbitrary protocols",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/816895?v=4",
-            "html_url": "https://github.com/dborzov/netvis",
-            "stargazers_count": 17,
-            "created_at": "2014-10-27T01:03:14Z",
-            "updated_at": "2024-07-10T13:50:49Z",
-            "pushed_at": "2015-02-20T03:59:13Z"
-        },
-        {
-            "name": "recharts",
-            "description": "Redefined chart library built with React and D3",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13690587?v=4",
-            "html_url": "https://github.com/recharts/recharts",
-            "stargazers_count": 25254,
-            "created_at": "2015-08-07T06:50:27Z",
-            "updated_at": "2025-05-31T17:37:36Z",
-            "pushed_at": "2025-06-01T00:14:47Z"
-        },
-        {
-            "name": "d3-node",
-            "description": "Server-side D3 for static chart/map generation \u2728\ud83d\udcca",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26352883?v=4",
-            "html_url": "https://github.com/d3-node/d3-node",
-            "stargazers_count": 687,
-            "created_at": "2016-07-13T21:06:21Z",
-            "updated_at": "2025-04-11T09:50:30Z",
-            "pushed_at": "2024-10-16T13:35:46Z"
-        },
-        {
-            "name": "d3-annotation",
-            "description": "Use d3-annotation with built-in annotation types, or extend it to make custom annotations. It is made for d3-v4 in SVG.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1449837?v=4",
-            "html_url": "https://github.com/susielu/d3-annotation",
-            "stargazers_count": 754,
-            "created_at": "2016-10-18T00:01:21Z",
-            "updated_at": "2025-04-09T15:53:26Z",
-            "pushed_at": "2022-12-03T03:25:24Z"
-        },
-        {
-            "name": "d3-cloud",
-            "description": "Create word clouds in JavaScript.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/31223?v=4",
-            "html_url": "https://github.com/jasondavies/d3-cloud",
-            "stargazers_count": 3900,
-            "created_at": "2012-02-08T19:38:01Z",
-            "updated_at": "2025-05-30T03:30:57Z",
-            "pushed_at": "2024-03-10T21:31:59Z"
-        },
-        {
-            "name": "d3-hsluv",
-            "description": "D3 implementation of human-friendly HSL",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3466817?v=4",
-            "html_url": "https://github.com/petulla/d3-hsluv",
-            "stargazers_count": 10,
-            "created_at": "2017-12-22T20:29:09Z",
-            "updated_at": "2024-03-20T20:54:54Z",
-            "pushed_at": "2018-08-06T21:13:56Z"
-        },
-        {
-            "name": "d3-lasso",
-            "description": "A lasso plugin for d3",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5554373?v=4",
-            "html_url": "https://github.com/skokenes/d3-lasso",
-            "stargazers_count": 89,
-            "created_at": "2016-09-21T02:43:14Z",
-            "updated_at": "2025-04-28T17:52:31Z",
-            "pushed_at": "2021-05-05T14:57:50Z"
-        },
-        {
-            "name": "topogram",
-            "description": "Continuous area cartograms with d3 and TopoJSON",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/113896?v=4",
-            "html_url": "https://github.com/shawnbot/topogram",
-            "stargazers_count": 325,
-            "created_at": "2012-11-26T16:28:53Z",
-            "updated_at": "2025-05-29T08:51:50Z",
-            "pushed_at": "2023-04-14T23:48:10Z"
-        },
-        {
-            "name": "d3-peaks",
-            "description": "Find peaks in a noisy signal",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/879348?v=4",
-            "html_url": "https://github.com/efekarakus/d3-peaks",
-            "stargazers_count": 55,
-            "created_at": "2016-02-29T00:37:42Z",
-            "updated_at": "2025-01-07T16:44:08Z",
-            "pushed_at": "2016-03-25T03:05:39Z"
-        },
-        {
-            "name": "d3-composite-projections",
-            "description": "Set of d3 projections for showing countries distant lands together",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2832885?v=4",
-            "html_url": "https://github.com/rveciana/d3-composite-projections",
-            "stargazers_count": 98,
-            "created_at": "2015-04-24T11:23:53Z",
-            "updated_at": "2024-10-13T21:01:58Z",
-            "pushed_at": "2023-03-14T06:43:04Z"
-        },
-        {
-            "name": "plotly.js",
-            "description": "Open-source JavaScript charting library behind Plotly and Dash",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5997976?v=4",
-            "html_url": "https://github.com/plotly/plotly.js",
-            "stargazers_count": 17593,
-            "created_at": "2015-11-05T23:27:17Z",
-            "updated_at": "2025-05-31T00:30:13Z",
-            "pushed_at": "2025-05-30T21:01:05Z"
-        },
-        {
-            "name": "britecharts",
-            "description": "Composable Charting Library based on reusable D3.js components.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/63871609?v=4",
-            "html_url": "https://github.com/britecharts/britecharts",
-            "stargazers_count": 3733,
-            "created_at": "2015-05-19T22:42:39Z",
-            "updated_at": "2025-04-13T16:31:35Z",
-            "pushed_at": "2023-09-05T09:22:01Z"
-        },
-        {
-            "name": "d2b",
-            "description": "Reusable d3-based chart library.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25933194?v=4",
-            "html_url": "https://github.com/d2bjs/d2b",
-            "stargazers_count": 98,
-            "created_at": "2017-02-21T16:12:26Z",
-            "updated_at": "2025-05-08T15:32:41Z",
-            "pushed_at": "2022-12-03T12:34:31Z"
-        },
-        {
-            "name": "D3xter",
-            "description": "Straight forward plotting built on D3 ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3989198?v=4",
-            "html_url": "https://github.com/NathanEpstein/D3xter",
-            "stargazers_count": 336,
-            "created_at": "2014-10-27T14:04:33Z",
-            "updated_at": "2025-05-10T16:22:39Z",
-            "pushed_at": "2020-10-13T20:28:33Z"
-        },
-        {
-            "name": "react-d3-components",
-            "description": "D3 Components for React",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5276006?v=4",
-            "html_url": "https://github.com/codesuki/react-d3-components",
-            "stargazers_count": 1624,
-            "created_at": "2015-02-06T01:28:27Z",
-            "updated_at": "2025-04-14T04:50:57Z",
-            "pushed_at": "2022-01-11T11:39:52Z"
-        },
-        {
-            "name": "billboard.js",
-            "description": " \ud83d\udcca Re-usable, easy interface JavaScript chart library based on D3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6589568?v=4",
-            "html_url": "https://github.com/naver/billboard.js",
-            "stargazers_count": 5912,
-            "created_at": "2017-06-08T02:54:44Z",
-            "updated_at": "2025-05-30T09:52:49Z",
-            "pushed_at": "2025-05-31T00:47:49Z"
-        },
-        {
-            "name": "d3-helpers",
-            "description": "Little utility D3 functions",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2212006?v=4",
-            "html_url": "https://github.com/bahmutov/d3-helpers",
-            "stargazers_count": 26,
-            "created_at": "2014-04-02T15:51:23Z",
-            "updated_at": "2024-10-13T20:59:44Z",
-            "pushed_at": "2020-07-15T19:48:48Z"
-        },
-        {
-            "name": "textures",
-            "description": "Textures.js is a JavaScript library for creating SVG patterns",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1370300?v=4",
-            "html_url": "https://github.com/riccardoscalco/textures",
-            "stargazers_count": 6063,
-            "created_at": "2015-01-28T12:24:23Z",
-            "updated_at": "2025-05-30T14:32:15Z",
-            "pushed_at": "2023-01-01T20:03:38Z"
-        },
-        {
-            "name": "d3-force-reuse",
-            "description": "Faster force-directed graph layouts by reusing force approximations",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6350922?v=4",
-            "html_url": "https://github.com/twosixlabs/d3-force-reuse",
-            "stargazers_count": 126,
-            "created_at": "2018-11-14T20:10:12Z",
-            "updated_at": "2025-02-27T07:29:13Z",
-            "pushed_at": "2021-07-29T14:36:24Z"
-        },
-        {
-            "name": "metrics-graphics",
-            "description": "A library optimized for concise and principled data graphics and layouts.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/37669658?v=4",
-            "html_url": "https://github.com/metricsgraphics/metrics-graphics",
-            "stargazers_count": 7437,
-            "created_at": "2014-05-01T18:25:52Z",
-            "updated_at": "2025-05-26T16:23:33Z",
-            "pushed_at": "2022-05-31T15:05:59Z"
-        },
-        {
-            "name": "Vs",
-            "description": "Vue Visualisation Package using d3.js and leaflet.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/33961674?v=4",
-            "html_url": "https://github.com/0x8f701/Vs",
-            "stargazers_count": 169,
-            "created_at": "2018-03-28T10:37:29Z",
-            "updated_at": "2025-03-22T10:47:46Z",
-            "pushed_at": "2020-10-21T13:13:41Z"
-        },
-        {
-            "name": "tremor",
-            "description": "Copy & Paste React components to build modern web applications. ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/97241560?v=4",
-            "html_url": "https://github.com/tremorlabs/tremor",
-            "stargazers_count": 2348,
-            "created_at": "2024-03-26T02:38:57Z",
-            "updated_at": "2025-05-31T17:53:30Z",
-            "pushed_at": "2025-04-12T20:15:29Z"
-        },
-        {
-            "name": "nivo",
-            "description": "nivo provides a rich set of dataviz components, built on top of the awesome d3 and React libraries",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/501642?v=4",
-            "html_url": "https://github.com/plouc/nivo",
-            "stargazers_count": 13575,
-            "created_at": "2016-04-16T03:27:56Z",
-            "updated_at": "2025-05-31T17:00:55Z",
-            "pushed_at": "2025-05-24T00:16:59Z"
-        },
-        {
-            "name": "WebCola",
-            "description": "Javascript constraint-based graph layout",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2754673?v=4",
-            "html_url": "https://github.com/tgdwyer/WebCola",
-            "stargazers_count": 2059,
-            "created_at": "2013-07-10T05:42:18Z",
-            "updated_at": "2025-05-30T01:54:05Z",
-            "pushed_at": "2023-07-19T00:21:04Z"
-        },
-        {
-            "name": "d3-history",
-            "description": "proper URL bar history for D3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3488572?v=4",
-            "html_url": "https://github.com/vijithassar/d3-history",
-            "stargazers_count": 49,
-            "created_at": "2016-05-28T15:44:42Z",
-            "updated_at": "2024-10-13T20:57:55Z",
-            "pushed_at": "2017-11-29T08:01:28Z"
-        },
-        {
-            "name": "react-stockcharts",
-            "description": "Highly customizable stock charts with ReactJS and d3",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/10691183?v=4",
-            "html_url": "https://github.com/rrag/react-stockcharts",
-            "stargazers_count": 3957,
-            "created_at": "2015-02-22T14:34:39Z",
-            "updated_at": "2025-05-27T16:34:56Z",
-            "pushed_at": "2023-03-09T04:15:58Z"
-        },
-        {
-            "name": "d3-boxplot",
-            "description": "d3js box plot plugin",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2233956?v=4",
-            "html_url": "https://github.com/akngs/d3-boxplot",
-            "stargazers_count": 23,
-            "created_at": "2019-02-20T00:48:53Z",
-            "updated_at": "2024-11-27T17:21:24Z",
-            "pushed_at": "2023-03-10T23:56:54Z"
-        },
-        {
-            "name": "visavail",
-            "description": "A D3.js Time Data Availability Visualization",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/9593883?v=4",
-            "html_url": "https://github.com/flrs/visavail",
-            "stargazers_count": 309,
-            "created_at": "2016-06-07T13:45:12Z",
-            "updated_at": "2025-04-30T06:13:25Z",
-            "pushed_at": "2024-12-05T07:42:19Z"
-        },
-        {
-            "name": "swoopy-drag",
-            "description": "Artisanal label placement for d3 graphics",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1643998?v=4",
-            "html_url": "https://github.com/1wheel/swoopy-drag",
-            "stargazers_count": 121,
-            "created_at": "2016-03-04T19:24:36Z",
-            "updated_at": "2025-01-31T18:28:55Z",
-            "pushed_at": "2018-07-05T03:05:09Z"
-        },
-        {
-            "name": "d3scription",
-            "description": "D3.js tooltip plugin made simple. With single-page apps in mind.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6952372?v=4",
-            "html_url": "https://github.com/GlobalWebIndex/d3scription",
-            "stargazers_count": 30,
-            "created_at": "2016-08-04T18:27:11Z",
-            "updated_at": "2023-09-11T10:51:36Z",
-            "pushed_at": "2022-02-04T10:54:40Z"
-        },
-        {
-            "name": "d3plus",
-            "description": "A javascript library that extends D3.js to enable fast and beautiful visualizations.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13490477?v=4",
-            "html_url": "https://github.com/d3plus/d3plus",
-            "stargazers_count": 1620,
-            "created_at": "2013-01-09T00:26:58Z",
-            "updated_at": "2025-04-30T23:18:48Z",
-            "pushed_at": "2025-04-02T20:59:46Z"
-        },
-        {
-            "name": "d3-component",
-            "description": "A lightweight component abstraction for D3.js.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/68416?v=4",
-            "html_url": "https://github.com/curran/d3-component",
-            "stargazers_count": 109,
-            "created_at": "2015-08-22T02:06:59Z",
-            "updated_at": "2024-11-06T04:13:11Z",
-            "pushed_at": "2017-12-18T23:21:28Z"
-        },
-        {
-            "name": "react-vis",
-            "description": "Data Visualization Components",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/538264?v=4",
-            "html_url": "https://github.com/uber/react-vis",
-            "stargazers_count": 8761,
-            "created_at": "2016-02-22T20:45:50Z",
-            "updated_at": "2025-05-30T22:48:23Z",
-            "pushed_at": "2024-12-18T22:24:34Z"
-        },
-        {
-            "name": "chart-parts",
-            "description": "A flexible, React-friendly, Grammar of Graphics for data visualization",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
-            "html_url": "https://github.com/microsoft/chart-parts",
-            "stargazers_count": 608,
-            "created_at": "2018-08-22T21:27:27Z",
-            "updated_at": "2025-05-31T10:54:00Z",
-            "pushed_at": "2023-06-09T23:33:47Z"
-        },
-        {
-            "name": "crossfilter",
-            "description": "Fast n-dimensional filtering and grouping of records.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12073349?v=4",
-            "html_url": "https://github.com/crossfilter/crossfilter",
-            "stargazers_count": 1749,
-            "created_at": "2015-06-02T13:42:34Z",
-            "updated_at": "2025-05-17T14:25:03Z",
-            "pushed_at": "2023-07-19T00:43:22Z"
-        },
-        {
-            "name": "mermaid",
-            "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/57169982?v=4",
-            "html_url": "https://github.com/mermaid-js/mermaid",
-            "stargazers_count": 79874,
-            "created_at": "2014-11-01T23:52:32Z",
-            "updated_at": "2025-05-31T23:43:50Z",
-            "pushed_at": "2025-05-30T21:57:42Z"
-        },
-        {
-            "name": "d3-ez",
-            "description": "D3-EZ Easy Reusable Charts",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13055416?v=4",
-            "html_url": "https://github.com/jamesleesaunders/d3-ez",
-            "stargazers_count": 52,
-            "created_at": "2015-07-08T08:44:55Z",
-            "updated_at": "2025-02-22T20:17:41Z",
-            "pushed_at": "2025-05-07T08:37:34Z"
-        },
-        {
-            "name": "d3fc",
-            "description": "A collection of components that make it easy to build interactive charts with D3",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14138478?v=4",
-            "html_url": "https://github.com/d3fc/d3fc",
-            "stargazers_count": 1320,
-            "created_at": "2014-10-06T15:03:11Z",
-            "updated_at": "2025-05-27T14:21:04Z",
-            "pushed_at": "2024-09-28T04:14:49Z"
-        },
-        {
-            "name": "potion",
-            "description": "React components for declaratively composing animated, interactive visualizations.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4628721?v=4",
-            "html_url": "https://github.com/finnfiddle/potion",
-            "stargazers_count": 183,
-            "created_at": "2017-01-12T22:24:36Z",
-            "updated_at": "2025-03-21T20:49:02Z",
-            "pushed_at": "2018-04-19T19:32:18Z"
-        },
-        {
-            "name": "d3-ring-note",
-            "description": "D3 plugin for placing circle and text annotation",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5270903?v=4",
-            "html_url": "https://github.com/armollica/d3-ring-note",
-            "stargazers_count": 112,
-            "created_at": "2016-05-21T21:49:36Z",
-            "updated_at": "2024-10-29T05:49:31Z",
-            "pushed_at": "2016-05-25T00:18:19Z"
-        },
-        {
-            "name": "d3kit-timeline",
-            "description": "A simple timeline component that labels do not overlap.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1659771?v=4",
-            "html_url": "https://github.com/kristw/d3kit-timeline",
-            "stargazers_count": 378,
-            "created_at": "2015-12-05T23:17:18Z",
-            "updated_at": "2025-04-02T22:50:58Z",
-            "pushed_at": "2022-12-27T19:45:27Z"
-        },
-        {
-            "name": "d3-geo-projection",
-            "description": "Extended geographic projections for d3-geo.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1562726?v=4",
-            "html_url": "https://github.com/d3/d3-geo-projection",
-            "stargazers_count": 1127,
-            "created_at": "2013-06-23T16:50:58Z",
-            "updated_at": "2025-05-07T05:59:04Z",
-            "pushed_at": "2023-07-12T15:24:37Z"
-        },
-        {
-            "name": "d3-funnel",
-            "description": "A JavaScript library for rendering funnel charts using the D3.js framework.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3210703?v=4",
-            "html_url": "https://github.com/jakezatecky/d3-funnel",
-            "stargazers_count": 333,
-            "created_at": "2014-07-15T23:02:30Z",
-            "updated_at": "2025-04-10T19:14:59Z",
-            "pushed_at": "2024-10-21T10:27:52Z"
-        },
-        {
-            "name": "EventDrops",
-            "description": "A time based / event series interactive visualization using d3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3116319?v=4",
-            "html_url": "https://github.com/marmelab/EventDrops",
-            "stargazers_count": 1247,
-            "created_at": "2014-09-16T08:14:58Z",
-            "updated_at": "2025-03-29T04:26:30Z",
-            "pushed_at": "2024-08-19T15:26:06Z"
-        },
-        {
-            "name": "victory",
-            "description": "A collection of composable React components for building interactive data visualizations",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5078602?v=4",
-            "html_url": "https://github.com/FormidableLabs/victory",
-            "stargazers_count": 11157,
-            "created_at": "2015-07-02T22:36:50Z",
-            "updated_at": "2025-05-31T09:56:17Z",
-            "pushed_at": "2025-01-31T22:06:43Z"
-        },
-        {
-            "name": "d3-loom",
-            "description": "d3 plugin to create a loom chart layout (for d3-v4)",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5062746?v=4",
-            "html_url": "https://github.com/nbremer/d3-loom",
-            "stargazers_count": 92,
-            "created_at": "2017-05-25T20:42:30Z",
-            "updated_at": "2025-02-03T03:25:55Z",
-            "pushed_at": "2017-08-02T08:23:15Z"
-        },
-        {
-            "name": "d3.geo2rect",
-            "description": "Morphing geojson polygons into rectangles ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/302789?v=4",
-            "html_url": "https://github.com/sebastian-meier/d3.geo2rect",
-            "stargazers_count": 202,
-            "created_at": "2017-02-03T19:52:37Z",
-            "updated_at": "2025-04-26T08:02:23Z",
-            "pushed_at": "2019-01-07T10:35:14Z"
-        },
-        {
-            "name": "d3.sketchy",
-            "description": "A tool to create sketchy backgrounds, shapes and lines",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/302789?v=4",
-            "html_url": "https://github.com/sebastian-meier/d3.sketchy",
-            "stargazers_count": 248,
-            "created_at": "2015-07-28T22:56:24Z",
-            "updated_at": "2025-02-19T21:16:03Z",
-            "pushed_at": "2015-08-03T10:33:37Z"
-        },
-        {
-            "name": "d3-x3d",
-            "description": "3D Data Driven Charting Library with D3 and X3D",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13055416?v=4",
-            "html_url": "https://github.com/jamesleesaunders/d3-x3d",
-            "stargazers_count": 114,
-            "created_at": "2018-09-08T10:23:10Z",
-            "updated_at": "2025-03-20T13:52:07Z",
-            "pushed_at": "2025-05-27T07:44:01Z"
-        },
-        {
-            "name": "twitter-sentiment-visualisation",
-            "description": "\ud83c\udf0d Sentiment analysis over real-time social media data, rendering live charts to visualise trends ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1862727?v=4",
-            "html_url": "https://github.com/Lissy93/twitter-sentiment-visualisation",
-            "stargazers_count": 221,
-            "created_at": "2015-07-24T09:25:24Z",
-            "updated_at": "2025-05-30T05:02:39Z",
-            "pushed_at": "2023-11-04T11:58:40Z"
-        },
-        {
-            "name": "d3-interpolate-path",
-            "description": "Interpolates path `d` attribute smoothly when A and B have different number of points.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/793847?v=4",
-            "html_url": "https://github.com/pbeshai/d3-interpolate-path",
-            "stargazers_count": 335,
-            "created_at": "2016-08-25T02:19:58Z",
-            "updated_at": "2025-05-24T14:14:09Z",
-            "pushed_at": "2023-01-07T04:11:44Z"
-        },
-        {
-            "name": "dTree",
-            "description": "A library for visualizing data trees with multiple parents, such as family trees. Built on top of D3.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3374401?v=4",
-            "html_url": "https://github.com/ErikGartner/dTree",
-            "stargazers_count": 535,
-            "created_at": "2015-12-23T16:06:39Z",
-            "updated_at": "2025-05-22T07:09:18Z",
-            "pushed_at": "2024-05-14T09:32:56Z"
-        },
-        {
-            "name": "d3-legend",
-            "description": "A reusable d3 legend component. ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1449837?v=4",
-            "html_url": "https://github.com/susielu/d3-legend",
-            "stargazers_count": 725,
-            "created_at": "2015-06-10T20:19:36Z",
-            "updated_at": "2025-03-03T20:47:33Z",
-            "pushed_at": "2024-07-22T21:03:02Z"
-        },
-        {
-            "name": "d3-nelson-rules",
-            "description": "d3 utility to apply nelsons rules of process control to a set of data",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/17273127?v=4",
-            "html_url": "https://github.com/53seven/d3-nelson-rules",
-            "stargazers_count": 17,
-            "created_at": "2015-12-12T04:03:47Z",
-            "updated_at": "2024-11-27T17:20:47Z",
-            "pushed_at": "2020-06-02T18:12:56Z"
-        },
-        {
-            "name": "d4",
-            "description": "A friendly reusable charts DSL for D3",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/123?v=4",
-            "html_url": "https://github.com/heavysixer/d4",
-            "stargazers_count": 433,
-            "created_at": "2014-01-27T18:04:54Z",
-            "updated_at": "2025-04-09T14:47:35Z",
-            "pushed_at": "2020-04-11T20:53:40Z"
-        },
-        {
-            "name": "vizabi",
-            "description": "Vizabi is a framework for building visual data exploration tools freely provided by @Gapminder",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/20951922?v=4",
-            "html_url": "https://github.com/vizabi/vizabi",
-            "stargazers_count": 272,
-            "created_at": "2014-06-03T08:14:17Z",
-            "updated_at": "2025-05-14T19:04:26Z",
-            "pushed_at": "2023-11-22T11:00:55Z"
-        },
-        {
-            "name": "d3-bar",
-            "description": "D3 bar chart",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25254?v=4",
-            "html_url": "https://github.com/tj/d3-bar",
-            "stargazers_count": 173,
-            "created_at": "2016-03-18T00:23:02Z",
-            "updated_at": "2025-02-13T15:20:03Z",
-            "pushed_at": "2019-04-30T11:27:16Z"
-        },
-        {
-            "name": "d3-sparql",
-            "description": "Query a SPARQL endpoint with a SELECT query and get the data ready to be used with d3js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/8504419?v=4",
-            "html_url": "https://github.com/zazuko/d3-sparql",
-            "stargazers_count": 119,
-            "created_at": "2017-07-22T13:45:55Z",
-            "updated_at": "2025-05-15T05:47:25Z",
-            "pushed_at": "2019-05-10T08:00:54Z"
-        },
-        {
-            "name": "d3plus-text",
-            "description": "A smart SVG text box with line wrapping and automatic font size scaling.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13490477?v=4",
-            "html_url": "https://github.com/d3plus/d3plus-text",
-            "stargazers_count": 109,
-            "created_at": "2015-08-16T01:19:27Z",
-            "updated_at": "2025-04-14T08:17:51Z",
-            "pushed_at": "2024-03-26T15:22:13Z"
-        },
-        {
-            "name": "micropolar",
-            "description": "A tiny polar charts library made with D3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/824534?v=4",
-            "html_url": "https://github.com/biovisualize/micropolar",
-            "stargazers_count": 125,
-            "created_at": "2013-09-20T14:03:25Z",
-            "updated_at": "2024-05-25T19:07:44Z",
-            "pushed_at": "2024-05-25T19:20:06Z"
-        },
-        {
-            "name": "swoopyarrows",
-            "description": "swoopyarrows makes swoopy arrows between things",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6457498?v=4",
-            "html_url": "https://github.com/bizweekgraphics/swoopyarrows",
-            "stargazers_count": 109,
-            "created_at": "2014-06-12T22:52:35Z",
-            "updated_at": "2025-03-03T00:00:47Z",
-            "pushed_at": "2017-05-02T20:09:22Z"
-        },
-        {
-            "name": "vega",
-            "description": "A visualization grammar.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/11796929?v=4",
-            "html_url": "https://github.com/vega/vega",
-            "stargazers_count": 11513,
-            "created_at": "2013-02-03T18:36:30Z",
-            "updated_at": "2025-05-31T17:29:46Z",
-            "pushed_at": "2025-05-02T08:38:50Z"
-        },
-        {
-            "name": "d3-jetpack",
-            "description": " \ud83d\ude80 Nifty convenience wrappers that speed up your daily work with d3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/617518?v=4",
-            "html_url": "https://github.com/gka/d3-jetpack",
-            "stargazers_count": 614,
-            "created_at": "2015-02-12T21:22:19Z",
-            "updated_at": "2025-04-27T04:04:28Z",
-            "pushed_at": "2023-02-23T11:47:44Z"
-        },
-        {
-            "name": "echarts",
-            "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/47359?v=4",
-            "html_url": "https://github.com/apache/echarts",
-            "stargazers_count": 63643,
-            "created_at": "2013-04-03T03:18:59Z",
-            "updated_at": "2025-05-31T16:43:57Z",
-            "pushed_at": "2025-05-31T16:30:28Z"
-        },
-        {
-            "name": "treeviz",
-            "description": "Tree diagrams with JavaScript :evergreen_tree: :chart_with_upwards_trend:",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26744253?v=4",
-            "html_url": "https://github.com/PierreCapo/treeviz",
-            "stargazers_count": 166,
-            "created_at": "2018-06-10T17:23:40Z",
-            "updated_at": "2025-05-18T14:43:47Z",
-            "pushed_at": "2024-04-03T19:05:28Z"
-        },
-        {
-            "name": "d3-breadcrumbs",
-            "description": null,
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6873202?v=4",
-            "html_url": "https://github.com/bumbeishvili/d3-breadcrumbs",
-            "stargazers_count": 5,
-            "created_at": "2017-11-05T11:58:43Z",
-            "updated_at": "2023-08-02T07:33:06Z",
-            "pushed_at": "2021-12-03T14:23:14Z"
-        },
-        {
-            "name": "d3-beeswarm",
-            "description": "D3 plugin which computes a 'beeswarm' arrangement",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4328986?v=4",
-            "html_url": "https://github.com/Kcnarf/d3-beeswarm",
-            "stargazers_count": 51,
-            "created_at": "2016-06-07T07:41:29Z",
-            "updated_at": "2024-10-13T20:57:42Z",
-            "pushed_at": "2022-08-16T09:47:45Z"
-        },
-        {
-            "name": "layercake",
-            "description": "graphics framework for sveltejs",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/498744?v=4",
-            "html_url": "https://github.com/mhkeller/layercake",
-            "stargazers_count": 1584,
-            "created_at": "2018-07-17T06:49:33Z",
-            "updated_at": "2025-05-29T13:55:02Z",
-            "pushed_at": "2025-05-13T12:16:33Z"
-        },
-        {
-            "name": "d3pie",
-            "description": "A configurable pie chart lib and generator built on d3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/512116?v=4",
-            "html_url": "https://github.com/benkeen/d3pie",
-            "stargazers_count": 371,
-            "created_at": "2013-12-25T05:03:42Z",
-            "updated_at": "2025-03-23T14:02:27Z",
-            "pushed_at": "2022-09-21T10:49:38Z"
-        },
-        {
-            "name": "visx",
-            "description": "\ud83d\udc2f visx | visualization components",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/698437?v=4",
-            "html_url": "https://github.com/airbnb/visx",
-            "stargazers_count": 20044,
-            "created_at": "2017-03-15T16:25:41Z",
-            "updated_at": "2025-05-30T10:25:41Z",
-            "pushed_at": "2025-01-09T20:09:46Z"
-        },
-        {
-            "name": "ngx-charts",
-            "description": ":bar_chart: Declarative Charting Framework for Angular",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/10552812?v=4",
-            "html_url": "https://github.com/swimlane/ngx-charts",
-            "stargazers_count": 4325,
-            "created_at": "2016-07-22T15:58:41Z",
-            "updated_at": "2025-05-14T18:51:36Z",
-            "pushed_at": "2025-05-06T22:11:42Z"
-        },
-        {
-            "name": "d3-voronoi-treemap",
-            "description": "D3 plugin which computes a treemap based on a Voronoi tesselation",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4328986?v=4",
-            "html_url": "https://github.com/Kcnarf/d3-voronoi-treemap",
-            "stargazers_count": 210,
-            "created_at": "2017-11-28T13:35:04Z",
-            "updated_at": "2025-05-24T21:08:50Z",
-            "pushed_at": "2024-09-26T21:18:33Z"
-        },
-        {
-            "name": "d3-tooltip",
-            "description": "Simple, beautiful data driven tooltip",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6873202?v=4",
-            "html_url": "https://github.com/bumbeishvili/d3-tooltip",
-            "stargazers_count": 12,
-            "created_at": "2017-11-06T09:15:01Z",
-            "updated_at": "2024-03-05T10:38:02Z",
-            "pushed_at": "2022-03-13T09:28:38Z"
-        },
-        {
-            "name": "mpld3",
-            "description": "An interactive data visualization tool which brings matplotlib graphics to the browser using D3.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6522021?v=4",
-            "html_url": "https://github.com/mpld3/mpld3",
-            "stargazers_count": 2378,
-            "created_at": "2013-12-18T01:48:30Z",
-            "updated_at": "2025-05-28T20:33:21Z",
-            "pushed_at": "2025-05-03T11:23:45Z"
-        },
-        {
-            "name": "d3-area-label",
-            "description": "A library for placing labels in areas.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/68416?v=4",
-            "html_url": "https://github.com/curran/d3-area-label",
-            "stargazers_count": 77,
-            "created_at": "2017-07-26T06:08:18Z",
-            "updated_at": "2025-01-30T19:26:21Z",
-            "pushed_at": "2024-03-17T01:00:00Z"
-        },
-        {
-            "name": "leaflet-d3",
-            "description": "Collection of plugins for using d3.js with Leaflet",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/491054?v=4",
-            "html_url": "https://github.com/bluehalo/leaflet-d3",
-            "stargazers_count": 268,
-            "created_at": "2014-10-01T17:44:38Z",
-            "updated_at": "2025-03-25T10:05:23Z",
-            "pushed_at": "2023-03-07T09:53:14Z"
-        },
-        {
-            "name": "tauCharts",
-            "description": "D3 based data-focused charting library. Designed with passion. Flexible.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/649085?v=4",
-            "html_url": "https://github.com/TargetProcess/tauCharts",
-            "stargazers_count": 1906,
-            "created_at": "2014-01-17T09:03:30Z",
-            "updated_at": "2025-05-31T15:42:26Z",
-            "pushed_at": "2023-10-04T14:07:25Z"
-        },
-        {
-            "name": "simple-map-d3",
-            "description": "A very simple \"choropleth\" style map with D3.  All you need is a GeoJSON of polygons.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1085124?v=4",
-            "html_url": "https://github.com/MinnPost/simple-map-d3",
-            "stargazers_count": 114,
-            "created_at": "2013-01-04T20:06:13Z",
-            "updated_at": "2024-10-13T21:02:11Z",
-            "pushed_at": "2017-02-07T16:44:57Z"
-        },
-        {
-            "name": "Kyrix",
-            "description": "Interactive details-on-demand data visualizations at scale",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5410441?v=4",
-            "html_url": "https://github.com/tracyhenry/Kyrix",
-            "stargazers_count": 148,
-            "created_at": "2017-12-20T18:28:26Z",
-            "updated_at": "2025-03-19T00:01:08Z",
-            "pushed_at": "2023-06-22T17:15:54Z"
-        },
-        {
-            "name": "d3-gridding",
-            "description": "grids for rapid D3 charts mockups",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/586236?v=4",
-            "html_url": "https://github.com/romsson/d3-gridding",
-            "stargazers_count": 103,
-            "created_at": "2016-07-28T11:50:39Z",
-            "updated_at": "2025-03-01T06:09:28Z",
-            "pushed_at": "2022-07-20T18:20:32Z"
-        },
-        {
-            "name": "react-simple-maps",
-            "description": "Beautiful React SVG maps with d3-geo and topojson using a declarative api.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26087675?v=4",
-            "html_url": "https://github.com/zcreativelabs/react-simple-maps",
-            "stargazers_count": 3179,
-            "created_at": "2017-03-03T18:17:19Z",
-            "updated_at": "2025-05-29T16:52:10Z",
-            "pushed_at": "2024-08-08T15:53:29Z"
-        },
-        {
-            "name": "d3-force-gravity",
-            "description": "Implement gravitational attraction (or force-field-like repulsion) using d3-force",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6852008?v=4",
-            "html_url": "https://github.com/sohamkamani/d3-force-gravity",
-            "stargazers_count": 22,
-            "created_at": "2016-08-12T07:45:20Z",
-            "updated_at": "2023-03-29T08:17:37Z",
-            "pushed_at": "2016-08-12T14:26:49Z"
-        },
-        {
-            "name": "chess-dataviz",
-            "description": "chess visualization library written for d3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/304523?v=4",
-            "html_url": "https://github.com/ebemunk/chess-dataviz",
-            "stargazers_count": 76,
-            "created_at": "2015-05-01T19:49:23Z",
-            "updated_at": "2025-04-15T05:45:47Z",
-            "pushed_at": "2021-05-06T16:30:12Z"
-        },
-        {
-            "name": "d3-message-sequence",
-            "description": "Dynamic message sequence charts for d3.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/30394?v=4",
-            "html_url": "https://github.com/koudelka/d3-message-sequence",
-            "stargazers_count": 101,
-            "created_at": "2015-11-25T21:28:34Z",
-            "updated_at": "2024-11-27T17:25:55Z",
-            "pushed_at": "2018-06-21T08:00:14Z"
-        },
-        {
-            "name": "nvd3",
-            "description": "A reusable charting library written in d3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/293390?v=4",
-            "html_url": "https://github.com/novus/nvd3",
-            "stargazers_count": 7229,
-            "created_at": "2012-11-15T18:51:59Z",
-            "updated_at": "2025-05-28T05:15:52Z",
-            "pushed_at": "2023-09-15T20:36:03Z"
-        },
-        {
-            "name": "c3",
-            "description": ":bar_chart: A D3-based reusable chart library",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/9966497?v=4",
-            "html_url": "https://github.com/c3js/c3",
-            "stargazers_count": 9357,
-            "created_at": "2013-07-18T06:51:40Z",
-            "updated_at": "2025-05-31T14:02:33Z",
-            "pushed_at": "2024-11-20T14:10:05Z"
-        },
-        {
-            "name": "d3-heatmap",
-            "description": "D3 heatmap ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25254?v=4",
-            "html_url": "https://github.com/tj/d3-heatmap",
-            "stargazers_count": 244,
-            "created_at": "2016-03-18T22:12:00Z",
-            "updated_at": "2025-01-26T00:32:38Z",
-            "pushed_at": "2016-06-03T20:58:46Z"
-        },
-        {
             "name": "react-d3-library",
             "description": "Open source library for using D3 in React",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/19215124?v=4",
             "html_url": "https://github.com/react-d3-library/react-d3-library",
-            "stargazers_count": 1546,
+            "stargazers_count": 1547,
             "created_at": "2016-05-05T23:08:31Z",
-            "updated_at": "2025-05-24T17:58:36Z",
+            "updated_at": "2025-06-12T04:57:36Z",
             "pushed_at": "2021-03-04T22:07:06Z"
-        },
-        {
-            "name": "d3-bumps-chart",
-            "description": "A d3 plugin for visualizing bumps charts",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/981531?v=4",
-            "html_url": "https://github.com/johnwalley/d3-bumps-chart",
-            "stargazers_count": 14,
-            "created_at": "2016-09-01T10:26:11Z",
-            "updated_at": "2024-01-14T12:44:17Z",
-            "pushed_at": "2023-12-24T22:43:38Z"
-        },
-        {
-            "name": "semiotic",
-            "description": "A data visualization framework combining React & D3",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12401040?v=4",
-            "html_url": "https://github.com/nteract/semiotic",
-            "stargazers_count": 2447,
-            "created_at": "2017-03-16T17:46:24Z",
-            "updated_at": "2025-05-26T16:24:25Z",
-            "pushed_at": "2024-04-10T15:50:49Z"
-        },
-        {
-            "name": "d3-dag",
-            "description": "Layout algorithms for visualizing directed acyclic graphs",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/858926?v=4",
-            "html_url": "https://github.com/erikbrinkman/d3-dag",
-            "stargazers_count": 1484,
-            "created_at": "2018-07-06T03:31:09Z",
-            "updated_at": "2025-05-29T01:51:44Z",
-            "pushed_at": "2025-04-06T17:00:25Z"
-        },
-        {
-            "name": "d3-geo-scale-bar",
-            "description": "Displays automatic scale bars for projected geospatial data.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6527267?v=4",
-            "html_url": "https://github.com/HarryStevens/d3-geo-scale-bar",
-            "stargazers_count": 45,
-            "created_at": "2018-07-16T02:58:27Z",
-            "updated_at": "2024-11-12T07:27:11Z",
-            "pushed_at": "2023-03-04T02:44:57Z"
-        },
-        {
-            "name": "v-chart-plugin",
-            "description": "Easily bind a chart to the data stored in your Vue.js components.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5210420?v=4",
-            "html_url": "https://github.com/ignoreintuition/v-chart-plugin",
-            "stargazers_count": 198,
-            "created_at": "2018-08-28T03:19:34Z",
-            "updated_at": "2024-04-11T20:13:51Z",
-            "pushed_at": "2023-03-15T11:10:28Z"
-        },
-        {
-            "name": "CodeFlower",
-            "description": "Source code visualization utility written in JavaScript with d3.js. Does your code look beautiful?",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/99944?v=4",
-            "html_url": "https://github.com/fzaninotto/CodeFlower",
-            "stargazers_count": 694,
-            "created_at": "2013-03-04T09:40:45Z",
-            "updated_at": "2025-04-03T22:18:58Z",
-            "pushed_at": "2021-05-28T05:04:53Z"
-        },
-        {
-            "name": "dagre-d3",
-            "description": "A D3-based renderer for Dagre",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/34791034?v=4",
-            "html_url": "https://github.com/dagrejs/dagre-d3",
-            "stargazers_count": 2921,
-            "created_at": "2013-09-26T03:44:19Z",
-            "updated_at": "2025-05-30T02:31:28Z",
-            "pushed_at": "2024-03-13T15:09:07Z"
-        },
-        {
-            "name": "d3-iconarray",
-            "description": "A D3 module for making grids of icons",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/125399?v=4",
-            "html_url": "https://github.com/tomgp/d3-iconarray",
-            "stargazers_count": 85,
-            "created_at": "2015-07-31T07:32:03Z",
-            "updated_at": "2025-05-25T14:18:13Z",
-            "pushed_at": "2021-07-17T07:41:50Z"
-        },
-        {
-            "name": "d3-inertia",
-            "description": "Dragging stuff with inertia",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7001?v=4",
-            "html_url": "https://github.com/Fil/d3-inertia",
-            "stargazers_count": 66,
-            "created_at": "2017-11-06T14:05:12Z",
-            "updated_at": "2025-04-26T08:05:04Z",
-            "pushed_at": "2023-07-18T20:28:09Z"
-        },
-        {
-            "name": "graph-scroll",
-            "description": "scrollers > steppers ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1643998?v=4",
-            "html_url": "https://github.com/1wheel/graph-scroll",
-            "stargazers_count": 515,
-            "created_at": "2014-12-27T08:58:31Z",
-            "updated_at": "2025-05-16T16:08:11Z",
-            "pushed_at": "2020-03-21T23:38:05Z"
-        },
-        {
-            "name": "maptable",
-            "description": "JS library which converts any dataset to an interactive set of components: a choropleth or heat map, filters and table",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/15347439?v=4",
-            "html_url": "https://github.com/Packet-Clearing-House/maptable",
-            "stargazers_count": 60,
-            "created_at": "2014-12-10T03:16:49Z",
-            "updated_at": "2025-04-01T15:52:12Z",
-            "pushed_at": "2025-04-01T15:52:12Z"
-        },
-        {
-            "name": "plottable",
-            "description": ":bar_chart: A library of modular chart components built on D3",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/303157?v=4",
-            "html_url": "https://github.com/palantir/plottable",
-            "stargazers_count": 3005,
-            "created_at": "2014-01-22T19:29:19Z",
-            "updated_at": "2025-05-31T11:37:31Z",
-            "pushed_at": "2024-12-13T18:30:50Z"
-        },
-        {
-            "name": "d3panels",
-            "description": "A library of d3-based graphic panels, written in CoffeeScript",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/53972?v=4",
-            "html_url": "https://github.com/kbroman/d3panels",
-            "stargazers_count": 27,
-            "created_at": "2014-12-02T13:13:12Z",
-            "updated_at": "2025-05-09T20:13:28Z",
-            "pushed_at": "2025-05-10T05:18:36Z"
-        },
-        {
-            "name": "vega-lite",
-            "description": "A concise grammar of interactive graphics, built on Vega.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/11796929?v=4",
-            "html_url": "https://github.com/vega/vega-lite",
-            "stargazers_count": 4876,
-            "created_at": "2014-11-20T20:52:04Z",
-            "updated_at": "2025-05-31T07:49:46Z",
-            "pushed_at": "2025-05-29T21:18:48Z"
         },
         {
             "name": "vega-lite-api",
@@ -1051,44 +21,64 @@
             "pushed_at": "2023-05-08T06:57:09Z"
         },
         {
-            "name": "d3-extended",
-            "description": "Extends D3 with some common jQuery functions and more",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/132361782?v=4",
-            "html_url": "https://github.com/wbkd/d3-extended",
-            "stargazers_count": 273,
-            "created_at": "2015-04-29T17:23:35Z",
-            "updated_at": "2025-03-22T11:23:07Z",
-            "pushed_at": "2017-08-30T13:52:22Z"
+            "name": "potion",
+            "description": "React components for declaratively composing animated, interactive visualizations.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4628721?v=4",
+            "html_url": "https://github.com/finnfiddle/potion",
+            "stargazers_count": 184,
+            "created_at": "2017-01-12T22:24:36Z",
+            "updated_at": "2025-06-01T14:31:01Z",
+            "pushed_at": "2018-04-19T19:32:18Z"
         },
         {
-            "name": "venn.js",
-            "description": "Area proportional Venn and Euler diagrams in JavaScript",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/69536?v=4",
-            "html_url": "https://github.com/benfred/venn.js",
-            "stargazers_count": 1069,
-            "created_at": "2013-05-09T17:13:20Z",
-            "updated_at": "2025-05-22T17:15:45Z",
-            "pushed_at": "2021-01-16T06:21:00Z"
+            "name": "d3-template",
+            "description": "D3 plugin to create and render templates using D3's data binding mechanism",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5963296?v=4",
+            "html_url": "https://github.com/ErikOnBike/d3-template",
+            "stargazers_count": 8,
+            "created_at": "2018-01-24T21:41:59Z",
+            "updated_at": "2023-05-23T13:17:00Z",
+            "pushed_at": "2023-05-23T13:22:24Z"
         },
         {
-            "name": "dc.js",
-            "description": "Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6378965?v=4",
-            "html_url": "https://github.com/dc-js/dc.js",
-            "stargazers_count": 7432,
-            "created_at": "2012-06-19T14:20:30Z",
-            "updated_at": "2025-05-29T11:32:25Z",
-            "pushed_at": "2024-07-31T16:01:22Z"
+            "name": "d3-cloud",
+            "description": "Create word clouds in JavaScript.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/31223?v=4",
+            "html_url": "https://github.com/jasondavies/d3-cloud",
+            "stargazers_count": 3900,
+            "created_at": "2012-02-08T19:38:01Z",
+            "updated_at": "2025-06-17T04:41:44Z",
+            "pushed_at": "2024-03-10T21:31:59Z"
         },
         {
-            "name": "rickshaw",
-            "description": " JavaScript toolkit for creating interactive real-time graphs",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/589896?v=4",
-            "html_url": "https://github.com/shutterstock/rickshaw",
-            "stargazers_count": 6532,
-            "created_at": "2011-10-20T22:02:37Z",
-            "updated_at": "2025-05-23T03:05:02Z",
-            "pushed_at": "2025-01-17T01:12:28Z"
+            "name": "d3-helpers",
+            "description": "Little utility D3 functions",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2212006?v=4",
+            "html_url": "https://github.com/bahmutov/d3-helpers",
+            "stargazers_count": 26,
+            "created_at": "2014-04-02T15:51:23Z",
+            "updated_at": "2024-10-13T20:59:44Z",
+            "pushed_at": "2020-07-15T19:48:48Z"
+        },
+        {
+            "name": "d3pie",
+            "description": "A configurable pie chart lib and generator built on d3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/512116?v=4",
+            "html_url": "https://github.com/benkeen/d3pie",
+            "stargazers_count": 371,
+            "created_at": "2013-12-25T05:03:42Z",
+            "updated_at": "2025-03-23T14:02:27Z",
+            "pushed_at": "2022-09-21T10:49:38Z"
+        },
+        {
+            "name": "d3-jetpack",
+            "description": " \ud83d\ude80 Nifty convenience wrappers that speed up your daily work with d3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/617518?v=4",
+            "html_url": "https://github.com/gka/d3-jetpack",
+            "stargazers_count": 614,
+            "created_at": "2015-02-12T21:22:19Z",
+            "updated_at": "2025-06-12T11:13:57Z",
+            "pushed_at": "2023-02-23T11:47:44Z"
         },
         {
             "name": "d3-scale-cluster",
@@ -1101,34 +91,14 @@
             "pushed_at": "2023-03-04T02:32:01Z"
         },
         {
-            "name": "xkcdgraphs",
-            "description": "Instant XKCD-style Graphs created in Javascript D3 for your enjoyment",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/644634?v=4",
-            "html_url": "https://github.com/imkevinxu/xkcdgraphs",
-            "stargazers_count": 442,
-            "created_at": "2012-12-08T19:25:04Z",
-            "updated_at": "2025-03-03T00:06:55Z",
-            "pushed_at": "2017-10-28T03:59:28Z"
-        },
-        {
-            "name": "cubism",
-            "description": "Cubism.js: A JavaScript library for time series visualization.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/82592?v=4",
-            "html_url": "https://github.com/square/cubism",
-            "stargazers_count": 4937,
-            "created_at": "2012-03-28T20:30:48Z",
-            "updated_at": "2025-04-23T17:01:04Z",
-            "pushed_at": "2025-04-01T04:55:15Z"
-        },
-        {
-            "name": "spam",
-            "description": "A D3 library to create maps with Canvas",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12434704?v=4",
-            "html_url": "https://github.com/newsappsio/spam",
-            "stargazers_count": 101,
-            "created_at": "2015-06-11T21:01:51Z",
-            "updated_at": "2025-05-07T20:48:13Z",
-            "pushed_at": "2022-09-29T23:46:35Z"
+            "name": "WikimapsAtlas-generator",
+            "description": "A command line utility to convert heavy GIS sources into elegant administrative & topographic topojson files, raster files, and web friendly svg maps.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7090194?v=4",
+            "html_url": "https://github.com/WikimapsAtlas/WikimapsAtlas-generator",
+            "stargazers_count": 47,
+            "created_at": "2014-11-17T19:55:20Z",
+            "updated_at": "2025-04-16T19:07:56Z",
+            "pushed_at": "2024-10-14T09:55:23Z"
         },
         {
             "name": "d3-geomap",
@@ -1141,54 +111,44 @@
             "pushed_at": "2024-10-22T18:28:56Z"
         },
         {
-            "name": "d3-geo-polygon",
-            "description": "Clipping and geometric operations for spherical polygons.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1562726?v=4",
-            "html_url": "https://github.com/d3/d3-geo-polygon",
-            "stargazers_count": 120,
-            "created_at": "2017-09-13T18:43:12Z",
-            "updated_at": "2025-05-22T01:15:24Z",
-            "pushed_at": "2025-04-15T13:59:00Z"
+            "name": "d3kit-timeline",
+            "description": "A simple timeline component that labels do not overlap.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1659771?v=4",
+            "html_url": "https://github.com/kristw/d3kit-timeline",
+            "stargazers_count": 379,
+            "created_at": "2015-12-05T23:17:18Z",
+            "updated_at": "2025-06-10T00:55:44Z",
+            "pushed_at": "2022-12-27T19:45:27Z"
         },
         {
-            "name": "d3-force-sampled",
-            "description": "A fast, simple, memory-efficient graph layout algorithm for visualizing networks in D3",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6350922?v=4",
-            "html_url": "https://github.com/twosixlabs/d3-force-sampled",
-            "stargazers_count": 51,
-            "created_at": "2019-03-03T22:00:40Z",
-            "updated_at": "2025-04-18T09:58:58Z",
-            "pushed_at": "2022-02-18T22:30:09Z"
+            "name": "vega-lite",
+            "description": "A concise grammar of interactive graphics, built on Vega.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/11796929?v=4",
+            "html_url": "https://github.com/vega/vega-lite",
+            "stargazers_count": 4899,
+            "created_at": "2014-11-20T20:52:04Z",
+            "updated_at": "2025-06-20T09:29:51Z",
+            "pushed_at": "2025-06-16T14:20:08Z"
         },
         {
-            "name": "d3-geo-voronoi",
-            "description": "Voronoi / Delaunay tessellations on the sphere",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7001?v=4",
-            "html_url": "https://github.com/Fil/d3-geo-voronoi",
-            "stargazers_count": 249,
-            "created_at": "2016-09-07T20:39:43Z",
-            "updated_at": "2025-05-16T10:16:40Z",
-            "pushed_at": "2024-11-19T05:40:55Z"
+            "name": "react-stockcharts",
+            "description": "Highly customizable stock charts with ReactJS and d3",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/10691183?v=4",
+            "html_url": "https://github.com/rrag/react-stockcharts",
+            "stargazers_count": 3970,
+            "created_at": "2015-02-22T14:34:39Z",
+            "updated_at": "2025-06-20T15:15:27Z",
+            "pushed_at": "2023-03-09T04:15:58Z"
         },
         {
-            "name": "WikimapsAtlas-generator",
-            "description": "A command line utility to convert heavy GIS sources into elegant administrative & topographic topojson files, raster files, and web friendly svg maps.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7090194?v=4",
-            "html_url": "https://github.com/WikimapsAtlas/WikimapsAtlas-generator",
-            "stargazers_count": 47,
-            "created_at": "2014-11-17T19:55:20Z",
-            "updated_at": "2025-04-16T19:07:56Z",
-            "pushed_at": "2024-10-14T09:55:23Z"
-        },
-        {
-            "name": "d3-flame-graph",
-            "description": "A D3.js plugin that produces flame graphs from hierarchical data.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2207415?v=4",
-            "html_url": "https://github.com/spiermar/d3-flame-graph",
-            "stargazers_count": 916,
-            "created_at": "2015-10-02T22:49:28Z",
-            "updated_at": "2025-05-29T23:49:06Z",
-            "pushed_at": "2024-06-06T16:22:36Z"
+            "name": "d3-iconarray",
+            "description": "A D3 module for making grids of icons",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/125399?v=4",
+            "html_url": "https://github.com/tomgp/d3-iconarray",
+            "stargazers_count": 85,
+            "created_at": "2015-07-31T07:32:03Z",
+            "updated_at": "2025-05-25T14:18:13Z",
+            "pushed_at": "2021-07-17T07:41:50Z"
         },
         {
             "name": "d3-upset",
@@ -1201,6 +161,36 @@
             "pushed_at": "2020-06-09T23:30:09Z"
         },
         {
+            "name": "xkcdgraphs",
+            "description": "Instant XKCD-style Graphs created in Javascript D3 for your enjoyment",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/644634?v=4",
+            "html_url": "https://github.com/imkevinxu/xkcdgraphs",
+            "stargazers_count": 443,
+            "created_at": "2012-12-08T19:25:04Z",
+            "updated_at": "2025-06-10T22:50:47Z",
+            "pushed_at": "2017-10-28T03:59:28Z"
+        },
+        {
+            "name": "dagre-d3",
+            "description": "A D3-based renderer for Dagre",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/34791034?v=4",
+            "html_url": "https://github.com/dagrejs/dagre-d3",
+            "stargazers_count": 2927,
+            "created_at": "2013-09-26T03:44:19Z",
+            "updated_at": "2025-06-17T03:16:56Z",
+            "pushed_at": "2024-03-13T15:09:07Z"
+        },
+        {
+            "name": "Kyrix",
+            "description": "Interactive details-on-demand data visualizations at scale",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5410441?v=4",
+            "html_url": "https://github.com/tracyhenry/Kyrix",
+            "stargazers_count": 148,
+            "created_at": "2017-12-20T18:28:26Z",
+            "updated_at": "2025-03-19T00:01:08Z",
+            "pushed_at": "2023-06-22T17:15:54Z"
+        },
+        {
             "name": "d3-xray",
             "description": "view the data bound to a D3.js project simply by mousing over elements",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/3488572?v=4",
@@ -1211,24 +201,474 @@
             "pushed_at": "2017-04-27T07:00:48Z"
         },
         {
-            "name": "datamaps",
-            "description": "Customizable SVG map visualizations for the web in a single Javascript file using D3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/11268?v=4",
-            "html_url": "https://github.com/markmarkoh/datamaps",
-            "stargazers_count": 3797,
-            "created_at": "2012-11-10T19:04:40Z",
-            "updated_at": "2025-05-30T07:15:38Z",
-            "pushed_at": "2023-04-25T04:38:01Z"
+            "name": "d4",
+            "description": "A friendly reusable charts DSL for D3",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/123?v=4",
+            "html_url": "https://github.com/heavysixer/d4",
+            "stargazers_count": 433,
+            "created_at": "2014-01-27T18:04:54Z",
+            "updated_at": "2025-04-09T14:47:35Z",
+            "pushed_at": "2020-04-11T20:53:40Z"
+        },
+        {
+            "name": "treeviz",
+            "description": "Tree diagrams with JavaScript :evergreen_tree: :chart_with_upwards_trend:",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26744253?v=4",
+            "html_url": "https://github.com/PierreCapo/treeviz",
+            "stargazers_count": 166,
+            "created_at": "2018-06-10T17:23:40Z",
+            "updated_at": "2025-05-18T14:43:47Z",
+            "pushed_at": "2024-04-03T19:05:28Z"
+        },
+        {
+            "name": "twitter-sentiment-visualisation",
+            "description": "\ud83c\udf0d Sentiment analysis over real-time social media data, rendering live charts to visualise trends ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1862727?v=4",
+            "html_url": "https://github.com/Lissy93/twitter-sentiment-visualisation",
+            "stargazers_count": 223,
+            "created_at": "2015-07-24T09:25:24Z",
+            "updated_at": "2025-06-17T02:26:11Z",
+            "pushed_at": "2023-11-04T11:58:40Z"
+        },
+        {
+            "name": "c3",
+            "description": ":bar_chart: A D3-based reusable chart library",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/9966497?v=4",
+            "html_url": "https://github.com/c3js/c3",
+            "stargazers_count": 9355,
+            "created_at": "2013-07-18T06:51:40Z",
+            "updated_at": "2025-06-20T15:39:51Z",
+            "pushed_at": "2024-11-20T14:10:05Z"
+        },
+        {
+            "name": "simple-map-d3",
+            "description": "A very simple \"choropleth\" style map with D3.  All you need is a GeoJSON of polygons.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1085124?v=4",
+            "html_url": "https://github.com/MinnPost/simple-map-d3",
+            "stargazers_count": 114,
+            "created_at": "2013-01-04T20:06:13Z",
+            "updated_at": "2024-10-13T21:02:11Z",
+            "pushed_at": "2017-02-07T16:44:57Z"
+        },
+        {
+            "name": "EventDrops",
+            "description": "A time based / event series interactive visualization using d3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3116319?v=4",
+            "html_url": "https://github.com/marmelab/EventDrops",
+            "stargazers_count": 1248,
+            "created_at": "2014-09-16T08:14:58Z",
+            "updated_at": "2025-06-13T17:37:44Z",
+            "pushed_at": "2024-08-19T15:26:06Z"
+        },
+        {
+            "name": "CodeFlower",
+            "description": "Source code visualization utility written in JavaScript with d3.js. Does your code look beautiful?",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/99944?v=4",
+            "html_url": "https://github.com/fzaninotto/CodeFlower",
+            "stargazers_count": 694,
+            "created_at": "2013-03-04T09:40:45Z",
+            "updated_at": "2025-04-03T22:18:58Z",
+            "pushed_at": "2021-05-28T05:04:53Z"
+        },
+        {
+            "name": "d3-loom",
+            "description": "d3 plugin to create a loom chart layout (for d3-v4)",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5062746?v=4",
+            "html_url": "https://github.com/nbremer/d3-loom",
+            "stargazers_count": 92,
+            "created_at": "2017-05-25T20:42:30Z",
+            "updated_at": "2025-02-03T03:25:55Z",
+            "pushed_at": "2017-08-02T08:23:15Z"
+        },
+        {
+            "name": "layercake",
+            "description": "graphics framework for sveltejs",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/498744?v=4",
+            "html_url": "https://github.com/mhkeller/layercake",
+            "stargazers_count": 1599,
+            "created_at": "2018-07-17T06:49:33Z",
+            "updated_at": "2025-06-20T18:42:47Z",
+            "pushed_at": "2025-05-13T12:16:33Z"
+        },
+        {
+            "name": "d3-geo-polygon",
+            "description": "Clipping and geometric operations for spherical polygons.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1562726?v=4",
+            "html_url": "https://github.com/d3/d3-geo-polygon",
+            "stargazers_count": 120,
+            "created_at": "2017-09-13T18:43:12Z",
+            "updated_at": "2025-05-22T01:15:24Z",
+            "pushed_at": "2025-04-15T13:59:00Z"
+        },
+        {
+            "name": "d3-composite-projections",
+            "description": "Set of d3 projections for showing countries distant lands together",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2832885?v=4",
+            "html_url": "https://github.com/rveciana/d3-composite-projections",
+            "stargazers_count": 98,
+            "created_at": "2015-04-24T11:23:53Z",
+            "updated_at": "2024-10-13T21:01:58Z",
+            "pushed_at": "2023-03-14T06:43:04Z"
+        },
+        {
+            "name": "d3-annotation",
+            "description": "Use d3-annotation with built-in annotation types, or extend it to make custom annotations. It is made for d3-v4 in SVG.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1449837?v=4",
+            "html_url": "https://github.com/susielu/d3-annotation",
+            "stargazers_count": 754,
+            "created_at": "2016-10-18T00:01:21Z",
+            "updated_at": "2025-04-09T15:53:26Z",
+            "pushed_at": "2022-12-03T03:25:24Z"
+        },
+        {
+            "name": "recharts",
+            "description": "Redefined chart library built with React and D3",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13690587?v=4",
+            "html_url": "https://github.com/recharts/recharts",
+            "stargazers_count": 25359,
+            "created_at": "2015-08-07T06:50:27Z",
+            "updated_at": "2025-06-21T06:56:47Z",
+            "pushed_at": "2025-06-21T02:27:54Z"
+        },
+        {
+            "name": "cubism",
+            "description": "Cubism.js: A JavaScript library for time series visualization.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/82592?v=4",
+            "html_url": "https://github.com/square/cubism",
+            "stargazers_count": 4932,
+            "created_at": "2012-03-28T20:30:48Z",
+            "updated_at": "2025-06-19T19:37:25Z",
+            "pushed_at": "2025-04-01T04:55:15Z"
+        },
+        {
+            "name": "d3-heatmap",
+            "description": "D3 heatmap ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25254?v=4",
+            "html_url": "https://github.com/tj/d3-heatmap",
+            "stargazers_count": 244,
+            "created_at": "2016-03-18T22:12:00Z",
+            "updated_at": "2025-01-26T00:32:38Z",
+            "pushed_at": "2016-06-03T20:58:46Z"
+        },
+        {
+            "name": "britecharts",
+            "description": "Composable Charting Library based on reusable D3.js components.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/63871609?v=4",
+            "html_url": "https://github.com/britecharts/britecharts",
+            "stargazers_count": 3734,
+            "created_at": "2015-05-19T22:42:39Z",
+            "updated_at": "2025-06-04T03:34:52Z",
+            "pushed_at": "2023-09-05T09:22:01Z"
+        },
+        {
+            "name": "v-chart-plugin",
+            "description": "Easily bind a chart to the data stored in your Vue.js components.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5210420?v=4",
+            "html_url": "https://github.com/ignoreintuition/v-chart-plugin",
+            "stargazers_count": 198,
+            "created_at": "2018-08-28T03:19:34Z",
+            "updated_at": "2024-04-11T20:13:51Z",
+            "pushed_at": "2023-03-15T11:10:28Z"
+        },
+        {
+            "name": "d3-flame-graph",
+            "description": "A D3.js plugin that produces flame graphs from hierarchical data.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2207415?v=4",
+            "html_url": "https://github.com/spiermar/d3-flame-graph",
+            "stargazers_count": 921,
+            "created_at": "2015-10-02T22:49:28Z",
+            "updated_at": "2025-06-19T11:13:33Z",
+            "pushed_at": "2024-06-06T16:22:36Z"
+        },
+        {
+            "name": "d3-gridding",
+            "description": "grids for rapid D3 charts mockups",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/586236?v=4",
+            "html_url": "https://github.com/romsson/d3-gridding",
+            "stargazers_count": 103,
+            "created_at": "2016-07-28T11:50:39Z",
+            "updated_at": "2025-03-01T06:09:28Z",
+            "pushed_at": "2022-07-20T18:20:32Z"
+        },
+        {
+            "name": "d3-bumps-chart",
+            "description": "A d3 plugin for visualizing bumps charts",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/981531?v=4",
+            "html_url": "https://github.com/johnwalley/d3-bumps-chart",
+            "stargazers_count": 15,
+            "created_at": "2016-09-01T10:26:11Z",
+            "updated_at": "2025-06-10T18:31:29Z",
+            "pushed_at": "2023-12-24T22:43:38Z"
+        },
+        {
+            "name": "crossfilter",
+            "description": "Fast n-dimensional filtering and grouping of records.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12073349?v=4",
+            "html_url": "https://github.com/crossfilter/crossfilter",
+            "stargazers_count": 1749,
+            "created_at": "2015-06-02T13:42:34Z",
+            "updated_at": "2025-05-17T14:25:03Z",
+            "pushed_at": "2023-07-19T00:43:22Z"
+        },
+        {
+            "name": "mpld3",
+            "description": "An interactive data visualization tool which brings matplotlib graphics to the browser using D3.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6522021?v=4",
+            "html_url": "https://github.com/mpld3/mpld3",
+            "stargazers_count": 2381,
+            "created_at": "2013-12-18T01:48:30Z",
+            "updated_at": "2025-06-19T07:34:28Z",
+            "pushed_at": "2025-06-19T07:34:25Z"
+        },
+        {
+            "name": "d3-force-sampled",
+            "description": "A fast, simple, memory-efficient graph layout algorithm for visualizing networks in D3",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6350922?v=4",
+            "html_url": "https://github.com/twosixlabs/d3-force-sampled",
+            "stargazers_count": 51,
+            "created_at": "2019-03-03T22:00:40Z",
+            "updated_at": "2025-04-18T09:58:58Z",
+            "pushed_at": "2022-02-18T22:30:09Z"
+        },
+        {
+            "name": "d3-peaks",
+            "description": "Find peaks in a noisy signal",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/879348?v=4",
+            "html_url": "https://github.com/efekarakus/d3-peaks",
+            "stargazers_count": 55,
+            "created_at": "2016-02-29T00:37:42Z",
+            "updated_at": "2025-01-07T16:44:08Z",
+            "pushed_at": "2016-03-25T03:05:39Z"
+        },
+        {
+            "name": "chart-parts",
+            "description": "A flexible, React-friendly, Grammar of Graphics for data visualization",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+            "html_url": "https://github.com/microsoft/chart-parts",
+            "stargazers_count": 608,
+            "created_at": "2018-08-22T21:27:27Z",
+            "updated_at": "2025-05-31T10:54:00Z",
+            "pushed_at": "2023-06-09T23:33:47Z"
+        },
+        {
+            "name": "graph-scroll",
+            "description": "scrollers > steppers ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1643998?v=4",
+            "html_url": "https://github.com/1wheel/graph-scroll",
+            "stargazers_count": 515,
+            "created_at": "2014-12-27T08:58:31Z",
+            "updated_at": "2025-05-16T16:08:11Z",
+            "pushed_at": "2020-03-21T23:38:05Z"
+        },
+        {
+            "name": "d3-geo-scale-bar",
+            "description": "Displays automatic scale bars for projected geospatial data.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6527267?v=4",
+            "html_url": "https://github.com/HarryStevens/d3-geo-scale-bar",
+            "stargazers_count": 45,
+            "created_at": "2018-07-16T02:58:27Z",
+            "updated_at": "2024-11-12T07:27:11Z",
+            "pushed_at": "2023-03-04T02:44:57Z"
+        },
+        {
+            "name": "D3xter",
+            "description": "Straight forward plotting built on D3 ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3989198?v=4",
+            "html_url": "https://github.com/NathanEpstein/D3xter",
+            "stargazers_count": 336,
+            "created_at": "2014-10-27T14:04:33Z",
+            "updated_at": "2025-05-10T16:22:39Z",
+            "pushed_at": "2020-10-13T20:28:33Z"
+        },
+        {
+            "name": "d3-geo-voronoi",
+            "description": "Voronoi / Delaunay tessellations on the sphere",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7001?v=4",
+            "html_url": "https://github.com/Fil/d3-geo-voronoi",
+            "stargazers_count": 249,
+            "created_at": "2016-09-07T20:39:43Z",
+            "updated_at": "2025-06-19T09:23:32Z",
+            "pushed_at": "2024-11-19T05:40:55Z"
+        },
+        {
+            "name": "topogram",
+            "description": "Continuous area cartograms with d3 and TopoJSON",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/113896?v=4",
+            "html_url": "https://github.com/shawnbot/topogram",
+            "stargazers_count": 325,
+            "created_at": "2012-11-26T16:28:53Z",
+            "updated_at": "2025-05-29T08:51:50Z",
+            "pushed_at": "2023-04-14T23:48:10Z"
+        },
+        {
+            "name": "d3-message-sequence",
+            "description": "Dynamic message sequence charts for d3.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/30394?v=4",
+            "html_url": "https://github.com/koudelka/d3-message-sequence",
+            "stargazers_count": 101,
+            "created_at": "2015-11-25T21:28:34Z",
+            "updated_at": "2024-11-27T17:25:55Z",
+            "pushed_at": "2018-06-21T08:00:14Z"
+        },
+        {
+            "name": "d3-history",
+            "description": "proper URL bar history for D3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3488572?v=4",
+            "html_url": "https://github.com/vijithassar/d3-history",
+            "stargazers_count": 49,
+            "created_at": "2016-05-28T15:44:42Z",
+            "updated_at": "2024-10-13T20:57:55Z",
+            "pushed_at": "2017-11-29T08:01:28Z"
+        },
+        {
+            "name": "d3.sketchy",
+            "description": "A tool to create sketchy backgrounds, shapes and lines",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/302789?v=4",
+            "html_url": "https://github.com/sebastian-meier/d3.sketchy",
+            "stargazers_count": 248,
+            "created_at": "2015-07-28T22:56:24Z",
+            "updated_at": "2025-02-19T21:16:03Z",
+            "pushed_at": "2015-08-03T10:33:37Z"
+        },
+        {
+            "name": "vega",
+            "description": "A visualization grammar.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/11796929?v=4",
+            "html_url": "https://github.com/vega/vega",
+            "stargazers_count": 11523,
+            "created_at": "2013-02-03T18:36:30Z",
+            "updated_at": "2025-06-20T08:21:32Z",
+            "pushed_at": "2025-06-19T17:53:06Z"
+        },
+        {
+            "name": "ngx-charts",
+            "description": ":bar_chart: Declarative Charting Framework for Angular",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/10552812?v=4",
+            "html_url": "https://github.com/swimlane/ngx-charts",
+            "stargazers_count": 4329,
+            "created_at": "2016-07-22T15:58:41Z",
+            "updated_at": "2025-06-19T17:28:07Z",
+            "pushed_at": "2025-05-06T22:11:42Z"
+        },
+        {
+            "name": "d3plus",
+            "description": "A javascript library that extends D3.js to enable fast and beautiful visualizations.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13490477?v=4",
+            "html_url": "https://github.com/d3plus/d3plus",
+            "stargazers_count": 1620,
+            "created_at": "2013-01-09T00:26:58Z",
+            "updated_at": "2025-06-12T15:54:24Z",
+            "pushed_at": "2025-06-12T15:54:20Z"
+        },
+        {
+            "name": "d3-context-menu",
+            "description": "A plugin for d3.js that allows you to easy use context-menus in your visualizations.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/521224?v=4",
+            "html_url": "https://github.com/patorjk/d3-context-menu",
+            "stargazers_count": 140,
+            "created_at": "2014-08-18T04:46:47Z",
+            "updated_at": "2024-06-30T01:41:45Z",
+            "pushed_at": "2021-01-09T19:56:47Z"
+        },
+        {
+            "name": "maptable",
+            "description": "JS library which converts any dataset to an interactive set of components: a choropleth or heat map, filters and table",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/15347439?v=4",
+            "html_url": "https://github.com/Packet-Clearing-House/maptable",
+            "stargazers_count": 60,
+            "created_at": "2014-12-10T03:16:49Z",
+            "updated_at": "2025-06-06T15:02:54Z",
+            "pushed_at": "2025-06-06T15:02:54Z"
         },
         {
             "name": "d3-exploder",
             "description": "Explode d3 maps to create new charts!",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/4740806?v=4",
             "html_url": "https://github.com/bsouthga/d3-exploder",
-            "stargazers_count": 94,
+            "stargazers_count": 93,
             "created_at": "2015-01-20T23:26:42Z",
-            "updated_at": "2025-05-24T22:23:33Z",
+            "updated_at": "2025-06-09T14:27:54Z",
             "pushed_at": "2020-10-01T17:46:11Z"
+        },
+        {
+            "name": "d3-extended",
+            "description": "Extends D3 with some common jQuery functions and more",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/132361782?v=4",
+            "html_url": "https://github.com/wbkd/d3-extended",
+            "stargazers_count": 273,
+            "created_at": "2015-04-29T17:23:35Z",
+            "updated_at": "2025-03-22T11:23:07Z",
+            "pushed_at": "2017-08-30T13:52:22Z"
+        },
+        {
+            "name": "d3-beeswarm",
+            "description": "D3 plugin which computes a 'beeswarm' arrangement",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4328986?v=4",
+            "html_url": "https://github.com/Kcnarf/d3-beeswarm",
+            "stargazers_count": 51,
+            "created_at": "2016-06-07T07:41:29Z",
+            "updated_at": "2024-10-13T20:57:42Z",
+            "pushed_at": "2022-08-16T09:47:45Z"
+        },
+        {
+            "name": "d3-boxplot",
+            "description": "d3js box plot plugin",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2233956?v=4",
+            "html_url": "https://github.com/akngs/d3-boxplot",
+            "stargazers_count": 23,
+            "created_at": "2019-02-20T00:48:53Z",
+            "updated_at": "2024-11-27T17:21:24Z",
+            "pushed_at": "2023-03-10T23:56:54Z"
+        },
+        {
+            "name": "swoopyarrows",
+            "description": "swoopyarrows makes swoopy arrows between things",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6457498?v=4",
+            "html_url": "https://github.com/bizweekgraphics/swoopyarrows",
+            "stargazers_count": 109,
+            "created_at": "2014-06-12T22:52:35Z",
+            "updated_at": "2025-03-03T00:00:47Z",
+            "pushed_at": "2017-05-02T20:09:22Z"
+        },
+        {
+            "name": "tremor",
+            "description": "Copy & Paste React components to build modern web applications. ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/97241560?v=4",
+            "html_url": "https://github.com/tremorlabs/tremor",
+            "stargazers_count": 2385,
+            "created_at": "2024-03-26T02:38:57Z",
+            "updated_at": "2025-06-19T22:38:39Z",
+            "pushed_at": "2025-04-12T20:15:29Z"
+        },
+        {
+            "name": "tauCharts",
+            "description": "D3 based data-focused charting library. Designed with passion. Flexible.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/649085?v=4",
+            "html_url": "https://github.com/TargetProcess/tauCharts",
+            "stargazers_count": 1906,
+            "created_at": "2014-01-17T09:03:30Z",
+            "updated_at": "2025-06-17T02:55:19Z",
+            "pushed_at": "2023-10-04T14:07:25Z"
+        },
+        {
+            "name": "visx",
+            "description": "\ud83d\udc2f visx | visualization components",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/698437?v=4",
+            "html_url": "https://github.com/airbnb/visx",
+            "stargazers_count": 20092,
+            "created_at": "2017-03-15T16:25:41Z",
+            "updated_at": "2025-06-20T10:22:46Z",
+            "pushed_at": "2025-01-09T20:09:46Z"
+        },
+        {
+            "name": "d3-nelson-rules",
+            "description": "d3 utility to apply nelsons rules of process control to a set of data",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/17273127?v=4",
+            "html_url": "https://github.com/53seven/d3-nelson-rules",
+            "stargazers_count": 17,
+            "created_at": "2015-12-12T04:03:47Z",
+            "updated_at": "2024-11-27T17:20:47Z",
+            "pushed_at": "2020-06-02T18:12:56Z"
         },
         {
             "name": "mapmap.js",
@@ -1241,37 +681,597 @@
             "pushed_at": "2019-10-16T06:32:54Z"
         },
         {
-            "name": "neo4jd3",
-            "description": "Neo4j graph visualization using D3.js",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1325977?v=4",
-            "html_url": "https://github.com/eisman/neo4jd3",
-            "stargazers_count": 1445,
-            "created_at": "2016-09-11T12:43:04Z",
-            "updated_at": "2025-05-30T11:41:20Z",
-            "pushed_at": "2021-04-24T20:38:43Z"
+            "name": "mermaid",
+            "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/57169982?v=4",
+            "html_url": "https://github.com/mermaid-js/mermaid",
+            "stargazers_count": 80607,
+            "created_at": "2014-11-01T23:52:32Z",
+            "updated_at": "2025-06-21T08:51:04Z",
+            "pushed_at": "2025-06-21T06:34:27Z"
+        },
+        {
+            "name": "d3-legend",
+            "description": "A reusable d3 legend component. ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1449837?v=4",
+            "html_url": "https://github.com/susielu/d3-legend",
+            "stargazers_count": 725,
+            "created_at": "2015-06-10T20:19:36Z",
+            "updated_at": "2025-03-03T20:47:33Z",
+            "pushed_at": "2024-07-22T21:03:02Z"
+        },
+        {
+            "name": "d3.geo2rect",
+            "description": "Morphing geojson polygons into rectangles ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/302789?v=4",
+            "html_url": "https://github.com/sebastian-meier/d3.geo2rect",
+            "stargazers_count": 202,
+            "created_at": "2017-02-03T19:52:37Z",
+            "updated_at": "2025-04-26T08:02:23Z",
+            "pushed_at": "2019-01-07T10:35:14Z"
+        },
+        {
+            "name": "plotly.js",
+            "description": "Open-source JavaScript charting library behind Plotly and Dash",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5997976?v=4",
+            "html_url": "https://github.com/plotly/plotly.js",
+            "stargazers_count": 17649,
+            "created_at": "2015-11-05T23:27:17Z",
+            "updated_at": "2025-06-21T05:09:51Z",
+            "pushed_at": "2025-06-20T18:08:28Z"
+        },
+        {
+            "name": "d3fc",
+            "description": "A collection of components that make it easy to build interactive charts with D3",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14138478?v=4",
+            "html_url": "https://github.com/d3fc/d3fc",
+            "stargazers_count": 1323,
+            "created_at": "2014-10-06T15:03:11Z",
+            "updated_at": "2025-06-18T08:55:29Z",
+            "pushed_at": "2024-09-28T04:14:49Z"
+        },
+        {
+            "name": "d3-lasso",
+            "description": "A lasso plugin for d3",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5554373?v=4",
+            "html_url": "https://github.com/skokenes/d3-lasso",
+            "stargazers_count": 89,
+            "created_at": "2016-09-21T02:43:14Z",
+            "updated_at": "2025-04-28T17:52:31Z",
+            "pushed_at": "2021-05-05T14:57:50Z"
+        },
+        {
+            "name": "d3-dag",
+            "description": "Layout algorithms for visualizing directed acyclic graphs",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/858926?v=4",
+            "html_url": "https://github.com/erikbrinkman/d3-dag",
+            "stargazers_count": 1489,
+            "created_at": "2018-07-06T03:31:09Z",
+            "updated_at": "2025-06-20T03:16:34Z",
+            "pushed_at": "2025-04-06T17:00:25Z"
+        },
+        {
+            "name": "victory",
+            "description": "A collection of composable React components for building interactive data visualizations",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5078602?v=4",
+            "html_url": "https://github.com/FormidableLabs/victory",
+            "stargazers_count": 11163,
+            "created_at": "2015-07-02T22:36:50Z",
+            "updated_at": "2025-06-20T13:38:50Z",
+            "pushed_at": "2025-01-31T22:06:43Z"
+        },
+        {
+            "name": "textures",
+            "description": "Textures.js is a JavaScript library for creating SVG patterns",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1370300?v=4",
+            "html_url": "https://github.com/riccardoscalco/textures",
+            "stargazers_count": 6063,
+            "created_at": "2015-01-28T12:24:23Z",
+            "updated_at": "2025-06-19T18:39:56Z",
+            "pushed_at": "2023-01-01T20:03:38Z"
+        },
+        {
+            "name": "oecd-simple-charts",
+            "description": "A lightweight charting tool",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/30502708?v=4",
+            "html_url": "https://github.com/oecd-cyc/oecd-simple-charts",
+            "stargazers_count": 18,
+            "created_at": "2018-02-18T14:55:24Z",
+            "updated_at": "2024-10-13T20:57:40Z",
+            "pushed_at": "2022-12-09T04:52:50Z"
+        },
+        {
+            "name": "react-vis",
+            "description": "Data Visualization Components",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/538264?v=4",
+            "html_url": "https://github.com/uber/react-vis",
+            "stargazers_count": 8760,
+            "created_at": "2016-02-22T20:45:50Z",
+            "updated_at": "2025-06-19T07:28:18Z",
+            "pushed_at": "2024-12-18T22:24:34Z"
         },
         {
             "name": "reaviz",
             "description": "\ud83d\udcca Data visualization library for React. Maintained by @goodcodeus.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/63881140?v=4",
             "html_url": "https://github.com/reaviz/reaviz",
-            "stargazers_count": 1145,
+            "stargazers_count": 1148,
             "created_at": "2020-04-17T21:17:18Z",
-            "updated_at": "2025-05-30T11:51:58Z",
+            "updated_at": "2025-06-19T22:04:40Z",
             "pushed_at": "2025-03-26T11:33:11Z"
         },
         {
-            "name": "d3-template",
-            "description": "D3 plugin to create and render templates using D3's data binding mechanism",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5963296?v=4",
-            "html_url": "https://github.com/ErikOnBike/d3-template",
-            "stargazers_count": 8,
-            "created_at": "2018-01-24T21:41:59Z",
-            "updated_at": "2023-05-23T13:17:00Z",
-            "pushed_at": "2023-05-23T13:22:24Z"
+            "name": "d3-funnel",
+            "description": "A JavaScript library for rendering funnel charts using the D3.js framework.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3210703?v=4",
+            "html_url": "https://github.com/jakezatecky/d3-funnel",
+            "stargazers_count": 333,
+            "created_at": "2014-07-15T23:02:30Z",
+            "updated_at": "2025-04-10T19:14:59Z",
+            "pushed_at": "2024-10-21T10:27:52Z"
+        },
+        {
+            "name": "d3scription",
+            "description": "D3.js tooltip plugin made simple. With single-page apps in mind.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6952372?v=4",
+            "html_url": "https://github.com/GlobalWebIndex/d3scription",
+            "stargazers_count": 30,
+            "created_at": "2016-08-04T18:27:11Z",
+            "updated_at": "2023-09-11T10:51:36Z",
+            "pushed_at": "2022-02-04T10:54:40Z"
+        },
+        {
+            "name": "d3-ring-note",
+            "description": "D3 plugin for placing circle and text annotation",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5270903?v=4",
+            "html_url": "https://github.com/armollica/d3-ring-note",
+            "stargazers_count": 112,
+            "created_at": "2016-05-21T21:49:36Z",
+            "updated_at": "2024-10-29T05:49:31Z",
+            "pushed_at": "2016-05-25T00:18:19Z"
+        },
+        {
+            "name": "billboard.js",
+            "description": " \ud83d\udcca Re-usable, easy interface JavaScript chart library based on D3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6589568?v=4",
+            "html_url": "https://github.com/naver/billboard.js",
+            "stargazers_count": 5914,
+            "created_at": "2017-06-08T02:54:44Z",
+            "updated_at": "2025-06-20T09:51:16Z",
+            "pushed_at": "2025-06-21T00:47:41Z"
+        },
+        {
+            "name": "react-simple-maps",
+            "description": "Beautiful React SVG maps with d3-geo and topojson using a declarative api.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26087675?v=4",
+            "html_url": "https://github.com/zcreativelabs/react-simple-maps",
+            "stargazers_count": 3185,
+            "created_at": "2017-03-03T18:17:19Z",
+            "updated_at": "2025-06-19T18:40:19Z",
+            "pushed_at": "2024-08-08T15:53:29Z"
+        },
+        {
+            "name": "d3-interpolate-path",
+            "description": "Interpolates path `d` attribute smoothly when A and B have different number of points.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/793847?v=4",
+            "html_url": "https://github.com/pbeshai/d3-interpolate-path",
+            "stargazers_count": 336,
+            "created_at": "2016-08-25T02:19:58Z",
+            "updated_at": "2025-06-16T01:05:40Z",
+            "pushed_at": "2023-01-07T04:11:44Z"
+        },
+        {
+            "name": "chess-dataviz",
+            "description": "chess visualization library written for d3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/304523?v=4",
+            "html_url": "https://github.com/ebemunk/chess-dataviz",
+            "stargazers_count": 76,
+            "created_at": "2015-05-01T19:49:23Z",
+            "updated_at": "2025-04-15T05:45:47Z",
+            "pushed_at": "2021-05-06T16:30:12Z"
+        },
+        {
+            "name": "semiotic",
+            "description": "A data visualization framework combining React & D3",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12401040?v=4",
+            "html_url": "https://github.com/nteract/semiotic",
+            "stargazers_count": 2447,
+            "created_at": "2017-03-16T17:46:24Z",
+            "updated_at": "2025-05-26T16:24:25Z",
+            "pushed_at": "2024-04-10T15:50:49Z"
+        },
+        {
+            "name": "d3-force-reuse",
+            "description": "Faster force-directed graph layouts by reusing force approximations",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6350922?v=4",
+            "html_url": "https://github.com/twosixlabs/d3-force-reuse",
+            "stargazers_count": 126,
+            "created_at": "2018-11-14T20:10:12Z",
+            "updated_at": "2025-02-27T07:29:13Z",
+            "pushed_at": "2021-07-29T14:36:24Z"
+        },
+        {
+            "name": "d3-area-label",
+            "description": "A library for placing labels in areas.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/68416?v=4",
+            "html_url": "https://github.com/curran/d3-area-label",
+            "stargazers_count": 77,
+            "created_at": "2017-07-26T06:08:18Z",
+            "updated_at": "2025-01-30T19:26:21Z",
+            "pushed_at": "2024-03-17T01:00:00Z"
+        },
+        {
+            "name": "nivo",
+            "description": "nivo provides a rich set of dataviz components, built on top of the awesome d3 and React libraries",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/501642?v=4",
+            "html_url": "https://github.com/plouc/nivo",
+            "stargazers_count": 13614,
+            "created_at": "2016-04-16T03:27:56Z",
+            "updated_at": "2025-06-21T08:33:24Z",
+            "pushed_at": "2025-05-24T00:16:59Z"
+        },
+        {
+            "name": "dTree",
+            "description": "A library for visualizing data trees with multiple parents, such as family trees. Built on top of D3.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3374401?v=4",
+            "html_url": "https://github.com/ErikGartner/dTree",
+            "stargazers_count": 537,
+            "created_at": "2015-12-23T16:06:39Z",
+            "updated_at": "2025-06-15T05:32:29Z",
+            "pushed_at": "2024-05-14T09:32:56Z"
+        },
+        {
+            "name": "plottable",
+            "description": ":bar_chart: A library of modular chart components built on D3",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/303157?v=4",
+            "html_url": "https://github.com/palantir/plottable",
+            "stargazers_count": 3009,
+            "created_at": "2014-01-22T19:29:19Z",
+            "updated_at": "2025-06-19T16:48:04Z",
+            "pushed_at": "2024-12-13T18:30:50Z"
+        },
+        {
+            "name": "leaflet-d3",
+            "description": "Collection of plugins for using d3.js with Leaflet",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/491054?v=4",
+            "html_url": "https://github.com/bluehalo/leaflet-d3",
+            "stargazers_count": 268,
+            "created_at": "2014-10-01T17:44:38Z",
+            "updated_at": "2025-03-25T10:05:23Z",
+            "pushed_at": "2023-03-07T09:53:14Z"
+        },
+        {
+            "name": "d3-geo-projection",
+            "description": "Extended geographic projections for d3-geo.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1562726?v=4",
+            "html_url": "https://github.com/d3/d3-geo-projection",
+            "stargazers_count": 1131,
+            "created_at": "2013-06-23T16:50:58Z",
+            "updated_at": "2025-06-19T10:47:21Z",
+            "pushed_at": "2023-07-12T15:24:37Z"
+        },
+        {
+            "name": "metrics-graphics",
+            "description": "A library optimized for concise and principled data graphics and layouts.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/37669658?v=4",
+            "html_url": "https://github.com/metricsgraphics/metrics-graphics",
+            "stargazers_count": 7436,
+            "created_at": "2014-05-01T18:25:52Z",
+            "updated_at": "2025-06-21T03:50:31Z",
+            "pushed_at": "2022-05-31T15:05:59Z"
+        },
+        {
+            "name": "datamaps",
+            "description": "Customizable SVG map visualizations for the web in a single Javascript file using D3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/11268?v=4",
+            "html_url": "https://github.com/markmarkoh/datamaps",
+            "stargazers_count": 3799,
+            "created_at": "2012-11-10T19:04:40Z",
+            "updated_at": "2025-06-18T07:18:27Z",
+            "pushed_at": "2023-04-25T04:38:01Z"
+        },
+        {
+            "name": "neo4jd3",
+            "description": "Neo4j graph visualization using D3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1325977?v=4",
+            "html_url": "https://github.com/eisman/neo4jd3",
+            "stargazers_count": 1448,
+            "created_at": "2016-09-11T12:43:04Z",
+            "updated_at": "2025-06-18T07:02:19Z",
+            "pushed_at": "2021-04-24T20:38:43Z"
+        },
+        {
+            "name": "d3-inertia",
+            "description": "Dragging stuff with inertia",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7001?v=4",
+            "html_url": "https://github.com/Fil/d3-inertia",
+            "stargazers_count": 66,
+            "created_at": "2017-11-06T14:05:12Z",
+            "updated_at": "2025-04-26T08:05:04Z",
+            "pushed_at": "2023-07-18T20:28:09Z"
+        },
+        {
+            "name": "d2b",
+            "description": "Reusable d3-based chart library.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25933194?v=4",
+            "html_url": "https://github.com/d2bjs/d2b",
+            "stargazers_count": 98,
+            "created_at": "2017-02-21T16:12:26Z",
+            "updated_at": "2025-05-08T15:32:41Z",
+            "pushed_at": "2022-12-03T12:34:31Z"
+        },
+        {
+            "name": "spam",
+            "description": "A D3 library to create maps with Canvas",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12434704?v=4",
+            "html_url": "https://github.com/newsappsio/spam",
+            "stargazers_count": 101,
+            "created_at": "2015-06-11T21:01:51Z",
+            "updated_at": "2025-05-07T20:48:13Z",
+            "pushed_at": "2022-09-29T23:46:35Z"
+        },
+        {
+            "name": "d3-bar",
+            "description": "D3 bar chart",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25254?v=4",
+            "html_url": "https://github.com/tj/d3-bar",
+            "stargazers_count": 173,
+            "created_at": "2016-03-18T00:23:02Z",
+            "updated_at": "2025-02-13T15:20:03Z",
+            "pushed_at": "2019-04-30T11:27:16Z"
+        },
+        {
+            "name": "d3-component",
+            "description": "A lightweight component abstraction for D3.js.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/68416?v=4",
+            "html_url": "https://github.com/curran/d3-component",
+            "stargazers_count": 110,
+            "created_at": "2015-08-22T02:06:59Z",
+            "updated_at": "2025-06-06T11:58:51Z",
+            "pushed_at": "2017-12-18T23:21:28Z"
+        },
+        {
+            "name": "d3-voronoi-treemap",
+            "description": "D3 plugin which computes a treemap based on a Voronoi tesselation",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4328986?v=4",
+            "html_url": "https://github.com/Kcnarf/d3-voronoi-treemap",
+            "stargazers_count": 211,
+            "created_at": "2017-11-28T13:35:04Z",
+            "updated_at": "2025-06-11T10:52:07Z",
+            "pushed_at": "2024-09-26T21:18:33Z"
+        },
+        {
+            "name": "nvd3",
+            "description": "A reusable charting library written in d3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/293390?v=4",
+            "html_url": "https://github.com/novus/nvd3",
+            "stargazers_count": 7228,
+            "created_at": "2012-11-15T18:51:59Z",
+            "updated_at": "2025-06-19T12:05:26Z",
+            "pushed_at": "2023-09-15T20:36:03Z"
+        },
+        {
+            "name": "vizabi",
+            "description": "Vizabi is a framework for building visual data exploration tools freely provided by @Gapminder",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/20951922?v=4",
+            "html_url": "https://github.com/vizabi/vizabi",
+            "stargazers_count": 271,
+            "created_at": "2014-06-03T08:14:17Z",
+            "updated_at": "2025-06-02T03:35:44Z",
+            "pushed_at": "2023-11-22T11:00:55Z"
+        },
+        {
+            "name": "d3plus-text",
+            "description": "A smart SVG text box with line wrapping and automatic font size scaling.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13490477?v=4",
+            "html_url": "https://github.com/d3plus/d3plus-text",
+            "stargazers_count": 109,
+            "created_at": "2015-08-16T01:19:27Z",
+            "updated_at": "2025-04-14T08:17:51Z",
+            "pushed_at": "2024-03-26T15:22:13Z"
+        },
+        {
+            "name": "d3-x3d",
+            "description": "3D Data Driven Charting Library with D3 and X3D",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13055416?v=4",
+            "html_url": "https://github.com/jamesleesaunders/d3-x3d",
+            "stargazers_count": 114,
+            "created_at": "2018-09-08T10:23:10Z",
+            "updated_at": "2025-03-20T13:52:07Z",
+            "pushed_at": "2025-05-27T07:44:01Z"
+        },
+        {
+            "name": "d3-breadcrumbs",
+            "description": null,
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6873202?v=4",
+            "html_url": "https://github.com/bumbeishvili/d3-breadcrumbs",
+            "stargazers_count": 5,
+            "created_at": "2017-11-05T11:58:43Z",
+            "updated_at": "2023-08-02T07:33:06Z",
+            "pushed_at": "2021-12-03T14:23:14Z"
+        },
+        {
+            "name": "d3-ez",
+            "description": "D3-EZ Easy Reusable Charts",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13055416?v=4",
+            "html_url": "https://github.com/jamesleesaunders/d3-ez",
+            "stargazers_count": 52,
+            "created_at": "2015-07-08T08:44:55Z",
+            "updated_at": "2025-02-22T20:17:41Z",
+            "pushed_at": "2025-05-07T08:37:34Z"
+        },
+        {
+            "name": "d3-node",
+            "description": "Server-side D3 for static chart/map generation \u2728\ud83d\udcca",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/26352883?v=4",
+            "html_url": "https://github.com/d3-node/d3-node",
+            "stargazers_count": 687,
+            "created_at": "2016-07-13T21:06:21Z",
+            "updated_at": "2025-04-11T09:50:30Z",
+            "pushed_at": "2024-10-16T13:35:46Z"
+        },
+        {
+            "name": "echarts",
+            "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/47359?v=4",
+            "html_url": "https://github.com/apache/echarts",
+            "stargazers_count": 63791,
+            "created_at": "2013-04-03T03:18:59Z",
+            "updated_at": "2025-06-21T08:26:52Z",
+            "pushed_at": "2025-06-21T01:43:22Z"
+        },
+        {
+            "name": "WebCola",
+            "description": "Javascript constraint-based graph layout",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2754673?v=4",
+            "html_url": "https://github.com/tgdwyer/WebCola",
+            "stargazers_count": 2062,
+            "created_at": "2013-07-10T05:42:18Z",
+            "updated_at": "2025-06-21T05:46:17Z",
+            "pushed_at": "2025-06-06T11:42:25Z"
+        },
+        {
+            "name": "rickshaw",
+            "description": " JavaScript toolkit for creating interactive real-time graphs",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/589896?v=4",
+            "html_url": "https://github.com/shutterstock/rickshaw",
+            "stargazers_count": 6531,
+            "created_at": "2011-10-20T22:02:37Z",
+            "updated_at": "2025-06-04T04:20:42Z",
+            "pushed_at": "2025-01-17T01:12:28Z"
+        },
+        {
+            "name": "swoopy-drag",
+            "description": "Artisanal label placement for d3 graphics",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1643998?v=4",
+            "html_url": "https://github.com/1wheel/swoopy-drag",
+            "stargazers_count": 121,
+            "created_at": "2016-03-04T19:24:36Z",
+            "updated_at": "2025-01-31T18:28:55Z",
+            "pushed_at": "2018-07-05T03:05:09Z"
+        },
+        {
+            "name": "dc.js",
+            "description": "Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6378965?v=4",
+            "html_url": "https://github.com/dc-js/dc.js",
+            "stargazers_count": 7435,
+            "created_at": "2012-06-19T14:20:30Z",
+            "updated_at": "2025-06-17T02:36:23Z",
+            "pushed_at": "2024-07-31T16:01:22Z"
+        },
+        {
+            "name": "micropolar",
+            "description": "A tiny polar charts library made with D3.js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/824534?v=4",
+            "html_url": "https://github.com/biovisualize/micropolar",
+            "stargazers_count": 125,
+            "created_at": "2013-09-20T14:03:25Z",
+            "updated_at": "2024-05-25T19:07:44Z",
+            "pushed_at": "2024-05-25T19:20:06Z"
+        },
+        {
+            "name": "d3-tooltip",
+            "description": "Simple, beautiful data driven tooltip",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6873202?v=4",
+            "html_url": "https://github.com/bumbeishvili/d3-tooltip",
+            "stargazers_count": 12,
+            "created_at": "2017-11-06T09:15:01Z",
+            "updated_at": "2024-03-05T10:38:02Z",
+            "pushed_at": "2022-03-13T09:28:38Z"
+        },
+        {
+            "name": "d3panels",
+            "description": "A library of d3-based graphic panels, written in CoffeeScript",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/53972?v=4",
+            "html_url": "https://github.com/kbroman/d3panels",
+            "stargazers_count": 27,
+            "created_at": "2014-12-02T13:13:12Z",
+            "updated_at": "2025-05-09T20:13:28Z",
+            "pushed_at": "2025-05-10T05:18:36Z"
+        },
+        {
+            "name": "react-d3-components",
+            "description": "D3 Components for React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5276006?v=4",
+            "html_url": "https://github.com/codesuki/react-d3-components",
+            "stargazers_count": 1623,
+            "created_at": "2015-02-06T01:28:27Z",
+            "updated_at": "2025-06-09T14:27:54Z",
+            "pushed_at": "2022-01-11T11:39:52Z"
+        },
+        {
+            "name": "d3-force-gravity",
+            "description": "Implement gravitational attraction (or force-field-like repulsion) using d3-force",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6852008?v=4",
+            "html_url": "https://github.com/sohamkamani/d3-force-gravity",
+            "stargazers_count": 22,
+            "created_at": "2016-08-12T07:45:20Z",
+            "updated_at": "2023-03-29T08:17:37Z",
+            "pushed_at": "2016-08-12T14:26:49Z"
+        },
+        {
+            "name": "d3-sparql",
+            "description": "Query a SPARQL endpoint with a SELECT query and get the data ready to be used with d3js",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/8504419?v=4",
+            "html_url": "https://github.com/zazuko/d3-sparql",
+            "stargazers_count": 119,
+            "created_at": "2017-07-22T13:45:55Z",
+            "updated_at": "2025-05-15T05:47:25Z",
+            "pushed_at": "2019-05-10T08:00:54Z"
+        },
+        {
+            "name": "venn.js",
+            "description": "Area proportional Venn and Euler diagrams in JavaScript",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/69536?v=4",
+            "html_url": "https://github.com/benfred/venn.js",
+            "stargazers_count": 1071,
+            "created_at": "2013-05-09T17:13:20Z",
+            "updated_at": "2025-06-17T10:24:32Z",
+            "pushed_at": "2021-01-16T06:21:00Z"
+        },
+        {
+            "name": "Vs",
+            "description": "Vue Visualisation Package using d3.js and leaflet.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/33961674?v=4",
+            "html_url": "https://github.com/0x8f701/Vs",
+            "stargazers_count": 169,
+            "created_at": "2018-03-28T10:37:29Z",
+            "updated_at": "2025-03-22T10:47:46Z",
+            "pushed_at": "2020-10-21T13:13:41Z"
+        },
+        {
+            "name": "d3-hsluv",
+            "description": "D3 implementation of human-friendly HSL",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3466817?v=4",
+            "html_url": "https://github.com/petulla/d3-hsluv",
+            "stargazers_count": 10,
+            "created_at": "2017-12-22T20:29:09Z",
+            "updated_at": "2024-03-20T20:54:54Z",
+            "pushed_at": "2018-08-06T21:13:56Z"
+        },
+        {
+            "name": "netvis",
+            "description": "d3.js-based tool to visualize network communication for arbitrary protocols",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/816895?v=4",
+            "html_url": "https://github.com/dborzov/netvis",
+            "stargazers_count": 17,
+            "created_at": "2014-10-27T01:03:14Z",
+            "updated_at": "2024-07-10T13:50:49Z",
+            "pushed_at": "2015-02-20T03:59:13Z"
+        },
+        {
+            "name": "visavail",
+            "description": "A D3.js Time Data Availability Visualization",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/9593883?v=4",
+            "html_url": "https://github.com/flrs/visavail",
+            "stargazers_count": 309,
+            "created_at": "2016-06-07T13:45:12Z",
+            "updated_at": "2025-06-19T17:28:09Z",
+            "pushed_at": "2024-12-05T07:42:19Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-06-01T00:23:34.303341Z"
+        "last_updated": "2025-06-21T09:23:19.720658Z"
     }
 }
