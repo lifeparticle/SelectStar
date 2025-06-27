@@ -7,7 +7,7 @@ https://github.com/segmentio/evergreen
 https://github.com/chakra-ui/chakra-ui
 https://github.com/microsoft/fluentui
 https://github.com/react-bootstrap/react-bootstrap
-https://github.com//grommet
+https://github.com/grommet/grommet
 https://github.com/carbon-design-system/carbon
 https://github.com/ElemeFE/element
 https://github.com/vuetifyjs/vuetify
