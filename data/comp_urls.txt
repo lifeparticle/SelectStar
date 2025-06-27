@@ -7,7 +7,7 @@ https://github.com/segmentio/evergreen
 https://github.com/chakra-ui/chakra-ui
 https://github.com/microsoft/fluentui
 https://github.com/react-bootstrap/react-bootstrap
-https://github.com/grommet/grommet
+https://github.com//grommet
 https://github.com/carbon-design-system/carbon
 https://github.com/ElemeFE/element
 https://github.com/vuetifyjs/vuetify
@@ -25,3 +25,9 @@ https://github.com/tailwindlabs/headlessui
 https://github.com/saadeghi/daisyui
 https://github.com/adobe/react-spectrum
 https://github.com/radix-ui/primitives
+https://github.com/primefaces/
+https://github.com/CopilotKit/CopilotKit
+https://github.com/OnsenUI/OnsenUI
+https://github.com/coreui/coreui-react
+https://github.com/rsuite/rsuite
+https://github.com/marmelab/react-admin
