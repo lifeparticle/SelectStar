@@ -17,3 +17,5 @@ https://github.com/fauna/fauna-js
 https://github.com/surrealdb/surrealdb
 https://github.com/tursodatabase/libsql
 https://github.com/neondatabase/neon
+https://github.com/chroma-core/chroma
+https://github.com/qdrant/qdrant
