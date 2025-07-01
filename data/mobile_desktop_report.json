@@ -1,107 +1,107 @@
 {
     "data": [
         {
-            "name": "cordova",
-            "description": "Apache Cordova",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/47359?v=4",
-            "html_url": "https://github.com/apache/cordova",
-            "stargazers_count": 662,
-            "created_at": "2018-02-13T10:02:11Z",
-            "updated_at": "2025-06-20T12:42:19Z",
-            "pushed_at": "2025-03-17T19:02:05Z"
-        },
-        {
             "name": "ionic-framework",
             "description": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
             "html_url": "https://github.com/ionic-team/ionic-framework",
-            "stargazers_count": 51821,
+            "stargazers_count": 51848,
             "created_at": "2013-08-20T23:06:02Z",
-            "updated_at": "2025-06-21T03:35:52Z",
-            "pushed_at": "2025-06-21T00:41:40Z"
-        },
-        {
-            "name": "electron",
-            "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13409222?v=4",
-            "html_url": "https://github.com/electron/electron",
-            "stargazers_count": 117196,
-            "created_at": "2013-04-12T01:47:36Z",
-            "updated_at": "2025-06-21T08:42:24Z",
-            "pushed_at": "2025-06-21T08:06:36Z"
-        },
-        {
-            "name": "NativeScript",
-            "description": "\u26a1 Empowering JavaScript with native platform APIs. \u2728 Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java, Dart). Use what you love \u2764\ufe0f Angular, React, Solid, Svelte, Vue with: iOS (UIKit, SwiftUI), Android (View, Jetpack Compose), Dart (Flutter) and you name it compatible.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7392261?v=4",
-            "html_url": "https://github.com/NativeScript/NativeScript",
-            "stargazers_count": 24835,
-            "created_at": "2015-03-01T09:47:08Z",
-            "updated_at": "2025-06-21T04:27:53Z",
-            "pushed_at": "2025-06-16T12:11:21Z"
-        },
-        {
-            "name": "react-native",
-            "description": "A framework for building native applications using React",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
-            "html_url": "https://github.com/facebook/react-native",
-            "stargazers_count": 122747,
-            "created_at": "2015-01-09T18:10:16Z",
-            "updated_at": "2025-06-21T09:10:19Z",
-            "pushed_at": "2025-06-21T08:09:36Z"
-        },
-        {
-            "name": "quasar",
-            "description": "Quasar Framework - Build high-performance VueJS user interfaces in record time",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/23064371?v=4",
-            "html_url": "https://github.com/quasarframework/quasar",
-            "stargazers_count": 26660,
-            "created_at": "2015-10-05T15:45:36Z",
-            "updated_at": "2025-06-21T08:06:34Z",
-            "pushed_at": "2025-06-20T21:42:24Z"
-        },
-        {
-            "name": "expo",
-            "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12504344?v=4",
-            "html_url": "https://github.com/expo/expo",
-            "stargazers_count": 41187,
-            "created_at": "2016-08-15T17:14:25Z",
-            "updated_at": "2025-06-21T08:59:58Z",
-            "pushed_at": "2025-06-21T08:59:53Z"
-        },
-        {
-            "name": "nw.js",
-            "description": "Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/10180421?v=4",
-            "html_url": "https://github.com/nwjs/nw.js",
-            "stargazers_count": 40861,
-            "created_at": "2012-01-04T06:21:10Z",
-            "updated_at": "2025-06-21T09:14:34Z",
-            "pushed_at": "2025-06-19T01:10:54Z"
+            "updated_at": "2025-06-30T20:22:18Z",
+            "pushed_at": "2025-06-30T20:23:12Z"
         },
         {
             "name": "tauri",
             "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/54536011?v=4",
             "html_url": "https://github.com/tauri-apps/tauri",
-            "stargazers_count": 93748,
+            "stargazers_count": 94064,
             "created_at": "2019-07-13T09:09:37Z",
-            "updated_at": "2025-06-21T09:07:26Z",
-            "pushed_at": "2025-06-21T02:42:15Z"
+            "updated_at": "2025-07-01T00:14:50Z",
+            "pushed_at": "2025-06-30T12:09:03Z"
         },
         {
             "name": "capacitor",
             "description": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web \u26a1\ufe0f",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
             "html_url": "https://github.com/ionic-team/capacitor",
-            "stargazers_count": 13437,
+            "stargazers_count": 13510,
             "created_at": "2017-11-18T21:38:09Z",
-            "updated_at": "2025-06-21T06:59:18Z",
-            "pushed_at": "2025-06-18T19:50:59Z"
+            "updated_at": "2025-06-30T22:25:33Z",
+            "pushed_at": "2025-06-30T18:31:29Z"
+        },
+        {
+            "name": "cordova",
+            "description": "Apache Cordova",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/47359?v=4",
+            "html_url": "https://github.com/apache/cordova",
+            "stargazers_count": 661,
+            "created_at": "2018-02-13T10:02:11Z",
+            "updated_at": "2025-06-24T13:16:24Z",
+            "pushed_at": "2025-03-17T19:02:05Z"
+        },
+        {
+            "name": "expo",
+            "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12504344?v=4",
+            "html_url": "https://github.com/expo/expo",
+            "stargazers_count": 41389,
+            "created_at": "2016-08-15T17:14:25Z",
+            "updated_at": "2025-07-01T00:01:07Z",
+            "pushed_at": "2025-06-30T21:32:36Z"
+        },
+        {
+            "name": "electron",
+            "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13409222?v=4",
+            "html_url": "https://github.com/electron/electron",
+            "stargazers_count": 117290,
+            "created_at": "2013-04-12T01:47:36Z",
+            "updated_at": "2025-06-30T23:25:02Z",
+            "pushed_at": "2025-06-30T23:35:19Z"
+        },
+        {
+            "name": "react-native",
+            "description": "A framework for building native applications using React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+            "html_url": "https://github.com/facebook/react-native",
+            "stargazers_count": 122867,
+            "created_at": "2015-01-09T18:10:16Z",
+            "updated_at": "2025-06-30T23:46:47Z",
+            "pushed_at": "2025-06-30T22:58:58Z"
+        },
+        {
+            "name": "nw.js",
+            "description": "Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/10180421?v=4",
+            "html_url": "https://github.com/nwjs/nw.js",
+            "stargazers_count": 40886,
+            "created_at": "2012-01-04T06:21:10Z",
+            "updated_at": "2025-06-30T23:23:29Z",
+            "pushed_at": "2025-06-30T23:23:24Z"
+        },
+        {
+            "name": "quasar",
+            "description": "Quasar Framework - Build high-performance VueJS user interfaces in record time",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/23064371?v=4",
+            "html_url": "https://github.com/quasarframework/quasar",
+            "stargazers_count": 26682,
+            "created_at": "2015-10-05T15:45:36Z",
+            "updated_at": "2025-06-30T20:22:18Z",
+            "pushed_at": "2025-06-23T17:33:38Z"
+        },
+        {
+            "name": "NativeScript",
+            "description": "\u26a1 Empowering JavaScript with native platform APIs. \u2728 Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java, Dart). Use what you love \u2764\ufe0f Angular, React, Solid, Svelte, Vue with: iOS (UIKit, SwiftUI), Android (View, Jetpack Compose), Dart (Flutter) and you name it compatible.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7392261?v=4",
+            "html_url": "https://github.com/NativeScript/NativeScript",
+            "stargazers_count": 24852,
+            "created_at": "2015-03-01T09:47:08Z",
+            "updated_at": "2025-06-30T19:48:08Z",
+            "pushed_at": "2025-06-30T03:08:00Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-06-21T09:17:00.414635Z"
+        "last_updated": "2025-07-01T00:16:34.951706Z"
     }
 }
