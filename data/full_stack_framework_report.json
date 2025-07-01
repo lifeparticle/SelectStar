@@ -1,97 +1,97 @@
 {
     "data": [
         {
-            "name": "graphql",
-            "description": "RedwoodGraphQL",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45050444?v=4",
-            "html_url": "https://github.com/redwoodjs/graphql",
-            "stargazers_count": 17631,
-            "created_at": "2019-06-09T20:17:57Z",
-            "updated_at": "2025-06-20T10:51:58Z",
-            "pushed_at": "2025-06-03T09:26:21Z"
+            "name": "next.js",
+            "description": "The React Framework",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14985020?v=4",
+            "html_url": "https://github.com/vercel/next.js",
+            "stargazers_count": 132823,
+            "created_at": "2016-10-05T23:32:51Z",
+            "updated_at": "2025-06-30T23:53:19Z",
+            "pushed_at": "2025-07-01T00:17:26Z"
         },
         {
             "name": "blitz",
             "description": "\u26a1\ufe0f The Missing Fullstack Toolkit for Next.js",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/61243378?v=4",
             "html_url": "https://github.com/blitz-js/blitz",
-            "stargazers_count": 13926,
+            "stargazers_count": 13934,
             "created_at": "2020-02-17T21:54:15Z",
-            "updated_at": "2025-06-21T05:31:03Z",
+            "updated_at": "2025-06-30T19:48:22Z",
             "pushed_at": "2025-03-03T12:52:08Z"
-        },
-        {
-            "name": "meteor",
-            "description": "Meteor, the JavaScript App Platform",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/789528?v=4",
-            "html_url": "https://github.com/meteor/meteor",
-            "stargazers_count": 44651,
-            "created_at": "2012-01-19T01:58:17Z",
-            "updated_at": "2025-06-20T15:27:16Z",
-            "pushed_at": "2025-06-20T06:45:16Z"
-        },
-        {
-            "name": "laravel",
-            "description": "Laravel is a web application framework with expressive, elegant syntax. We\u2019ve already laid the foundation for your next big idea \u2014 freeing you to create without sweating the small things.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/958072?v=4",
-            "html_url": "https://github.com/laravel/laravel",
-            "stargazers_count": 81280,
-            "created_at": "2011-06-08T03:06:08Z",
-            "updated_at": "2025-06-21T09:12:07Z",
-            "pushed_at": "2025-06-18T12:52:30Z"
-        },
-        {
-            "name": "next.js",
-            "description": "The React Framework",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14985020?v=4",
-            "html_url": "https://github.com/vercel/next.js",
-            "stargazers_count": 132580,
-            "created_at": "2016-10-05T23:32:51Z",
-            "updated_at": "2025-06-21T08:53:20Z",
-            "pushed_at": "2025-06-21T07:05:19Z"
-        },
-        {
-            "name": "symfony",
-            "description": "The Symfony PHP framework",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/143937?v=4",
-            "html_url": "https://github.com/symfony/symfony",
-            "stargazers_count": 30402,
-            "created_at": "2010-01-04T14:21:21Z",
-            "updated_at": "2025-06-21T09:07:54Z",
-            "pushed_at": "2025-06-20T16:16:28Z"
-        },
-        {
-            "name": "keystone",
-            "description": "The superpowered headless CMS for Node.js \u2014 built with GraphQL and React",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6118534?v=4",
-            "html_url": "https://github.com/keystonejs/keystone",
-            "stargazers_count": 9598,
-            "created_at": "2018-04-05T10:48:37Z",
-            "updated_at": "2025-06-21T09:24:54Z",
-            "pushed_at": "2025-06-19T01:59:32Z"
-        },
-        {
-            "name": "django",
-            "description": "The Web framework for perfectionists with deadlines.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/27804?v=4",
-            "html_url": "https://github.com/django/django",
-            "stargazers_count": 83957,
-            "created_at": "2012-04-28T02:47:18Z",
-            "updated_at": "2025-06-21T04:02:18Z",
-            "pushed_at": "2025-06-20T15:16:22Z"
         },
         {
             "name": "rails",
             "description": "Ruby on Rails",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/4223?v=4",
             "html_url": "https://github.com/rails/rails",
-            "stargazers_count": 57015,
+            "stargazers_count": 57023,
             "created_at": "2008-04-11T02:19:47Z",
-            "updated_at": "2025-06-21T09:07:12Z",
-            "pushed_at": "2025-06-20T21:47:34Z"
+            "updated_at": "2025-06-30T23:10:20Z",
+            "pushed_at": "2025-06-30T16:48:35Z"
+        },
+        {
+            "name": "django",
+            "description": "The Web framework for perfectionists with deadlines.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/27804?v=4",
+            "html_url": "https://github.com/django/django",
+            "stargazers_count": 84055,
+            "created_at": "2012-04-28T02:47:18Z",
+            "updated_at": "2025-07-01T00:03:54Z",
+            "pushed_at": "2025-06-30T23:16:21Z"
+        },
+        {
+            "name": "symfony",
+            "description": "The Symfony PHP framework",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/143937?v=4",
+            "html_url": "https://github.com/symfony/symfony",
+            "stargazers_count": 30412,
+            "created_at": "2010-01-04T14:21:21Z",
+            "updated_at": "2025-07-01T00:23:10Z",
+            "pushed_at": "2025-06-30T12:46:53Z"
+        },
+        {
+            "name": "meteor",
+            "description": "Meteor, the JavaScript App Platform",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/789528?v=4",
+            "html_url": "https://github.com/meteor/meteor",
+            "stargazers_count": 44659,
+            "created_at": "2012-01-19T01:58:17Z",
+            "updated_at": "2025-06-30T22:16:49Z",
+            "pushed_at": "2025-06-30T14:40:51Z"
+        },
+        {
+            "name": "laravel",
+            "description": "Laravel is a web application framework with expressive, elegant syntax. We\u2019ve already laid the foundation for your next big idea \u2014 freeing you to create without sweating the small things.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/958072?v=4",
+            "html_url": "https://github.com/laravel/laravel",
+            "stargazers_count": 81361,
+            "created_at": "2011-06-08T03:06:08Z",
+            "updated_at": "2025-07-01T00:27:23Z",
+            "pushed_at": "2025-06-28T17:24:37Z"
+        },
+        {
+            "name": "keystone",
+            "description": "The superpowered headless CMS for Node.js \u2014 built with GraphQL and React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6118534?v=4",
+            "html_url": "https://github.com/keystonejs/keystone",
+            "stargazers_count": 9609,
+            "created_at": "2018-04-05T10:48:37Z",
+            "updated_at": "2025-06-29T06:18:50Z",
+            "pushed_at": "2025-06-30T16:01:11Z"
+        },
+        {
+            "name": "graphql",
+            "description": "RedwoodGraphQL",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45050444?v=4",
+            "html_url": "https://github.com/redwoodjs/graphql",
+            "stargazers_count": 17637,
+            "created_at": "2019-06-09T20:17:57Z",
+            "updated_at": "2025-06-30T09:34:40Z",
+            "pushed_at": "2025-06-28T20:52:37Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-06-21T09:28:22.438693Z"
+        "last_updated": "2025-07-01T00:28:41.905375Z"
     }
 }
