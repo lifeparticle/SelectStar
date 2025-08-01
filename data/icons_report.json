@@ -1,157 +1,157 @@
 {
     "data": [
         {
-            "name": "heroicons",
-            "description": "A set of free MIT-licensed high-quality SVG icons for UI development.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/67109815?v=4",
-            "html_url": "https://github.com/tailwindlabs/heroicons",
-            "stargazers_count": 22582,
-            "created_at": "2020-02-24T14:16:00Z",
-            "updated_at": "2025-06-30T23:37:11Z",
-            "pushed_at": "2025-05-30T13:55:29Z"
-        },
-        {
-            "name": "ionicons",
-            "description": "Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere \ud83c\udf0e",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
-            "html_url": "https://github.com/ionic-team/ionicons",
-            "stargazers_count": 17817,
-            "created_at": "2013-10-10T14:34:18Z",
-            "updated_at": "2025-06-30T18:43:28Z",
-            "pushed_at": "2025-06-02T16:16:11Z"
-        },
-        {
-            "name": "RemixIcon",
-            "description": "Open source neutral style icon system",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45508804?v=4",
-            "html_url": "https://github.com/Remix-Design/RemixIcon",
-            "stargazers_count": 7470,
-            "created_at": "2018-12-16T07:48:28Z",
-            "updated_at": "2025-06-30T08:50:38Z",
-            "pushed_at": "2024-12-17T06:00:56Z"
-        },
-        {
-            "name": "feather",
-            "description": "Simply beautiful open-source icons",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/29268069?v=4",
-            "html_url": "https://github.com/feathericons/feather",
-            "stargazers_count": 25533,
-            "created_at": "2014-05-28T19:49:55Z",
-            "updated_at": "2025-07-01T00:24:34Z",
-            "pushed_at": "2025-03-11T02:18:59Z"
-        },
-        {
             "name": "devicon",
             "description": "Set of icons representing programming languages, designing & development tools",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/66767815?v=4",
             "html_url": "https://github.com/devicons/devicon",
-            "stargazers_count": 10753,
+            "stargazers_count": 10884,
             "created_at": "2014-03-01T15:14:04Z",
-            "updated_at": "2025-06-30T23:34:08Z",
-            "pushed_at": "2025-06-30T02:32:00Z"
-        },
-        {
-            "name": "octicons",
-            "description": "A scalable set of icons handcrafted with <3 by GitHub",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7143434?v=4",
-            "html_url": "https://github.com/primer/octicons",
-            "stargazers_count": 8517,
-            "created_at": "2014-06-16T17:10:25Z",
-            "updated_at": "2025-06-30T18:25:28Z",
-            "pushed_at": "2025-06-24T22:15:58Z"
-        },
-        {
-            "name": "Font-Awesome",
-            "description": "The iconic SVG, font, and CSS toolkit",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1505683?v=4",
-            "html_url": "https://github.com/FortAwesome/Font-Awesome",
-            "stargazers_count": 75396,
-            "created_at": "2012-02-17T14:19:43Z",
-            "updated_at": "2025-07-01T00:19:48Z",
-            "pushed_at": "2024-12-16T21:32:57Z"
-        },
-        {
-            "name": "simple-icons",
-            "description": "SVG icons for popular brands",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/29872746?v=4",
-            "html_url": "https://github.com/simple-icons/simple-icons",
-            "stargazers_count": 22868,
-            "created_at": "2012-11-16T11:09:13Z",
-            "updated_at": "2025-06-30T22:59:33Z",
-            "pushed_at": "2025-06-30T22:59:29Z"
-        },
-        {
-            "name": "icons",
-            "description": "Official open source SVG icon library for Bootstrap.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2918581?v=4",
-            "html_url": "https://github.com/twbs/icons",
-            "stargazers_count": 7669,
-            "created_at": "2019-07-25T17:59:58Z",
-            "updated_at": "2025-06-30T18:19:40Z",
-            "pushed_at": "2025-06-06T04:57:25Z"
+            "updated_at": "2025-08-01T00:16:37Z",
+            "pushed_at": "2025-07-28T03:44:48Z"
         },
         {
             "name": "iconsax",
             "description": "vuesax - icons",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/35979086?v=4",
             "html_url": "https://github.com/lusaxweb/iconsax",
-            "stargazers_count": 367,
+            "stargazers_count": 368,
             "created_at": "2021-07-01T15:57:09Z",
-            "updated_at": "2025-06-29T17:16:26Z",
+            "updated_at": "2025-07-23T13:15:06Z",
             "pushed_at": "2023-06-10T19:24:16Z"
         },
         {
-            "name": "web",
-            "description": "A flexible icon family for the web",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/69737287?v=4",
-            "html_url": "https://github.com/phosphor-icons/web",
-            "stargazers_count": 440,
-            "created_at": "2020-09-17T22:51:37Z",
-            "updated_at": "2025-06-22T22:13:25Z",
-            "pushed_at": "2025-05-12T18:02:56Z"
+            "name": "RemixIcon",
+            "description": "Open source neutral style icon system",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45508804?v=4",
+            "html_url": "https://github.com/Remix-Design/RemixIcon",
+            "stargazers_count": 7535,
+            "created_at": "2018-12-16T07:48:28Z",
+            "updated_at": "2025-07-31T21:37:55Z",
+            "pushed_at": "2024-12-17T06:00:56Z"
+        },
+        {
+            "name": "icons",
+            "description": "Official open source SVG icon library for Bootstrap.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/2918581?v=4",
+            "html_url": "https://github.com/twbs/icons",
+            "stargazers_count": 7696,
+            "created_at": "2019-07-25T17:59:58Z",
+            "updated_at": "2025-07-31T14:25:36Z",
+            "pushed_at": "2025-07-28T14:50:24Z"
         },
         {
             "name": "tabler-icons",
             "description": "A set of over 5800 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/35471246?v=4",
             "html_url": "https://github.com/tabler/tabler-icons",
-            "stargazers_count": 19328,
+            "stargazers_count": 19430,
             "created_at": "2020-02-27T15:10:04Z",
-            "updated_at": "2025-06-30T19:40:32Z",
-            "pushed_at": "2025-06-02T17:43:11Z"
-        },
-        {
-            "name": "icons",
-            "description": "A crisp set of 15\u00d715 icons designed by the @workos team.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
-            "html_url": "https://github.com/radix-ui/icons",
-            "stargazers_count": 2448,
-            "created_at": "2019-05-02T13:43:10Z",
-            "updated_at": "2025-06-30T07:54:43Z",
-            "pushed_at": "2024-12-17T19:49:52Z"
+            "updated_at": "2025-07-31T21:37:56Z",
+            "pushed_at": "2025-07-23T16:35:26Z"
         },
         {
             "name": "material-design-icons",
             "description": "Material Design icons by Google (Material Symbols)",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/1342004?v=4",
             "html_url": "https://github.com/google/material-design-icons",
-            "stargazers_count": 51758,
+            "stargazers_count": 51879,
             "created_at": "2014-10-08T18:01:28Z",
-            "updated_at": "2025-06-30T20:57:52Z",
+            "updated_at": "2025-07-31T15:11:00Z",
             "pushed_at": "2025-04-11T02:45:57Z"
+        },
+        {
+            "name": "simple-icons",
+            "description": "SVG icons for popular brands",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/29872746?v=4",
+            "html_url": "https://github.com/simple-icons/simple-icons",
+            "stargazers_count": 23125,
+            "created_at": "2012-11-16T11:09:13Z",
+            "updated_at": "2025-07-31T15:52:04Z",
+            "pushed_at": "2025-07-28T15:16:41Z"
+        },
+        {
+            "name": "Font-Awesome",
+            "description": "The iconic SVG, font, and CSS toolkit",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1505683?v=4",
+            "html_url": "https://github.com/FortAwesome/Font-Awesome",
+            "stargazers_count": 75514,
+            "created_at": "2012-02-17T14:19:43Z",
+            "updated_at": "2025-07-31T22:14:47Z",
+            "pushed_at": "2025-07-24T14:27:19Z"
+        },
+        {
+            "name": "ionicons",
+            "description": "Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere \ud83c\udf0e",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
+            "html_url": "https://github.com/ionic-team/ionicons",
+            "stargazers_count": 17852,
+            "created_at": "2013-10-10T14:34:18Z",
+            "updated_at": "2025-07-31T19:14:33Z",
+            "pushed_at": "2025-07-30T15:27:42Z"
+        },
+        {
+            "name": "icons",
+            "description": "A crisp set of 15\u00d715 icons designed by the @workos team.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
+            "html_url": "https://github.com/radix-ui/icons",
+            "stargazers_count": 2461,
+            "created_at": "2019-05-02T13:43:10Z",
+            "updated_at": "2025-07-31T14:25:25Z",
+            "pushed_at": "2024-12-17T19:49:52Z"
+        },
+        {
+            "name": "feather",
+            "description": "Simply beautiful open-source icons",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/29268069?v=4",
+            "html_url": "https://github.com/feathericons/feather",
+            "stargazers_count": 25566,
+            "created_at": "2014-05-28T19:49:55Z",
+            "updated_at": "2025-07-31T21:37:55Z",
+            "pushed_at": "2025-03-11T02:18:59Z"
+        },
+        {
+            "name": "octicons",
+            "description": "A scalable set of icons handcrafted with <3 by GitHub",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7143434?v=4",
+            "html_url": "https://github.com/primer/octicons",
+            "stargazers_count": 8540,
+            "created_at": "2014-06-16T17:10:25Z",
+            "updated_at": "2025-07-31T22:22:07Z",
+            "pushed_at": "2025-07-28T13:26:08Z"
         },
         {
             "name": "lucide",
             "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/66879934?v=4",
             "html_url": "https://github.com/lucide-icons/lucide",
-            "stargazers_count": 17923,
+            "stargazers_count": 18373,
             "created_at": "2020-06-08T15:36:21Z",
-            "updated_at": "2025-06-30T21:36:24Z",
-            "pushed_at": "2025-06-30T19:59:20Z"
+            "updated_at": "2025-08-01T00:11:27Z",
+            "pushed_at": "2025-07-31T11:54:05Z"
+        },
+        {
+            "name": "web",
+            "description": "A flexible icon family for the web",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/69737287?v=4",
+            "html_url": "https://github.com/phosphor-icons/web",
+            "stargazers_count": 449,
+            "created_at": "2020-09-17T22:51:37Z",
+            "updated_at": "2025-07-28T07:32:26Z",
+            "pushed_at": "2025-05-12T18:02:56Z"
+        },
+        {
+            "name": "heroicons",
+            "description": "A set of free MIT-licensed high-quality SVG icons for UI development.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/67109815?v=4",
+            "html_url": "https://github.com/tailwindlabs/heroicons",
+            "stargazers_count": 22710,
+            "created_at": "2020-02-24T14:16:00Z",
+            "updated_at": "2025-07-31T21:37:55Z",
+            "pushed_at": "2025-05-30T13:55:29Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-07-01T00:27:08.215802Z"
+        "last_updated": "2025-08-01T00:27:45.318376Z"
     }
 }
