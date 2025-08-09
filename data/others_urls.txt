@@ -19,3 +19,4 @@ https://github.com/tldraw/tldraw
 https://github.com/excalidraw/excalidraw
 https://github.com/Unleash/unleash
 https://github.com/Flagsmith/flagsmith
+https://github.com/paperless-ngx/paperless-ngx
