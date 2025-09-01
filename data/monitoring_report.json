@@ -1,13 +1,53 @@
 {
     "data": [
         {
+            "name": "netdata",
+            "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/43390781?v=4",
+            "html_url": "https://github.com/netdata/netdata",
+            "stargazers_count": 75696,
+            "created_at": "2013-06-17T18:39:10Z",
+            "updated_at": "2025-09-01T00:11:01Z",
+            "pushed_at": "2025-08-31T18:32:23Z"
+        },
+        {
+            "name": "uptime-kuma",
+            "description": "A fancy self-hosted monitoring tool",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1336778?v=4",
+            "html_url": "https://github.com/louislam/uptime-kuma",
+            "stargazers_count": 74462,
+            "created_at": "2021-07-03T01:02:42Z",
+            "updated_at": "2025-09-01T00:13:35Z",
+            "pushed_at": "2025-08-31T17:25:42Z"
+        },
+        {
+            "name": "sentry",
+            "description": "Developer-first error tracking and performance monitoring",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+            "html_url": "https://github.com/getsentry/sentry",
+            "stargazers_count": 41859,
+            "created_at": "2010-08-30T22:06:41Z",
+            "updated_at": "2025-08-31T15:56:37Z",
+            "pushed_at": "2025-08-30T02:08:25Z"
+        },
+        {
+            "name": "grafana",
+            "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7195757?v=4",
+            "html_url": "https://github.com/grafana/grafana",
+            "stargazers_count": 69694,
+            "created_at": "2013-12-11T15:59:56Z",
+            "updated_at": "2025-09-01T00:23:31Z",
+            "pushed_at": "2025-09-01T00:03:10Z"
+        },
+        {
             "name": "Monitorix",
             "description": "Monitorix is a free, open source, lightweight system monitoring tool.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/829885?v=4",
             "html_url": "https://github.com/mikaku/Monitorix",
-            "stargazers_count": 1161,
+            "stargazers_count": 1164,
             "created_at": "2012-10-22T13:41:51Z",
-            "updated_at": "2025-07-17T01:10:53Z",
+            "updated_at": "2025-08-27T22:41:08Z",
             "pushed_at": "2025-07-07T13:53:01Z"
         },
         {
@@ -15,53 +55,13 @@
             "description": "The Prometheus monitoring system and time series database.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "html_url": "https://github.com/prometheus/prometheus",
-            "stargazers_count": 59726,
+            "stargazers_count": 60158,
             "created_at": "2012-11-24T11:14:12Z",
-            "updated_at": "2025-07-31T23:38:16Z",
-            "pushed_at": "2025-07-31T20:10:36Z"
-        },
-        {
-            "name": "netdata",
-            "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/43390781?v=4",
-            "html_url": "https://github.com/netdata/netdata",
-            "stargazers_count": 75277,
-            "created_at": "2013-06-17T18:39:10Z",
-            "updated_at": "2025-07-31T23:20:40Z",
-            "pushed_at": "2025-07-31T13:26:24Z"
-        },
-        {
-            "name": "grafana",
-            "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7195757?v=4",
-            "html_url": "https://github.com/grafana/grafana",
-            "stargazers_count": 69258,
-            "created_at": "2013-12-11T15:59:56Z",
-            "updated_at": "2025-07-31T23:49:57Z",
-            "pushed_at": "2025-08-01T00:22:35Z"
-        },
-        {
-            "name": "sentry",
-            "description": "Developer-first error tracking and performance monitoring",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
-            "html_url": "https://github.com/getsentry/sentry",
-            "stargazers_count": 41582,
-            "created_at": "2010-08-30T22:06:41Z",
-            "updated_at": "2025-07-31T23:24:20Z",
-            "pushed_at": "2025-08-01T00:08:52Z"
-        },
-        {
-            "name": "uptime-kuma",
-            "description": "A fancy self-hosted monitoring tool",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1336778?v=4",
-            "html_url": "https://github.com/louislam/uptime-kuma",
-            "stargazers_count": 72574,
-            "created_at": "2021-07-03T01:02:42Z",
-            "updated_at": "2025-08-01T00:14:29Z",
-            "pushed_at": "2025-07-29T12:17:14Z"
+            "updated_at": "2025-08-31T23:47:49Z",
+            "pushed_at": "2025-08-29T13:36:58Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-08-01T00:25:45.807839Z"
+        "last_updated": "2025-09-01T00:24:29.556321Z"
     }
 }
