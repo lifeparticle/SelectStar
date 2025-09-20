@@ -20,3 +20,4 @@ https://github.com/excalidraw/excalidraw
 https://github.com/Unleash/unleash
 https://github.com/Flagsmith/flagsmith
 https://github.com/paperless-ngx/paperless-ngx
+https://github.com/megh-bari/pattern-craft

@@ -33,3 +33,9 @@ https://github.com/rsuite/rsuite
 https://github.com/marmelab/react-admin
 https://github.com/origin-space/originui
 https://github.com/haydenbleasel/kibo
+https://github.com/keenthemes/reui
+https://github.com/tailark/blocks
+https://github.com/ibelick/motion-primitives
+https://github.com/kokonut-labs/kokonutui
+https://github.com/educlopez/smoothui
+https://github.com/nolly-studio/cult-ui
