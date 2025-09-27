@@ -29,6 +29,11 @@
 			"name": "React Flow Pro",
 			"description": "Build Better Node-Based UIs with React Flow Pro",
 			"url": "https://reactflow.dev/pro"
+		},
+		{
+			"name": "Magic UI Pro",
+			"description": "Ship beautifulbeautiful products in record time",
+			"url": "https://pro.magicui.design/"
 		}
 	]
 }
