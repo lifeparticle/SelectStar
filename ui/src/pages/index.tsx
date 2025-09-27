@@ -35,6 +35,35 @@ export const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/icons_report.json",
 };
 
+export const proReports: reports = {
+	charts:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/chart_report_pro.json",
+	components:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/comp_report_pro.json",
+	testing:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/test_report_pro.json",
+	state_management:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/state_management_report_pro.json",
+	ui_frameworks:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ui_framework_report_pro.json",
+	backend_frameworks:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/backend_framework_report_pro.json",
+	full_stack_frameworks:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/full_stack_framework_report_pro.json",
+	mobile_desktop:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/mobile_desktop_report_pro.json",
+	database:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/db_report_pro.json",
+	monitoring:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/monitoring_report_pro.json",
+	analytics:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/analytics_report_pro.json",
+	others:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/others_report_pro.json",
+	icons:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/icons_report_pro.json",
+};
+
 export const tabs = [
 	{ value: "ui_frameworks", label: "UI frameworks" },
 	{ value: "state_management", label: "State management libraries" },
