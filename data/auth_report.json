@@ -1,0 +1,47 @@
+{
+	"data": [
+		{
+			"name": "NextAuth.js",
+			"description": "Authentication for Next.js",
+			"owner_avatar_url": "https://avatars.githubusercontent.com/u/67470890?v=4",
+			"html_url": "https://github.com/nextauthjs/next-auth",
+			"created_at": "2020-01-15T00:00:00Z",
+			"pushed_at": "2024-01-15T00:00:00Z",
+			"stargazers_count": 0,
+			"updated_at": "2024-01-15T00:00:00Z"
+		},
+		{
+			"name": "Passport",
+			"description": "Simple, unobtrusive authentication for Node.js",
+			"owner_avatar_url": "https://avatars.githubusercontent.com/u/177453?v=4",
+			"html_url": "https://github.com/jaredhanson/passport",
+			"created_at": "2011-01-15T00:00:00Z",
+			"pushed_at": "2024-01-15T00:00:00Z",
+			"stargazers_count": 0,
+			"updated_at": "2024-01-15T00:00:00Z"
+		},
+		{
+			"name": "SuperTokens Core",
+			"description": "Open source authentication and user management",
+			"owner_avatar_url": "https://avatars.githubusercontent.com/u/46685386?v=4",
+			"html_url": "https://github.com/supertokens/supertokens-core",
+			"created_at": "2020-01-15T00:00:00Z",
+			"pushed_at": "2024-01-15T00:00:00Z",
+			"stargazers_count": 0,
+			"updated_at": "2024-01-15T00:00:00Z"
+		},
+		{
+			"name": "Ory Kratos",
+			"description": "Next-gen identity server (think Auth0, Okta, Firebase Auth)",
+			"owner_avatar_url": "https://avatars.githubusercontent.com/u/25334512?v=4",
+			"html_url": "https://github.com/ory/kratos",
+			"created_at": "2019-01-15T00:00:00Z",
+			"pushed_at": "2024-01-15T00:00:00Z",
+			"stargazers_count": 0,
+			"updated_at": "2024-01-15T00:00:00Z"
+		}
+	],
+	"meta": {
+		"last_updated": "2024-01-15T00:00:00Z"
+	}
+}

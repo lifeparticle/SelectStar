@@ -29,6 +29,7 @@ export const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/monitoring_report.json",
 	analytics:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/analytics_report.json",
+	auth: "https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/auth_report.json",
 	others:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/others_report.json",
 	icons:
@@ -58,6 +59,7 @@ export const proReports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/monitoring_report_pro.json",
 	analytics:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/analytics_report_pro.json",
+	auth: "https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/auth_report_pro.txt",
 	others:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/others_report_pro.json",
 	icons:
@@ -76,6 +78,7 @@ export const tabs = [
 	{ value: "testing", label: "Testing libraries" },
 	{ value: "monitoring", label: "Monitoring tools" },
 	{ value: "analytics", label: "Analytics tools" },
+	{ value: "auth", label: "Authentication" },
 	{ value: "icons", label: "Icons" },
 	{ value: "others", label: "Others" },
 ];
