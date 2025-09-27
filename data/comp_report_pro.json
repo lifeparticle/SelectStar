@@ -4,6 +4,21 @@
 			"name": "Tailwind CSS Plus",
 			"description": "Tailwind CSS Plus is a collection of premium components for Tailwind CSS.",
 			"url": "https://tailwindcss.com/plus"
+		},
+		{
+			"name": "Untitled UI",
+			"description": "Untitled UI is the world's largest Figma UI kit and React component library.",
+			"url": "https://www.untitledui.com/"
+		},
+		{
+			"name": "Flowbite",
+			"description": "Build websites even faster with components on top of Tailwind CSS",
+			"url": "https://flowbite.com/"
+		},
+		{
+			"name": "Ag-Grid",
+			"description": "Add high-performance, feature rich, and fully customisable Data Grids to your application in minutes with our free, open source library.",
+			"url": "https://www.ag-grid.com/"
 		}
 	]
 }

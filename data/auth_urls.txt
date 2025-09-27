@@ -1,0 +1,5 @@
+https://github.com/nextauthjs/next-auth
+https://github.com/jaredhanson/passport
+https://github.com/supertokens/supertokens-core
+https://github.com/ory/kratos
+

@@ -104,28 +104,37 @@ const proColumns = [
 ];
 
 export default function ReposTable() {
-	const [filterValue, setFilterValue] = useState("");
-	const [sortDescriptor, setSortDescriptor] = useState<CustomSortDescriptor>({
-		column: "stargazers_count",
-		direction: "descending",
-	});
-	const [selected, setSelected] = useState("ui_frameworks");
+	const [openSourceFilterValue, setOpenSourceFilterValue] = useState("");
+	const [proFilterValue, setProFilterValue] = useState("");
+	const [openSourceSortDescriptor, setOpenSourceSortDescriptor] =
+		useState<CustomSortDescriptor>({
+			column: "stargazers_count",
+			direction: "descending",
+		});
+	const [proSortDescriptor, setProSortDescriptor] =
+		useState<CustomSortDescriptor>({
+			column: "name",
+			direction: "ascending",
+		});
+	const [openSourceSelected, setOpenSourceSelected] = useState("ui_frameworks");
+	const [proSelected, setProSelected] = useState("ui_frameworks");
 
-	console.log("selected", selected);
+	console.log("openSourceSelected", openSourceSelected);
+	console.log("proSelected", proSelected);
 
 	const { data, isLoading } = useQuery<RepoResponse>({
-		queryKey: ["repos", selected],
+		queryKey: ["repos", openSourceSelected],
 		queryFn: async () => {
-			const res = await fetch(reports[selected]);
+			const res = await fetch(reports[openSourceSelected]);
 			return res.json();
 		},
 		staleTime: 10 * 60 * 1000,
 	});
 
 	const { data: proData, isLoading: isProLoading } = useQuery<ProResponse>({
-		queryKey: ["pro-repos", selected],
+		queryKey: ["pro-repos", proSelected],
 		queryFn: async () => {
-			const res = await fetch(proReports[selected]);
+			const res = await fetch(proReports[proSelected]);
 			return res.json();
 		},
 		staleTime: 10 * 60 * 1000,
@@ -134,46 +143,46 @@ export default function ReposTable() {
 	const filteredItems = useMemo(() => {
 		return (
 			data?.data.filter((repo) =>
-				repo.name.toLowerCase().includes(filterValue.toLowerCase())
+				repo.name.toLowerCase().includes(openSourceFilterValue.toLowerCase())
 			) || []
 		);
-	}, [data, filterValue]);
+	}, [data, openSourceFilterValue]);
 
 	const sortedItems = useMemo(() => {
 		return [...filteredItems].sort((a, b) => {
-			const first = a[sortDescriptor.column as keyof RepoData];
-			const second = b[sortDescriptor.column as keyof RepoData];
+			const first = a[openSourceSortDescriptor.column as keyof RepoData];
+			const second = b[openSourceSortDescriptor.column as keyof RepoData];
 			const cmp =
 				(parseInt(first as string) || first) <
 				(parseInt(second as string) || second)
 					? -1
 					: 1;
 
-			return sortDescriptor.direction === "descending" ? -cmp : cmp;
+			return openSourceSortDescriptor.direction === "descending" ? -cmp : cmp;
 		});
-	}, [filteredItems, sortDescriptor]);
+	}, [filteredItems, openSourceSortDescriptor]);
 
 	const filteredProItems = useMemo(() => {
 		return (
 			proData?.data.filter((repo) =>
-				repo.name.toLowerCase().includes(filterValue.toLowerCase())
+				repo.name.toLowerCase().includes(proFilterValue.toLowerCase())
 			) || []
 		);
-	}, [proData, filterValue]);
+	}, [proData, proFilterValue]);
 
 	const sortedProItems = useMemo(() => {
 		return [...filteredProItems].sort((a, b) => {
-			const first = a[sortDescriptor.column as keyof ProData];
-			const second = b[sortDescriptor.column as keyof ProData];
+			const first = a[proSortDescriptor.column as keyof ProData];
+			const second = b[proSortDescriptor.column as keyof ProData];
 			const cmp =
 				(parseInt(first as string) || first) <
 				(parseInt(second as string) || second)
 					? -1
 					: 1;
 
-			return sortDescriptor.direction === "descending" ? -cmp : cmp;
+			return proSortDescriptor.direction === "descending" ? -cmp : cmp;
 		});
-	}, [filteredProItems, sortDescriptor]);
+	}, [filteredProItems, proSortDescriptor]);
 
 	const renderCell = useCallback((repo: RepoData, columnKey: ReactKey) => {
 		const cellValue = repo[columnKey as keyof RepoData];
@@ -226,8 +235,12 @@ export default function ReposTable() {
 		}
 	}, []);
 
-	const onSearchChange = useCallback((value: string) => {
-		setFilterValue(value);
+	const onOpenSourceSearchChange = useCallback((value: string) => {
+		setOpenSourceFilterValue(value);
+	}, []);
+
+	const onProSearchChange = useCallback((value: string) => {
+		setProFilterValue(value);
 	}, []);
 
 	const topContent = useMemo(() => {
@@ -238,8 +251,8 @@ export default function ReposTable() {
 						placeholder="Search a category..."
 						className="w-full sm:max-w-[30%]"
 						defaultItems={tabs}
-						defaultSelectedKey={selected}
-						onSelectionChange={(key) => setSelected(key as string)}
+						defaultSelectedKey={openSourceSelected}
+						onSelectionChange={(key) => setOpenSourceSelected(key as string)}
 					>
 						{(item) => (
 							<AutocompleteItem key={item.value}>{item.label}</AutocompleteItem>
@@ -250,13 +263,41 @@ export default function ReposTable() {
 						isClearable
 						placeholder="Search by name..."
 						size="md"
-						value={filterValue}
-						onValueChange={onSearchChange}
+						value={openSourceFilterValue}
+						onValueChange={onOpenSourceSearchChange}
 					/>
 				</div>
 			</div>
 		);
-	}, [filterValue, onSearchChange]);
+	}, [openSourceFilterValue, onOpenSourceSearchChange, openSourceSelected]);
+
+	const proTopContent = useMemo(() => {
+		return (
+			<div className="flex flex-col gap-4">
+				<div className="flex flex-col sm:flex-row justify-between gap-3 items-end">
+					<Autocomplete
+						placeholder="Search a category..."
+						className="w-full sm:max-w-[30%]"
+						defaultItems={tabs}
+						defaultSelectedKey={proSelected}
+						onSelectionChange={(key) => setProSelected(key as string)}
+					>
+						{(item) => (
+							<AutocompleteItem key={item.value}>{item.label}</AutocompleteItem>
+						)}
+					</Autocomplete>
+					<Input
+						className="w-full sm:max-w-[30%]"
+						isClearable
+						placeholder="Search by name..."
+						size="md"
+						value={proFilterValue}
+						onValueChange={onProSearchChange}
+					/>
+				</div>
+			</div>
+		);
+	}, [proFilterValue, onProSearchChange, proSelected]);
 
 	const bottomContent = useMemo(() => {
 		const lastUpdatedDate = data?.meta?.last_updated;
@@ -271,7 +312,22 @@ export default function ReposTable() {
 				</p>
 			</div>
 		);
-	}, [sortedItems.length, data?.meta?.last_updated, isLoading]);
+	}, [data?.meta?.last_updated, isLoading]);
+
+	const proBottomContent = useMemo(() => {
+		const lastUpdatedDate = proData?.meta?.last_updated;
+		return (
+			<div className="py-2 px-2 flex justify-center">
+				<p className="text-sm text-gray-600">
+					{!isProLoading &&
+						lastUpdatedDate &&
+						`Last updated: ${formatDate(lastUpdatedDate)} (${formatDaysAgo(
+							lastUpdatedDate
+						)})`}
+				</p>
+			</div>
+		);
+	}, [proData?.meta?.last_updated, isProLoading]);
 
 	return (
 		<div className="space-y-8">
@@ -287,11 +343,11 @@ export default function ReposTable() {
 						wrapper: "max-h-[65dvh]",
 					}}
 					selectionMode="single"
-					sortDescriptor={sortDescriptor}
+					sortDescriptor={openSourceSortDescriptor}
 					topContent={topContent}
 					topContentPlacement="outside"
 					onSortChange={(descriptor) =>
-						setSortDescriptor({
+						setOpenSourceSortDescriptor({
 							column: descriptor.column?.toString() as ReactKey,
 							direction: descriptor.direction as "ascending" | "descending",
 						})
@@ -328,17 +384,17 @@ export default function ReposTable() {
 				<Table
 					aria-label="Pro Repositories Table"
 					isHeaderSticky
-					bottomContent={bottomContent}
+					bottomContent={proBottomContent}
 					bottomContentPlacement="outside"
 					classNames={{
 						wrapper: "max-h-[65dvh]",
 					}}
 					selectionMode="single"
-					sortDescriptor={sortDescriptor}
-					topContent={topContent}
+					sortDescriptor={proSortDescriptor}
+					topContent={proTopContent}
 					topContentPlacement="outside"
 					onSortChange={(descriptor) =>
-						setSortDescriptor({
+						setProSortDescriptor({
 							column: descriptor.column?.toString() as ReactKey,
 							direction: descriptor.direction as "ascending" | "descending",
 						})

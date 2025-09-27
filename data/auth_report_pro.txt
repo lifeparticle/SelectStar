@@ -1,0 +1,60 @@
+{
+	"data": [
+		{
+			"name": "Tailwind CSS Plus",
+			"description": "Tailwind CSS Plus is a collection of premium components for Tailwind CSS.",
+			"url": "https://tailwindcss.com/plus"
+		},
+		{
+			"name": "Clerk",
+			"description": "Complete user management for your app with authentication, user profiles, and more.",
+			"url": "https://clerk.com"
+		},
+		{
+			"name": "Supabase Auth",
+			"description": "Built-in authentication and authorization for your applications with Supabase.",
+			"url": "https://supabase.com/docs/guides/auth"
+		},
+		{
+			"name": "Auth0",
+			"description": "Identity platform for developers and enterprises with authentication and authorization.",
+			"url": "https://auth0.com"
+		},
+		{
+			"name": "Firebase Auth",
+			"description": "Google's authentication service with multiple sign-in methods and security features.",
+			"url": "https://firebase.google.com/docs/auth"
+		},
+		{
+			"name": "Stytch",
+			"description": "Developer-first authentication platform with passwordless and multi-factor authentication.",
+			"url": "https://stytch.com"
+		},
+		{
+			"name": "Descope",
+			"description": "Authentication and user management platform with no-code workflows.",
+			"url": "https://www.descope.com"
+		},
+		{
+			"name": "Ory",
+			"description": "Open source identity infrastructure with authentication, authorization, and user management.",
+			"url": "https://www.ory.sh"
+		},
+		{
+			"name": "WorkOS",
+			"description": "Enterprise authentication and user management with SSO, directory sync, and more.",
+			"url": "https://workos.com"
+		},
+		{
+			"name": "Okta",
+			"description": "Enterprise identity and access management with single sign-on and multi-factor authentication.",
+			"url": "https://www.okta.com"
+		},
+		{
+			"name": "AWS Cognito",
+			"description": "Amazon's user identity and data synchronization service for web and mobile apps.",
+			"url": "https://aws.amazon.com/cognito"
+		}
+	]
+}
+
