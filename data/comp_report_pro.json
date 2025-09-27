@@ -19,6 +19,11 @@
 			"name": "Ag-Grid",
 			"description": "Add high-performance, feature rich, and fully customisable Data Grids to your application in minutes with our free, open source library.",
 			"url": "https://www.ag-grid.com/"
+		},
+		{
+			"name": "Plate",
+			"description": "Build Notion-like editors, faster than ever",
+			"url": "https://pro.platejs.org/"
 		}
 	]
 }
