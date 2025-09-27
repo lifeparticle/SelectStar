@@ -1,11 +1,6 @@
 {
 	"data": [
 		{
-			"name": "Tailwind CSS Plus",
-			"description": "Tailwind CSS Plus is a collection of premium components for Tailwind CSS.",
-			"url": "https://tailwindcss.com/plus"
-		},
-		{
 			"name": "Clerk",
 			"description": "Complete user management for your app with authentication, user profiles, and more.",
 			"url": "https://clerk.com"
