@@ -1,9 +1,29 @@
 {
 	"data": [
 		{
-			"name": "Tailwind CSS Plus",
-			"description": "Tailwind CSS Plus is a collection of premium components for Tailwind CSS.",
-			"url": "https://tailwindcss.com/plus"
+			"name": "Lordicon",
+			"description": "Premium animated icons and illustrations for web and mobile applications.",
+			"url": "https://lordicon.com/"
+		},
+		{
+			"name": "Futicons",
+			"description": "Modern, minimalist icon set with clean designs and multiple styles.",
+			"url": "https://vaisakhpradeep.gumroad.com/l/futicons"
+		},
+		{
+			"name": "Unicornicons",
+			"description": "Collection of 400+ playful animated icons! Available in JSON, SVG, PNG, and After Effects format.",
+			"url": "https://unicornicons.gumroad.com/l/unicornicons-pro"
+		},
+		{
+			"name": "Iconly",
+			"description": "The last icon solution you need!",
+			"url": "https://iconly.pro/"
+		},
+		{
+			"name": "Font Awesome",
+			"description": "Icons. Easy. Done.",
+			"url": "https://fontawesome.com/plans"
 		}
 	]
 }

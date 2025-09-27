@@ -1,9 +1,19 @@
 {
 	"data": [
 		{
-			"name": "Tailwind CSS Plus",
-			"description": "Tailwind CSS Plus is a collection of premium components for Tailwind CSS.",
-			"url": "https://tailwindcss.com/plus"
+			"name": "new relic",
+			"description": "Maximize business uptime and drive engineering excellence in the AI era.",
+			"url": "https://newrelic.com/"
+		},
+		{
+			"name": "Datadog",
+			"description": "Modern monitoring & security.",
+			"url": "https://www.datadoghq.com/"
+		},
+		{
+			"name": "Splunk",
+			"description": "Operate securely and reliably at any scale, no matter how complex your digital ecosystem, with the industry-leading, unified security and observability platform.",
+			"url": "https://www.splunk.com/"
 		}
 	]
 }
