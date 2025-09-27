@@ -13,7 +13,7 @@ import {
 } from "@nextui-org/react";
 import { useCallback, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { reports, tabs } from "@/pages";
+import { reports, proReports, tabs } from "@/pages";
 import { Key as ReactKey } from "@react-types/shared";
 
 export function formatDate(dateString: string | undefined): string {
@@ -73,6 +73,21 @@ interface RepoResponse {
 	meta: RepoMeta;
 }
 
+interface ProData {
+	name: string;
+	description: string;
+	url: string;
+}
+
+interface ProMeta {
+	last_updated: string;
+}
+
+interface ProResponse {
+	data: ProData[];
+	meta: ProMeta;
+}
+
 const columns = [
 	{ name: "Name", uid: "name", sortable: true },
 	{ name: "Description", uid: "description", sortable: false },
@@ -80,6 +95,12 @@ const columns = [
 	{ name: "Created at", uid: "created_at", sortable: true },
 	{ name: "Pushed at", uid: "pushed_at", sortable: true },
 	{ name: "Updated at", uid: "updated_at", sortable: true },
+];
+
+const proColumns = [
+	{ name: "Name", uid: "name", sortable: true },
+	{ name: "Description", uid: "description", sortable: false },
+	{ name: "URL", uid: "url", sortable: false },
 ];
 
 export default function ReposTable() {
@@ -96,6 +117,15 @@ export default function ReposTable() {
 		queryKey: ["repos", selected],
 		queryFn: async () => {
 			const res = await fetch(reports[selected]);
+			return res.json();
+		},
+		staleTime: 10 * 60 * 1000,
+	});
+
+	const { data: proData, isLoading: isProLoading } = useQuery<ProResponse>({
+		queryKey: ["pro-repos", selected],
+		queryFn: async () => {
+			const res = await fetch(proReports[selected]);
 			return res.json();
 		},
 		staleTime: 10 * 60 * 1000,
@@ -123,6 +153,28 @@ export default function ReposTable() {
 		});
 	}, [filteredItems, sortDescriptor]);
 
+	const filteredProItems = useMemo(() => {
+		return (
+			proData?.data.filter((repo) =>
+				repo.name.toLowerCase().includes(filterValue.toLowerCase())
+			) || []
+		);
+	}, [proData, filterValue]);
+
+	const sortedProItems = useMemo(() => {
+		return [...filteredProItems].sort((a, b) => {
+			const first = a[sortDescriptor.column as keyof ProData];
+			const second = b[sortDescriptor.column as keyof ProData];
+			const cmp =
+				(parseInt(first as string) || first) <
+				(parseInt(second as string) || second)
+					? -1
+					: 1;
+
+			return sortDescriptor.direction === "descending" ? -cmp : cmp;
+		});
+	}, [filteredProItems, sortDescriptor]);
+
 	const renderCell = useCallback((repo: RepoData, columnKey: ReactKey) => {
 		const cellValue = repo[columnKey as keyof RepoData];
 
@@ -140,6 +192,35 @@ export default function ReposTable() {
 			case "pushed_at":
 			case "updated_at":
 				return formatDate(cellValue as string);
+			default:
+				return cellValue;
+		}
+	}, []);
+
+	const renderProCell = useCallback((repo: ProData, columnKey: ReactKey) => {
+		const cellValue = repo[columnKey as keyof ProData];
+
+		switch (columnKey) {
+			case "name":
+				return (
+					<div className="flex items-center gap-2">
+						<div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+							{repo.name.charAt(0).toUpperCase()}
+						</div>
+						<span className="font-medium">{cellValue}</span>
+					</div>
+				);
+			case "url":
+				return (
+					<a
+						href={cellValue as string}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="text-blue-600 hover:text-blue-800 underline"
+					>
+						{cellValue}
+					</a>
+				);
 			default:
 				return cellValue;
 		}
@@ -193,47 +274,100 @@ export default function ReposTable() {
 	}, [sortedItems.length, data?.meta?.last_updated, isLoading]);
 
 	return (
-		<Table
-			aria-label="Repositories Table"
-			isHeaderSticky
-			bottomContent={bottomContent}
-			bottomContentPlacement="outside"
-			classNames={{
-				wrapper: "max-h-[65dvh]",
-			}}
-			selectionMode="single"
-			sortDescriptor={sortDescriptor}
-			topContent={topContent}
-			topContentPlacement="outside"
-			onSortChange={(descriptor) =>
-				setSortDescriptor({
-					column: descriptor.column?.toString() as ReactKey,
-					direction: descriptor.direction as "ascending" | "descending",
-				})
-			}
-			onRowAction={(key) => window.open(key as string, "_blank")}
-		>
-			<TableHeader columns={columns}>
-				{(column) => (
-					<TableColumn key={column.uid} allowsSorting={column.sortable}>
-						{column.name}
-					</TableColumn>
-				)}
-			</TableHeader>
-			<TableBody
-				emptyContent={"No repositories found"}
-				isLoading={isLoading}
-				loadingContent={<Spinner label="Loading..." />}
-				items={sortedItems}
-			>
-				{(item) => (
-					<TableRow key={item.html_url}>
-						{(columnKey) => (
-							<TableCell>{renderCell(item, columnKey)}</TableCell>
+		<div className="space-y-8">
+			{/* OpenSource Table */}
+			<div>
+				<h2 className="text-2xl font-bold mb-4 text-center">OpenSource</h2>
+				<Table
+					aria-label="OpenSource Repositories Table"
+					isHeaderSticky
+					bottomContent={bottomContent}
+					bottomContentPlacement="outside"
+					classNames={{
+						wrapper: "max-h-[65dvh]",
+					}}
+					selectionMode="single"
+					sortDescriptor={sortDescriptor}
+					topContent={topContent}
+					topContentPlacement="outside"
+					onSortChange={(descriptor) =>
+						setSortDescriptor({
+							column: descriptor.column?.toString() as ReactKey,
+							direction: descriptor.direction as "ascending" | "descending",
+						})
+					}
+					onRowAction={(key) => window.open(key as string, "_blank")}
+				>
+					<TableHeader columns={columns}>
+						{(column) => (
+							<TableColumn key={column.uid} allowsSorting={column.sortable}>
+								{column.name}
+							</TableColumn>
 						)}
-					</TableRow>
-				)}
-			</TableBody>
-		</Table>
+					</TableHeader>
+					<TableBody
+						emptyContent={"No repositories found"}
+						isLoading={isLoading}
+						loadingContent={<Spinner label="Loading..." />}
+						items={sortedItems}
+					>
+						{(item) => (
+							<TableRow key={item.html_url}>
+								{(columnKey) => (
+									<TableCell>{renderCell(item, columnKey)}</TableCell>
+								)}
+							</TableRow>
+						)}
+					</TableBody>
+				</Table>
+			</div>
+
+			{/* Pro Table */}
+			<div>
+				<h2 className="text-2xl font-bold mb-4 text-center">Pro</h2>
+				<Table
+					aria-label="Pro Repositories Table"
+					isHeaderSticky
+					bottomContent={bottomContent}
+					bottomContentPlacement="outside"
+					classNames={{
+						wrapper: "max-h-[65dvh]",
+					}}
+					selectionMode="single"
+					sortDescriptor={sortDescriptor}
+					topContent={topContent}
+					topContentPlacement="outside"
+					onSortChange={(descriptor) =>
+						setSortDescriptor({
+							column: descriptor.column?.toString() as ReactKey,
+							direction: descriptor.direction as "ascending" | "descending",
+						})
+					}
+					onRowAction={(key) => window.open(key as string, "_blank")}
+				>
+					<TableHeader columns={proColumns}>
+						{(column) => (
+							<TableColumn key={column.uid} allowsSorting={column.sortable}>
+								{column.name}
+							</TableColumn>
+						)}
+					</TableHeader>
+					<TableBody
+						emptyContent={"No pro repositories found"}
+						isLoading={isProLoading}
+						loadingContent={<Spinner label="Loading..." />}
+						items={sortedProItems}
+					>
+						{(item) => (
+							<TableRow key={item.url}>
+								{(columnKey) => (
+									<TableCell>{renderProCell(item, columnKey)}</TableCell>
+								)}
+							</TableRow>
+						)}
+					</TableBody>
+				</Table>
+			</div>
+		</div>
 	);
 }
