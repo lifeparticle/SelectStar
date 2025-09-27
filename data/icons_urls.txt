@@ -13,3 +13,4 @@ https://github.com/simple-icons/simple-icons
 https://github.com/radix-ui/icons
 https://github.com/devicons/devicon
 https://github.com/lusaxweb/iconsax
+https://github.com/iconoir-icons/iconoir
