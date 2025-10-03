@@ -7,7 +7,7 @@ https://github.com/tailwindlabs/heroicons
 https://github.com/twbs/icons
 https://github.com/Remix-Design/RemixIcon
 https://github.com/tabler/tabler-icons
-https://github.com/phosphor-icons/phosphor-icons
+https://github.com/phosphor-icons/homepage
 https://github.com/lucide-icons/lucide
 https://github.com/simple-icons/simple-icons
 https://github.com/radix-ui/icons
