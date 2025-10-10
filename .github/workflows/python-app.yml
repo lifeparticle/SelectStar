@@ -48,6 +48,10 @@ jobs:
               input_file: "full_stack_framework_urls.txt",
               output_file: "full_stack_framework_report.json",
             }
+          - {
+              input_file: "ai_providers_urls.txt",
+              output_file: "ai_providers_report.json",
+            }
     steps:
       - uses: actions/checkout@v2
 
