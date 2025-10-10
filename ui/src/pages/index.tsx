@@ -64,6 +64,8 @@ export const proReports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/others_report_pro.json",
 	icons:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/icons_report_pro.json",
+	ai_gateway:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ai_gateway_pro.json",
 };
 
 export const tabs = [
@@ -80,6 +82,7 @@ export const tabs = [
 	{ value: "analytics", label: "Analytics tools" },
 	{ value: "auth", label: "Authentication" },
 	{ value: "icons", label: "Icons" },
+	{ value: "ai_gateway", label: "AI Gateway" },
 	{ value: "others", label: "Others" },
 ];
 

@@ -1,0 +1,49 @@
+{
+	"data": [
+		{
+			"name": "Portkey",
+			"description": "Production Stack for Gen AI Builders.",
+			"url": "https://portkey.ai/"
+		},
+		{
+			"name": "OpenRouter",
+			"description": "The Unified Interface For LLMs",
+			"url": "https://openrouter.ai/"
+		},
+		{
+			"name": "Cloudflare AI Gateway",
+			"description": "Observe and control your AI applications.",
+			"url": "https://developers.cloudflare.com/ai-gateway/"
+		},
+		{
+			"name": "Vercel AI Gateway",
+			"description": "A unified API to access hundreds of models through a single endpoint.",
+			"url": "https://vercel.com/docs/ai-gateway"
+		},
+		{
+			"name": "Amazon Bedrock",
+			"description": "Fast-track your generative AI applications and agents from prototype to production with confidence.",
+			"url": "https://aws.amazon.com/bedrock/"
+		},
+		{
+			"name": "AI Gateway",
+			"description": "Centralize AI service control and management across the enterprise.",
+			"url": "https://www.ibm.com/products/api-connect/ai-gateway"
+		},
+		{
+			"name": "Together",
+			"description": "AI pioneers train, fine-tune, and run frontier models on our GPU cloud platform.",
+			"url": "https://www.together.ai/"
+		},
+		{
+			"name": "MOSAIC AI GATEWAY",
+			"description": "Democratize LLM access securely and responsibly.",
+			"url": "https://www.databricks.com/product/artificial-intelligence/ai-gateway"
+		},
+		{
+			"name": "Nexos AI Gateway",
+			"description": "AI gateway — One endpoint to manage, observe, and secure all model traffic.",
+			"url": "https://nexos.ai/ai-gateway/"
+		}
+	]
+}
