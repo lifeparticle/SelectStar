@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "name": "openai-node",
+            "description": "Official JavaScript / TypeScript library for the OpenAI API",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
+            "html_url": "https://github.com/openai/openai-node",
+            "stargazers_count": 10194,
+            "created_at": "2021-12-14T22:32:58Z",
+            "updated_at": "2025-10-10T00:44:38Z",
+            "pushed_at": "2025-10-09T05:07:47Z"
+        },
+        {
+            "name": "js-genai",
+            "description": "TypeScript/JavaScript SDK for Gemini and Vertex AI.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/16785467?v=4",
+            "html_url": "https://github.com/googleapis/js-genai",
+            "stargazers_count": 1152,
+            "created_at": "2024-12-06T23:16:55Z",
+            "updated_at": "2025-10-09T22:23:07Z",
+            "pushed_at": "2025-10-09T22:23:05Z"
+        },
+        {
+            "name": "client-ts",
+            "description": " TS Client library for Mistral AI platform ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/132372032?v=4",
+            "html_url": "https://github.com/mistralai/client-ts",
+            "stargazers_count": 100,
+            "created_at": "2024-08-07T11:54:28Z",
+            "updated_at": "2025-10-08T21:19:23Z",
+            "pushed_at": "2025-09-02T16:03:06Z"
+        },
+        {
+            "name": "anthropic-sdk-typescript",
+            "description": "Access to Anthropic's safety-first language model APIs in TypeScript",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4",
+            "html_url": "https://github.com/anthropics/anthropic-sdk-typescript",
+            "stargazers_count": 1274,
+            "created_at": "2023-01-30T14:58:08Z",
+            "updated_at": "2025-10-09T23:35:18Z",
+            "pushed_at": "2025-10-09T05:01:37Z"
+        }
+    ],
+    "meta": {
+        "last_updated": "2025-10-10T01:05:14.719798Z"
+    }
+}
