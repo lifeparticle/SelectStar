@@ -1,0 +1,5 @@
+https://github.com/openai/openai-node
+https://github.com/anthropics/anthropic-sdk-typescript
+https://github.com/googleapis/js-genai
+https://github.com/openai/openai-node
+https://github.com/mistralai/client-ts

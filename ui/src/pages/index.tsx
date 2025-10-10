@@ -34,6 +34,8 @@ export const reports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/others_report.json",
 	icons:
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/icons_report.json",
+	ai_providers:
+		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ai_providers_report.json",
 };
 
 export const proReports: reports = {
@@ -68,7 +70,25 @@ export const proReports: reports = {
 		"https://raw.githubusercontent.com/lifeparticle/SelectStar/master/data/ai_gateway_pro.json",
 };
 
-export const tabs = [
+export const openSourceTabs = [
+	{ value: "ui_frameworks", label: "UI frameworks" },
+	{ value: "state_management", label: "State management libraries" },
+	{ value: "components", label: "Component libraries" },
+	{ value: "charts", label: "Charts" },
+	{ value: "backend_frameworks", label: "Backend frameworks" },
+	{ value: "full_stack_frameworks", label: "Full stack frameworks" },
+	{ value: "mobile_desktop", label: "Mobile and desktop frameworks" },
+	{ value: "database", label: "Database" },
+	{ value: "testing", label: "Testing libraries" },
+	{ value: "monitoring", label: "Monitoring tools" },
+	{ value: "analytics", label: "Analytics tools" },
+	{ value: "auth", label: "Authentication" },
+	{ value: "icons", label: "Icons" },
+	{ value: "ai_providers", label: "AI Providers" },
+	{ value: "others", label: "Others" },
+];
+
+export const proTabs = [
 	{ value: "ui_frameworks", label: "UI frameworks" },
 	{ value: "state_management", label: "State management libraries" },
 	{ value: "components", label: "Component libraries" },

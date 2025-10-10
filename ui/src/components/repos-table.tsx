@@ -13,7 +13,7 @@ import {
 } from "@nextui-org/react";
 import { useCallback, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { reports, proReports, tabs } from "@/pages";
+import { reports, proReports, openSourceTabs, proTabs } from "@/pages";
 import { Key as ReactKey } from "@react-types/shared";
 
 export function formatDate(dateString: string | undefined): string {
@@ -250,7 +250,7 @@ export default function ReposTable() {
 					<Autocomplete
 						placeholder="Search a category..."
 						className="w-full sm:max-w-[30%]"
-						defaultItems={tabs}
+						defaultItems={openSourceTabs}
 						defaultSelectedKey={openSourceSelected}
 						onSelectionChange={(key) => setOpenSourceSelected(key as string)}
 					>
@@ -278,7 +278,7 @@ export default function ReposTable() {
 					<Autocomplete
 						placeholder="Search a category..."
 						className="w-full sm:max-w-[30%]"
-						defaultItems={tabs}
+						defaultItems={proTabs}
 						defaultSelectedKey={proSelected}
 						onSelectionChange={(key) => setProSelected(key as string)}
 					>
