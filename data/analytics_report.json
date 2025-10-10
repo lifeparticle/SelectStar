@@ -5,23 +5,23 @@
             "description": "Simple, open source, lightweight and privacy-friendly web analytics alternative to Google Analytics.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/54802774?v=4",
             "html_url": "https://github.com/plausible/analytics",
-            "stargazers_count": 23420,
+            "stargazers_count": 23461,
             "created_at": "2018-12-04T22:33:36Z",
-            "updated_at": "2025-09-30T22:26:09Z",
-            "pushed_at": "2025-09-30T16:39:57Z"
+            "updated_at": "2025-10-09T20:00:56Z",
+            "pushed_at": "2025-10-09T15:47:05Z"
         },
         {
             "name": "posthog",
             "description": "\ud83e\udd94 PostHog provides open-source web & product analytics, session recording, feature flagging and A/B testing that you can self-host. Get started - free.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/60330232?v=4",
             "html_url": "https://github.com/PostHog/posthog",
-            "stargazers_count": 29475,
+            "stargazers_count": 29594,
             "created_at": "2020-01-23T22:46:58Z",
-            "updated_at": "2025-10-01T00:23:39Z",
-            "pushed_at": "2025-10-01T00:23:35Z"
+            "updated_at": "2025-10-10T00:43:20Z",
+            "pushed_at": "2025-10-10T00:53:28Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-10-01T00:25:11.158290Z"
+        "last_updated": "2025-10-10T01:01:38.394591Z"
     }
 }
