@@ -1,147 +1,147 @@
 {
     "data": [
         {
-            "name": "puppeteer",
-            "description": "JavaScript API for Chrome and Firefox",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6906516?v=4",
-            "html_url": "https://github.com/puppeteer/puppeteer",
-            "stargazers_count": 92570,
-            "created_at": "2017-05-09T22:16:13Z",
-            "updated_at": "2025-10-09T20:03:10Z",
-            "pushed_at": "2025-10-09T20:09:50Z"
+            "name": "enzyme",
+            "description": "JavaScript Testing utilities for React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/60945302?v=4",
+            "html_url": "https://github.com/enzymejs/enzyme",
+            "stargazers_count": 19903,
+            "created_at": "2015-11-10T21:45:38Z",
+            "updated_at": "2025-10-30T19:28:39Z",
+            "pushed_at": "2025-10-22T15:55:30Z"
         },
         {
             "name": "jest",
             "description": "Delightful JavaScript Testing.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/103283236?v=4",
             "html_url": "https://github.com/jestjs/jest",
-            "stargazers_count": 45069,
+            "stargazers_count": 45125,
             "created_at": "2013-12-10T00:18:04Z",
-            "updated_at": "2025-10-09T21:57:36Z",
-            "pushed_at": "2025-10-03T22:02:20Z"
-        },
-        {
-            "name": "playwright",
-            "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
-            "html_url": "https://github.com/microsoft/playwright",
-            "stargazers_count": 77986,
-            "created_at": "2019-11-15T18:32:42Z",
-            "updated_at": "2025-10-10T00:31:51Z",
-            "pushed_at": "2025-10-09T23:48:41Z"
-        },
-        {
-            "name": "msw",
-            "description": "Industry standard API mocking for JavaScript.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/64637271?v=4",
-            "html_url": "https://github.com/mswjs/msw",
-            "stargazers_count": 17173,
-            "created_at": "2018-11-13T14:58:44Z",
-            "updated_at": "2025-10-09T17:55:29Z",
-            "pushed_at": "2025-10-09T21:00:04Z"
+            "updated_at": "2025-10-31T17:31:24Z",
+            "pushed_at": "2025-10-27T19:25:56Z"
         },
         {
             "name": "cypress",
             "description": "Fast, easy and reliable testing for anything that runs in a browser.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/8908513?v=4",
             "html_url": "https://github.com/cypress-io/cypress",
-            "stargazers_count": 49324,
+            "stargazers_count": 49399,
             "created_at": "2015-03-04T00:46:28Z",
-            "updated_at": "2025-10-09T19:32:52Z",
-            "pushed_at": "2025-10-10T00:44:09Z"
-        },
-        {
-            "name": "testcafe",
-            "description": "A Node.js tool to automate end-to-end web testing.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4243232?v=4",
-            "html_url": "https://github.com/DevExpress/testcafe",
-            "stargazers_count": 9876,
-            "created_at": "2015-04-20T13:43:28Z",
-            "updated_at": "2025-10-09T13:00:38Z",
-            "pushed_at": "2025-09-30T08:00:07Z"
-        },
-        {
-            "name": "chai",
-            "description": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1515293?v=4",
-            "html_url": "https://github.com/chaijs/chai",
-            "stargazers_count": 8251,
-            "created_at": "2011-12-07T08:06:35Z",
-            "updated_at": "2025-10-08T22:27:29Z",
-            "pushed_at": "2025-10-08T09:13:18Z"
-        },
-        {
-            "name": "storybook",
-            "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/22632046?v=4",
-            "html_url": "https://github.com/storybookjs/storybook",
-            "stargazers_count": 87915,
-            "created_at": "2016-03-18T04:23:44Z",
-            "updated_at": "2025-10-10T00:11:25Z",
-            "pushed_at": "2025-10-09T16:11:04Z"
-        },
-        {
-            "name": "enzyme",
-            "description": "JavaScript Testing utilities for React",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/60945302?v=4",
-            "html_url": "https://github.com/enzymejs/enzyme",
-            "stargazers_count": 19906,
-            "created_at": "2015-11-10T21:45:38Z",
-            "updated_at": "2025-10-09T19:16:54Z",
-            "pushed_at": "2024-08-12T13:28:21Z"
-        },
-        {
-            "name": "react-testing-library",
-            "description": "\ud83d\udc10 Simple and complete React DOM testing utilities that encourage good testing practices.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/49996085?v=4",
-            "html_url": "https://github.com/testing-library/react-testing-library",
-            "stargazers_count": 19406,
-            "created_at": "2018-03-19T13:39:49Z",
-            "updated_at": "2025-10-09T08:53:49Z",
-            "pushed_at": "2025-08-07T18:13:50Z"
-        },
-        {
-            "name": "mocha",
-            "description": "\u2615\ufe0f simple, flexible, fun javascript test framework for node.js & the browser",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/8770005?v=4",
-            "html_url": "https://github.com/mochajs/mocha",
-            "stargazers_count": 22836,
-            "created_at": "2011-03-07T18:44:25Z",
-            "updated_at": "2025-10-09T19:13:23Z",
-            "pushed_at": "2025-10-06T05:11:19Z"
+            "updated_at": "2025-10-31T20:29:21Z",
+            "pushed_at": "2025-10-31T21:26:10Z"
         },
         {
             "name": "ava",
             "description": "Node.js test runner that lets you develop with confidence \ud83d\ude80",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/8527916?v=4",
             "html_url": "https://github.com/avajs/ava",
-            "stargazers_count": 20831,
+            "stargazers_count": 20836,
             "created_at": "2014-11-18T17:20:26Z",
-            "updated_at": "2025-10-09T07:34:32Z",
+            "updated_at": "2025-10-31T10:59:48Z",
             "pushed_at": "2025-07-12T20:07:24Z"
         },
         {
-            "name": "selenium",
-            "description": "A browser automation framework and ecosystem.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/983927?v=4",
-            "html_url": "https://github.com/SeleniumHQ/selenium",
-            "stargazers_count": 33412,
-            "created_at": "2013-01-14T21:40:56Z",
-            "updated_at": "2025-10-09T22:32:32Z",
-            "pushed_at": "2025-10-10T00:44:04Z"
+            "name": "playwright",
+            "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+            "html_url": "https://github.com/microsoft/playwright",
+            "stargazers_count": 78845,
+            "created_at": "2019-11-15T18:32:42Z",
+            "updated_at": "2025-10-31T23:59:55Z",
+            "pushed_at": "2025-11-01T00:01:18Z"
+        },
+        {
+            "name": "testcafe",
+            "description": "A Node.js tool to automate end-to-end web testing.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/4243232?v=4",
+            "html_url": "https://github.com/DevExpress/testcafe",
+            "stargazers_count": 9878,
+            "created_at": "2015-04-20T13:43:28Z",
+            "updated_at": "2025-10-30T11:57:36Z",
+            "pushed_at": "2025-09-30T08:00:07Z"
+        },
+        {
+            "name": "msw",
+            "description": "Industry standard API mocking for JavaScript.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/64637271?v=4",
+            "html_url": "https://github.com/mswjs/msw",
+            "stargazers_count": 17252,
+            "created_at": "2018-11-13T14:58:44Z",
+            "updated_at": "2025-11-01T00:07:41Z",
+            "pushed_at": "2025-10-20T01:41:52Z"
+        },
+        {
+            "name": "chai",
+            "description": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/1515293?v=4",
+            "html_url": "https://github.com/chaijs/chai",
+            "stargazers_count": 8254,
+            "created_at": "2011-12-07T08:06:35Z",
+            "updated_at": "2025-10-30T15:41:15Z",
+            "pushed_at": "2025-10-30T15:41:11Z"
+        },
+        {
+            "name": "react-testing-library",
+            "description": "\ud83d\udc10 Simple and complete React DOM testing utilities that encourage good testing practices.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/49996085?v=4",
+            "html_url": "https://github.com/testing-library/react-testing-library",
+            "stargazers_count": 19422,
+            "created_at": "2018-03-19T13:39:49Z",
+            "updated_at": "2025-10-31T14:04:39Z",
+            "pushed_at": "2025-08-07T18:13:50Z"
         },
         {
             "name": "vitest",
             "description": "Next generation testing framework powered by Vite.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/95747107?v=4",
             "html_url": "https://github.com/vitest-dev/vitest",
-            "stargazers_count": 15074,
+            "stargazers_count": 15284,
             "created_at": "2021-12-03T19:19:49Z",
-            "updated_at": "2025-10-10T00:51:05Z",
-            "pushed_at": "2025-10-09T18:05:05Z"
+            "updated_at": "2025-10-31T23:56:38Z",
+            "pushed_at": "2025-10-31T12:56:52Z"
+        },
+        {
+            "name": "selenium",
+            "description": "A browser automation framework and ecosystem.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/983927?v=4",
+            "html_url": "https://github.com/SeleniumHQ/selenium",
+            "stargazers_count": 33549,
+            "created_at": "2013-01-14T21:40:56Z",
+            "updated_at": "2025-10-31T13:55:58Z",
+            "pushed_at": "2025-10-31T13:55:52Z"
+        },
+        {
+            "name": "puppeteer",
+            "description": "JavaScript API for Chrome and Firefox",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6906516?v=4",
+            "html_url": "https://github.com/puppeteer/puppeteer",
+            "stargazers_count": 92770,
+            "created_at": "2017-05-09T22:16:13Z",
+            "updated_at": "2025-10-31T13:51:05Z",
+            "pushed_at": "2025-10-31T13:11:06Z"
+        },
+        {
+            "name": "mocha",
+            "description": "\u2615\ufe0f simple, flexible, fun javascript test framework for node.js & the browser",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/8770005?v=4",
+            "html_url": "https://github.com/mochajs/mocha",
+            "stargazers_count": 22848,
+            "created_at": "2011-03-07T18:44:25Z",
+            "updated_at": "2025-10-31T19:43:30Z",
+            "pushed_at": "2025-10-27T14:54:02Z"
+        },
+        {
+            "name": "storybook",
+            "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/22632046?v=4",
+            "html_url": "https://github.com/storybookjs/storybook",
+            "stargazers_count": 88500,
+            "created_at": "2016-03-18T04:23:44Z",
+            "updated_at": "2025-10-31T22:44:08Z",
+            "pushed_at": "2025-10-31T22:46:25Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-10-10T01:01:15.538947Z"
+        "last_updated": "2025-11-01T00:25:24.967396Z"
     }
 }
