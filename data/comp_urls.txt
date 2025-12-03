@@ -43,3 +43,4 @@ https://github.com/udecode/plate
 https://github.com/ag-grid/ag-grid
 https://github.com/xyflow/xyflow
 https://github.com/kokonut-labs/kokonutui
+https://github.com/ibelick/prompt-kit
