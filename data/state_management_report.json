@@ -1,84 +1,24 @@
 {
     "data": [
         {
-            "name": "zustand",
-            "description": "\ud83d\udc3b Bear necessities for state management in React",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45790596?v=4",
-            "html_url": "https://github.com/pmndrs/zustand",
-            "stargazers_count": 55937,
-            "created_at": "2019-04-09T09:10:06Z",
-            "updated_at": "2025-11-30T19:31:39Z",
-            "pushed_at": "2025-11-30T00:59:21Z"
-        },
-        {
-            "name": "mobx",
-            "description": "Simple, scalable state management.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/17475736?v=4",
-            "html_url": "https://github.com/mobxjs/mobx",
-            "stargazers_count": 28106,
-            "created_at": "2015-03-14T14:31:38Z",
-            "updated_at": "2025-11-30T14:17:06Z",
-            "pushed_at": "2025-11-21T07:21:43Z"
-        },
-        {
-            "name": "akita",
-            "description": "\ud83d\ude80 State Management Tailored-Made for JS Applications",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/453694?v=4",
-            "html_url": "https://github.com/salesforce/akita",
-            "stargazers_count": 3689,
-            "created_at": "2018-06-11T09:03:03Z",
-            "updated_at": "2025-11-27T15:24:12Z",
-            "pushed_at": "2025-05-01T17:28:19Z"
-        },
-        {
-            "name": "overmind",
-            "description": "Overmind - Frictionless state management",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/15994611?v=4",
-            "html_url": "https://github.com/cerebral/overmind",
-            "stargazers_count": 1588,
-            "created_at": "2018-06-18T20:18:48Z",
-            "updated_at": "2025-11-26T16:57:47Z",
-            "pushed_at": "2025-11-26T22:14:25Z"
-        },
-        {
-            "name": "redux",
-            "description": "A JS library for predictable global state management",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13142323?v=4",
-            "html_url": "https://github.com/reduxjs/redux",
-            "stargazers_count": 61416,
-            "created_at": "2015-05-29T23:53:15Z",
-            "updated_at": "2025-11-29T21:49:52Z",
-            "pushed_at": "2025-11-27T19:44:36Z"
-        },
-        {
-            "name": "Recoil",
-            "description": "Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12853545?v=4",
-            "html_url": "https://github.com/facebookexperimental/Recoil",
-            "stargazers_count": 19563,
-            "created_at": "2020-05-04T19:44:15Z",
-            "updated_at": "2025-11-29T23:38:18Z",
-            "pushed_at": "2025-01-01T08:07:34Z"
-        },
-        {
             "name": "xstate",
             "description": "Actor-based state management & orchestration for complex app logic.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/61783956?v=4",
             "html_url": "https://github.com/statelyai/xstate",
-            "stargazers_count": 28971,
+            "stargazers_count": 29082,
             "created_at": "2015-09-14T15:04:15Z",
-            "updated_at": "2025-11-30T23:50:35Z",
-            "pushed_at": "2025-11-28T04:58:20Z"
+            "updated_at": "2025-12-31T23:33:51Z",
+            "pushed_at": "2025-12-28T15:52:39Z"
         },
         {
             "name": "jotai",
             "description": "\ud83d\udc7b Primitive and flexible state management for React",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/45790596?v=4",
             "html_url": "https://github.com/pmndrs/jotai",
-            "stargazers_count": 20787,
+            "stargazers_count": 20876,
             "created_at": "2020-08-11T23:15:36Z",
-            "updated_at": "2025-11-30T13:29:01Z",
-            "pushed_at": "2025-11-30T09:37:48Z"
+            "updated_at": "2025-12-31T15:07:15Z",
+            "pushed_at": "2025-12-26T03:20:27Z"
         },
         {
             "name": "hookstate",
@@ -87,11 +27,71 @@
             "html_url": "https://github.com/avkonst/hookstate",
             "stargazers_count": 1665,
             "created_at": "2019-05-30T23:52:29Z",
-            "updated_at": "2025-11-26T00:28:08Z",
+            "updated_at": "2025-12-07T18:27:28Z",
             "pushed_at": "2025-03-20T22:46:54Z"
+        },
+        {
+            "name": "Recoil",
+            "description": "Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12853545?v=4",
+            "html_url": "https://github.com/facebookexperimental/Recoil",
+            "stargazers_count": 19560,
+            "created_at": "2020-05-04T19:44:15Z",
+            "updated_at": "2025-12-31T06:35:44Z",
+            "pushed_at": "2025-01-01T08:07:34Z"
+        },
+        {
+            "name": "zustand",
+            "description": "\ud83d\udc3b Bear necessities for state management in React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/45790596?v=4",
+            "html_url": "https://github.com/pmndrs/zustand",
+            "stargazers_count": 56342,
+            "created_at": "2019-04-09T09:10:06Z",
+            "updated_at": "2025-12-31T23:37:35Z",
+            "pushed_at": "2025-12-30T12:17:46Z"
+        },
+        {
+            "name": "redux",
+            "description": "A JS library for predictable global state management",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13142323?v=4",
+            "html_url": "https://github.com/reduxjs/redux",
+            "stargazers_count": 61432,
+            "created_at": "2015-05-29T23:53:15Z",
+            "updated_at": "2025-12-31T01:01:34Z",
+            "pushed_at": "2025-12-26T19:52:13Z"
+        },
+        {
+            "name": "overmind",
+            "description": "Overmind - Frictionless state management",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/15994611?v=4",
+            "html_url": "https://github.com/cerebral/overmind",
+            "stargazers_count": 1586,
+            "created_at": "2018-06-18T20:18:48Z",
+            "updated_at": "2025-12-29T18:58:30Z",
+            "pushed_at": "2025-12-26T23:27:15Z"
+        },
+        {
+            "name": "mobx",
+            "description": "Simple, scalable state management.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/17475736?v=4",
+            "html_url": "https://github.com/mobxjs/mobx",
+            "stargazers_count": 28140,
+            "created_at": "2015-03-14T14:31:38Z",
+            "updated_at": "2025-12-31T10:22:11Z",
+            "pushed_at": "2025-11-21T07:21:43Z"
+        },
+        {
+            "name": "akita",
+            "description": "\ud83d\ude80 State Management Tailored-Made for JS Applications",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/453694?v=4",
+            "html_url": "https://github.com/salesforce/akita",
+            "stargazers_count": 3683,
+            "created_at": "2018-06-11T09:03:03Z",
+            "updated_at": "2025-12-30T14:33:54Z",
+            "pushed_at": "2025-05-01T17:28:19Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-12-01T00:18:56.783969Z"
+        "last_updated": "2026-01-01T00:18:14.355554Z"
     }
 }
