@@ -5,23 +5,23 @@
             "description": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/60330232?v=4",
             "html_url": "https://github.com/PostHog/posthog",
-            "stargazers_count": 30250,
+            "stargazers_count": 30619,
             "created_at": "2020-01-23T22:46:58Z",
-            "updated_at": "2025-12-01T00:08:21Z",
-            "pushed_at": "2025-11-30T23:38:08Z"
+            "updated_at": "2025-12-31T22:01:16Z",
+            "pushed_at": "2025-12-31T23:29:54Z"
         },
         {
             "name": "analytics",
             "description": "Simple, open source, lightweight and privacy-friendly web analytics alternative to Google Analytics.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/54802774?v=4",
             "html_url": "https://github.com/plausible/analytics",
-            "stargazers_count": 23806,
+            "stargazers_count": 24005,
             "created_at": "2018-12-04T22:33:36Z",
-            "updated_at": "2025-11-30T20:55:05Z",
-            "pushed_at": "2025-11-28T04:02:34Z"
+            "updated_at": "2025-12-31T19:33:47Z",
+            "pushed_at": "2025-12-30T11:04:27Z"
         }
     ],
     "meta": {
-        "last_updated": "2025-12-01T00:27:28.338365Z"
+        "last_updated": "2026-01-01T00:27:14.054480Z"
     }
 }
