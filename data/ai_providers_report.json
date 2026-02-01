@@ -1,47 +1,47 @@
 {
     "data": [
         {
-            "name": "client-ts",
-            "description": " TS Client library for Mistral AI platform ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/132372032?v=4",
-            "html_url": "https://github.com/mistralai/client-ts",
-            "stargazers_count": 114,
-            "created_at": "2024-08-07T11:54:28Z",
-            "updated_at": "2025-12-31T16:46:32Z",
-            "pushed_at": "2025-12-17T09:37:05Z"
-        },
-        {
-            "name": "anthropic-sdk-typescript",
-            "description": "Access to Anthropic's safety-first language model APIs in TypeScript",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4",
-            "html_url": "https://github.com/anthropics/anthropic-sdk-typescript",
-            "stargazers_count": 1466,
-            "created_at": "2023-01-30T14:58:08Z",
-            "updated_at": "2025-12-31T15:41:46Z",
-            "pushed_at": "2025-12-30T05:04:31Z"
+            "name": "openai-node",
+            "description": "Official JavaScript / TypeScript library for the OpenAI API",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
+            "html_url": "https://github.com/openai/openai-node",
+            "stargazers_count": 10582,
+            "created_at": "2021-12-14T22:32:58Z",
+            "updated_at": "2026-01-31T22:06:51Z",
+            "pushed_at": "2026-01-30T19:43:02Z"
         },
         {
             "name": "js-genai",
             "description": "TypeScript/JavaScript SDK for Gemini and Vertex AI.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/16785467?v=4",
             "html_url": "https://github.com/googleapis/js-genai",
-            "stargazers_count": 1375,
+            "stargazers_count": 1441,
             "created_at": "2024-12-06T23:16:55Z",
-            "updated_at": "2025-12-31T21:50:17Z",
-            "pushed_at": "2025-12-30T00:38:57Z"
+            "updated_at": "2026-01-31T14:36:34Z",
+            "pushed_at": "2026-01-31T01:10:14Z"
         },
         {
-            "name": "openai-node",
-            "description": "Official JavaScript / TypeScript library for the OpenAI API",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
-            "html_url": "https://github.com/openai/openai-node",
-            "stargazers_count": 10491,
-            "created_at": "2021-12-14T22:32:58Z",
-            "updated_at": "2025-12-31T19:00:20Z",
-            "pushed_at": "2025-12-19T03:28:40Z"
+            "name": "anthropic-sdk-typescript",
+            "description": "Access to Anthropic's safety-first language model APIs in TypeScript",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4",
+            "html_url": "https://github.com/anthropics/anthropic-sdk-typescript",
+            "stargazers_count": 1554,
+            "created_at": "2023-01-30T14:58:08Z",
+            "updated_at": "2026-01-31T22:42:48Z",
+            "pushed_at": "2026-01-30T00:32:54Z"
+        },
+        {
+            "name": "client-ts",
+            "description": " TS Client library for Mistral AI platform ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/132372032?v=4",
+            "html_url": "https://github.com/mistralai/client-ts",
+            "stargazers_count": 121,
+            "created_at": "2024-08-07T11:54:28Z",
+            "updated_at": "2026-01-25T19:38:36Z",
+            "pushed_at": "2026-01-22T10:59:21Z"
         }
     ],
     "meta": {
-        "last_updated": "2026-01-01T00:30:57.122222Z"
+        "last_updated": "2026-02-01T00:34:33.225177Z"
     }
 }
