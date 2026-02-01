@@ -1,104 +1,24 @@
 {
     "data": [
         {
-            "name": "primitives",
-            "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
-            "html_url": "https://github.com/radix-ui/primitives",
-            "stargazers_count": 18372,
-            "created_at": "2020-06-19T13:23:22Z",
-            "updated_at": "2025-12-31T19:27:48Z",
-            "pushed_at": "2025-12-17T20:45:51Z"
-        },
-        {
-            "name": "fluentui",
-            "description": "Fluent UI web represents a collection of utilities, React components, and web components for building web applications.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
-            "html_url": "https://github.com/microsoft/fluentui",
-            "stargazers_count": 19779,
-            "created_at": "2016-06-06T15:03:44Z",
-            "updated_at": "2025-12-30T14:51:14Z",
-            "pushed_at": "2025-12-29T15:55:08Z"
-        },
-        {
-            "name": "smoothui",
-            "description": "SmoothUI is a collection of beautifully designed components with smooth animations built with React, Tailwind CSS, and Motion",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13372238?v=4",
-            "html_url": "https://github.com/educlopez/smoothui",
-            "stargazers_count": 624,
-            "created_at": "2024-07-03T15:32:46Z",
-            "updated_at": "2025-12-29T18:43:36Z",
-            "pushed_at": "2025-12-28T15:03:10Z"
-        },
-        {
-            "name": "kibo",
-            "description": "A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/180819838?v=4",
-            "html_url": "https://github.com/shadcnblocks/kibo",
-            "stargazers_count": 3532,
-            "created_at": "2024-08-25T03:39:07Z",
-            "updated_at": "2025-12-31T16:02:23Z",
-            "pushed_at": "2025-12-12T02:03:19Z"
-        },
-        {
-            "name": "reui",
-            "description": "Open-source collection of UI components and animated effects built with React, Typescript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/34410960?v=4",
-            "html_url": "https://github.com/keenthemes/reui",
-            "stargazers_count": 2342,
-            "created_at": "2025-02-27T13:44:53Z",
-            "updated_at": "2025-12-31T19:00:11Z",
-            "pushed_at": "2025-12-12T03:44:55Z"
-        },
-        {
-            "name": "evergreen",
-            "description": "\ud83c\udf32 Evergreen React UI Framework by Segment",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/819518?v=4",
-            "html_url": "https://github.com/segmentio/evergreen",
-            "stargazers_count": 12400,
-            "created_at": "2017-07-30T10:03:14Z",
-            "updated_at": "2025-12-29T07:32:09Z",
-            "pushed_at": "2025-06-11T04:53:19Z"
-        },
-        {
-            "name": "chakra-ui",
-            "description": "Chakra UI is a component system for building SaaS products with speed \u26a1\ufe0f",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54212428?v=4",
-            "html_url": "https://github.com/chakra-ui/chakra-ui",
-            "stargazers_count": 40103,
-            "created_at": "2019-08-17T14:27:54Z",
-            "updated_at": "2026-01-01T00:08:37Z",
-            "pushed_at": "2025-12-31T21:04:58Z"
+            "name": "CopilotKit",
+            "description": "Framework for building agent-native applications with Generative UI, shared state, and human-in-the-loop workflows. ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/131273140?v=4",
+            "html_url": "https://github.com/CopilotKit/CopilotKit",
+            "stargazers_count": 28366,
+            "created_at": "2023-06-19T04:08:31Z",
+            "updated_at": "2026-01-31T22:55:45Z",
+            "pushed_at": "2026-01-31T02:21:17Z"
         },
         {
             "name": "park-ui",
             "description": "Beautifully designed components built with Ark UI and Panda CSS that work with a variety of JS frameworks.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/54212428?v=4",
             "html_url": "https://github.com/chakra-ui/park-ui",
-            "stargazers_count": 2234,
+            "stargazers_count": 2261,
             "created_at": "2023-08-02T13:10:00Z",
-            "updated_at": "2025-12-31T09:55:10Z",
-            "pushed_at": "2025-12-18T18:54:52Z"
-        },
-        {
-            "name": "motion-primitives",
-            "description": "UI kit to make beautiful, animated interfaces, faster. Customizable. Open Source.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14288396?v=4",
-            "html_url": "https://github.com/ibelick/motion-primitives",
-            "stargazers_count": 5269,
-            "created_at": "2024-07-03T15:58:42Z",
-            "updated_at": "2025-12-31T18:41:33Z",
-            "pushed_at": "2025-12-27T10:09:54Z"
-        },
-        {
-            "name": "material-ui",
-            "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/33663932?v=4",
-            "html_url": "https://github.com/mui/material-ui",
-            "stargazers_count": 97538,
-            "created_at": "2014-08-18T19:11:54Z",
-            "updated_at": "2025-12-31T23:26:57Z",
-            "pushed_at": "2025-12-31T17:19:15Z"
+            "updated_at": "2026-01-31T23:33:56Z",
+            "pushed_at": "2026-01-28T08:01:46Z"
         },
         {
             "name": "grommet",
@@ -107,331 +27,411 @@
             "html_url": "https://github.com/grommet/grommet",
             "stargazers_count": 8366,
             "created_at": "2015-03-24T08:54:10Z",
-            "updated_at": "2025-12-29T00:51:59Z",
-            "pushed_at": "2025-12-19T18:51:57Z"
-        },
-        {
-            "name": "coss",
-            "description": "coss.com is the new holding company of cal.com, the pioneers of open source scheduling infrastructure and cal.com continues to be the 'google search' of our alphabet.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/199277276?v=4",
-            "html_url": "https://github.com/cosscom/coss",
-            "stargazers_count": 9208,
-            "created_at": "2024-10-15T10:05:35Z",
-            "updated_at": "2025-12-31T18:53:25Z",
-            "pushed_at": "2025-12-30T13:48:27Z"
-        },
-        {
-            "name": "reactstrap",
-            "description": "Simple React Bootstrap 5 components",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/17580417?v=4",
-            "html_url": "https://github.com/reactstrap/reactstrap",
-            "stargazers_count": 10548,
-            "created_at": "2016-02-19T08:01:36Z",
-            "updated_at": "2025-12-21T08:16:07Z",
-            "pushed_at": "2024-09-26T09:40:49Z"
-        },
-        {
-            "name": "CopilotKit",
-            "description": "React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend \ud83e\ude81",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/131273140?v=4",
-            "html_url": "https://github.com/CopilotKit/CopilotKit",
-            "stargazers_count": 27668,
-            "created_at": "2023-06-19T04:08:31Z",
-            "updated_at": "2025-12-31T23:49:21Z",
-            "pushed_at": "2025-12-31T20:48:11Z"
-        },
-        {
-            "name": "prompt-kit",
-            "description": "Core building blocks for AI apps.  High-quality, accessible, and customizable components for AI interfaces.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14288396?v=4",
-            "html_url": "https://github.com/ibelick/prompt-kit",
-            "stargazers_count": 2453,
-            "created_at": "2025-02-10T16:11:29Z",
-            "updated_at": "2025-12-31T21:54:44Z",
-            "pushed_at": "2025-12-11T21:53:45Z"
-        },
-        {
-            "name": "react-admin",
-            "description": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3116319?v=4",
-            "html_url": "https://github.com/marmelab/react-admin",
-            "stargazers_count": 26438,
-            "created_at": "2016-07-13T07:58:54Z",
-            "updated_at": "2025-12-31T14:28:15Z",
-            "pushed_at": "2025-12-25T22:34:39Z"
-        },
-        {
-            "name": "react-bootstrap",
-            "description": "Bootstrap components built with React",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6853419?v=4",
-            "html_url": "https://github.com/react-bootstrap/react-bootstrap",
-            "stargazers_count": 22635,
-            "created_at": "2013-12-27T19:06:07Z",
-            "updated_at": "2025-12-30T11:03:08Z",
-            "pushed_at": "2025-12-31T15:08:13Z"
-        },
-        {
-            "name": "element",
-            "description": "A Vue.js 2.0 UI Toolkit for Web",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12810740?v=4",
-            "html_url": "https://github.com/ElemeFE/element",
-            "stargazers_count": 54239,
-            "created_at": "2016-09-03T06:19:26Z",
-            "updated_at": "2025-12-30T03:37:39Z",
-            "pushed_at": "2024-08-20T07:40:13Z"
-        },
-        {
-            "name": "magicui",
-            "description": "UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Source.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/166878038?v=4",
-            "html_url": "https://github.com/magicuidesign/magicui",
-            "stargazers_count": 19774,
-            "created_at": "2023-06-26T19:17:10Z",
-            "updated_at": "2025-12-31T14:17:10Z",
-            "pushed_at": "2025-12-31T09:39:19Z"
-        },
-        {
-            "name": "ark",
-            "description": "Build scalable design systems with React, Vue, Solid, and Svelte.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54212428?v=4",
-            "html_url": "https://github.com/chakra-ui/ark",
-            "stargazers_count": 4904,
-            "created_at": "2022-10-26T08:49:36Z",
-            "updated_at": "2025-12-30T14:53:19Z",
-            "pushed_at": "2025-12-31T17:39:50Z"
-        },
-        {
-            "name": "xyflow",
-            "description": "React Flow |\u00a0Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7106853?v=4",
-            "html_url": "https://github.com/xyflow/xyflow",
-            "stargazers_count": 34538,
-            "created_at": "2019-07-15T14:47:30Z",
-            "updated_at": "2025-12-31T20:27:25Z",
-            "pushed_at": "2025-12-04T13:37:52Z"
-        },
-        {
-            "name": "ui",
-            "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/139895814?v=4",
-            "html_url": "https://github.com/shadcn-ui/ui",
-            "stargazers_count": 103831,
-            "created_at": "2023-01-04T12:43:27Z",
-            "updated_at": "2026-01-01T00:08:52Z",
-            "pushed_at": "2025-12-18T22:22:28Z"
-        },
-        {
-            "name": "carbon",
-            "description": "A design system built by IBM",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25179978?v=4",
-            "html_url": "https://github.com/carbon-design-system/carbon",
-            "stargazers_count": 8675,
-            "created_at": "2017-03-13T14:23:59Z",
-            "updated_at": "2025-12-31T12:53:02Z",
-            "pushed_at": "2025-12-31T14:09:55Z"
-        },
-        {
-            "name": "plate",
-            "description": "Rich-text editor with AI, MCP, and shadcn/ui",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/66228141?v=4",
-            "html_url": "https://github.com/udecode/plate",
-            "stargazers_count": 15690,
-            "created_at": "2019-12-02T01:40:10Z",
-            "updated_at": "2025-12-31T17:25:19Z",
-            "pushed_at": "2025-12-23T06:53:39Z"
-        },
-        {
-            "name": "headlessui",
-            "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/67109815?v=4",
-            "html_url": "https://github.com/tailwindlabs/headlessui",
-            "stargazers_count": 28256,
-            "created_at": "2020-09-16T09:53:09Z",
-            "updated_at": "2025-12-31T18:11:25Z",
-            "pushed_at": "2025-12-19T16:46:31Z"
-        },
-        {
-            "name": "blueprint",
-            "description": "A React-based UI toolkit for the web",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/303157?v=4",
-            "html_url": "https://github.com/palantir/blueprint",
-            "stargazers_count": 21442,
-            "created_at": "2016-10-25T21:17:50Z",
-            "updated_at": "2025-12-31T21:30:14Z",
-            "pushed_at": "2025-12-19T21:01:27Z"
+            "updated_at": "2026-01-23T14:44:50Z",
+            "pushed_at": "2026-01-30T18:51:57Z"
         },
         {
             "name": "vuetify",
             "description": "\ud83d\udc09 Vue Component Framework",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/22138497?v=4",
             "html_url": "https://github.com/vuetifyjs/vuetify",
-            "stargazers_count": 40868,
+            "stargazers_count": 40928,
             "created_at": "2016-09-12T00:39:35Z",
-            "updated_at": "2025-12-31T14:17:20Z",
-            "pushed_at": "2025-12-30T21:02:48Z"
+            "updated_at": "2026-01-31T09:13:29Z",
+            "pushed_at": "2026-02-01T00:12:50Z"
         },
         {
-            "name": "ant-design",
-            "description": "An enterprise-class UI design language and React UI library",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12101536?v=4",
-            "html_url": "https://github.com/ant-design/ant-design",
-            "stargazers_count": 97136,
-            "created_at": "2015-04-24T15:37:24Z",
-            "updated_at": "2025-12-31T21:50:04Z",
-            "pushed_at": "2025-12-31T21:10:43Z"
+            "name": "chakra-ui",
+            "description": "Chakra UI is a component system for building SaaS products with speed \u26a1\ufe0f",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54212428?v=4",
+            "html_url": "https://github.com/chakra-ui/chakra-ui",
+            "stargazers_count": 40197,
+            "created_at": "2019-08-17T14:27:54Z",
+            "updated_at": "2026-01-31T05:53:41Z",
+            "pushed_at": "2026-01-31T05:53:26Z"
         },
         {
-            "name": "themes",
-            "description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
-            "html_url": "https://github.com/radix-ui/themes",
-            "stargazers_count": 7951,
-            "created_at": "2023-06-15T12:21:08Z",
-            "updated_at": "2025-12-31T15:45:47Z",
-            "pushed_at": "2025-12-17T20:46:12Z"
-        },
-        {
-            "name": "coreui-react",
-            "description": "CoreUI React.js UI Components. CoreUI for React.js replaces and extends the Bootstrap javascript. Components have been built from scratch as true React.js hook components, without jQuery and unneeded dependencies.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/36859861?v=4",
-            "html_url": "https://github.com/coreui/coreui-react",
-            "stargazers_count": 711,
-            "created_at": "2018-02-26T18:14:32Z",
-            "updated_at": "2025-12-28T14:12:39Z",
-            "pushed_at": "2025-12-13T19:04:44Z"
-        },
-        {
-            "name": "react-spectrum",
-            "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/476009?v=4",
-            "html_url": "https://github.com/adobe/react-spectrum",
-            "stargazers_count": 14642,
-            "created_at": "2019-09-13T23:32:51Z",
-            "updated_at": "2025-12-31T17:45:26Z",
-            "pushed_at": "2025-12-23T22:58:35Z"
-        },
-        {
-            "name": "Semantic-UI",
-            "description": "Semantic is a UI component framework based around useful principles from natural language.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
-            "html_url": "https://github.com/Semantic-Org/Semantic-UI",
-            "stargazers_count": 51179,
-            "created_at": "2013-04-08T23:32:04Z",
-            "updated_at": "2025-12-31T20:21:37Z",
-            "pushed_at": "2024-11-27T21:01:48Z"
-        },
-        {
-            "name": "daisyui",
-            "description": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7342023?v=4",
-            "html_url": "https://github.com/saadeghi/daisyui",
-            "stargazers_count": 39759,
-            "created_at": "2020-11-28T22:57:27Z",
-            "updated_at": "2025-12-31T21:08:26Z",
-            "pushed_at": "2025-12-29T11:27:06Z"
-        },
-        {
-            "name": "Semantic-UI-React",
-            "description": "The official Semantic-UI-React integration",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
-            "html_url": "https://github.com/Semantic-Org/Semantic-UI-React",
-            "stargazers_count": 13254,
-            "created_at": "2015-06-19T16:47:19Z",
-            "updated_at": "2025-12-31T18:06:43Z",
-            "pushed_at": "2024-11-22T09:09:59Z"
-        },
-        {
-            "name": "mantine",
-            "description": "A fully featured React components library",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/79146003?v=4",
-            "html_url": "https://github.com/mantinedev/mantine",
-            "stargazers_count": 30313,
-            "created_at": "2021-01-07T14:02:19Z",
-            "updated_at": "2025-12-31T20:33:00Z",
-            "pushed_at": "2025-12-21T09:03:54Z"
-        },
-        {
-            "name": "OnsenUI",
-            "description": "Mobile app development framework and SDK using HTML5 and JavaScript. Create beautiful and performant cross-platform mobile apps. Based on Web Components, and provides bindings for Angular 1, 2, React and Vue.js.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5972822?v=4",
-            "html_url": "https://github.com/OnsenUI/OnsenUI",
-            "stargazers_count": 8879,
-            "created_at": "2013-09-11T11:52:41Z",
-            "updated_at": "2025-12-15T21:23:22Z",
-            "pushed_at": "2024-07-17T05:35:17Z"
-        },
-        {
-            "name": "heroui",
-            "description": "\ud83d\ude80 Beautiful, fast and modern React UI library. (Previously NextUI)",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/86160567?v=4",
-            "html_url": "https://github.com/heroui-inc/heroui",
-            "stargazers_count": 27766,
-            "created_at": "2021-04-22T13:06:23Z",
-            "updated_at": "2026-01-01T00:15:33Z",
-            "pushed_at": "2025-12-31T22:36:12Z"
+            "name": "prompt-kit",
+            "description": "Core building blocks for AI apps.  High-quality, accessible, and customizable components for AI interfaces.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14288396?v=4",
+            "html_url": "https://github.com/ibelick/prompt-kit",
+            "stargazers_count": 2554,
+            "created_at": "2025-02-10T16:11:29Z",
+            "updated_at": "2026-01-31T11:10:00Z",
+            "pushed_at": "2025-12-11T21:53:45Z"
         },
         {
             "name": "bulma",
             "description": "Modern CSS framework based on Flexbox",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/1254808?v=4",
             "html_url": "https://github.com/jgthms/bulma",
-            "stargazers_count": 50029,
+            "stargazers_count": 50069,
             "created_at": "2016-01-23T23:48:34Z",
-            "updated_at": "2025-12-31T20:36:09Z",
-            "pushed_at": "2025-12-03T10:40:54Z"
+            "updated_at": "2026-01-31T20:38:07Z",
+            "pushed_at": "2026-01-26T23:50:19Z"
         },
         {
-            "name": "blocks",
-            "description": "Shadcn marketing blocks",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/207853833?v=4",
-            "html_url": "https://github.com/tailark/blocks",
-            "stargazers_count": 2041,
-            "created_at": "2025-02-16T13:38:24Z",
-            "updated_at": "2025-12-31T03:23:14Z",
-            "pushed_at": "2025-12-16T06:33:24Z"
+            "name": "element",
+            "description": "A Vue.js 2.0 UI Toolkit for Web",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12810740?v=4",
+            "html_url": "https://github.com/ElemeFE/element",
+            "stargazers_count": 54225,
+            "created_at": "2016-09-03T06:19:26Z",
+            "updated_at": "2026-01-30T08:13:34Z",
+            "pushed_at": "2024-08-20T07:40:13Z"
         },
         {
-            "name": "kokonutui",
-            "description": "Open-source collection of stunning Components built with Tailwind CSS, shadcn/ui and Motion to use on your websites",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/187040814?v=4",
-            "html_url": "https://github.com/kokonut-labs/kokonutui",
-            "stargazers_count": 1544,
-            "created_at": "2024-11-01T15:37:10Z",
-            "updated_at": "2025-12-30T13:16:21Z",
-            "pushed_at": "2025-12-19T14:48:43Z"
+            "name": "react-bootstrap",
+            "description": "Bootstrap components built with React",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6853419?v=4",
+            "html_url": "https://github.com/react-bootstrap/react-bootstrap",
+            "stargazers_count": 22639,
+            "created_at": "2013-12-27T19:06:07Z",
+            "updated_at": "2026-01-29T16:42:00Z",
+            "pushed_at": "2026-01-31T21:07:04Z"
+        },
+        {
+            "name": "Semantic-UI",
+            "description": "Semantic is a UI component framework based around useful principles from natural language.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
+            "html_url": "https://github.com/Semantic-Org/Semantic-UI",
+            "stargazers_count": 51167,
+            "created_at": "2013-04-08T23:32:04Z",
+            "updated_at": "2026-01-29T04:22:13Z",
+            "pushed_at": "2024-11-27T21:01:48Z"
+        },
+        {
+            "name": "reactstrap",
+            "description": "Simple React Bootstrap 5 components",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/17580417?v=4",
+            "html_url": "https://github.com/reactstrap/reactstrap",
+            "stargazers_count": 10547,
+            "created_at": "2016-02-19T08:01:36Z",
+            "updated_at": "2026-01-30T04:35:07Z",
+            "pushed_at": "2024-09-26T09:40:49Z"
+        },
+        {
+            "name": "ui",
+            "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/139895814?v=4",
+            "html_url": "https://github.com/shadcn-ui/ui",
+            "stargazers_count": 105891,
+            "created_at": "2023-01-04T12:43:27Z",
+            "updated_at": "2026-01-31T23:42:11Z",
+            "pushed_at": "2026-01-31T17:20:00Z"
+        },
+        {
+            "name": "heroui",
+            "description": "\ud83d\ude80 Beautiful, fast and modern React UI library. (Previously NextUI)",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/86160567?v=4",
+            "html_url": "https://github.com/heroui-inc/heroui",
+            "stargazers_count": 28034,
+            "created_at": "2021-04-22T13:06:23Z",
+            "updated_at": "2026-01-31T23:12:50Z",
+            "pushed_at": "2026-01-31T14:57:04Z"
+        },
+        {
+            "name": "motion-primitives",
+            "description": "UI kit to make beautiful, animated interfaces, faster. Customizable. Open Source.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14288396?v=4",
+            "html_url": "https://github.com/ibelick/motion-primitives",
+            "stargazers_count": 5365,
+            "created_at": "2024-07-03T15:58:42Z",
+            "updated_at": "2026-01-31T21:31:25Z",
+            "pushed_at": "2025-12-27T10:09:54Z"
+        },
+        {
+            "name": "ark",
+            "description": "Build scalable design systems with React, Vue, Solid, and Svelte.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/54212428?v=4",
+            "html_url": "https://github.com/chakra-ui/ark",
+            "stargazers_count": 4967,
+            "created_at": "2022-10-26T08:49:36Z",
+            "updated_at": "2026-01-30T20:35:39Z",
+            "pushed_at": "2026-01-31T08:43:12Z"
+        },
+        {
+            "name": "magicui",
+            "description": "UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Source.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/166878038?v=4",
+            "html_url": "https://github.com/magicuidesign/magicui",
+            "stargazers_count": 20099,
+            "created_at": "2023-06-26T19:17:10Z",
+            "updated_at": "2026-01-31T22:19:44Z",
+            "pushed_at": "2026-01-18T17:55:05Z"
+        },
+        {
+            "name": "mantine",
+            "description": "A fully featured React components library",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/79146003?v=4",
+            "html_url": "https://github.com/mantinedev/mantine",
+            "stargazers_count": 30472,
+            "created_at": "2021-01-07T14:02:19Z",
+            "updated_at": "2026-01-31T20:46:16Z",
+            "pushed_at": "2026-01-31T10:26:40Z"
+        },
+        {
+            "name": "daisyui",
+            "description": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7342023?v=4",
+            "html_url": "https://github.com/saadeghi/daisyui",
+            "stargazers_count": 40111,
+            "created_at": "2020-11-28T22:57:27Z",
+            "updated_at": "2026-01-31T21:41:37Z",
+            "pushed_at": "2026-01-17T07:51:58Z"
         },
         {
             "name": "cult-ui",
             "description": "Components crafted for Design Engineers. Styled using Tailwind CSS, fully compatible with Shadcn, and easy to integrate\u2014just copy and paste. MIT \ud83e\udd0c",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/133936441?v=4",
             "html_url": "https://github.com/nolly-studio/cult-ui",
-            "stargazers_count": 3110,
+            "stargazers_count": 3227,
             "created_at": "2024-05-28T04:57:48Z",
-            "updated_at": "2025-12-30T22:41:59Z",
-            "pushed_at": "2025-12-15T19:07:31Z"
+            "updated_at": "2026-02-01T00:07:49Z",
+            "pushed_at": "2026-01-29T20:26:08Z"
         },
         {
-            "name": "rsuite",
-            "description": "\ud83e\uddf1 A suite of React components .  ",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19635045?v=4",
-            "html_url": "https://github.com/rsuite/rsuite",
-            "stargazers_count": 8687,
-            "created_at": "2016-06-06T02:27:46Z",
-            "updated_at": "2025-12-29T08:36:06Z",
-            "pushed_at": "2025-12-31T11:15:20Z"
+            "name": "plate",
+            "description": "Rich-text editor with AI, MCP, and shadcn/ui",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/66228141?v=4",
+            "html_url": "https://github.com/udecode/plate",
+            "stargazers_count": 15864,
+            "created_at": "2019-12-02T01:40:10Z",
+            "updated_at": "2026-01-31T21:16:23Z",
+            "pushed_at": "2026-01-28T13:06:39Z"
+        },
+        {
+            "name": "blocks",
+            "description": "Shadcn marketing blocks",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/207853833?v=4",
+            "html_url": "https://github.com/tailark/blocks",
+            "stargazers_count": 2080,
+            "created_at": "2025-02-16T13:38:24Z",
+            "updated_at": "2026-01-31T15:29:59Z",
+            "pushed_at": "2026-01-29T03:04:06Z"
+        },
+        {
+            "name": "ant-design",
+            "description": "An enterprise-class UI design language and React UI library",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/12101536?v=4",
+            "html_url": "https://github.com/ant-design/ant-design",
+            "stargazers_count": 97389,
+            "created_at": "2015-04-24T15:37:24Z",
+            "updated_at": "2026-01-31T17:30:39Z",
+            "pushed_at": "2026-01-31T11:33:33Z"
+        },
+        {
+            "name": "Semantic-UI-React",
+            "description": "The official Semantic-UI-React integration",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
+            "html_url": "https://github.com/Semantic-Org/Semantic-UI-React",
+            "stargazers_count": 13248,
+            "created_at": "2015-06-19T16:47:19Z",
+            "updated_at": "2026-01-30T04:58:36Z",
+            "pushed_at": "2024-11-22T09:09:59Z"
+        },
+        {
+            "name": "coss",
+            "description": "coss.com is the new holding company of cal.com, the pioneers of open source scheduling infrastructure and cal.com continues to be the 'google search' of our alphabet.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/199277276?v=4",
+            "html_url": "https://github.com/cosscom/coss",
+            "stargazers_count": 9298,
+            "created_at": "2024-10-15T10:05:35Z",
+            "updated_at": "2026-01-31T23:44:11Z",
+            "pushed_at": "2026-01-31T19:54:01Z"
+        },
+        {
+            "name": "kokonutui",
+            "description": "Open-source collection of stunning Components built with Tailwind CSS, shadcn/ui and Motion to use on your websites",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/187040814?v=4",
+            "html_url": "https://github.com/kokonut-labs/kokonutui",
+            "stargazers_count": 1729,
+            "created_at": "2024-11-01T15:37:10Z",
+            "updated_at": "2026-01-31T23:52:10Z",
+            "pushed_at": "2026-01-06T05:57:06Z"
+        },
+        {
+            "name": "headlessui",
+            "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/67109815?v=4",
+            "html_url": "https://github.com/tailwindlabs/headlessui",
+            "stargazers_count": 28354,
+            "created_at": "2020-09-16T09:53:09Z",
+            "updated_at": "2026-01-31T22:41:55Z",
+            "pushed_at": "2025-12-19T16:46:31Z"
+        },
+        {
+            "name": "evergreen",
+            "description": "\ud83c\udf32 Evergreen React UI Framework by Segment",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/819518?v=4",
+            "html_url": "https://github.com/segmentio/evergreen",
+            "stargazers_count": 12443,
+            "created_at": "2017-07-30T10:03:14Z",
+            "updated_at": "2026-01-30T12:12:48Z",
+            "pushed_at": "2025-06-11T04:53:19Z"
+        },
+        {
+            "name": "kibo",
+            "description": "A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/180819838?v=4",
+            "html_url": "https://github.com/shadcnblocks/kibo",
+            "stargazers_count": 3589,
+            "created_at": "2024-08-25T03:39:07Z",
+            "updated_at": "2026-01-31T09:00:13Z",
+            "pushed_at": "2025-12-12T02:03:19Z"
+        },
+        {
+            "name": "material-ui",
+            "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/33663932?v=4",
+            "html_url": "https://github.com/mui/material-ui",
+            "stargazers_count": 97737,
+            "created_at": "2014-08-18T19:11:54Z",
+            "updated_at": "2026-01-31T19:07:11Z",
+            "pushed_at": "2026-01-31T19:10:51Z"
         },
         {
             "name": "ag-grid",
             "description": "The best JavaScript Data Table for building Enterprise Applications. Supports React / Angular / Vue / Plain JavaScript.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/30720768?v=4",
             "html_url": "https://github.com/ag-grid/ag-grid",
-            "stargazers_count": 14884,
+            "stargazers_count": 14990,
             "created_at": "2014-12-23T16:20:14Z",
-            "updated_at": "2025-12-30T18:40:13Z",
-            "pushed_at": "2025-12-28T21:10:11Z"
+            "updated_at": "2026-01-31T23:34:02Z",
+            "pushed_at": "2026-01-31T16:04:23Z"
+        },
+        {
+            "name": "OnsenUI",
+            "description": "Mobile app development framework and SDK using HTML5 and JavaScript. Create beautiful and performant cross-platform mobile apps. Based on Web Components, and provides bindings for Angular 1, 2, React and Vue.js.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/5972822?v=4",
+            "html_url": "https://github.com/OnsenUI/OnsenUI",
+            "stargazers_count": 8880,
+            "created_at": "2013-09-11T11:52:41Z",
+            "updated_at": "2026-01-25T04:39:47Z",
+            "pushed_at": "2026-01-21T01:17:33Z"
+        },
+        {
+            "name": "themes",
+            "description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
+            "html_url": "https://github.com/radix-ui/themes",
+            "stargazers_count": 8089,
+            "created_at": "2023-06-15T12:21:08Z",
+            "updated_at": "2026-01-31T19:21:53Z",
+            "pushed_at": "2026-01-31T18:04:19Z"
+        },
+        {
+            "name": "xyflow",
+            "description": "React Flow |\u00a0Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/7106853?v=4",
+            "html_url": "https://github.com/xyflow/xyflow",
+            "stargazers_count": 35036,
+            "created_at": "2019-07-15T14:47:30Z",
+            "updated_at": "2026-01-31T22:26:30Z",
+            "pushed_at": "2026-01-29T15:19:10Z"
+        },
+        {
+            "name": "react-admin",
+            "description": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/3116319?v=4",
+            "html_url": "https://github.com/marmelab/react-admin",
+            "stargazers_count": 26509,
+            "created_at": "2016-07-13T07:58:54Z",
+            "updated_at": "2026-01-31T17:44:48Z",
+            "pushed_at": "2026-01-30T13:27:34Z"
+        },
+        {
+            "name": "reui",
+            "description": "Open-source collection of UI components and animated effects built with React, Typescript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/34410960?v=4",
+            "html_url": "https://github.com/keenthemes/reui",
+            "stargazers_count": 2455,
+            "created_at": "2025-02-27T13:44:53Z",
+            "updated_at": "2026-01-31T13:52:20Z",
+            "pushed_at": "2025-12-12T03:44:55Z"
+        },
+        {
+            "name": "smoothui",
+            "description": "SmoothUI is a collection of beautifully designed components with smooth animations built with React, Tailwind CSS, Shadcn/ui and Motion",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/13372238?v=4",
+            "html_url": "https://github.com/educlopez/smoothui",
+            "stargazers_count": 674,
+            "created_at": "2024-07-03T15:32:46Z",
+            "updated_at": "2026-01-31T12:32:01Z",
+            "pushed_at": "2026-01-30T16:50:48Z"
+        },
+        {
+            "name": "rsuite",
+            "description": "\ud83e\uddf1 A suite of React components .  ",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/19635045?v=4",
+            "html_url": "https://github.com/rsuite/rsuite",
+            "stargazers_count": 8697,
+            "created_at": "2016-06-06T02:27:46Z",
+            "updated_at": "2026-01-30T14:56:13Z",
+            "pushed_at": "2026-01-31T13:37:46Z"
+        },
+        {
+            "name": "fluentui",
+            "description": "Fluent UI web represents a collection of utilities, React components, and web components for building web applications.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+            "html_url": "https://github.com/microsoft/fluentui",
+            "stargazers_count": 19821,
+            "created_at": "2016-06-06T15:03:44Z",
+            "updated_at": "2026-01-31T09:39:02Z",
+            "pushed_at": "2026-01-31T07:33:49Z"
+        },
+        {
+            "name": "primitives",
+            "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/75042455?v=4",
+            "html_url": "https://github.com/radix-ui/primitives",
+            "stargazers_count": 18506,
+            "created_at": "2020-06-19T13:23:22Z",
+            "updated_at": "2026-01-31T19:54:26Z",
+            "pushed_at": "2025-12-17T20:45:51Z"
+        },
+        {
+            "name": "carbon",
+            "description": "A design system built by IBM",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/25179978?v=4",
+            "html_url": "https://github.com/carbon-design-system/carbon",
+            "stargazers_count": 8745,
+            "created_at": "2017-03-13T14:23:59Z",
+            "updated_at": "2026-01-31T16:21:28Z",
+            "pushed_at": "2026-01-31T14:11:04Z"
+        },
+        {
+            "name": "blueprint",
+            "description": "A React-based UI toolkit for the web",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/303157?v=4",
+            "html_url": "https://github.com/palantir/blueprint",
+            "stargazers_count": 21479,
+            "created_at": "2016-10-25T21:17:50Z",
+            "updated_at": "2026-01-31T04:37:47Z",
+            "pushed_at": "2026-01-30T22:40:28Z"
+        },
+        {
+            "name": "react-spectrum",
+            "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/476009?v=4",
+            "html_url": "https://github.com/adobe/react-spectrum",
+            "stargazers_count": 14779,
+            "created_at": "2019-09-13T23:32:51Z",
+            "updated_at": "2026-01-31T15:08:54Z",
+            "pushed_at": "2026-01-31T01:34:12Z"
+        },
+        {
+            "name": "coreui-react",
+            "description": "CoreUI React.js UI Components. CoreUI for React.js replaces and extends the Bootstrap javascript. Components have been built from scratch as true React.js hook components, without jQuery and unneeded dependencies.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/36859861?v=4",
+            "html_url": "https://github.com/coreui/coreui-react",
+            "stargazers_count": 713,
+            "created_at": "2018-02-26T18:14:32Z",
+            "updated_at": "2026-01-30T07:52:05Z",
+            "pushed_at": "2025-12-13T19:04:44Z"
         }
     ],
     "meta": {
-        "last_updated": "2026-01-01T00:16:52.365476Z"
+        "last_updated": "2026-02-01T00:20:32.328453Z"
     }
 }
