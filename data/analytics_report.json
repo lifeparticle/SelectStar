@@ -5,23 +5,23 @@
             "description": "Simple, open source, lightweight and privacy-friendly web analytics alternative to Google Analytics.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/54802774?v=4",
             "html_url": "https://github.com/plausible/analytics",
-            "stargazers_count": 24298,
+            "stargazers_count": 24502,
             "created_at": "2018-12-04T22:33:36Z",
-            "updated_at": "2026-02-28T23:32:26Z",
-            "pushed_at": "2026-02-28T05:39:50Z"
+            "updated_at": "2026-03-31T23:31:45Z",
+            "pushed_at": "2026-03-31T16:19:49Z"
         },
         {
             "name": "posthog",
             "description": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/60330232?v=4",
             "html_url": "https://github.com/PostHog/posthog",
-            "stargazers_count": 31823,
+            "stargazers_count": 32307,
             "created_at": "2020-01-23T22:46:58Z",
-            "updated_at": "2026-02-28T23:11:23Z",
-            "pushed_at": "2026-03-01T00:15:46Z"
+            "updated_at": "2026-04-01T00:14:11Z",
+            "pushed_at": "2026-04-01T00:33:30Z"
         }
     ],
     "meta": {
-        "last_updated": "2026-03-01T00:29:46.358851Z"
+        "last_updated": "2026-04-01T00:34:11.458006Z"
     }
 }
