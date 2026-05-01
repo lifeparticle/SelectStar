@@ -5,43 +5,43 @@
             "description": "TypeScript/JavaScript SDK for Gemini and Vertex AI.",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/16785467?v=4",
             "html_url": "https://github.com/googleapis/js-genai",
-            "stargazers_count": 1532,
+            "stargazers_count": 1573,
             "created_at": "2024-12-06T23:16:55Z",
-            "updated_at": "2026-03-31T23:38:33Z",
-            "pushed_at": "2026-03-31T23:39:55Z"
+            "updated_at": "2026-04-30T18:32:34Z",
+            "pushed_at": "2026-04-30T04:06:04Z"
         },
         {
             "name": "anthropic-sdk-typescript",
             "description": "Access to Anthropic's safety-first language model APIs in TypeScript",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4",
             "html_url": "https://github.com/anthropics/anthropic-sdk-typescript",
-            "stargazers_count": 1786,
+            "stargazers_count": 1900,
             "created_at": "2023-01-30T14:58:08Z",
-            "updated_at": "2026-03-31T21:39:34Z",
-            "pushed_at": "2026-03-31T21:34:00Z"
-        },
-        {
-            "name": "openai-node",
-            "description": "Official JavaScript / TypeScript library for the OpenAI API",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
-            "html_url": "https://github.com/openai/openai-node",
-            "stargazers_count": 10777,
-            "created_at": "2021-12-14T22:32:58Z",
-            "updated_at": "2026-03-31T18:57:31Z",
-            "pushed_at": "2026-03-31T19:26:15Z"
+            "updated_at": "2026-04-30T19:50:29Z",
+            "pushed_at": "2026-04-30T19:41:24Z"
         },
         {
             "name": "client-ts",
             "description": " TS Client library for Mistral AI platform ",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/132372032?v=4",
             "html_url": "https://github.com/mistralai/client-ts",
-            "stargazers_count": 132,
+            "stargazers_count": 134,
             "created_at": "2024-08-07T11:54:28Z",
-            "updated_at": "2026-03-31T11:56:00Z",
-            "pushed_at": "2026-03-23T14:59:38Z"
+            "updated_at": "2026-04-30T08:04:58Z",
+            "pushed_at": "2026-04-30T08:04:54Z"
+        },
+        {
+            "name": "openai-node",
+            "description": "Official JavaScript / TypeScript library for the OpenAI API",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
+            "html_url": "https://github.com/openai/openai-node",
+            "stargazers_count": 10857,
+            "created_at": "2021-12-14T22:32:58Z",
+            "updated_at": "2026-04-30T19:01:29Z",
+            "pushed_at": "2026-04-30T19:38:53Z"
         }
     ],
     "meta": {
-        "last_updated": "2026-04-01T00:37:46.924056Z"
+        "last_updated": "2026-05-01T00:48:10.089902Z"
     }
 }
