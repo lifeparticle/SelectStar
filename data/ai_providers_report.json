@@ -1,47 +1,47 @@
 {
     "data": [
         {
+            "name": "js-genai",
+            "description": "TypeScript/JavaScript SDK for Gemini and Vertex AI.",
+            "owner_avatar_url": "https://avatars.githubusercontent.com/u/16785467?v=4",
+            "html_url": "https://github.com/googleapis/js-genai",
+            "stargazers_count": 1629,
+            "created_at": "2024-12-06T23:16:55Z",
+            "updated_at": "2026-06-30T16:48:22Z",
+            "pushed_at": "2026-06-30T23:55:46Z"
+        },
+        {
             "name": "client-ts",
             "description": " TS Client library for Mistral AI platform ",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/132372032?v=4",
             "html_url": "https://github.com/mistralai/client-ts",
-            "stargazers_count": 143,
+            "stargazers_count": 149,
             "created_at": "2024-08-07T11:54:28Z",
-            "updated_at": "2026-05-28T17:04:28Z",
-            "pushed_at": "2026-05-29T08:25:44Z"
+            "updated_at": "2026-06-30T16:47:14Z",
+            "pushed_at": "2026-06-30T11:05:46Z"
         },
         {
             "name": "openai-node",
             "description": "Official JavaScript / TypeScript library for the OpenAI API",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
             "html_url": "https://github.com/openai/openai-node",
-            "stargazers_count": 10940,
+            "stargazers_count": 11004,
             "created_at": "2021-12-14T22:32:58Z",
-            "updated_at": "2026-05-30T16:01:43Z",
-            "pushed_at": "2026-05-29T15:43:28Z"
+            "updated_at": "2026-07-01T00:13:36Z",
+            "pushed_at": "2026-06-25T17:31:38Z"
         },
         {
             "name": "anthropic-sdk-typescript",
             "description": "Access to Anthropic's safety-first language model APIs in TypeScript",
             "owner_avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4",
             "html_url": "https://github.com/anthropics/anthropic-sdk-typescript",
-            "stargazers_count": 1981,
+            "stargazers_count": 2019,
             "created_at": "2023-01-30T14:58:08Z",
-            "updated_at": "2026-05-31T07:01:12Z",
-            "pushed_at": "2026-05-29T22:51:47Z"
-        },
-        {
-            "name": "js-genai",
-            "description": "TypeScript/JavaScript SDK for Gemini and Vertex AI.",
-            "owner_avatar_url": "https://avatars.githubusercontent.com/u/16785467?v=4",
-            "html_url": "https://github.com/googleapis/js-genai",
-            "stargazers_count": 1613,
-            "created_at": "2024-12-06T23:16:55Z",
-            "updated_at": "2026-05-31T00:22:42Z",
-            "pushed_at": "2026-05-31T05:58:37Z"
+            "updated_at": "2026-06-30T19:46:57Z",
+            "pushed_at": "2026-06-30T19:47:35Z"
         }
     ],
     "meta": {
-        "last_updated": "2026-06-01T00:54:09.150263Z"
+        "last_updated": "2026-07-01T00:54:56.707616Z"
     }
 }
