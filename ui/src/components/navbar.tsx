@@ -1,11 +1,11 @@
-import { Button } from "@nextui-org/button";
-import { Link } from "@nextui-org/link";
 import {
-	Navbar as NextUINavbar,
+	Button,
+	Link,
+	Navbar as HeroUINavbar,
 	NavbarBrand,
 	NavbarContent,
 	NavbarItem,
-} from "@nextui-org/navbar";
+} from "@heroui/react";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { GithubIcon, HeartFilledIcon } from "@/components/icons";
@@ -13,7 +13,7 @@ import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
 	return (
-		<NextUINavbar maxWidth="xl" position="sticky">
+		<HeroUINavbar maxWidth="xl" position="sticky">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand className="gap-3 max-w-fit">
 					<Link
@@ -57,6 +57,6 @@ export const Navbar = () => {
 				</Link>
 				<ThemeSwitch />
 			</NavbarContent>
-		</NextUINavbar>
+		</HeroUINavbar>
 	);
 };

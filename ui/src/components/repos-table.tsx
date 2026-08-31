@@ -10,7 +10,7 @@ import {
 	Spinner,
 	Autocomplete,
 	AutocompleteItem,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { useCallback, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { reports, proReports, openSourceTabs, proTabs } from "@/pages";
