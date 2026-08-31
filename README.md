@@ -1,5 +1,10 @@
 # SelectStar
 
+> [!IMPORTANT]
+> **SelectStar has moved to [BinaryTree](https://binarytree.dev/select-star).**
+> The live site at [selectstar.netlify.app](https://selectstar.netlify.app) now redirects there.
+> To run this archived version locally, clone the repository and follow the steps in [`ui/README.md`](ui/README.md).
+
 ⭐️ Compare GitHub repositories based on the number of stars and other relevant parameters.
 
 ## Available categories
